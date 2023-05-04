@@ -1,35 +1,33 @@
-[![Publish](https://github.com/taylorjdawson/eth-chains/actions/workflows/publish-release.yml/badge.svg)](https://github.com/taylorjdawson/eth-chains/actions/workflows/publish-release.yml/badge.svg) ![npm](https://img.shields.io/npm/v/eth-chains?logoColor=blue)
+[![Publish](https://github.com/RevokeCash/chains/actions/workflows/publish-release.yml/badge.svg)](https://github.com/RevokeCash/chains/actions/workflows/publish-release.yml/badge.svg) ![npm](https://img.shields.io/npm/v/@revoke.cash/chains?logoColor=blue)
 
 # Eth Chains
 
-Helper module for getting Ethereum chains info from [chainid.network](https://chainid.network/).
+Helper module for getting EVM chain info from [chainid.network](https://chainid.network/).
 
-## Install
+Note: This package was initially created by @taylorjdawson. We forked the repository so we can control the release process with an automated script. The original package can be found [here](https://github.com/taylorjdawson/eth-chains).
 
-```
-yarn add eth-chains
-```
+## Installation
 
 ```
-npm install eth-chains
+yarn add @revoke.cash/chains
 ```
 
 ### Note on versioning
 
-`eth-chains` uses a weekly automated release script that updates its chain data. This release script takes breaking changes into account, so breaking changes (e.g. renamed chains) are released as a new major version, while non-breaking changes (e.g. new chains) are released as a new minor version.
+`@revoke.cash/chains` uses a weekly automated release script that updates its chain data. This release script takes breaking changes into account, so breaking changes (e.g. renamed chains) are released as a new major version, while non-breaking changes (e.g. new chains) are released as a new minor version.
 
 ## Usage
 
 Import `chains` methods and enums:
 
 ```ts
-import chains, { ChainId, ChainName } from 'eth-chains'
+import chains, { ChainId, ChainName } from '@revoke.cash/chains'
 ```
 
 ### Easily get most popular chains:
 
 ```ts
-import { chain } from 'eth-chains'
+import { chain } from '@revoke.cash/chains'
 
 console.log(chain.ethereum.rinkeby)
 
@@ -71,19 +69,7 @@ const allChains = chains.all()
 ### Typescript Types:
 
 ```ts
-import { Chain, NativeCurrency, Explorer } from 'eth-chains'
+import { Chain, NativeCurrency, Explorer } from '@revoke.cash/chains'
 const ethereum: Chain = chains.getById(ChainId.EthereumMainnet)
 ethereum.chain // 'ETH'
 ```
-
----
-
-TODO:
-
-- [ ] Add webhook that watches the chains repo and triggers an update to this package whenever that repo gets updated
-  - [ ] Add check in the deploy script to make sure that the types are correct before publishing
-- [ ] Add Tests
-  - [ ] Once quicktype is added, test with different chains.json objects to make sure it can handle new types
-- [ ] Use [quicktype](https://github.com/quicktype/quicktype) to autogen types from json
-- [x] Autogen Chain Id enum
-- [x] Autogen Chain Name enum
