@@ -103,7 +103,8 @@ export const chains: Chains = {
     rpc: [
       'https://goerli.infura.io/v3/${INFURA_API_KEY}',
       'wss://goerli.infura.io/v3/${INFURA_API_KEY}',
-      'https://rpc.goerli.mudit.blog/'
+      'https://rpc.goerli.mudit.blog/',
+      'https://ethereum-goerli.publicnode.com'
     ],
     faucets: [
       'http://fauceth.komputing.org?chain=5&address=${ADDRESS}',
@@ -468,17 +469,17 @@ export const chains: Chains = {
   27: {
     name: 'ShibaChain',
     chain: 'SHIB',
-    rpc: ['https://rpc.shibachain.net'],
+    rpc: ['https://rpc.shibchain.org'],
     faucets: [],
     nativeCurrency: { name: 'SHIBA INU COIN', symbol: 'SHIB', decimals: 18 },
-    infoURL: 'https://www.shibachain.net',
+    infoURL: 'https://shibchain.org',
     shortName: 'shib',
     chainId: 27,
     networkId: 27,
     explorers: [
       {
         name: 'Shiba Explorer',
-        url: 'https://exp.shibachain.net',
+        url: 'https://exp.shibchain.org',
         standard: 'none'
       }
     ]
@@ -707,7 +708,14 @@ export const chains: Chains = {
     infoURL: 'https://telos.net',
     shortName: 'TelosEVMTestnet',
     chainId: 41,
-    networkId: 41
+    networkId: 41,
+    explorers: [
+      {
+        name: 'teloscan',
+        url: 'https://testnet.teloscan.io',
+        standard: 'EIP3091'
+      }
+    ]
   },
   42: {
     name: 'Kovan',
@@ -1745,6 +1753,27 @@ export const chains: Chains = {
     ],
     parent: { chain: 'eip155-90', type: 'shard' }
   },
+  94: {
+    name: 'SwissDLT',
+    chain: 'SDLT',
+    rpc: ['https://rpc.swissdlt.ch'],
+    faucets: [],
+    nativeCurrency: { name: 'BCTS', symbol: 'BCTS', decimals: 18 },
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    infoURL: 'https://bcts.ch',
+    shortName: 'sdlt',
+    chainId: 94,
+    networkId: 94,
+    icon: 'bcts',
+    explorers: [
+      {
+        name: 'SwissDLT Explorer',
+        url: 'https://explorer.swissdlt.ch',
+        icon: 'bcts',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   95: {
     name: 'CryptoKylin Testnet',
     chain: 'EOS',
@@ -1788,7 +1817,8 @@ export const chains: Chains = {
       'https://data-seed-prebsc-1-s2.binance.org:8545',
       'https://data-seed-prebsc-2-s2.binance.org:8545',
       'https://data-seed-prebsc-1-s3.binance.org:8545',
-      'https://data-seed-prebsc-2-s3.binance.org:8545'
+      'https://data-seed-prebsc-2-s3.binance.org:8545',
+      'https://bsc-testnet.publicnode.com'
     ],
     faucets: ['https://testnet.binance.org/faucet-smart'],
     nativeCurrency: {
@@ -3275,6 +3305,7 @@ export const chains: Chains = {
   274: {
     name: 'LaChain',
     chain: 'LaChain',
+    icon: 'LaChain',
     rpc: [
       'https://rpc1.mainnet.lachain.network',
       'https://rpc2.mainnet.lachain.network'
@@ -3507,6 +3538,27 @@ export const chains: Chains = {
       }
     ]
   },
+  303: {
+    name: 'Neurochain Testnet',
+    chain: 'NCN',
+    rpc: ['https://nc-rpc-test1.neurochain.io'],
+    faucets: [],
+    nativeCurrency: { name: 'Neurochain', symbol: 'tNCN', decimals: 18 },
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    infoURL: 'https://www.neurochain.ai',
+    shortName: 'ncnt',
+    chainId: 303,
+    networkId: 303,
+    icon: 'neurochain',
+    explorers: [
+      {
+        name: 'neuroscan',
+        url: 'https://testnet.ncnscan.com',
+        icon: 'neurochain',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   311: {
     name: 'Omax Mainnet',
     chain: 'OMAX Chain',
@@ -3523,6 +3575,30 @@ export const chains: Chains = {
         name: 'Omax Chain Explorer',
         url: 'https://omaxray.com',
         icon: 'omaxray',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  313: {
+    name: 'Neurochain Mainnet',
+    chain: 'NCN',
+    rpc: [
+      'https://nc-rpc-prd1.neurochain.io',
+      'https://nc-rpc-prd2.neurochain.io'
+    ],
+    faucets: [],
+    nativeCurrency: { name: 'Neurochain', symbol: 'NCN', decimals: 18 },
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    infoURL: 'https://www.neurochain.ai',
+    shortName: 'ncn',
+    chainId: 313,
+    networkId: 313,
+    icon: 'neurochain',
+    explorers: [
+      {
+        name: 'neuroscan',
+        url: 'https://ncnscan.com',
+        icon: 'neurochain',
         standard: 'EIP3091'
       }
     ]
@@ -3876,11 +3952,12 @@ export const chains: Chains = {
     ]
   },
   418: {
-    name: 'LA Testnet',
-    chain: 'LATestnet',
+    name: 'LaTestnet',
+    chain: 'LaTestnet',
+    icon: 'LaChain',
     rpc: ['https://rpc.testnet.lachain.network'],
     faucets: ['https://faucet.lachain.network'],
-    nativeCurrency: { name: 'Test La Coin', symbol: 'TLA', decimals: 18 },
+    nativeCurrency: { name: 'Test LaCoin', symbol: 'TLA', decimals: 18 },
     features: [{ name: 'EIP155' }],
     infoURL: '',
     shortName: 'latestnet',
@@ -3888,7 +3965,7 @@ export const chains: Chains = {
     networkId: 418,
     explorers: [
       {
-        name: 'LA Testnet Explorer',
+        name: 'LaTestnet Explorer',
         url: 'https://testexplorer.lachain.network',
         standard: 'EIP3091'
       }
@@ -3939,6 +4016,25 @@ export const chains: Chains = {
         name: 'blockscout',
         url: 'https://testnet.frenscan.io',
         icon: 'fren',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  456: {
+    name: 'ARZIO Chain',
+    chain: 'ARZIO',
+    icon: 'arzio',
+    rpc: ['https://chain-rpc.arzio.co'],
+    faucets: [],
+    nativeCurrency: { name: 'ARZIO', symbol: 'AZO', decimals: 18 },
+    infoURL: 'https://chain.arzio.co',
+    shortName: 'arzio',
+    chainId: 456,
+    networkId: 456,
+    explorers: [
+      {
+        name: 'ARZIO Scan',
+        url: 'https://scan.arzio.co',
         standard: 'EIP3091'
       }
     ]
@@ -6385,6 +6481,25 @@ export const chains: Chains = {
       }
     ]
   },
+  1392: {
+    name: 'Joseon Mainnet',
+    chain: 'Joseon',
+    icon: 'joseon',
+    rpc: ['https://rpc.modchain.net/blockchain.joseon.com/rpc'],
+    faucets: [],
+    nativeCurrency: { name: 'Joseon Mun', symbol: 'JSM', decimals: 18 },
+    infoURL: 'https://www.joseon.com/',
+    shortName: 'mun',
+    chainId: 1392,
+    networkId: 1392,
+    explorers: [
+      {
+        name: 'BlockExplorer',
+        url: 'https://www.blockexplorer.com',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   1402: {
     name: 'Polygon zkEVM Testnet old',
     title: 'Polygon zkEVM Testnet',
@@ -7707,7 +7822,7 @@ export const chains: Chains = {
     ]
   },
   2124: {
-    name: 'Metaplayerone Network',
+    name: 'Metaplayerone Dubai Testnet',
     chain: 'MP1 Dubai-Testnet',
     icon: 'meu',
     rpc: ['https://rpc-dubai.mp1network.com/'],
@@ -7960,6 +8075,26 @@ export const chains: Chains = {
     explorers: [],
     status: 'incubating'
   },
+  2323: {
+    name: 'SOMA Network Testnet',
+    chain: 'SOMA',
+    rpc: ['https://data-testnet-v1.somanetwork.io/'],
+    faucets: ['https://faucet.somanetwork.io'],
+    nativeCurrency: { name: 'SMA', symbol: 'tSMA', decimals: 18 },
+    infoURL: 'https://somanetwork.io',
+    shortName: 'sma',
+    chainId: 2323,
+    networkId: 2323,
+    icon: 'soma',
+    explorers: [
+      {
+        name: 'SOMA Testnet Explorer',
+        icon: 'soma',
+        url: 'https://testnet.somascan.io',
+        standard: 'none'
+      }
+    ]
+  },
   2330: {
     name: 'Altcoinchain',
     chain: 'mainnet',
@@ -7977,6 +8112,27 @@ export const chains: Chains = {
         name: 'expedition',
         url: 'http://expedition.altcoinchain.org',
         icon: 'altcoinchain',
+        standard: 'none'
+      }
+    ]
+  },
+  2332: {
+    name: 'SOMA Network Mainnet',
+    chain: 'SOMA',
+    rpc: ['https://data-mainnet-v1.somanetwork.io/'],
+    faucets: ['https://airdrop.somanetwork.io'],
+    nativeCurrency: { name: 'Soma Native Token', symbol: 'SMA', decimals: 18 },
+    infoURL: 'https://somanetwork.io',
+    shortName: 'smam',
+    chainId: 2332,
+    networkId: 2332,
+    icon: 'soma',
+    status: 'incubating',
+    explorers: [
+      {
+        name: 'SOMA Explorer Mainnet',
+        icon: 'soma',
+        url: 'https://somascan.io',
         standard: 'none'
       }
     ]
@@ -8694,7 +8850,10 @@ export const chains: Chains = {
   4002: {
     name: 'Fantom Testnet',
     chain: 'FTM',
-    rpc: ['https://rpc.testnet.fantom.network'],
+    rpc: [
+      'https://rpc.testnet.fantom.network',
+      'https://fantom-testnet.publicnode.com'
+    ],
     faucets: ['https://faucet.fantom.network'],
     nativeCurrency: { name: 'Fantom', symbol: 'FTM', decimals: 18 },
     infoURL:
@@ -10034,6 +10193,18 @@ export const chains: Chains = {
     ],
     redFlags: ['reusedChainId']
   },
+  8086: {
+    name: 'BitEth',
+    chain: 'BTE',
+    rpc: ['https://rpc.biteth.org'],
+    faucets: [],
+    nativeCurrency: { name: 'BitEth', symbol: 'BTE', decimals: 18 },
+    infoURL: 'https://biteth.org',
+    shortName: 'BitEth',
+    chainId: 8086,
+    networkId: 8086,
+    explorers: []
+  },
   8098: {
     name: 'StreamuX Blockchain',
     chain: 'StreamuX',
@@ -11302,8 +11473,23 @@ export const chains: Chains = {
     name: 'Fibonacci Mainnet',
     chain: 'FIBO',
     icon: 'fibonacci',
-    rpc: ['https://node1.fibo-api.asia'],
-    faucets: [],
+    rpc: [
+      'https://node1.fibo-api.asia',
+      'https://node2.fibo-api.asia',
+      'https://node3.fibo-api.asia',
+      'https://node4.fibo-api.asia',
+      'https://node5.fibo-api.asia',
+      'https://node6.fibo-api.asia',
+      'https://node7.fibo-api.asia',
+      'https://node1.fibo-rpc.asia',
+      'https://node2.fibo-rpc.asia',
+      'https://node3.fibo-rpc.asia',
+      'https://node4.fibo-rpc.asia',
+      'https://node5.fibo-rpc.asia',
+      'https://node6.fibo-rpc.asia',
+      'https://node7.fibo-rpc.asia'
+    ],
+    faucets: ['https://test.fibochain.org/faucets'],
     nativeCurrency: {
       name: 'FIBONACCI UTILITY TOKEN',
       symbol: 'FIBO',
@@ -11556,6 +11742,25 @@ export const chains: Chains = {
     shortName: 'mtttest',
     chainId: 16001,
     networkId: 16001
+  },
+  16507: {
+    name: 'Genesys Mainnet',
+    chain: 'Genesys',
+    icon: 'genesys',
+    rpc: ['https://rpc.genesys.network'],
+    faucets: [],
+    nativeCurrency: { name: 'Genesys', symbol: 'GSYS', decimals: 18 },
+    infoURL: 'https://www.genesys.network/',
+    shortName: 'Genesys',
+    chainId: 16507,
+    networkId: 16507,
+    explorers: [
+      {
+        name: 'GchainExplorer',
+        url: 'https://gchainexplorer.genesys.network',
+        standard: 'EIP3091'
+      }
+    ]
   },
   16688: {
     name: 'IRIShub Testnet',
@@ -12575,7 +12780,10 @@ export const chains: Chains = {
     name: 'Avalanche Fuji Testnet',
     chain: 'AVAX',
     icon: 'avax',
-    rpc: ['https://api.avax-test.network/ext/bc/C/rpc'],
+    rpc: [
+      'https://api.avax-test.network/ext/bc/C/rpc',
+      'https://avalanche-fuji-c-chain.publicnode.com'
+    ],
     faucets: ['https://faucet.avax-test.network/'],
     nativeCurrency: { name: 'Avalanche', symbol: 'AVAX', decimals: 18 },
     infoURL: 'https://cchain.explorer.avax-test.network',
@@ -12825,6 +13033,30 @@ export const chains: Chains = {
       }
     ],
     parent: { type: 'L2', chain: 'eip155-3' }
+  },
+  51178: {
+    name: 'Opside Testnet Pre-Alpha',
+    chain: 'ETH',
+    rpc: [
+      'https://pre-alpha-us-http-geth.opside.network',
+      'https://pre-alpha-hk-http-geth.opside.network'
+    ],
+    faucets: [],
+    nativeCurrency: { name: 'IDE Test Token', symbol: 'IDE', decimals: 18 },
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    infoURL: 'https://opsi.de/',
+    shortName: 'Opside-Testnet',
+    chainId: 51178,
+    networkId: 51178,
+    icon: 'opside-new',
+    explorers: [
+      {
+        name: 'OpsideTestnetInfo',
+        url: 'https://pre-alpha.opside.info',
+        icon: 'opside-new',
+        standard: 'EIP3091'
+      }
+    ]
   },
   51712: {
     name: 'Sardis Mainnet',
@@ -13536,7 +13768,8 @@ export const chains: Chains = {
     rpc: [
       'https://matic-mumbai.chainstacklabs.com',
       'https://rpc-mumbai.maticvigil.com',
-      'https://matic-testnet-archive-rpc.bwarelabs.com'
+      'https://matic-testnet-archive-rpc.bwarelabs.com',
+      'https://polygon-mumbai-bor.publicnode.com'
     ],
     faucets: ['https://faucet.polygon.technology/'],
     nativeCurrency: { name: 'MATIC', symbol: 'MATIC', decimals: 18 },
@@ -15253,6 +15486,11 @@ export const chains: Chains = {
         name: 'Scroll Alpha Testnet Block Explorer',
         url: 'https://blockscout.scroll.io',
         standard: 'EIP3091'
+      },
+      {
+        name: 'Scroll Alpha Testnet Block Explorer',
+        url: 'https://scrollexplorer.unifra.io',
+        standard: 'EIP3091'
       }
     ],
     parent: { type: 'L2', chain: 'eip155-5', bridges: [] }
@@ -15375,6 +15613,25 @@ export const chains: Chains = {
         name: 'blockscout',
         url: 'https://explorer.octa.space',
         icon: 'blockscout',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  827431: {
+    name: 'CURVE Mainnet',
+    chain: 'CURVE',
+    icon: 'curveIcon',
+    rpc: ['https://mainnet-rpc.curvescan.io'],
+    faucets: [],
+    nativeCurrency: { name: 'Curve', symbol: 'CURVE', decimals: 18 },
+    infoURL: 'https://curvescan.io',
+    shortName: 'CURVEm',
+    chainId: 827431,
+    networkId: 827431,
+    explorers: [
+      {
+        name: 'CURVE Mainnet',
+        url: 'https://curvescan.io',
         standard: 'EIP3091'
       }
     ]
@@ -15722,6 +15979,20 @@ export const chains: Chains = {
     chainId: 3141592,
     networkId: 3141592,
     slip44: 1,
+    explorers: []
+  },
+  4281033: {
+    name: 'Worlds Caldera',
+    chain: 'WCal',
+    rpc: ['https://worlds-test.calderachain.xyz/http'],
+    faucets: [],
+    nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    infoURL: 'https://caldera.xyz/',
+    shortName: 'worldscal',
+    chainId: 4281033,
+    networkId: 4281033,
+    icon: 'ethereum',
     explorers: []
   },
   5167003: {
