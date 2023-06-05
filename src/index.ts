@@ -34,35 +34,4 @@ const get = (idOrName: string | number): Chain | undefined =>
  */
 const all = (): Chains => chains
 
-/**
- * Helper to make accessing the most popular chains easier
- */
-export const chain = {
-  ethereum: {
-    mainnet: chains[ChainId.EthereumMainnet],
-    rinkeby: chains[ChainId.Rinkeby],
-    ropsten: chains[ChainId.Ropsten],
-    kovan: chains[ChainId.Kovan],
-    goerli: chains[ChainId.Goerli]
-  },
-  polygon: {
-    mainnet: chains[ChainId.PolygonMainnet],
-    mumbai: chains[ChainId.Mumbai]
-  },
-  arbitrum: {
-    mainnet: chains[ChainId.ArbitrumOne],
-    rinkeby: chains[ChainId.ArbitrumRinkeby]
-  },
-  optimism: {
-    mainnet: chains[ChainId.Optimism],
-    kovan: chains[ChainId.OptimismKovan]
-  }
-}
-
-export default {
-  getById,
-  getByName,
-  get,
-  all,
-  chain
-}
+export default { getById, getByName, get, all }

@@ -5,6 +5,5 @@ export {
   ChainName,
   NativeCurrency,
   Explorer,
-  Parent,
-  chain
+  Parent
 } from './src'

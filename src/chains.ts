@@ -718,33 +718,28 @@ export const chains: Chains = {
     ]
   },
   42: {
-    name: 'Kovan',
-    title: 'Ethereum Testnet Kovan',
-    chain: 'ETH',
+    name: 'LUKSO Mainnet',
+    chain: 'LUKSO',
+    icon: 'lukso',
     rpc: [
-      'https://kovan.poa.network',
-      'http://kovan.poa.network:8545',
-      'https://kovan.infura.io/v3/${INFURA_API_KEY}',
-      'wss://kovan.infura.io/ws/v3/${INFURA_API_KEY}',
-      'ws://kovan.poa.network:8546'
+      'https://rpc.mainnet.lukso.network',
+      'wss://ws-rpc.mainnet.lukso.network'
     ],
-    faucets: [
-      'http://fauceth.komputing.org?chain=42&address=${ADDRESS}',
-      'https://faucet.kovan.network',
-      'https://gitter.im/kovan-testnet/faucet'
-    ],
-    nativeCurrency: { name: 'Kovan Ether', symbol: 'ETH', decimals: 18 },
+    faucets: [],
+    nativeCurrency: { name: 'LUKSO', symbol: 'LYX', decimals: 18 },
     explorers: [
       {
-        name: 'etherscan',
-        url: 'https://kovan.etherscan.io',
+        name: 'Blockscout',
+        url: 'https://explorer.execution.mainnet.lukso.network',
         standard: 'EIP3091'
       }
     ],
-    infoURL: 'https://kovan-testnet.github.io/website',
-    shortName: 'kov',
+    infoURL: 'https://lukso.network',
+    shortName: 'lukso',
     chainId: 42,
-    networkId: 42
+    networkId: 42,
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    redFlags: ['reusedChainId']
   },
   43: {
     name: 'Darwinia Pangolin Testnet',
@@ -1076,7 +1071,12 @@ export const chains: Chains = {
   57: {
     name: 'Syscoin Mainnet',
     chain: 'SYS',
-    rpc: ['https://rpc.syscoin.org', 'wss://rpc.syscoin.org/wss'],
+    rpc: [
+      'https://rpc.syscoin.org',
+      'https://rpc.ankr.com/syscoin/${ANKR_API_KEY}',
+      'https://syscoin.public-rpc.com',
+      'wss://rpc.syscoin.org/wss'
+    ],
     faucets: ['https://faucet.syscoin.org'],
     nativeCurrency: { name: 'Syscoin', symbol: 'SYS', decimals: 18 },
     infoURL: 'https://www.syscoin.org',
@@ -1887,18 +1887,21 @@ export const chains: Chains = {
     icon: 'gnosis',
     rpc: [
       'https://rpc.gnosischain.com',
+      'https://rpc.gnosis.gateway.fm',
       'https://rpc.ankr.com/gnosis',
       'https://gnosischain-rpc.gateway.pokt.network',
       'https://gnosis-mainnet.public.blastapi.io',
+      'https://gnosis.api.onfinality.io/public',
+      'https://gnosis.blockpi.network/v1/rpc/public',
+      'https://web3endpoints.com/gnosischain-mainnet',
       'wss://rpc.gnosischain.com/wss'
     ],
     faucets: [
       'https://gnosisfaucet.com',
-      'https://faucet.gimlu.com/gnosis',
       'https://stakely.io/faucet/gnosis-chain-xdai',
       'https://faucet.prussia.dev/xdai'
     ],
-    nativeCurrency: { name: 'xDAI', symbol: 'xDAI', decimals: 18 },
+    nativeCurrency: { name: 'xDAI', symbol: 'XDAI', decimals: 18 },
     infoURL: 'https://docs.gnosischain.com',
     shortName: 'gno',
     chainId: 100,
@@ -3493,27 +3496,17 @@ export const chains: Chains = {
     explorers: []
   },
   300: {
-    name: 'Optimism on Gnosis',
+    name: '(deprecated) Optimism on GC',
     chain: 'OGC',
-    rpc: [
-      'https://optimism.gnosischain.com',
-      'wss://optimism.gnosischain.com/wss'
-    ],
-    faucets: ['https://faucet.gimlu.com/gnosis'],
+    rpc: [],
+    faucets: [],
     nativeCurrency: { name: 'xDAI', symbol: 'xDAI', decimals: 18 },
-    infoURL:
-      'https://www.xdaichain.com/for-developers/optimism-optimistic-rollups-on-gc',
     shortName: 'ogc',
     chainId: 300,
     networkId: 300,
-    explorers: [
-      {
-        name: 'blockscout',
-        url: 'https://blockscout.com/xdai/optimism',
-        icon: 'blockscout',
-        standard: 'EIP3091'
-      }
-    ]
+    infoURL: 'https://docs.gnosischain.com',
+    explorers: [],
+    status: 'deprecated'
   },
   301: {
     name: 'Bobaopera',
@@ -4281,6 +4274,24 @@ export const chains: Chains = {
       {
         name: 'dogechain testnet explorer',
         url: 'https://explorer-testnet.dogechain.dog',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  570: {
+    name: 'Rollux Mainnet',
+    chain: 'SYS',
+    rpc: ['https://rpc.rollux.com', 'wss://rpc.rollux.com/wss'],
+    faucets: ['https://rollux.id/faucetapp'],
+    nativeCurrency: { name: 'Syscoin', symbol: 'SYS', decimals: 18 },
+    infoURL: 'https://rollux.com',
+    shortName: 'sys-rollux',
+    chainId: 570,
+    networkId: 570,
+    explorers: [
+      {
+        name: 'Rollux Explorer',
+        url: 'https://explorer.rollux.com',
         standard: 'EIP3091'
       }
     ]
@@ -6656,6 +6667,24 @@ export const chains: Chains = {
       }
     ]
   },
+  1501: {
+    name: 'ChainX-EVM',
+    chain: 'ChainX',
+    rpc: ['https://mainnet.chainx.org/rpc', 'https://mainnet2.chainx.org/rpc'],
+    faucets: [],
+    nativeCurrency: { name: 'BTC', symbol: 'BTC', decimals: 18 },
+    infoURL: 'https://chainx.org',
+    shortName: 'chainx',
+    chainId: 1501,
+    networkId: 1501,
+    explorers: [
+      {
+        name: 'chainx-evm scan',
+        url: 'https://evm.chainx.org',
+        standard: 'none'
+      }
+    ]
+  },
   1506: {
     name: 'Sherpax Mainnet',
     chain: 'Sherpax Mainnet',
@@ -8382,6 +8411,25 @@ export const chains: Chains = {
       }
     ]
   },
+  2625: {
+    name: 'WhiteBIT Network Testnet',
+    chain: 'WBT',
+    rpc: ['https://rpc-testnet.whitebit.network'],
+    faucets: ['https://explorer.whitebit.network/testnet/faucet'],
+    nativeCurrency: { name: 'WhiteBIT Coin', symbol: 'WBT', decimals: 18 },
+    infoURL: 'https://whitebit.com/wbt',
+    shortName: 'twbt',
+    chainId: 2625,
+    networkId: 2625,
+    icon: 'whitebit-testnet',
+    explorers: [
+      {
+        name: 'wb-explorer-testnet',
+        url: 'https://explorer.whitebit.network/testnet',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   2888: {
     name: 'Boba Network Goerli Testnet',
     chain: 'ETH',
@@ -8470,6 +8518,27 @@ export const chains: Chains = {
         name: 'canxium explorer',
         url: 'https://explorer.canxium.org',
         standard: 'none'
+      }
+    ]
+  },
+  3011: {
+    name: 'PLAYA3ULL GAMES',
+    chain: '3ULL',
+    rpc: ['https://api.mainnet.playa3ull.games'],
+    faucets: [],
+    nativeCurrency: { name: '3ULL', symbol: '3ULL', decimals: 18 },
+    features: [{ name: 'EIP1559' }],
+    infoURL: 'https://playa3ull.games',
+    shortName: '3ULL',
+    chainId: 3011,
+    networkId: 3011,
+    icon: 'playa3ull',
+    explorers: [
+      {
+        name: 'PLAYA3ULL GAMES Explorer',
+        url: 'https://3011.routescan.io',
+        icon: 'playa3ull',
+        standard: 'EIP3091'
       }
     ]
   },
@@ -9131,6 +9200,29 @@ export const chains: Chains = {
       }
     ]
   },
+  4201: {
+    name: 'LUKSO Testnet',
+    chain: 'LUKSO Testnet',
+    icon: 'lukso',
+    rpc: [
+      'https://rpc.testnet.lukso.network',
+      'wss://ws-rpc.testnet.lukso.network'
+    ],
+    faucets: ['https://faucet.testnet.lukso.network'],
+    nativeCurrency: { name: 'TestLYX', symbol: 'LYXt', decimals: 18 },
+    explorers: [
+      {
+        name: 'Blockscout',
+        url: 'https://explorer.execution.testnet.lukso.network',
+        standard: 'none'
+      }
+    ],
+    infoURL: 'https://lukso.network',
+    shortName: 'lukso-testnet',
+    chainId: 4201,
+    networkId: 4201,
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }]
+  },
   4242: {
     name: 'Nexi Mainnet',
     chain: 'Nexi',
@@ -9328,7 +9420,7 @@ export const chains: Chains = {
     chain: 'ETH',
     rpc: ['https://rpc.mantle.xyz'],
     faucets: [],
-    nativeCurrency: { name: 'BitDAO', symbol: 'BIT', decimals: 18 },
+    nativeCurrency: { name: 'Mantle', symbol: 'MNT', decimals: 18 },
     infoURL: 'https://mantle.xyz',
     shortName: 'mantle',
     chainId: 5000,
@@ -9346,7 +9438,7 @@ export const chains: Chains = {
     chain: 'ETH',
     rpc: ['https://rpc.testnet.mantle.xyz'],
     faucets: ['https://faucet.testnet.mantle.xyz'],
-    nativeCurrency: { name: 'Testnet BitDAO', symbol: 'BIT', decimals: 18 },
+    nativeCurrency: { name: 'Testnet Mantle', symbol: 'MNT', decimals: 18 },
     infoURL: 'https://mantle.xyz',
     shortName: 'mantle-testnet',
     chainId: 5001,
@@ -9676,6 +9768,46 @@ export const chains: Chains = {
         name: 'treslechesexplorer',
         url: 'https://explorer.tresleches.finance',
         icon: 'treslechesexplorer',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  6118: {
+    name: 'UPTN Testnet',
+    chain: 'UPTN',
+    icon: 'uptn',
+    rpc: ['https://node-api.alp.uptn.io/v1/ext/rpc'],
+    features: [{ name: 'EIP1559' }],
+    faucets: [],
+    nativeCurrency: { name: 'UPTN', symbol: 'UPTN', decimals: 18 },
+    infoURL: 'https://uptn.io',
+    shortName: 'UPTN-TEST',
+    chainId: 6118,
+    networkId: 6118,
+    explorers: [
+      {
+        name: 'UPTN Testnet Explorer',
+        url: 'https://testnet.explorer.uptn.io',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  6119: {
+    name: 'UPTN',
+    chain: 'UPTN',
+    icon: 'uptn',
+    rpc: ['https://node-api.uptn.io/v1/ext/rpc'],
+    features: [{ name: 'EIP1559' }],
+    faucets: [],
+    nativeCurrency: { name: 'UPTN', symbol: 'UPTN', decimals: 18 },
+    infoURL: 'https://uptn.io',
+    shortName: 'UPTN',
+    chainId: 6119,
+    networkId: 6119,
+    explorers: [
+      {
+        name: 'UPTN Explorer',
+        url: 'https://explorer.uptn.io',
         standard: 'EIP3091'
       }
     ]
@@ -11224,15 +11356,16 @@ export const chains: Chains = {
     networkId: 10101
   },
   10200: {
-    name: 'Chiado Testnet',
-    chain: 'CHI',
+    name: 'Gnosis Chiado Testnet',
+    chain: 'GNO',
     icon: 'gnosis',
     rpc: [
       'https://rpc.chiadochain.net',
-      'https://rpc.eu-central-2.gateway.fm/v3/gnosis/archival/chiado'
+      'https://rpc.chiado.gnosis.gateway.fm',
+      'wss://rpc.chiadochain.net/wss'
     ],
     faucets: ['https://gnosisfaucet.com'],
-    nativeCurrency: { name: 'Chiado xDAI', symbol: 'xDAI', decimals: 18 },
+    nativeCurrency: { name: 'Chiado xDAI', symbol: 'XDAI', decimals: 18 },
     infoURL: 'https://docs.gnosischain.com',
     shortName: 'chi',
     chainId: 10200,
@@ -13301,25 +13434,22 @@ export const chains: Chains = {
     ]
   },
   57000: {
-    name: 'Syscoin Rollux Testnet',
+    name: 'Rollux Testnet',
     chain: 'SYS',
     rpc: [
       'https://rpc-tanenbaum.rollux.com',
+      'https://rpc.ankr.com/rollux_testnet/${ANKR_API_KEY}',
       'wss://rpc-tanenbaum.rollux.com/wss'
     ],
-    faucets: [],
-    nativeCurrency: {
-      name: 'Rollux Testnet Syscoin',
-      symbol: 'tSYS',
-      decimals: 18
-    },
-    infoURL: 'https://syscoin.org',
+    faucets: ['https://rollux.id/faucetapp'],
+    nativeCurrency: { name: 'Testnet Syscoin', symbol: 'TSYS', decimals: 18 },
+    infoURL: 'https://rollux.com',
     shortName: 'tsys-rollux',
     chainId: 57000,
     networkId: 57000,
     explorers: [
       {
-        name: 'Syscoin Rollux Testnet Explorer',
+        name: 'Rollux Testnet Explorer',
         url: 'https://rollux.tanenbaum.io',
         standard: 'EIP3091'
       }
@@ -13430,6 +13560,25 @@ export const chains: Chains = {
       {
         name: 'thinkiumscan',
         url: 'https://test103.thinkiumscan.net',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  61800: {
+    name: 'AxelChain Dev-Net',
+    chain: 'AXEL',
+    rpc: ['https://aium-rpc-dev.viacube.com'],
+    faucets: [],
+    nativeCurrency: { name: 'Axelium', symbol: 'AIUM', decimals: 18 },
+    infoURL: 'https://www.axel.org',
+    shortName: 'aium-dev',
+    chainId: 61800,
+    networkId: 61800,
+    icon: 'axelium',
+    explorers: [
+      {
+        name: 'AxelChain Dev-Net Explorer',
+        url: 'https://devexplorer2.viacube.com',
         standard: 'EIP3091'
       }
     ]
@@ -14466,24 +14615,17 @@ export const chains: Chains = {
     ]
   },
   100100: {
-    name: 'Deprecated Chiado Testnet',
+    name: 'Deprecated CHI',
     chain: 'CHI1',
     icon: 'gnosis',
-    rpc: ['https://rpc-chiado.gnosistestnet.com'],
-    faucets: ['https://gnosisfaucet.com'],
+    rpc: [],
+    faucets: [],
     nativeCurrency: { name: 'Chiado xDAI', symbol: 'xDAI', decimals: 18 },
     infoURL: 'https://docs.gnosischain.com',
     shortName: 'chi1',
     chainId: 100100,
     networkId: 100100,
-    explorers: [
-      {
-        name: 'blockscout',
-        url: 'https://blockscout-chiado.gnosistestnet.com',
-        icon: 'blockscout',
-        standard: 'EIP3091'
-      }
-    ],
+    explorers: [],
     status: 'deprecated'
   },
   101010: {
@@ -14740,7 +14882,7 @@ export const chains: Chains = {
     chain: 'SBR',
     rpc: ['https://rpc.main.siberium.net', 'https://rpc.main.siberium.net.ru'],
     faucets: [],
-    nativeCurrency: { name: 'Siberium', symbol: 'SBR', decimals: 18 },
+    nativeCurrency: { name: 'Siberium', symbol: 'SIBR', decimals: 18 },
     infoURL: 'https://siberium.net',
     shortName: 'sbr',
     chainId: 111111,
@@ -14822,6 +14964,7 @@ export const chains: Chains = {
   167004: {
     name: 'Taiko (Alpha-2 Testnet)',
     chain: 'ETH',
+    status: 'deprecated',
     icon: 'taiko',
     rpc: ['https://rpc.a2.taiko.xyz'],
     faucets: [],
@@ -14834,6 +14977,26 @@ export const chains: Chains = {
       {
         name: 'blockscout',
         url: 'https://explorer.a2.taiko.xyz',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  167005: {
+    name: 'Taiko (Alpha-3 Testnet)',
+    chain: 'ETH',
+    status: 'active',
+    icon: 'taiko',
+    rpc: ['https://rpc.test.taiko.xyz'],
+    faucets: [],
+    nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    infoURL: 'https://taiko.xyz',
+    shortName: 'taiko-a3',
+    chainId: 167005,
+    networkId: 167005,
+    explorers: [
+      {
+        name: 'blockscout',
+        url: 'https://explorer.test.taiko.xyz',
         standard: 'EIP3091'
       }
     ]
@@ -15701,7 +15864,7 @@ export const chains: Chains = {
       },
       {
         name: 'Scroll Alpha Testnet Block Explorer',
-        url: 'https://scrollexplorer.unifra.io',
+        url: 'https://scrollscan.co',
         standard: 'EIP3091'
       }
     ],
