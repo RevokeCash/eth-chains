@@ -3311,7 +3311,8 @@ export const chains: Chains = {
     icon: 'LaChain',
     rpc: [
       'https://rpc1.mainnet.lachain.network',
-      'https://rpc2.mainnet.lachain.network'
+      'https://rpc2.mainnet.lachain.network',
+      'https://lachain.rpc-nodes.cedalio.dev'
     ],
     faucets: [],
     nativeCurrency: { name: 'LaCoin', symbol: 'LAC', decimals: 18 },
@@ -3925,6 +3926,25 @@ export const chains: Chains = {
       }
     ]
   },
+  401: {
+    name: 'Ozone Chain Testnet',
+    chain: 'OZONE',
+    rpc: ['https://node1.testnet.ozonechain.io'],
+    faucets: [],
+    nativeCurrency: { name: 'OZONE', symbol: 'OZO', decimals: 18 },
+    infoURL: 'https://ozonechain.io',
+    shortName: 'ozo_tst',
+    chainId: 401,
+    networkId: 401,
+    icon: 'ozonechain',
+    explorers: [
+      {
+        name: 'OZONE Scan',
+        url: 'https://testnet.ozonescan.io',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   416: {
     name: 'SX Network Mainnet',
     chain: 'SX',
@@ -3948,7 +3968,10 @@ export const chains: Chains = {
     name: 'LaTestnet',
     chain: 'LaTestnet',
     icon: 'LaChain',
-    rpc: ['https://rpc.testnet.lachain.network'],
+    rpc: [
+      'https://rpc.testnet.lachain.network',
+      'https://lachain-testnet.rpc-nodes.cedalio.dev'
+    ],
     faucets: ['https://faucet.lachain.network'],
     nativeCurrency: { name: 'Test LaCoin', symbol: 'TLA', decimals: 18 },
     features: [{ name: 'EIP155' }],
@@ -4686,6 +4709,29 @@ export const chains: Chains = {
     chainId: 777,
     networkId: 777
   },
+  786: {
+    name: 'MAAL Sharia Chain',
+    chain: 'MAAL',
+    icon: 'maal',
+    rpc: [
+      'https://node1-mainnet.maalscan.io/',
+      'https://node2-mainnet.maalscan.io/',
+      'https://node3-mainnet.maalscan.io/'
+    ],
+    faucets: [],
+    nativeCurrency: { name: 'MAAL', symbol: 'MAAL', decimals: 18 },
+    infoURL: 'https://www.maalblockchain.com/',
+    shortName: 'maal',
+    chainId: 786,
+    networkId: 786,
+    explorers: [
+      {
+        name: 'maalscan',
+        url: 'https://maalscan.io',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   787: {
     name: 'Acala Network',
     chain: 'ACA',
@@ -4719,6 +4765,17 @@ export const chains: Chains = {
         standard: 'EIP3091'
       }
     ]
+  },
+  789: {
+    name: 'Patex',
+    chain: 'ETH',
+    rpc: ['https://rpc.patex.io/'],
+    faucets: [],
+    nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    infoURL: 'https://patex.io/',
+    shortName: 'peth',
+    chainId: 789,
+    networkId: 789
   },
   800: {
     name: 'Lucid Blockchain',
@@ -6609,6 +6666,21 @@ export const chains: Chains = {
         standard: 'EIP3091'
       }
     ]
+  },
+  1440: {
+    name: 'Living Assets Mainnet',
+    chain: 'LAS',
+    icon: 'livingassets',
+    rpc: [
+      'https://beta.mainnet.livingassets.io/rpc',
+      'https://gamma.mainnet.livingassets.io/rpc'
+    ],
+    faucets: [],
+    nativeCurrency: { name: 'LAS', symbol: 'LAS', decimals: 18 },
+    infoURL: 'https://dev.livingassets.io/',
+    shortName: 'LAS',
+    chainId: 1440,
+    networkId: 1440
   },
   1442: {
     name: 'Polygon zkEVM Testnet',
@@ -8587,43 +8659,18 @@ export const chains: Chains = {
   },
   3141: {
     name: 'Filecoin - Hyperspace testnet',
+    status: 'deprecated',
     chain: 'FIL',
     icon: 'filecoin',
-    rpc: [
-      'https://api.hyperspace.node.glif.io/rpc/v1',
-      'https://rpc.ankr.com/filecoin_testnet',
-      'https://filecoin-hyperspace.chainstacklabs.com/rpc/v1'
-    ],
-    faucets: ['https://hyperspace.yoga/#faucet'],
+    rpc: [],
+    faucets: [],
     nativeCurrency: { name: 'testnet filecoin', symbol: 'tFIL', decimals: 18 },
     infoURL: 'https://filecoin.io',
     shortName: 'filecoin-hyperspace',
     chainId: 3141,
     networkId: 3141,
     slip44: 1,
-    explorers: [
-      {
-        name: 'Filfox - Hyperspace',
-        url: 'https://hyperspace.filfox.info/en',
-        standard: 'none'
-      },
-      {
-        name: 'Glif Explorer - Hyperspace',
-        url: 'https://explorer.glif.io/?network=hyperspace',
-        standard: 'none'
-      },
-      { name: 'Beryx', url: 'https://beryx.zondax.ch', standard: 'none' },
-      {
-        name: 'Dev.storage',
-        url: 'https://dev.storage',
-        standard: 'none'
-      },
-      {
-        name: 'Filscan - Hyperspace',
-        url: 'https://hyperspace.filscan.io',
-        standard: 'none'
-      }
-    ]
+    explorers: []
   },
   3306: {
     name: 'Debounce Subnet Testnet',
@@ -8989,6 +9036,25 @@ export const chains: Chains = {
         name: 'YuanChain Explorer',
         url: 'https://mainnet.yuan.org',
         standard: 'none'
+      }
+    ]
+  },
+  4000: {
+    name: 'Ozone Chain Mainnet',
+    chain: 'OZONE',
+    rpc: ['https://node1.ozonechain.io'],
+    faucets: [],
+    nativeCurrency: { name: 'OZONE', symbol: 'OZO', decimals: 18 },
+    infoURL: 'https://ozonechain.io',
+    shortName: 'ozo',
+    chainId: 4000,
+    networkId: 4000,
+    icon: 'ozonechain',
+    explorers: [
+      {
+        name: 'OZONE Scan',
+        url: 'https://ozonescan.io',
+        standard: 'EIP3091'
       }
     ]
   },
@@ -9657,17 +9723,17 @@ export const chains: Chains = {
     name: 'SatoshiChain Testnet',
     chain: 'SATS',
     icon: 'satoshichain',
-    rpc: ['https://rpc.satoshichain.io'],
+    rpc: ['https://testnet-rpc.satoshichain.io'],
     faucets: ['https://faucet.satoshichain.io'],
     nativeCurrency: { name: 'SatoshiChain Coin', symbol: 'SATS', decimals: 18 },
     infoURL: 'https://satoshichain.net',
-    shortName: 'sats',
+    shortName: 'satst',
     chainId: 5758,
     networkId: 5758,
     explorers: [
       {
-        name: 'SatoshiChain Explorer',
-        url: 'https://satoshiscan.io',
+        name: 'SatoshiChain Testnet Explorer',
+        url: 'https://testnet.satoshiscan.io',
         standard: 'EIP3091'
       }
     ]
@@ -9977,7 +10043,7 @@ export const chains: Chains = {
     rpc: ['https://api.mainnet.zetachain.com/evm'],
     faucets: [],
     nativeCurrency: { name: 'Zeta', symbol: 'ZETA', decimals: 18 },
-    infoURL: 'https://docs.zetachain.com/',
+    infoURL: 'https://zetachain.com/docs/',
     shortName: 'zetachain-mainnet',
     chainId: 7000,
     networkId: 7000,
@@ -9994,10 +10060,13 @@ export const chains: Chains = {
     name: 'ZetaChain Athens Testnet',
     chain: 'ZetaChain',
     icon: 'zetachain',
-    rpc: ['https://api.athens2.zetachain.com/evm'],
+    rpc: [
+      'https://zetachain-athens-evm.blockpi.network/v1/rpc/public',
+      'wss://zetachain-athens.blockpi.network/rpc/v1/public/websocket'
+    ],
     faucets: ['https://labs.zetachain.com/get-zeta'],
     nativeCurrency: { name: 'Zeta', symbol: 'aZETA', decimals: 18 },
-    infoURL: 'https://docs.zetachain.com/',
+    infoURL: 'https://zetachain.com/docs',
     shortName: 'zetachain-athens',
     chainId: 7001,
     networkId: 7001,
@@ -11685,6 +11754,25 @@ export const chains: Chains = {
       }
     ]
   },
+  12009: {
+    name: 'SatoshiChain Mainnet',
+    chain: 'SATS',
+    icon: 'satoshichain',
+    rpc: ['https://mainnet-rpc.satoshichain.io'],
+    faucets: [],
+    nativeCurrency: { name: 'SatoshiChain Coin', symbol: 'SATS', decimals: 18 },
+    infoURL: 'https://satoshichain.net',
+    shortName: 'sats',
+    chainId: 12009,
+    networkId: 12009,
+    explorers: [
+      {
+        name: 'SatoshiChain Explorer',
+        url: 'https://satoshiscan.io',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   12051: {
     name: 'Singularity ZERO Testnet',
     chain: 'ZERO',
@@ -12660,10 +12748,11 @@ export const chains: Chains = {
   },
   31415: {
     name: 'Filecoin - Wallaby testnet',
+    status: 'deprecated',
     chain: 'FIL',
     icon: 'filecoin',
-    rpc: ['https://wallaby.node.glif.io/rpc/v1'],
-    faucets: ['https://wallaby.yoga/#faucet'],
+    rpc: [],
+    faucets: [],
     nativeCurrency: { name: 'testnet filecoin', symbol: 'tFIL', decimals: 18 },
     infoURL: 'https://filecoin.io',
     shortName: 'filecoin-wallaby',
@@ -13209,7 +13298,7 @@ export const chains: Chains = {
     icon: 'wireshape',
     rpc: [
       'https://rpc-floripa.wireshape.org',
-      'https://floripa.rpc.thirdweb.com'
+      'https://wireshape-floripa-testnet.rpc.thirdweb.com'
     ],
     faucets: [],
     nativeCurrency: { name: 'WIRE', symbol: 'WIRE', decimals: 18 },
@@ -14296,6 +14385,30 @@ export const chains: Chains = {
       }
     ]
   },
+  91002: {
+    name: 'Nautilus Chain',
+    title: 'Nautilus Trition Testnet',
+    chain: 'ETH',
+    icon: 'nautilus',
+    rpc: ['https://triton.api.nautchain.xyz'],
+    faucets: ['https://faucet.eclipse.builders'],
+    nativeCurrency: {
+      name: 'Nautilus Zebec Testnet Tokens',
+      symbol: 'tZBC',
+      decimals: 18
+    },
+    infoURL: 'https://docs.nautchain.xyz',
+    shortName: 'NAUT',
+    chainId: 91002,
+    networkId: 91002,
+    explorers: [
+      {
+        name: 'Nautscan',
+        url: 'https://triton.nautscan.com',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   92001: {
     name: 'Lambda Testnet',
     chain: 'Lambda',
@@ -14877,6 +14990,26 @@ export const chains: Chains = {
       }
     ]
   },
+  111000: {
+    name: 'Siberium Test Network',
+    chain: 'SBR',
+    rpc: ['https://rpc.test.siberium.net'],
+    faucets: [],
+    nativeCurrency: { name: 'TestSIBR', symbol: 'SIBR', decimals: 18 },
+    infoURL: 'https://siberium.net',
+    shortName: 'testsbr',
+    chainId: 111000,
+    networkId: 111000,
+    icon: 'siberium',
+    explorers: [
+      {
+        name: 'Siberium Testnet Explorer - blockscout',
+        url: 'https://explorer.test.siberium.net',
+        icon: 'siberium',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   111111: {
     name: 'Siberium Network',
     chain: 'SBR',
@@ -15377,7 +15510,12 @@ export const chains: Chains = {
     name: 'Filecoin - Calibration testnet',
     chain: 'FIL',
     icon: 'filecoin',
-    rpc: ['https://api.calibration.node.glif.io/rpc/v1'],
+    rpc: [
+      'https://api.calibration.node.glif.io/rpc/v1',
+      'https://rpc.ankr.com/filecoin_testnet',
+      'https://filecoin-calibration.chainstacklabs.com/rpc/v1',
+      'https://filecoin-calibration.chainup.net/rpc/v1'
+    ],
     faucets: ['https://faucet.calibration.fildev.network/'],
     nativeCurrency: { name: 'testnet filecoin', symbol: 'tFIL', decimals: 18 },
     infoURL: 'https://filecoin.io',
@@ -15400,7 +15538,13 @@ export const chains: Chains = {
         name: 'Filfox - Calibration',
         url: 'https://calibration.filfox.info',
         standard: 'none'
-      }
+      },
+      {
+        name: 'Glif Explorer - Calibration',
+        url: 'https://explorer.glif.io/?network=calibration',
+        standard: 'none'
+      },
+      { name: 'Beryx', url: 'https://beryx.zondax.ch', standard: 'none' }
     ]
   },
   330844: {
@@ -15420,6 +15564,27 @@ export const chains: Chains = {
         url: 'https://tscscan.com',
         standard: 'EIP3091',
         icon: 'tscscan'
+      }
+    ]
+  },
+  333331: {
+    name: 'Aves Testnet',
+    chain: 'AVST',
+    rpc: ['https://test.rpc.avescoin.io'],
+    faucets: [],
+    nativeCurrency: { name: 'AvesT', symbol: 'AVST', decimals: 18 },
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    infoURL: 'https://ethereum.org',
+    shortName: 'avst',
+    chainId: 333331,
+    networkId: 333331,
+    icon: 'aves',
+    explorers: [
+      {
+        name: 'avescan',
+        url: 'https://testnet.avescoin.io',
+        icon: 'avescan',
+        standard: 'EIP3091'
       }
     ]
   },
@@ -15755,6 +15920,17 @@ export const chains: Chains = {
         standard: 'none'
       }
     ]
+  },
+  471100: {
+    name: 'Patex Sepolia Testnet',
+    chain: 'ETH',
+    rpc: ['https://test-rpc.patex.io/'],
+    faucets: [],
+    nativeCurrency: { name: 'Sepolia Ether', symbol: 'ETH', decimals: 18 },
+    infoURL: 'https://patex.io/',
+    shortName: 'psep',
+    chainId: 471100,
+    networkId: 471100
   },
   474142: {
     name: 'OpenChain Mainnet',
