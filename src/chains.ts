@@ -1775,17 +1775,26 @@ export const chains: Chains = {
     ]
   },
   95: {
-    name: 'CryptoKylin Testnet',
-    chain: 'EOS',
-    rpc: ['https://kylin.eosargentina.io'],
-    faucets: [],
-    nativeCurrency: { name: 'EOS', symbol: 'EOS', decimals: 18 },
-    infoURL: 'https://www.cryptokylin.io/',
-    shortName: 'kylin',
+    name: 'CamDL Mainnet',
+    chain: 'CADL',
+    rpc: ['https://rpc1.camdl.gov.kh/'],
+    faucets: ['https://faucet.camdl.gov.kh/'],
+    nativeCurrency: { name: 'CADL', symbol: 'CADL', decimals: 18 },
+    features: [{ name: 'EIP155' }],
+    infoURL: 'https://camdl.gov.kh/',
+    shortName: 'camdl',
     chainId: 95,
     networkId: 95,
-    explorers: [],
-    status: 'deprecated'
+    redFlags: ['reusedChainId'],
+    icon: 'camdl',
+    explorers: [
+      {
+        name: 'CamDL Block Explorer',
+        url: 'https://explorer.camdl.gov.kh',
+        standard: 'EIP3091'
+      }
+    ],
+    status: 'active'
   },
   96: {
     name: 'Bitkub Chain',
@@ -2705,6 +2714,25 @@ export const chains: Chains = {
     chainId: 163,
     networkId: 163
   },
+  165: {
+    name: 'Omni Testnet 1',
+    chain: 'Omni',
+    rpc: ['https://testnet-1.omni.network'],
+    features: [{ name: 'EIP155' }],
+    faucets: [],
+    nativeCurrency: { name: 'Omni', symbol: 'OMNI', decimals: 18 },
+    infoURL: 'https://docs.omni.network/',
+    shortName: 'omni_testnet',
+    chainId: 165,
+    networkId: 165,
+    explorers: [
+      {
+        name: 'Omni Explorer',
+        url: 'https://testnet-1.explorer.omni.network',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   167: {
     name: 'Atoshi Testnet',
     chain: 'ATOSHI',
@@ -3543,12 +3571,10 @@ export const chains: Chains = {
     shortName: 'ncnt',
     chainId: 303,
     networkId: 303,
-    icon: 'neurochain',
     explorers: [
       {
         name: 'neuroscan',
         url: 'https://testnet.ncnscan.com',
-        icon: 'neurochain',
         standard: 'EIP3091'
       }
     ]
@@ -3587,12 +3613,10 @@ export const chains: Chains = {
     shortName: 'ncn',
     chainId: 313,
     networkId: 313,
-    icon: 'neurochain',
     explorers: [
       {
         name: 'neuroscan',
         url: 'https://ncnscan.com',
-        icon: 'neurochain',
         standard: 'EIP3091'
       }
     ]
@@ -7831,6 +7855,21 @@ export const chains: Chains = {
     chainId: 2043,
     networkId: 2043
   },
+  2044: {
+    name: 'Shrapnel Subnet',
+    chain: 'shrapnel',
+    rpc: ['https://subnets.avax.network/shrapnel/mainnet/rpc'],
+    faucets: [],
+    nativeCurrency: {
+      name: 'Shrapnel Gas Token',
+      symbol: 'SHRAPG',
+      decimals: 18
+    },
+    infoURL: 'https://www.shrapnel.com/',
+    shortName: 'Shrapnel',
+    chainId: 2044,
+    networkId: 2044
+  },
   2047: {
     name: 'Stratos Testnet',
     chain: 'STOS',
@@ -7964,7 +8003,6 @@ export const chains: Chains = {
   2124: {
     name: 'Metaplayerone Dubai Testnet',
     chain: 'MP1 Dubai-Testnet',
-    icon: 'meu',
     rpc: ['https://rpc-dubai.mp1network.com/'],
     faucets: [],
     nativeCurrency: { name: 'Metaunit', symbol: 'MEU', decimals: 18 },
@@ -7976,7 +8014,6 @@ export const chains: Chains = {
       {
         name: 'MP1Scan',
         url: 'https://dubai.mp1scan.io',
-        icon: 'meu',
         standard: 'EIP3091'
       }
     ]
@@ -8853,19 +8890,19 @@ export const chains: Chains = {
     ]
   },
   3666: {
-    name: 'Metacodechain',
-    chain: 'metacode',
-    rpc: ['https://j.blockcoach.com:8503'],
+    name: 'Jouleverse Mainnet',
+    chain: 'Jouleverse',
+    rpc: ['https://rpc.jnsdao.com:8503'],
     faucets: [],
     nativeCurrency: { name: 'J', symbol: 'J', decimals: 18 },
-    infoURL: 'https://j.blockcoach.com:8089',
-    shortName: 'metacode',
+    infoURL: 'https://jnsdao.com',
+    shortName: 'jouleverse',
     chainId: 3666,
     networkId: 3666,
     explorers: [
       {
-        name: 'meta',
-        url: 'https://j.blockcoach.com:8089',
+        name: 'jscan',
+        url: 'https://jscan.jnsdao.com',
         standard: 'EIP3091'
       }
     ]
@@ -13461,6 +13498,27 @@ export const chains: Chains = {
       }
     ]
   },
+  55004: {
+    name: 'Titan',
+    chain: 'ETH',
+    rpc: [
+      'https://rpc.titan.tokamak.network',
+      'wss://rpc.titan.tokamak.network/ws'
+    ],
+    faucets: [],
+    nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    infoURL: 'https://tokamak.network',
+    shortName: 'teth',
+    chainId: 55004,
+    networkId: 55004,
+    explorers: [
+      {
+        name: 'blockscout',
+        url: 'https://explorer.titan.tokamak.network',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   55555: {
     name: 'REI Chain Mainnet',
     chain: 'REI',
@@ -16698,6 +16756,24 @@ export const chains: Chains = {
     chainId: 7762959,
     networkId: 7762959,
     slip44: 184
+  },
+  7777777: {
+    name: 'Zora',
+    chain: 'ETH',
+    rpc: ['https://rpc.zora.co/'],
+    faucets: [],
+    nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    infoURL: 'https://zora.co',
+    shortName: 'zora',
+    chainId: 7777777,
+    networkId: 7777777,
+    explorers: [
+      {
+        name: 'Zora Network Explorer',
+        url: 'https://explorer.zora.co',
+        standard: 'EIP3091'
+      }
+    ]
   },
   8007736: {
     name: 'Plian Mainnet Subchain 1',
