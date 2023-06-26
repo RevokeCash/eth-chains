@@ -1,6 +1,6 @@
 {
   "name": "@revoke.cash/chains",
-  "version": "6.0.0",
+  "version": "6.1.0",
   "description": "Helper module for getting EVM chains info.",
   "author": "Revoke.cash",
   "contributors": [
