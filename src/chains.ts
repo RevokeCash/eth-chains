@@ -4793,13 +4793,23 @@ export const chains: Chains = {
   789: {
     name: 'Patex',
     chain: 'ETH',
+    icon: 'patex',
     rpc: ['https://rpc.patex.io/'],
     faucets: [],
     nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
     infoURL: 'https://patex.io/',
     shortName: 'peth',
     chainId: 789,
-    networkId: 789
+    networkId: 789,
+    explorers: [
+      {
+        name: 'patexscan',
+        url: 'https://patexscan.io',
+        icon: 'patex',
+        standard: 'EIP3091'
+      }
+    ]
   },
   800: {
     name: 'Lucid Blockchain',
@@ -6870,10 +6880,10 @@ export const chains: Chains = {
   1620: {
     name: 'Atheios',
     chain: 'ATH',
-    rpc: ['https://wallet.atheios.com:8797'],
+    rpc: ['https://rpc.atheios.org/'],
     faucets: [],
     nativeCurrency: { name: 'Atheios Ether', symbol: 'ATH', decimals: 18 },
-    infoURL: 'https://atheios.com',
+    infoURL: 'https://atheios.org',
     shortName: 'ath',
     chainId: 1620,
     networkId: 11235813,
@@ -6910,14 +6920,18 @@ export const chains: Chains = {
         icon: 'eon',
         standard: 'EIP3091'
       }
-    ]
+    ],
+    status: 'deprecated'
   },
   1663: {
     name: 'Horizen Gobi Testnet',
     shortName: 'Gobi',
     chain: 'Gobi',
     icon: 'eon',
-    rpc: ['https://gobi-testnet.horizenlabs.io/ethv1'],
+    rpc: [
+      'https://gobi-testnet.horizenlabs.io/ethv1',
+      'https://rpc.ankr.com/horizen_testnet_evm'
+    ],
     features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
     faucets: ['https://faucet.horizen.io'],
     nativeCurrency: { name: 'Testnet Zen', symbol: 'tZEN', decimals: 18 },
@@ -11847,6 +11861,29 @@ export const chains: Chains = {
       }
     ]
   },
+  12123: {
+    name: 'BRC Chain Mainnet',
+    chain: 'BRC',
+    rpc: ['https://rpc.brcchain.io'],
+    faucets: ['https://faucet.brcchain.io'],
+    nativeCurrency: {
+      name: 'BRC Chain mainnet native token',
+      symbol: 'BRC',
+      decimals: 18
+    },
+    infoURL: 'https://bridge.brcchain.io',
+    shortName: 'BRC',
+    chainId: 12123,
+    networkId: 12123,
+    icon: 'brcchain',
+    explorers: [
+      {
+        name: 'BRC Chain Explorer',
+        url: 'https://scan.brcchain.io',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   12306: {
     name: 'Fibonacci Mainnet',
     chain: 'FIBO',
@@ -16760,17 +16797,18 @@ export const chains: Chains = {
   7777777: {
     name: 'Zora',
     chain: 'ETH',
-    rpc: ['https://rpc.zora.co/'],
+    rpc: ['https://rpc.zora.energy/'],
     faucets: [],
     nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
-    infoURL: 'https://zora.co',
+    icon: 'zora',
+    infoURL: 'https://zora.energy',
     shortName: 'zora',
     chainId: 7777777,
     networkId: 7777777,
     explorers: [
       {
         name: 'Zora Network Explorer',
-        url: 'https://explorer.zora.co',
+        url: 'https://explorer.zora.energy',
         standard: 'EIP3091'
       }
     ]
