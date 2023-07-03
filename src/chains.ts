@@ -190,7 +190,7 @@ export const chains: Chains = {
     networkId: 2
   },
   10: {
-    name: 'Optimism',
+    name: 'OP Mainnet',
     chain: 'ETH',
     rpc: ['https://mainnet.optimism.io/'],
     faucets: [],
@@ -1154,7 +1154,7 @@ export const chains: Chains = {
   61: {
     name: 'Ethereum Classic Mainnet',
     chain: 'ETC',
-    rpc: ['https://www.ethercluster.com/etc'],
+    rpc: ['https://etc.rivet.link'],
     faucets: ['https://free-online-app.com/faucet-for-eth-evm-chains/?'],
     nativeCurrency: {
       name: 'Ethereum Classic Ether',
@@ -1192,7 +1192,7 @@ export const chains: Chains = {
   63: {
     name: 'Ethereum Classic Testnet Mordor',
     chain: 'ETC',
-    rpc: ['https://www.ethercluster.com/mordor'],
+    rpc: ['https://rpc.mordor.etccooperative.org'],
     faucets: [],
     nativeCurrency: {
       name: 'Mordor Classic Testnet Ether',
@@ -4328,7 +4328,12 @@ export const chains: Chains = {
   570: {
     name: 'Rollux Mainnet',
     chain: 'SYS',
-    rpc: ['https://rpc.rollux.com', 'wss://rpc.rollux.com/wss'],
+    rpc: [
+      'https://rpc.rollux.com',
+      'https://rollux.public-rpc.com',
+      'wss://rpc.rollux.com/wss',
+      'https://rpc.ankr.com/rollux/${ANKR_API_KEY}'
+    ],
     faucets: ['https://rollux.id/faucetapp'],
     nativeCurrency: { name: 'Syscoin', symbol: 'SYS', decimals: 18 },
     infoURL: 'https://rollux.com',
@@ -6901,26 +6906,19 @@ export const chains: Chains = {
     networkId: 1657
   },
   1662: {
-    name: 'Horizen Yuma Testnet',
+    name: 'Horizen Yuma Testnet Deprecated',
     shortName: 'Yuma',
     chain: 'Yuma',
     icon: 'eon',
-    rpc: ['https://yuma-testnet.horizenlabs.io/ethv1'],
+    rpc: [],
     features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
-    faucets: ['https://yuma-testnet-faucet.horizen.io'],
+    faucets: [],
     nativeCurrency: { name: 'Testnet Zen', symbol: 'tZEN', decimals: 18 },
     infoURL: 'https://horizen.io/',
     chainId: 1662,
     networkId: 1662,
     slip44: 121,
-    explorers: [
-      {
-        name: 'Yuma Testnet Block Explorer',
-        url: 'https://yuma-explorer.horizen.io',
-        icon: 'eon',
-        standard: 'EIP3091'
-      }
-    ],
+    explorers: [],
     status: 'deprecated'
   },
   1663: {
@@ -9109,6 +9107,30 @@ export const chains: Chains = {
       }
     ]
   },
+  4001: {
+    name: 'Peperium Chain Testnet',
+    chain: 'PERIUM',
+    rpc: ['https://rpc-testnet.peperium.io'],
+    faucets: [],
+    nativeCurrency: {
+      name: 'Peperium Chain Testnet',
+      symbol: 'PERIUM',
+      decimals: 18
+    },
+    infoURL: 'https://peperium.io',
+    shortName: 'PERIUM',
+    chainId: 4001,
+    networkId: 4001,
+    icon: 'peperium',
+    explorers: [
+      {
+        name: 'Peperium Chain Explorer',
+        url: 'https://scan-testnet.peperium.io',
+        icon: 'peperium',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   4002: {
     name: 'Fantom Testnet',
     chain: 'FTM',
@@ -9886,6 +9908,32 @@ export const chains: Chains = {
         url: 'https://explorer.tresleches.finance',
         icon: 'treslechesexplorer',
         standard: 'EIP3091'
+      }
+    ]
+  },
+  6102: {
+    name: 'Cascadia Testnet',
+    chain: 'Cascadia',
+    rpc: ['https://testnet.cascadia.foundation'],
+    faucets: ['https://www.cascadia.foundation/faucet'],
+    nativeCurrency: { name: 'CC', symbol: 'tCC', decimals: 18 },
+    infoURL: 'https://www.cascadia.foundation',
+    shortName: 'cascadia',
+    chainId: 6102,
+    networkId: 6102,
+    icon: 'cascadia',
+    explorers: [
+      {
+        name: 'Cascadia EVM Explorer',
+        url: 'https://explorer.cascadia.foundation',
+        standard: 'none',
+        icon: 'cascadia'
+      },
+      {
+        name: 'Cascadia Cosmos Explorer',
+        url: 'https://validator.cascadia.foundation',
+        standard: 'none',
+        icon: 'cascadia'
       }
     ]
   },
@@ -11089,14 +11137,8 @@ export const chains: Chains = {
     icon: 'evmos',
     explorers: [
       {
-        name: 'Evmos EVM Explorer',
-        url: 'https://evm.evmos.dev',
-        standard: 'EIP3091',
-        icon: 'evmos'
-      },
-      {
-        name: 'Evmos Cosmos Explorer',
-        url: 'https://explorer.evmos.dev',
+        name: 'Evmos Explorer (Escan)',
+        url: 'https://testnet.escan.live',
         standard: 'none',
         icon: 'evmos'
       }
@@ -11105,7 +11147,7 @@ export const chains: Chains = {
   9001: {
     name: 'Evmos',
     chain: 'Evmos',
-    rpc: ['https://eth.bd.evmos.org:8545', 'https://evmos-evm.publicnode.com'],
+    rpc: ['https://evmos-evm.publicnode.com'],
     faucets: [],
     nativeCurrency: { name: 'Evmos', symbol: 'EVMOS', decimals: 18 },
     infoURL: 'https://evmos.org',
@@ -11115,14 +11157,8 @@ export const chains: Chains = {
     icon: 'evmos',
     explorers: [
       {
-        name: 'Evmos EVM Explorer (Escan)',
+        name: 'Evmos Explorer (Escan)',
         url: 'https://escan.live',
-        standard: 'none',
-        icon: 'evmos'
-      },
-      {
-        name: 'Evmos Cosmos Explorer (Mintscan)',
-        url: 'https://www.mintscan.io/evmos',
         standard: 'none',
         icon: 'evmos'
       }
@@ -15131,6 +15167,26 @@ export const chains: Chains = {
       }
     ]
   },
+  112358: {
+    name: 'Metachain One Mainnet',
+    chain: 'METAO',
+    icon: 'metao',
+    rpc: ['https://rpc.metachain.one', 'https://rpc2.metachain.one'],
+    faucets: [],
+    nativeCurrency: { name: 'Metao', symbol: 'METAO', decimals: 18 },
+    infoURL: 'https://metachain.one',
+    shortName: 'metao',
+    chainId: 112358,
+    networkId: 112358,
+    explorers: [
+      {
+        name: 'blockscout',
+        url: 'https://explorer.metachain.one',
+        icon: 'blockscout',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   123456: {
     name: 'ADIL Devnet',
     chain: 'ADIL',
@@ -17045,6 +17101,30 @@ export const chains: Chains = {
     shortName: 'qki',
     chainId: 20181205,
     networkId: 20181205
+  },
+  20201022: {
+    name: 'Pego Network',
+    chain: 'PEGO',
+    rpc: [
+      'https://pegorpc.com',
+      'https://node1.pegorpc.com',
+      'https://node2.pegorpc.com',
+      'https://node3.pegorpc.com'
+    ],
+    faucets: [],
+    nativeCurrency: { name: 'Pego Native Token', symbol: 'PG', decimals: 18 },
+    infoURL: 'https://pego.network',
+    shortName: 'pg',
+    chainId: 20201022,
+    networkId: 20201022,
+    icon: 'pego',
+    explorers: [
+      {
+        name: 'Pego Network Explorer',
+        url: 'https://scan.pego.network',
+        standard: 'EIP3091'
+      }
+    ]
   },
   22052002: {
     name: 'Excelon Mainnet',
