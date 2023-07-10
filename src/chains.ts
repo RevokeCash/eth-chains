@@ -3180,6 +3180,29 @@ export const chains: Chains = {
       }
     ]
   },
+  242: {
+    name: 'Plinga Mainnet',
+    chain: 'Plinga',
+    icon: 'plinga',
+    rpc: [
+      'https://rpcurl.mainnet.plgchain.com',
+      'https://rpcurl.plgchain.blockchain.evmnode.online',
+      'https://rpcurl.mainnet.plgchain.plinga.technology'
+    ],
+    faucets: [],
+    nativeCurrency: { name: 'Plinga', symbol: 'PLINGA', decimals: 18 },
+    infoURL: 'https://www.plinga.technology/',
+    shortName: 'plgchain',
+    chainId: 242,
+    networkId: 242,
+    explorers: [
+      {
+        name: 'plgscan',
+        url: 'https://www.plgscan.com',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   246: {
     name: 'Energy Web Chain',
     chain: 'Energy Web Chain',
@@ -4487,6 +4510,26 @@ export const chains: Chains = {
       }
     ]
   },
+  634: {
+    name: 'Avocado',
+    chain: 'Avocado',
+    rpc: ['https://rpc.avocado.instadapp.io'],
+    faucets: [],
+    nativeCurrency: { name: 'USDC', symbol: 'USDC', decimals: 18 },
+    infoURL: 'https://avocado.instadapp.io',
+    shortName: 'avocado',
+    chainId: 634,
+    networkId: 634,
+    icon: 'avocado',
+    explorers: [
+      {
+        name: 'avoscan',
+        url: 'https://avoscan.co',
+        icon: 'avocado',
+        standard: 'none'
+      }
+    ]
+  },
   647: {
     name: 'SX Network Testnet',
     chain: 'SX',
@@ -5716,6 +5759,26 @@ export const chains: Chains = {
       {
         name: 'explorer',
         url: 'https://explorer.evm.testnet.shimmer.network',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  1079: {
+    name: 'Mintara Testnet',
+    title: 'Mintara Testnet',
+    chain: 'Mintara',
+    icon: 'mintara',
+    rpc: ['https://subnets.avax.network/mintara/testnet/rpc'],
+    faucets: [],
+    nativeCurrency: { name: 'MINTARA', symbol: 'MNTR', decimals: 18 },
+    infoURL: 'https://playthink.co.jp',
+    shortName: 'mintara-testnet',
+    chainId: 1079,
+    networkId: 1079,
+    explorers: [
+      {
+        name: 'explorer',
+        url: 'https://subnets-test.avax.network/mintara',
         standard: 'EIP3091'
       }
     ]
@@ -8129,6 +8192,27 @@ export const chains: Chains = {
       }
     ]
   },
+  2199: {
+    name: 'Moonsama Network',
+    chain: 'MSN',
+    rpc: ['https://rpc.moonsama.com', 'wss://rpc.moonsama.com/ws'],
+    faucets: ['https://multiverse.moonsama.com/faucet'],
+    nativeCurrency: { name: 'Sama Token', symbol: 'SAMA', decimals: 18 },
+    infoURL: 'https://moonsama.com',
+    shortName: 'msn',
+    chainId: 2199,
+    networkId: 2199,
+    slip44: 2199,
+    icon: 'msn',
+    explorers: [
+      {
+        name: 'blockscout',
+        url: 'https://explorer.moonsama.com',
+        icon: 'blockscout',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   2203: {
     name: 'Bitcoin EVM',
     chain: 'Bitcoin EVM',
@@ -8901,6 +8985,44 @@ export const chains: Chains = {
       }
     ]
   },
+  3636: {
+    name: 'Botanix Testnet',
+    chain: 'BTC',
+    icon: 'botanix',
+    rpc: ['https://testnet-rpc.btxtestchain.com'],
+    faucets: ['https://faucet.btxtestchain.com'],
+    nativeCurrency: { name: 'Botanix', symbol: 'BTC', decimals: 18 },
+    infoURL: 'https://btxtestchain.com',
+    shortName: 'BTCt',
+    chainId: 3636,
+    networkId: 3636,
+    explorers: [
+      {
+        name: 'Botanix',
+        url: 'https://testnet.btxtestchain.com',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  3637: {
+    name: 'Botanix Mainnet',
+    chain: 'BTC',
+    icon: 'botanix',
+    rpc: ['https://rpc.btxtestchain.com'],
+    faucets: ['https://faucet.btxtestchain.com'],
+    nativeCurrency: { name: 'Botanix', symbol: 'BTC', decimals: 18 },
+    infoURL: 'https://btxtestchain.com',
+    shortName: 'BTCm',
+    chainId: 3637,
+    networkId: 3637,
+    explorers: [
+      {
+        name: 'Botanix',
+        url: 'https://btxtestchain.com',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   3666: {
     name: 'Jouleverse Mainnet',
     chain: 'Jouleverse',
@@ -9463,6 +9585,26 @@ export const chains: Chains = {
         name: 'testnet iotexscan',
         url: 'https://testnet.iotexscan.io',
         standard: 'EIP3091'
+      }
+    ]
+  },
+  4759: {
+    name: 'MEVerse Chain Testnet',
+    chain: 'MEVerse',
+    rpc: ['https://rpc.meversetestnet.io'],
+    faucets: [],
+    nativeCurrency: { name: 'MEVerse', symbol: 'MEV', decimals: 18 },
+    infoURL: 'https://www.meverse.sg',
+    shortName: 'TESTMEV',
+    chainId: 4759,
+    networkId: 4759,
+    icon: 'meverse',
+    explorers: [
+      {
+        name: 'MEVerse Chain Testnet Explorer',
+        url: 'https://testnet.meversescan.io',
+        standard: 'none',
+        icon: 'meverse'
       }
     ]
   },
@@ -10159,10 +10301,7 @@ export const chains: Chains = {
     name: 'ZetaChain Athens Testnet',
     chain: 'ZetaChain',
     icon: 'zetachain',
-    rpc: [
-      'https://zetachain-athens-evm.blockpi.network/v1/rpc/public',
-      'wss://zetachain-athens.blockpi.network/rpc/v1/public/websocket'
-    ],
+    rpc: ['https://api.athens2.zetachain.com/evm'],
     faucets: ['https://labs.zetachain.com/get-zeta'],
     nativeCurrency: { name: 'Zeta', symbol: 'aZETA', decimals: 18 },
     infoURL: 'https://zetachain.com/docs',
@@ -10271,6 +10410,26 @@ export const chains: Chains = {
         name: 'raba',
         url: 'https://x.raba.app/explorer',
         standard: 'none'
+      }
+    ]
+  },
+  7518: {
+    name: 'MEVerse Chain Mainnet',
+    chain: 'MEVerse',
+    rpc: ['https://rpc.meversemainnet.io'],
+    faucets: [],
+    nativeCurrency: { name: 'MEVerse', symbol: 'MEV', decimals: 18 },
+    infoURL: 'https://www.meverse.sg',
+    shortName: 'MEV',
+    chainId: 7518,
+    networkId: 7518,
+    icon: 'meverse',
+    explorers: [
+      {
+        name: 'MEVerse Chain Explorer',
+        url: 'https://www.meversescan.io',
+        standard: 'none',
+        icon: 'meverse'
       }
     ]
   },
@@ -16216,6 +16375,24 @@ export const chains: Chains = {
       }
     ]
   },
+  534849: {
+    name: 'Shinarium Beta',
+    chain: 'Shinarium',
+    rpc: ['https://rpc.shinarium.org'],
+    faucets: ['https://faucet.shinarium.org'],
+    nativeCurrency: { name: 'Shina Inu', symbol: 'SHI', decimals: 18 },
+    infoURL: 'https://shinarium.org',
+    shortName: 'shi',
+    chainId: 534849,
+    networkId: 534849,
+    explorers: [
+      {
+        name: 'shinascan',
+        url: 'https://shinascan.shinarium.org',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   535037: {
     name: 'BeanEco SmartChain',
     title: 'BESC Mainnet',
@@ -16261,6 +16438,25 @@ export const chains: Chains = {
       {
         name: 'brnkscan',
         url: 'https://brnkscan.bearnetwork.net',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  651940: {
+    name: 'ALL Mainnet',
+    chain: 'ALL',
+    icon: 'alltra',
+    rpc: ['https://mainnet-rpc.alltra.global'],
+    faucets: [],
+    nativeCurrency: { name: 'ALL', symbol: 'ALL', decimals: 18 },
+    infoURL: 'https://alltra.world',
+    shortName: 'ALL',
+    chainId: 651940,
+    networkId: 651940,
+    explorers: [
+      {
+        name: 'Alltra SmartChain Explorer',
+        url: 'https://alltra.global',
         standard: 'EIP3091'
       }
     ]
@@ -16683,6 +16879,27 @@ export const chains: Chains = {
     networkId: 3141592,
     slip44: 1,
     explorers: []
+  },
+  4000003: {
+    name: 'AltLayer Zero Gas Network',
+    chain: 'ETH',
+    rpc: ['https://zero.alt.technology'],
+    faucets: [],
+    nativeCurrency: { name: 'ZERO', symbol: 'ZERO', decimals: 18 },
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    infoURL: 'https://altlayer.io',
+    shortName: 'alt-zerogas',
+    chainId: 4000003,
+    networkId: 4000003,
+    icon: 'altlayer',
+    explorers: [
+      {
+        name: 'blockscout',
+        url: 'https://zero-explorer.alt.technology',
+        icon: 'blockscout',
+        standard: 'EIP3091'
+      }
+    ]
   },
   4281033: {
     name: 'Worlds Caldera',
