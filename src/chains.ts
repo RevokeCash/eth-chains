@@ -25,6 +25,12 @@ export const chains: Chains = {
         name: 'etherscan',
         url: 'https://etherscan.io',
         standard: 'EIP3091'
+      },
+      {
+        name: 'blockscout',
+        url: 'https://eth.blockscout.com',
+        icon: 'blockscout',
+        standard: 'EIP3091'
       }
     ]
   },
@@ -122,6 +128,12 @@ export const chains: Chains = {
         name: 'etherscan-goerli',
         url: 'https://goerli.etherscan.io',
         standard: 'EIP3091'
+      },
+      {
+        name: 'blockscout-goerli',
+        url: 'https://eth-goerli.blockscout.com',
+        icon: 'blockscout',
+        standard: 'EIP3091'
       }
     ]
   },
@@ -192,7 +204,7 @@ export const chains: Chains = {
   10: {
     name: 'OP Mainnet',
     chain: 'ETH',
-    rpc: ['https://mainnet.optimism.io/'],
+    rpc: ['https://mainnet.optimism.io', 'https://optimism.publicnode.com'],
     faucets: [],
     nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
     infoURL: 'https://optimism.io',
@@ -203,6 +215,12 @@ export const chains: Chains = {
       {
         name: 'etherscan',
         url: 'https://optimistic.etherscan.io',
+        standard: 'EIP3091'
+      },
+      {
+        name: 'blockscout',
+        url: 'https://optimism.blockscout.com',
+        icon: 'blockscout',
         standard: 'EIP3091'
       }
     ]
@@ -430,7 +448,7 @@ export const chains: Chains = {
     redFlags: ['reusedChainId']
   },
   25: {
-    name: 'Cronos Mainnet Beta',
+    name: 'Cronos Mainnet',
     chain: 'CRO',
     rpc: ['https://evm.cronos.org', 'https://cronos-evm.publicnode.com'],
     features: [{ name: 'EIP1559' }],
@@ -1408,7 +1426,7 @@ export const chains: Chains = {
   75: {
     name: 'Decimal Smart Chain Mainnet',
     chain: 'DSC',
-    rpc: ['https://node.decimalchain.com/web3'],
+    rpc: ['https://node.decimalchain.com/web3/'],
     faucets: [],
     nativeCurrency: { name: 'Decimal', symbol: 'DEL', decimals: 18 },
     features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
@@ -1456,7 +1474,8 @@ export const chains: Chains = {
       {
         name: 'blockscout',
         url: 'https://blockscout.com/poa/sokol',
-        standard: 'none'
+        icon: 'blockscout',
+        standard: 'EIP3091'
       }
     ]
   },
@@ -1516,22 +1535,32 @@ export const chains: Chains = {
     ]
   },
   81: {
-    name: 'Zenith Testnet (Vilnius)',
-    chain: 'Zenith',
-    rpc: ['https://vilnius.zenithchain.co/http'],
-    faucets: ['https://faucet.zenithchain.co/'],
-    nativeCurrency: { name: 'Vilnius', symbol: 'VIL', decimals: 18 },
-    infoURL: 'https://www.zenithchain.co/',
+    name: 'Japan Open Chain Mainnet',
+    chain: 'JOC',
+    rpc: [
+      'https://rpc-1.japanopenchain.org:8545',
+      'https://rpc-2.japanopenchain.org:8545'
+    ],
+    faucets: [],
+    nativeCurrency: {
+      name: 'Japan Open Chain Token',
+      symbol: 'JOC',
+      decimals: 18
+    },
+    infoURL: 'https://www.japanopenchain.org/',
+    shortName: 'joc',
     chainId: 81,
     networkId: 81,
-    shortName: 'VIL',
+    icon: 'joc',
     explorers: [
       {
-        name: 'vilnius scan',
-        url: 'https://vilnius.scan.zenithchain.co',
-        standard: 'EIP3091'
+        name: 'Block Explorer',
+        url: 'https://explorer.japanopenchain.org',
+        standard: 'EIP3091',
+        icon: 'joc'
       }
-    ]
+    ],
+    redFlags: ['reusedChainId']
   },
   82: {
     name: 'Meter Mainnet',
@@ -1886,7 +1915,8 @@ export const chains: Chains = {
       {
         name: 'blockscout',
         url: 'https://blockscout.com/poa/core',
-        standard: 'none'
+        icon: 'blockscout',
+        standard: 'EIP3091'
       }
     ]
   },
@@ -1924,7 +1954,7 @@ export const chains: Chains = {
       },
       {
         name: 'blockscout',
-        url: 'https://blockscout.com/xdai/mainnet',
+        url: 'https://gnosis.blockscout.com',
         icon: 'blockscout',
         standard: 'EIP3091'
       }
@@ -3015,6 +3045,25 @@ export const chains: Chains = {
     chainId: 208,
     networkId: 208
   },
+  210: {
+    name: 'Bitnet',
+    chain: 'BTN',
+    icon: 'bitnet',
+    rpc: ['https://rpc.bitnet.money', 'https://rpc.btnscan.com'],
+    faucets: [],
+    nativeCurrency: { name: 'Bitnet', symbol: 'BTN', decimals: 18 },
+    infoURL: 'https://bitnet.money',
+    shortName: 'BTN',
+    chainId: 210,
+    networkId: 210,
+    explorers: [
+      {
+        name: 'Bitnet Explorer',
+        url: 'https://btnscan.com',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   211: {
     name: 'Freight Trust Network',
     chain: 'EDI',
@@ -3842,6 +3891,12 @@ export const chains: Chains = {
         url: 'https://shiden.subscan.io',
         standard: 'none',
         icon: 'subscan'
+      },
+      {
+        name: 'blockscout',
+        url: 'https://blockscout.com/shiden',
+        icon: 'blockscout',
+        standard: 'EIP3091'
       }
     ]
   },
@@ -3942,7 +3997,11 @@ export const chains: Chains = {
     chainId: 369,
     networkId: 369,
     infoURL: 'https://pulsechain.com/',
-    rpc: ['https://rpc.pulsechain.com/', 'wss://rpc.pulsechain.com/'],
+    rpc: [
+      'https://rpc.pulsechain.com',
+      'wss://rpc.pulsechain.com',
+      'https://pulsechain.publicnode.com'
+    ],
     features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
     faucets: [],
     ens: { registry: '0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e' },
@@ -4083,13 +4142,24 @@ export const chains: Chains = {
   420: {
     name: 'Optimism Goerli Testnet',
     chain: 'ETH',
-    rpc: ['https://goerli.optimism.io/'],
+    rpc: [
+      'https://goerli.optimism.io',
+      'https://optimism-goerli.publicnode.com'
+    ],
     faucets: [],
     nativeCurrency: { name: 'Goerli Ether', symbol: 'ETH', decimals: 18 },
     infoURL: 'https://optimism.io',
     shortName: 'ogor',
     chainId: 420,
-    networkId: 420
+    networkId: 420,
+    explorers: [
+      {
+        name: 'blockscout',
+        url: 'https://optimism-goerli.blockscout.com',
+        icon: 'blockscout',
+        standard: 'EIP3091'
+      }
+    ]
   },
   424: {
     name: 'PGN (Public Goods Network)',
@@ -4134,6 +4204,30 @@ export const chains: Chains = {
         standard: 'none'
       }
     ]
+  },
+  443: {
+    name: 'Obscuro Testnet',
+    title: 'Obscuro Sepolia Rollup Testnet',
+    chainId: 443,
+    shortName: 'obs-testnet',
+    chain: 'ETH',
+    networkId: 443,
+    nativeCurrency: { name: 'Sepolia Ether', symbol: 'ETH', decimals: 18 },
+    rpc: ['https://testnet.obscu.ro'],
+    faucets: [],
+    infoURL: 'https://obscu.ro',
+    explorers: [
+      {
+        name: 'Obscuro Sepolia Rollup Explorer',
+        url: 'https://testnet.obscuroscan.io',
+        standard: 'none'
+      }
+    ],
+    parent: {
+      type: 'L2',
+      chain: 'eip155-5',
+      bridges: [{ url: 'https://bridge.obscu.ro' }]
+    }
   },
   444: {
     name: 'Frenchain Testnet',
@@ -4484,6 +4578,12 @@ export const chains: Chains = {
         url: 'https://astar.subscan.io',
         standard: 'none',
         icon: 'subscan'
+      },
+      {
+        name: 'blockscout',
+        url: 'https://blockscout.com/astar',
+        icon: 'blockscout',
+        standard: 'EIP3091'
       }
     ]
   },
@@ -4563,6 +4663,26 @@ export const chains: Chains = {
     shortName: 'mesh-chain-testnet',
     chainId: 600,
     networkId: 600
+  },
+  601: {
+    name: 'PEER Testnet',
+    chain: 'PEER',
+    rpc: ['http://testnet-polka-host-232813573.us-west-1.elb.amazonaws.com'],
+    faucets: ['https://testnet.peer.inc'],
+    nativeCurrency: { name: 'PEER Token', symbol: 'PEER', decimals: 18 },
+    infoURL: 'https://peer.inc',
+    shortName: 'PEER',
+    chainId: 601,
+    networkId: 601,
+    icon: 'peer',
+    explorers: [
+      {
+        name: 'PEER Explorer',
+        url: 'https://testnet.peer.inc',
+        standard: 'none',
+        icon: 'peer'
+      }
+    ]
   },
   614: {
     name: 'Graphlinq Blockchain Mainnet',
@@ -5433,7 +5553,8 @@ export const chains: Chains = {
     infoURL: 'https://pulsechain.com',
     rpc: [
       'https://rpc.v4.testnet.pulsechain.com/',
-      'wss://rpc.v4.testnet.pulsechain.com/'
+      'wss://rpc.v4.testnet.pulsechain.com/',
+      'https://pulsechain-testnet.publicnode.com'
     ],
     features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
     faucets: ['https://faucet.v4.testnet.pulsechain.com/'],
@@ -5936,6 +6057,26 @@ export const chains: Chains = {
       {
         name: 'explorer',
         url: 'https://subnets-test.avax.network/mintara',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  1080: {
+    name: 'Mintara Mainnet',
+    title: 'Mintara Mainnet',
+    chain: 'Mintara',
+    icon: 'mintara',
+    rpc: ['https://subnets.avax.network/mintara/mainnet/rpc'],
+    faucets: [],
+    nativeCurrency: { name: 'MINTARA', symbol: 'MNTR', decimals: 18 },
+    infoURL: 'https://playthink.co.jp',
+    shortName: 'mintara',
+    chainId: 1080,
+    networkId: 1080,
+    explorers: [
+      {
+        name: 'explorer',
+        url: 'https://subnets.avax.network/mintara',
         standard: 'EIP3091'
       }
     ]
@@ -7075,7 +7216,7 @@ export const chains: Chains = {
     title: 'Tenet Mainnet',
     chain: 'TENET',
     icon: 'tenet',
-    rpc: ['https://rpc.tenet.org'],
+    rpc: ['https://rpc.tenet.org', 'https://tenet-evm.publicnode.com'],
     faucets: [],
     nativeCurrency: { name: 'TENET', symbol: 'TENET', decimals: 18 },
     infoURL: 'https://tenet.org/',
@@ -8469,7 +8610,8 @@ export const chains: Chains = {
       'https://evm.kava.io',
       'https://evm2.kava.io',
       'wss://wevm.kava.io',
-      'wss://wevm2.kava.io'
+      'wss://wevm2.kava.io',
+      'https://kava-evm.publicnode.com'
     ],
     faucets: [],
     nativeCurrency: { name: 'Kava', symbol: 'KAVA', decimals: 18 },
@@ -9959,7 +10101,7 @@ export const chains: Chains = {
     name: 'Mantle',
     chain: 'ETH',
     icon: 'mantle',
-    rpc: ['https://rpc.mantle.xyz'],
+    rpc: ['https://rpc.mantle.xyz', 'https://mantle.publicnode.com'],
     faucets: [],
     nativeCurrency: { name: 'Mantle', symbol: 'MNT', decimals: 18 },
     infoURL: 'https://mantle.xyz',
@@ -10212,6 +10354,17 @@ export const chains: Chains = {
         standard: 'EIP3091'
       }
     ]
+  },
+  5616: {
+    name: 'Arcturus Chain Testnet',
+    chain: 'ARCTURUS',
+    rpc: ['http://185.99.196.3:8545'],
+    faucets: [],
+    nativeCurrency: { name: 'Test Arct', symbol: 'tARCT', decimals: 18 },
+    infoURL: 'https://arcturuschain.io',
+    shortName: 'ARCT',
+    chainId: 5616,
+    networkId: 5616
   },
   5700: {
     name: 'Syscoin Tanenbaum Testnet',
@@ -10519,7 +10672,10 @@ export const chains: Chains = {
   6688: {
     name: 'IRIShub',
     chain: 'IRIShub',
-    rpc: ['https://evmrpc.irishub-1.irisnet.org'],
+    rpc: [
+      'https://evmrpc.irishub-1.irisnet.org',
+      'https://iris-evm.publicnode.com'
+    ],
     features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
     faucets: [],
     nativeCurrency: { name: 'Eris', symbol: 'ERIS', decimals: 18 },
@@ -10631,6 +10787,12 @@ export const chains: Chains = {
         name: 'ZetaChain Athens Testnet Explorer',
         url: 'https://explorer.athens.zetachain.com',
         standard: 'none'
+      },
+      {
+        name: 'blockscout',
+        url: 'https://zetachain-athens-3.blockscout.com',
+        icon: 'blockscout',
+        standard: 'EIP3091'
       }
     ]
   },
@@ -11357,7 +11519,7 @@ export const chains: Chains = {
   8453: {
     name: 'Base',
     chain: 'ETH',
-    rpc: ['https://developer-access-mainnet.base.org/'],
+    rpc: ['https://mainnet.base.org/'],
     faucets: [],
     nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
     infoURL: 'https://base.org',
@@ -11370,7 +11532,8 @@ export const chains: Chains = {
       {
         name: 'basescout',
         url: 'https://base.blockscout.com',
-        standard: 'none'
+        icon: 'blockscout',
+        standard: 'EIP3091'
       }
     ],
     status: 'active'
@@ -11986,6 +12149,44 @@ export const chains: Chains = {
     networkId: 9792,
     explorers: []
   },
+  9977: {
+    name: 'Mind Smart Chain Testnet',
+    chain: 'tMIND',
+    icon: 'mindchain',
+    rpc: ['https://testnet-msc.mindchain.info/'],
+    faucets: ['https://faucet.mindchain.info/'],
+    nativeCurrency: { name: 'MIND Coin', symbol: 'tMIND', decimals: 18 },
+    infoURL: 'https://mindscan.info',
+    shortName: 'tMIND',
+    chainId: 9977,
+    networkId: 9977,
+    explorers: [
+      {
+        name: 'Mind Chain explorer',
+        url: 'https://testnet.mindscan.info',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  9996: {
+    name: 'Mind Smart Chain Mainnet',
+    chain: 'MIND',
+    icon: 'mindchain',
+    rpc: ['https://rpc-msc.mindchain.info/', 'https://seednode.mindchain.info'],
+    faucets: [],
+    nativeCurrency: { name: 'MIND Coin', symbol: 'MIND', decimals: 18 },
+    infoURL: 'https://mindscan.info',
+    shortName: 'MIND',
+    chainId: 9996,
+    networkId: 9996,
+    explorers: [
+      {
+        name: 'Mind Chain explorer',
+        url: 'https://mainnet.mindscan.info',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   9997: {
     name: 'AltLayer Testnet',
     chain: 'ETH',
@@ -12120,8 +12321,14 @@ export const chains: Chains = {
     networkId: 10200,
     explorers: [
       {
-        name: 'blockscout',
+        name: 'blockscout-chiadochain',
         url: 'https://blockscout.chiadochain.net',
+        icon: 'blockscout',
+        standard: 'EIP3091'
+      },
+      {
+        name: 'blockscout',
+        url: 'https://gnosis-chiado.blockscout.com',
         icon: 'blockscout',
         standard: 'EIP3091'
       }
@@ -12352,7 +12559,7 @@ export const chains: Chains = {
   11235: {
     name: 'Haqq Network',
     chain: 'Haqq',
-    rpc: ['https://rpc.eth.haqq.network'],
+    rpc: ['https://rpc.eth.haqq.network', 'https://haqq-evm.publicnode.com'],
     faucets: [],
     nativeCurrency: { name: 'Islamic Coin', symbol: 'ISLM', decimals: 18 },
     infoURL: 'https://islamiccoin.net',
@@ -12927,6 +13134,26 @@ export const chains: Chains = {
         name: 'Game Network',
         url: 'https://explorer.fod.games',
         standard: 'EIP3091'
+      }
+    ]
+  },
+  18122: {
+    name: 'Smart Trade Networks',
+    chain: 'Smart Trade Networks',
+    rpc: ['https://beefledgerwallet.com:8544'],
+    faucets: [],
+    nativeCurrency: { name: 'STN', symbol: 'STN', decimals: 18 },
+    infoURL: 'https://www.smarttradenetworks.com',
+    shortName: 'STN',
+    chainId: 18122,
+    networkId: 18122,
+    icon: 'stn',
+    explorers: [
+      {
+        name: 'stnscan',
+        url: 'https://stnscan.com',
+        icon: 'stn',
+        standard: 'none'
       }
     ]
   },
@@ -13737,7 +13964,8 @@ export const chains: Chains = {
     rpc: [
       'https://arbitrum-mainnet.infura.io/v3/${INFURA_API_KEY}',
       'https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}',
-      'https://arb1.arbitrum.io/rpc'
+      'https://arb1.arbitrum.io/rpc',
+      'https://arbitrum-one.publicnode.com'
     ],
     faucets: [],
     explorers: [
@@ -13766,7 +13994,10 @@ export const chains: Chains = {
     chain: 'ETH',
     networkId: 42170,
     nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
-    rpc: ['https://nova.arbitrum.io/rpc'],
+    rpc: [
+      'https://nova.arbitrum.io/rpc',
+      'https://arbitrum-nova.publicnode.com'
+    ],
     faucets: [],
     explorers: [
       {
@@ -13843,6 +14074,26 @@ export const chains: Chains = {
       {
         name: 'Oasis Emerald Explorer',
         url: 'https://explorer.emerald.oasis.dev',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  42888: {
+    name: 'Kinto Testnet',
+    title: 'Kinto Testnet',
+    chain: 'ETH',
+    rpc: ['http://35.215.120.180:8545'],
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    faucets: [],
+    nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    infoURL: 'https://ethereum.org',
+    shortName: 'keth',
+    chainId: 42888,
+    networkId: 42888,
+    explorers: [
+      {
+        name: 'kintoscan',
+        url: 'http://35.215.120.180:4000',
         standard: 'EIP3091'
       }
     ]
@@ -15187,7 +15438,8 @@ export const chains: Chains = {
       {
         name: 'basescout',
         url: 'https://base-goerli.blockscout.com',
-        standard: 'none'
+        icon: 'blockscout',
+        standard: 'EIP3091'
       }
     ]
   },
@@ -16218,7 +16470,7 @@ export const chains: Chains = {
   202020: {
     name: 'Decimal Smart Chain Testnet',
     chain: 'tDSC',
-    rpc: ['https://testnet-val.decimalchain.com/web3'],
+    rpc: ['https://testnet-val.decimalchain.com/web3/'],
     faucets: [],
     nativeCurrency: { name: 'Decimal', symbol: 'tDEL', decimals: 18 },
     features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
@@ -16296,6 +16548,48 @@ export const chains: Chains = {
         name: 'explorer masnet',
         url: 'https://explorer.masnet.ai',
         standard: 'EIP3091'
+      }
+    ]
+  },
+  221230: {
+    name: 'Reapchain Mainnet',
+    chain: 'REAP',
+    rpc: ['https://rpc.reapchain.org'],
+    faucets: [],
+    nativeCurrency: { name: 'Reap', symbol: 'REAP', decimals: 18 },
+    features: [],
+    infoURL: 'https://reapchain.com',
+    shortName: 'reap',
+    chainId: 221230,
+    networkId: 221230,
+    icon: 'reapchain',
+    explorers: [
+      {
+        name: 'Reapchain Dashboard',
+        url: 'https://dashboard.reapchain.org',
+        icon: 'reapchain',
+        standard: 'none'
+      }
+    ]
+  },
+  221231: {
+    name: 'Reapchain Testnet',
+    chain: 'REAP',
+    rpc: ['https://test-rpc.reapchain.org'],
+    faucets: ['http://faucet.reapchain.com'],
+    nativeCurrency: { name: 'test-Reap', symbol: 'tREAP', decimals: 18 },
+    features: [],
+    infoURL: 'https://reapchain.com',
+    shortName: 'reap-testnet',
+    chainId: 221231,
+    networkId: 221231,
+    icon: 'reapchain',
+    explorers: [
+      {
+        name: 'Reapchain Testnet Dashboard',
+        url: 'https://test-dashboard.reapchain.org',
+        icon: 'reapchain',
+        standard: 'none'
       }
     ]
   },
@@ -16768,7 +17062,10 @@ export const chains: Chains = {
       symbol: 'AGOR',
       decimals: 18
     },
-    rpc: ['https://goerli-rollup.arbitrum.io/rpc/'],
+    rpc: [
+      'https://goerli-rollup.arbitrum.io/rpc',
+      'https://arbitrum-goerli.publicnode.com'
+    ],
     faucets: [],
     infoURL: 'https://arbitrum.io/',
     explorers: [
@@ -17846,7 +18143,10 @@ export const chains: Chains = {
     rpc: [
       'https://rpc.sepolia.org',
       'https://rpc2.sepolia.org',
-      'https://rpc-sepolia.rockx.com'
+      'https://rpc-sepolia.rockx.com',
+      'https://rpc.sepolia.ethpandaops.io',
+      'https://sepolia.infura.io/v3/${INFURA_API_KEY}',
+      'wss://sepolia.infura.io/v3/${INFURA_API_KEY}'
     ],
     faucets: ['http://fauceth.komputing.org?chain=11155111&address=${ADDRESS}'],
     nativeCurrency: { name: 'Sepolia Ether', symbol: 'ETH', decimals: 18 },
@@ -18277,6 +18577,12 @@ export const chains: Chains = {
       {
         name: 'neonscan',
         url: 'https://devnet.neonscan.org',
+        standard: 'EIP3091'
+      },
+      {
+        name: 'blockscout',
+        url: 'https://neon-devnet.blockscout.com',
+        icon: 'blockscout',
         standard: 'EIP3091'
       }
     ]
