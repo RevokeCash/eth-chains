@@ -1093,7 +1093,8 @@ export const chains: Chains = {
       'https://rpc.syscoin.org',
       'https://rpc.ankr.com/syscoin/${ANKR_API_KEY}',
       'https://syscoin.public-rpc.com',
-      'wss://rpc.syscoin.org/wss'
+      'wss://rpc.syscoin.org/wss',
+      'https://syscoin-evm.publicnode.com'
     ],
     faucets: ['https://faucet.syscoin.org'],
     nativeCurrency: { name: 'Syscoin', symbol: 'SYS', decimals: 18 },
@@ -4588,9 +4589,13 @@ export const chains: Chains = {
     ]
   },
   595: {
-    name: 'Acala Mandala Testnet',
+    name: 'Acala Mandala Testnet TC9',
     chain: 'mACA',
-    rpc: [],
+    rpc: [
+      'https://eth-rpc-tc9.aca-staging.network',
+      'wss://eth-rpc-tc9.aca-staging.network'
+    ],
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
     faucets: [],
     nativeCurrency: {
       name: 'Acala Mandala Token',
@@ -4600,31 +4605,59 @@ export const chains: Chains = {
     infoURL: 'https://acala.network',
     shortName: 'maca',
     chainId: 595,
-    networkId: 595
+    networkId: 595,
+    slip44: 595,
+    explorers: [
+      {
+        name: 'blockscout',
+        url: 'https://blockscout.mandala.aca-staging.network',
+        standard: 'EIP3091'
+      }
+    ]
   },
   596: {
     name: 'Karura Network Testnet',
     chain: 'KAR',
-    rpc: [],
+    rpc: [
+      'https://eth-rpc-karura-testnet.aca-staging.network',
+      'wss://eth-rpc-karura-testnet.aca-staging.network'
+    ],
     faucets: [],
     nativeCurrency: { name: 'Karura Token', symbol: 'KAR', decimals: 18 },
     infoURL: 'https://karura.network',
     shortName: 'tkar',
     chainId: 596,
     networkId: 596,
-    slip44: 596
+    slip44: 596,
+    explorers: [
+      {
+        name: 'blockscout',
+        url: 'https://blockscout.karura-testnet.aca-staging.network',
+        standard: 'EIP3091'
+      }
+    ]
   },
   597: {
     name: 'Acala Network Testnet',
     chain: 'ACA',
-    rpc: [],
+    rpc: [
+      'https://eth-rpc-acala-testnet.aca-staging.network',
+      'wss://eth-rpc-acala-testnet.aca-staging.network'
+    ],
     faucets: [],
     nativeCurrency: { name: 'Acala Token', symbol: 'ACA', decimals: 18 },
     infoURL: 'https://acala.network',
     shortName: 'taca',
     chainId: 597,
     networkId: 597,
-    slip44: 597
+    slip44: 597,
+    explorers: [
+      {
+        name: 'blockscout',
+        url: 'https://blockscout.acala-dev.aca-dev.network',
+        standard: 'EIP3091'
+      }
+    ]
   },
   599: {
     name: 'Metis Goerli Testnet',
@@ -4784,14 +4817,25 @@ export const chains: Chains = {
   686: {
     name: 'Karura Network',
     chain: 'KAR',
-    rpc: [],
+    rpc: [
+      'https://eth-rpc-karura.aca-api.network',
+      'wss://eth-rpc-karura.aca-api.network'
+    ],
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
     faucets: [],
     nativeCurrency: { name: 'Karura Token', symbol: 'KAR', decimals: 18 },
-    infoURL: 'https://karura.network',
+    infoURL: 'https://acala.network/karura',
     shortName: 'kar',
     chainId: 686,
     networkId: 686,
-    slip44: 686
+    slip44: 686,
+    explorers: [
+      {
+        name: 'blockscout',
+        url: 'https://blockscout.karura.network',
+        standard: 'EIP3091'
+      }
+    ]
   },
   700: {
     name: 'Star Social Testnet',
@@ -5017,14 +5061,25 @@ export const chains: Chains = {
   787: {
     name: 'Acala Network',
     chain: 'ACA',
-    rpc: [],
+    rpc: [
+      'https://eth-rpc-acala.aca-api.network',
+      'wss://eth-rpc-acala.aca-api.network'
+    ],
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
     faucets: [],
     nativeCurrency: { name: 'Acala Token', symbol: 'ACA', decimals: 18 },
     infoURL: 'https://acala.network',
     shortName: 'aca',
     chainId: 787,
     networkId: 787,
-    slip44: 787
+    slip44: 787,
+    explorers: [
+      {
+        name: 'blockscout',
+        url: 'https://blockscout.acala.network',
+        standard: 'EIP3091'
+      }
+    ]
   },
   788: {
     name: 'Aerochain Testnet',
@@ -6969,6 +7024,26 @@ export const chains: Chains = {
       }
     ]
   },
+  1379: {
+    name: 'Kalar Chain',
+    chain: 'KLC',
+    icon: 'kalarchain',
+    rpc: ['https://rpc-api.kalarchain.tech'],
+    faucets: [],
+    nativeCurrency: { name: 'Kalar', symbol: 'KLC', decimals: 18 },
+    infoURL: 'https://kalarchain.tech',
+    shortName: 'KLC',
+    chainId: 1379,
+    networkId: 1379,
+    explorers: [
+      {
+        name: 'kalarscan',
+        url: 'https://explorer.kalarchain.tech',
+        icon: 'kalarscan',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   1388: {
     name: 'AmStar Mainnet',
     chain: 'AmStar',
@@ -7566,6 +7641,25 @@ export const chains: Chains = {
     shortName: 'tsf',
     chainId: 1856,
     networkId: 1
+  },
+  1875: {
+    name: 'WhiteBIT Network',
+    chain: 'WBT',
+    rpc: ['https://rpc.whitebit.network'],
+    faucets: [],
+    nativeCurrency: { name: 'WhiteBIT Coin', symbol: 'WBT', decimals: 18 },
+    infoURL: 'https://whitebit.network',
+    shortName: 'wbt',
+    chainId: 1875,
+    networkId: 1875,
+    icon: 'whitebit',
+    explorers: [
+      {
+        name: 'wb-explorer',
+        url: 'https://explorer.whitebit.network',
+        standard: 'EIP3091'
+      }
+    ]
   },
   1881: {
     name: 'Gitshock Cartenz Testnet',
@@ -10369,7 +10463,11 @@ export const chains: Chains = {
   5700: {
     name: 'Syscoin Tanenbaum Testnet',
     chain: 'SYS',
-    rpc: ['https://rpc.tanenbaum.io', 'wss://rpc.tanenbaum.io/wss'],
+    rpc: [
+      'https://rpc.tanenbaum.io',
+      'wss://rpc.tanenbaum.io/wss',
+      'https://syscoin-tanenbaum-evm.publicnode.com'
+    ],
     faucets: ['https://faucet.tanenbaum.io'],
     nativeCurrency: { name: 'Testnet Syscoin', symbol: 'tSYS', decimals: 18 },
     infoURL: 'https://syscoin.org',
@@ -10771,10 +10869,10 @@ export const chains: Chains = {
     ]
   },
   7001: {
-    name: 'ZetaChain Athens Testnet',
+    name: 'ZetaChain Athens 3 Testnet',
     chain: 'ZetaChain',
     icon: 'zetachain',
-    rpc: ['https://api.athens2.zetachain.com/evm'],
+    rpc: ['https://rpc.ankr.com/zetachain_evm_athens_testnet'],
     faucets: ['https://labs.zetachain.com/get-zeta'],
     nativeCurrency: { name: 'Zeta', symbol: 'aZETA', decimals: 18 },
     infoURL: 'https://zetachain.com/docs',
@@ -10785,7 +10883,7 @@ export const chains: Chains = {
     explorers: [
       {
         name: 'ZetaChain Athens Testnet Explorer',
-        url: 'https://explorer.athens.zetachain.com',
+        url: 'https://athens3.explorer.zetachain.com',
         standard: 'none'
       },
       {
@@ -12149,6 +12247,50 @@ export const chains: Chains = {
     networkId: 9792,
     explorers: []
   },
+  9818: {
+    name: 'IMPERIUM TESTNET',
+    chain: 'tIMP',
+    rpc: [
+      'https://data-aws-testnet.imperiumchain.com, https://data-aws2-testnet.imperiumchain.com'
+    ],
+    faucets: ['https://faucet.imperiumchain.com/'],
+    nativeCurrency: { name: 'tIMP', symbol: 'tIMP', decimals: 18 },
+    infoURL: 'https://imperiumchain.com',
+    shortName: 'tIMP',
+    chainId: 9818,
+    networkId: 9818,
+    icon: 'timp',
+    explorers: [
+      {
+        name: 'IMPERIUM TESTNET Explorer',
+        icon: 'timp',
+        url: 'https://network.impscan.com',
+        standard: 'none'
+      }
+    ]
+  },
+  9819: {
+    name: 'IMPERIUM MAINNET',
+    chain: 'IMP',
+    rpc: [
+      'https://data-aws-mainnet.imperiumchain.com, https://data-aws2-mainnet.imperiumchain.com'
+    ],
+    faucets: ['https://faucet.imperiumchain.com/'],
+    nativeCurrency: { name: 'IMP', symbol: 'IMP', decimals: 18 },
+    infoURL: 'https://imperiumchain.com',
+    shortName: 'IMP',
+    chainId: 9819,
+    networkId: 9819,
+    icon: 'imp',
+    explorers: [
+      {
+        name: 'IMPERIUM Explorer',
+        icon: 'imp',
+        url: 'https://impscan.com',
+        standard: 'none'
+      }
+    ]
+  },
   9977: {
     name: 'Mind Smart Chain Testnet',
     chain: 'tMIND',
@@ -12172,7 +12314,11 @@ export const chains: Chains = {
     name: 'Mind Smart Chain Mainnet',
     chain: 'MIND',
     icon: 'mindchain',
-    rpc: ['https://rpc-msc.mindchain.info/', 'https://seednode.mindchain.info'],
+    rpc: [
+      'https://rpc-msc.mindchain.info/',
+      'https://seednode.mindchain.info',
+      'wss://seednode.mindchain.info/ws'
+    ],
     faucets: [],
     nativeCurrency: { name: 'MIND Coin', symbol: 'MIND', decimals: 18 },
     infoURL: 'https://mindscan.info',
@@ -12830,21 +12976,21 @@ export const chains: Chains = {
     ]
   },
   13308: {
-    name: 'Credit Smartchain Mainnet',
+    name: 'Credit Smart Chain',
     chain: 'CREDIT',
-    rpc: ['https://mainnet-rpc.cscscan.io'],
+    rpc: ['https://rpc.creditsmartchain.com'],
     faucets: [],
     nativeCurrency: { name: 'Credit', symbol: 'CREDIT', decimals: 18 },
     features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
     infoURL: 'https://creditsmartchain.com',
     shortName: 'Credit',
     chainId: 13308,
-    networkId: 1,
+    networkId: 13308,
     icon: 'credit',
     explorers: [
       {
-        name: 'CSC Scan',
-        url: 'https://explorer.cscscan.io',
+        name: 'Creditscan',
+        url: 'https://scan.creditsmartchain.com',
         icon: 'credit',
         standard: 'EIP3091'
       }
@@ -17825,6 +17971,26 @@ export const chains: Chains = {
     slip44: 1,
     explorers: []
   },
+  3441005: {
+    name: 'Manta Pacific Testnet',
+    chain: 'Manta Pacific',
+    rpc: ['https://manta-testnet.calderachain.xyz/http'],
+    faucets: [],
+    nativeCurrency: { name: 'Manta', symbol: 'MANTA', decimals: 18 },
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    infoURL: 'https://manta-testnet.caldera.dev/',
+    shortName: 'manta',
+    chainId: 3441005,
+    networkId: 3441005,
+    icon: 'manta',
+    explorers: [
+      {
+        name: 'manta-testnet Explorer',
+        url: 'https://manta-testnet.calderaexplorer.xyz',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   4000003: {
     name: 'AltLayer Zero Gas Network',
     chain: 'ETH',
@@ -18968,10 +19134,19 @@ export const chains: Chains = {
   1666600000: {
     name: 'Harmony Mainnet Shard 0',
     chain: 'Harmony',
-    rpc: ['https://api.harmony.one', 'https://api.s0.t.hmny.io'],
-    faucets: ['https://free-online-app.com/faucet-for-eth-evm-chains/'],
+    rpc: [
+      'https://api.harmony.one',
+      'https://a.api.s0.t.hmny.io',
+      'https://api.s0.t.hmny.io',
+      'https://rpc.ankr.com/harmony',
+      'https://harmony.api.onfinality.io/public',
+      'https://1rpc.io/one'
+    ],
+    faucets: [],
     nativeCurrency: { name: 'ONE', symbol: 'ONE', decimals: 18 },
     infoURL: 'https://www.harmony.one/',
+    slip44: 1023,
+    ens: { registry: '0x4cd2563118e57b19179d8dc033f2b0c5b5d69ff5' },
     shortName: 'hmy-s0',
     chainId: 1666600000,
     networkId: 1666600000,
@@ -18990,9 +19165,17 @@ export const chains: Chains = {
     faucets: [],
     nativeCurrency: { name: 'ONE', symbol: 'ONE', decimals: 18 },
     infoURL: 'https://www.harmony.one/',
+    slip44: 1023,
     shortName: 'hmy-s1',
     chainId: 1666600001,
-    networkId: 1666600001
+    networkId: 1666600001,
+    explorers: [
+      {
+        name: 'Harmony Block Explorer',
+        url: 'https://explorer.harmony.one/blocks/shard/1',
+        standard: 'none'
+      }
+    ]
   },
   1666600002: {
     name: 'Harmony Mainnet Shard 2',
@@ -19001,9 +19184,17 @@ export const chains: Chains = {
     faucets: [],
     nativeCurrency: { name: 'ONE', symbol: 'ONE', decimals: 18 },
     infoURL: 'https://www.harmony.one/',
+    slip44: 1023,
     shortName: 'hmy-s2',
     chainId: 1666600002,
-    networkId: 1666600002
+    networkId: 1666600002,
+    explorers: [
+      {
+        name: 'Harmony Block Explorer',
+        url: 'https://explorer.harmony.one/blocks/shard/2',
+        standard: 'none'
+      }
+    ]
   },
   1666600003: {
     name: 'Harmony Mainnet Shard 3',
@@ -19012,9 +19203,17 @@ export const chains: Chains = {
     faucets: [],
     nativeCurrency: { name: 'ONE', symbol: 'ONE', decimals: 18 },
     infoURL: 'https://www.harmony.one/',
+    slip44: 1023,
     shortName: 'hmy-s3',
     chainId: 1666600003,
-    networkId: 1666600003
+    networkId: 1666600003,
+    explorers: [
+      {
+        name: 'Harmony Block Explorer',
+        url: 'https://explorer.harmony.one/blocks/shard/3',
+        standard: 'none'
+      }
+    ]
   },
   1666700000: {
     name: 'Harmony Testnet Shard 0',
@@ -19029,7 +19228,7 @@ export const chains: Chains = {
     explorers: [
       {
         name: 'Harmony Testnet Block Explorer',
-        url: 'https://explorer.pops.one',
+        url: 'https://explorer.testnet.harmony.one',
         standard: 'EIP3091'
       }
     ]
@@ -19038,52 +19237,43 @@ export const chains: Chains = {
     name: 'Harmony Testnet Shard 1',
     chain: 'Harmony',
     rpc: ['https://api.s1.b.hmny.io'],
-    faucets: [],
+    faucets: ['https://faucet.pops.one'],
     nativeCurrency: { name: 'ONE', symbol: 'ONE', decimals: 18 },
     infoURL: 'https://www.harmony.one/',
     shortName: 'hmy-b-s1',
     chainId: 1666700001,
-    networkId: 1666700001
-  },
-  1666700002: {
-    name: 'Harmony Testnet Shard 2',
-    chain: 'Harmony',
-    rpc: ['https://api.s2.b.hmny.io'],
-    faucets: [],
-    nativeCurrency: { name: 'ONE', symbol: 'ONE', decimals: 18 },
-    infoURL: 'https://www.harmony.one/',
-    shortName: 'hmy-b-s2',
-    chainId: 1666700002,
-    networkId: 1666700002
-  },
-  1666700003: {
-    name: 'Harmony Testnet Shard 3',
-    chain: 'Harmony',
-    rpc: ['https://api.s3.b.hmny.io'],
-    faucets: [],
-    nativeCurrency: { name: 'ONE', symbol: 'ONE', decimals: 18 },
-    infoURL: 'https://www.harmony.one/',
-    shortName: 'hmy-b-s3',
-    chainId: 1666700003,
-    networkId: 1666700003
+    networkId: 1666700001,
+    explorers: [
+      {
+        name: 'Harmony Block Explorer',
+        url: 'https://explorer.testnet.harmony.one',
+        standard: 'none'
+      }
+    ]
   },
   1666900000: {
     name: 'Harmony Devnet Shard 0',
     chain: 'Harmony',
-    rpc: ['https://api.s1.ps.hmny.io', 'https://api.s1.ps.hmny.io'],
-    faucets: ['http://dev.faucet.easynode.one/'],
+    rpc: ['https://api.s0.ps.hmny.io'],
+    faucets: [],
     nativeCurrency: { name: 'ONE', symbol: 'ONE', decimals: 18 },
     infoURL: 'https://www.harmony.one/',
     shortName: 'hmy-ps-s0',
     chainId: 1666900000,
     networkId: 1666900000,
-    explorers: [
-      {
-        name: 'Harmony Block Explorer',
-        url: 'https://explorer.ps.hmny.io',
-        standard: 'EIP3091'
-      }
-    ]
+    explorers: []
+  },
+  1666900001: {
+    name: 'Harmony Devnet Shard 1',
+    chain: 'Harmony',
+    rpc: ['https://api.s1.ps.hmny.io'],
+    faucets: [],
+    nativeCurrency: { name: 'ONE', symbol: 'ONE', decimals: 18 },
+    infoURL: 'https://www.harmony.one/',
+    shortName: 'hmy-ps-s1',
+    chainId: 1666900001,
+    networkId: 1666900001,
+    explorers: []
   },
   2021121117: {
     name: 'DataHopper',
