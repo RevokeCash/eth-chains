@@ -4462,6 +4462,24 @@ export const chains: Chains = {
       }
     ]
   },
+  542: {
+    name: 'PAWCHAIN Testnet',
+    chain: 'PAW',
+    rpc: ['https://pawchainx.com/'],
+    faucets: [],
+    nativeCurrency: { name: 'PAW', symbol: 'PAW', decimals: 18 },
+    infoURL: 'https://pawchainx.com/',
+    shortName: 'PAW',
+    chainId: 542,
+    networkId: 542,
+    explorers: [
+      {
+        name: 'PAWCHAIN Testnet',
+        url: 'https://pawscan.io',
+        standard: 'none'
+      }
+    ]
+  },
   555: {
     name: 'Vela1 Chain Mainnet',
     chain: 'VELA1',
@@ -5180,7 +5198,11 @@ export const chains: Chains = {
       'https://evm-dataseed3.meerscan.io',
       'https://evm-dataseed.meerscan.com',
       'https://evm-dataseed1.meerscan.com',
-      'https://evm-dataseed2.meerscan.com'
+      'https://evm-dataseed2.meerscan.com',
+      'https://qng.rpc.qitmeer.io',
+      'https://mainnet.meerlabs.com',
+      'https://rpc.dimai.ai',
+      'https://rpc.woowow.io'
     ],
     faucets: [],
     nativeCurrency: { name: 'Qitmeer', symbol: 'MEER', decimals: 18 },
@@ -5194,7 +5216,7 @@ export const chains: Chains = {
       {
         name: 'meerscan',
         icon: 'meer',
-        url: 'https://evm.meerscan.com',
+        url: 'https://qng.meerscan.io',
         standard: 'none'
       }
     ]
@@ -11437,8 +11459,12 @@ export const chains: Chains = {
   8131: {
     name: 'Qitmeer Network Testnet',
     chain: 'MEER',
-    rpc: [],
-    faucets: [],
+    rpc: [
+      'https://testnet-qng.rpc.qitmeer.io',
+      'https://testnet.meerlabs.com',
+      'https://meer.testnet.meerfans.club'
+    ],
+    faucets: ['https://faucet.qitmeer.io'],
     nativeCurrency: { name: 'Qitmeer Testnet', symbol: 'MEER-T', decimals: 18 },
     infoURL: 'https://github.com/Qitmeer',
     shortName: 'meertest',
@@ -11449,7 +11475,7 @@ export const chains: Chains = {
       {
         name: 'meerscan testnet',
         icon: 'meer',
-        url: 'https://testnet.qng.meerscan.io',
+        url: 'https://qng-testnet.meerscan.io',
         standard: 'none'
       }
     ]
@@ -12251,7 +12277,8 @@ export const chains: Chains = {
     name: 'IMPERIUM TESTNET',
     chain: 'tIMP',
     rpc: [
-      'https://data-aws-testnet.imperiumchain.com, https://data-aws2-testnet.imperiumchain.com'
+      'https://data-aws-testnet.imperiumchain.com',
+      'https://data-aws2-testnet.imperiumchain.com'
     ],
     faucets: ['https://faucet.imperiumchain.com/'],
     nativeCurrency: { name: 'tIMP', symbol: 'tIMP', decimals: 18 },
@@ -12273,7 +12300,8 @@ export const chains: Chains = {
     name: 'IMPERIUM MAINNET',
     chain: 'IMP',
     rpc: [
-      'https://data-aws-mainnet.imperiumchain.com, https://data-aws2-mainnet.imperiumchain.com'
+      'https://data-aws-mainnet.imperiumchain.com',
+      'https://data-aws2-mainnet.imperiumchain.com'
     ],
     faucets: ['https://faucet.imperiumchain.com/'],
     nativeCurrency: { name: 'IMP', symbol: 'IMP', decimals: 18 },
@@ -12421,6 +12449,31 @@ export const chains: Chains = {
         name: 'Gon Explorer',
         url: 'https://gonscan.com',
         standard: 'none'
+      }
+    ]
+  },
+  10081: {
+    name: 'Japan Open Chain Testnet',
+    chain: 'JOCT',
+    rpc: [
+      'https://rpc-1.testnet.japanopenchain.org:8545',
+      'https://rpc-2.testnet.japanopenchain.org:8545'
+    ],
+    faucets: [],
+    nativeCurrency: {
+      name: 'Japan Open Chain Testnet Token',
+      symbol: 'JOCT',
+      decimals: 18
+    },
+    infoURL: 'https://www.japanopenchain.org/',
+    shortName: 'joct',
+    chainId: 10081,
+    networkId: 10081,
+    explorers: [
+      {
+        name: 'Testnet Block Explorer',
+        url: 'https://explorer.testnet.japanopenchain.org',
+        standard: 'EIP3091'
       }
     ]
   },
@@ -12996,6 +13049,25 @@ export const chains: Chains = {
       }
     ]
   },
+  13337: {
+    name: 'Beam Testnet',
+    chain: 'BEAM',
+    rpc: ['https://subnets.avax.network/beam/testnet/rpc'],
+    features: [{ name: 'EIP1559' }],
+    faucets: [],
+    nativeCurrency: { name: 'Merit Circle', symbol: 'MC', decimals: 18 },
+    infoURL: 'https://gaming.meritcircle.io',
+    shortName: 'BEAM',
+    chainId: 13337,
+    networkId: 13337,
+    explorers: [
+      {
+        name: 'Beam Explorer',
+        url: 'https://subnets-test.avax.network/beam',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   13381: {
     name: 'Phoenix Mainnet',
     chain: 'Phoenix',
@@ -13052,6 +13124,18 @@ export const chains: Chains = {
         standard: 'EIP3091'
       }
     ]
+  },
+  14853: {
+    name: 'Humanode Testnet 5 Israfel',
+    chain: 'Humanode Testnet 5',
+    rpc: ['https://explorer-rpc-http.testnet5.stages.humanode.io'],
+    faucets: ['https://t.me/HumanodeTestnet5FaucetBot'],
+    nativeCurrency: { name: 'HMND', symbol: 'HMND', decimals: 18 },
+    infoURL: 'https://humanode.io',
+    shortName: 'hmnd-t5',
+    chainId: 14853,
+    networkId: 14853,
+    explorers: []
   },
   15551: {
     name: 'LoopNetwork Mainnet',
@@ -16721,7 +16805,7 @@ export const chains: Chains = {
   221231: {
     name: 'Reapchain Testnet',
     chain: 'REAP',
-    rpc: ['https://test-rpc.reapchain.org'],
+    rpc: ['https://test-eth.reapchain.org'],
     faucets: ['http://faucet.reapchain.com'],
     nativeCurrency: { name: 'test-Reap', symbol: 'tREAP', decimals: 18 },
     features: [],
@@ -17396,35 +17480,55 @@ export const chains: Chains = {
   534351: {
     name: 'Scroll Sepolia Testnet',
     chain: 'ETH',
-    status: 'incubating',
-    rpc: [],
+    status: 'active',
+    rpc: ['https://sepolia-rpc.scroll.io/'],
     faucets: [],
     nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
     infoURL: 'https://scroll.io',
     shortName: 'scr-sepolia',
     chainId: 534351,
     networkId: 534351,
-    explorers: [],
-    parent: { type: 'L2', chain: 'eip155-11155111', bridges: [] }
+    explorers: [
+      {
+        name: 'Scroll Sepolia Testnet Block Explorer',
+        url: 'https://sepolia-blockscout.scroll.io',
+        standard: 'EIP3091'
+      }
+    ],
+    parent: {
+      type: 'L2',
+      chain: 'eip155-11155111',
+      bridges: [{ url: 'https://scroll.io/bridge' }]
+    }
   },
   534352: {
     name: 'Scroll',
     chain: 'ETH',
     status: 'incubating',
-    rpc: [],
+    rpc: ['https://rpc.scroll.io'],
     faucets: [],
     nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
     infoURL: 'https://scroll.io',
     shortName: 'scr',
     chainId: 534352,
     networkId: 534352,
-    explorers: [],
-    parent: { type: 'L2', chain: 'eip155-1', bridges: [] }
+    explorers: [
+      {
+        name: 'Scroll Mainnet Block Explorer',
+        url: 'https://blockscout.scroll.io',
+        standard: 'EIP3091'
+      }
+    ],
+    parent: {
+      type: 'L2',
+      chain: 'eip155-1',
+      bridges: [{ url: 'https://scroll.io/bridge' }]
+    }
   },
   534353: {
     name: 'Scroll Alpha Testnet',
     chain: 'ETH',
-    status: 'active',
+    status: 'deprecated',
     rpc: ['https://alpha-rpc.scroll.io/l2'],
     faucets: [],
     nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
@@ -17435,12 +17539,7 @@ export const chains: Chains = {
     explorers: [
       {
         name: 'Scroll Alpha Testnet Block Explorer',
-        url: 'https://blockscout.scroll.io',
-        standard: 'EIP3091'
-      },
-      {
-        name: 'Scroll Alpha Testnet Block Explorer',
-        url: 'https://scrollscan.co',
+        url: 'https://alpha-blockscout.scroll.io',
         standard: 'EIP3091'
       }
     ],
@@ -17450,20 +17549,14 @@ export const chains: Chains = {
     name: 'Scroll Pre-Alpha Testnet',
     chain: 'ETH',
     status: 'deprecated',
-    rpc: ['https://prealpha-rpc.scroll.io/l2'],
-    faucets: ['https://prealpha.scroll.io/faucet'],
+    rpc: [],
+    faucets: [],
     nativeCurrency: { name: 'Ether', symbol: 'TSETH', decimals: 18 },
     infoURL: 'https://scroll.io',
     shortName: 'scr-prealpha',
     chainId: 534354,
     networkId: 534354,
-    explorers: [
-      {
-        name: 'Scroll L2 Block Explorer',
-        url: 'https://l2scan.scroll.io',
-        standard: 'EIP3091'
-      }
-    ]
+    explorers: []
   },
   534849: {
     name: 'Shinarium Beta',
@@ -17583,6 +17676,25 @@ export const chains: Chains = {
       {
         name: 'brnktestscan',
         url: 'https://brnktest-scan.bearnetwork.net',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  761412: {
+    name: 'Miexs Smartchain',
+    chain: 'MiexsSmartchain',
+    icon: 'miexs',
+    rpc: ['https://mainnet-rpc.miexs.com'],
+    faucets: [],
+    nativeCurrency: { name: 'Miexs Coin', symbol: 'MIX', decimals: 18 },
+    infoURL: 'https://miexs.com',
+    shortName: 'Miexs',
+    chainId: 761412,
+    networkId: 761412,
+    explorers: [
+      {
+        name: 'Miexs Smartchain Explorer',
+        url: 'https://miexs.com',
         standard: 'EIP3091'
       }
     ]
