@@ -2973,6 +2973,26 @@ export const chains: Chains = {
       }
     ]
   },
+  169: {
+    name: 'Manta Pacific Mainnet',
+    chain: 'Manta Pacific',
+    rpc: ['https://pacific-rpc.manta.network/http'],
+    faucets: [],
+    nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    infoURL: 'https://pacific-info.manta.network',
+    shortName: 'manta',
+    chainId: 169,
+    networkId: 169,
+    icon: 'manta',
+    explorers: [
+      {
+        name: 'manta-pacific Explorer',
+        url: 'https://pacific-explorer.manta.network',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   170: {
     name: 'HOO Smart Chain Testnet',
     chain: 'ETH',
@@ -3915,6 +3935,27 @@ export const chains: Chains = {
       }
     ]
   },
+  309: {
+    name: 'Wyzth Testnet',
+    chain: 'WYZ',
+    rpc: ['https://rpc-testnet3.wyzthchain.org/'],
+    faucets: [],
+    nativeCurrency: { name: 'Wyzth', symbol: 'WYZ', decimals: 18 },
+    features: [{ name: 'EIP155' }],
+    infoURL: 'https://wyzth.org/',
+    shortName: 'wyz',
+    chainId: 309,
+    networkId: 309,
+    icon: 'wyzth_icon',
+    explorers: [
+      {
+        name: 'wyzth',
+        url: 'http://24.199.108.65:4000',
+        icon: 'wyzth',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   311: {
     name: 'Omax Mainnet',
     chain: 'OMAX Chain',
@@ -4503,25 +4544,34 @@ export const chains: Chains = {
     }
   },
   444: {
-    name: 'Frenchain Testnet',
-    status: 'deprecated',
-    chain: 'tfren',
-    rpc: ['https://rpc-01tn.frenchain.app'],
+    name: 'Synapse Chain Testnet',
+    status: 'active',
+    chain: 'ETH',
+    rpc: ['https://sepolia.synapseprotocol.com'],
     faucets: [],
-    nativeCurrency: { name: 'tFREN', symbol: 'FtREN', decimals: 18 },
-    infoURL: 'https://frenchain.app',
-    shortName: 'tFREN',
+    nativeCurrency: { name: 'Sepolia ETH', symbol: 'ETH', decimals: 18 },
+    infoURL: 'https://synapseprotocol.com',
+    shortName: 'synapse-sepolia',
     chainId: 444,
     networkId: 444,
-    icon: 'fren',
+    redFlags: ['reusedChainId'],
     explorers: [
       {
-        name: 'blockscout',
-        url: 'https://testnet.frenscan.io',
-        icon: 'fren',
+        name: 'Synapse Chain Sepolia',
+        url: 'https://sepolia.synapsescan.com',
         standard: 'EIP3091'
       }
-    ]
+    ],
+    parent: {
+      type: 'L2',
+      chain: 'eip155-11155111',
+      bridges: [
+        {
+          url:
+            'https://docs.synapseprotocol.com/synapse-chain/using-synapse-chain/bridging-to-synapse-chain'
+        }
+      ]
+    }
   },
   456: {
     name: 'ARZIO Chain',
@@ -5939,6 +5989,25 @@ export const chains: Chains = {
       bridges: [{ url: 'https://bridge.mode.network/' }]
     }
   },
+  927: {
+    name: 'Yidark Chain Mainnet',
+    chain: 'Yidark',
+    icon: 'ydk',
+    rpc: ['https://rpc.yidark.io'],
+    faucets: [],
+    nativeCurrency: { name: 'Yidark', symbol: 'YDK', decimals: 18 },
+    infoURL: 'https://yidarkscan.com',
+    shortName: 'ydk',
+    chainId: 927,
+    networkId: 927,
+    explorers: [
+      {
+        name: 'Yidarkscan',
+        url: 'https://yidarkscan.com',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   940: {
     name: 'PulseChain Testnet',
     shortName: 'tpls',
@@ -6240,6 +6309,24 @@ export const chains: Chains = {
     shortName: 'Baobab',
     chainId: 1001,
     networkId: 1001
+  },
+  1003: {
+    name: 'Tectum Emission Token',
+    chain: 'TET',
+    rpc: ['https://rpc.softnote.com/'],
+    faucets: [],
+    nativeCurrency: { name: 'Tectum', symbol: 'TET', decimals: 8 },
+    infoURL: 'https://softnote.com',
+    shortName: 'tet',
+    chainId: 1003,
+    networkId: 1003,
+    explorers: [
+      {
+        name: 'Tectum explorer',
+        url: 'https://explorer.tectum.io',
+        standard: 'none'
+      }
+    ]
   },
   1004: {
     name: 'T-EKTA',
@@ -7370,39 +7457,45 @@ export const chains: Chains = {
     icon: 'alyx'
   },
   1319: {
-    name: 'Aitd Mainnet',
-    chain: 'AITD',
-    icon: 'aitd',
-    rpc: ['https://walletrpc.aitd.io', 'https://node.aitd.io'],
+    name: 'AIA Mainnet',
+    chain: 'AIA',
+    icon: 'aia',
+    rpc: [
+      'https://aia-dataseed1.aiachain.org',
+      'https://aia-dataseed2.aiachain.org',
+      'https://aia-dataseed3.aiachain.org',
+      'https://aia-dataseed4.aiachain.org'
+    ],
     faucets: [],
-    nativeCurrency: { name: 'AITD Mainnet', symbol: 'AITD', decimals: 18 },
-    infoURL: 'https://www.aitd.io/',
-    shortName: 'aitd',
+    nativeCurrency: { name: 'AIA Mainnet', symbol: 'AIA', decimals: 18 },
+    infoURL: 'https://aiachain.org/',
+    shortName: 'aia',
     chainId: 1319,
     networkId: 1319,
     explorers: [
       {
-        name: 'AITD Chain Explorer Mainnet',
-        url: 'https://aitd-explorer-new.aitd.io',
+        name: 'AIA Chain Explorer Mainnet',
+        url: 'https://aiascan.com',
         standard: 'EIP3091'
       }
     ]
   },
   1320: {
-    name: 'Aitd Testnet',
-    chain: 'AITD',
-    icon: 'aitd',
-    rpc: ['http://http-testnet.aitd.io'],
-    faucets: ['https://aitd-faucet-pre.aitdcoin.com/'],
-    nativeCurrency: { name: 'AITD Testnet', symbol: 'AITD', decimals: 18 },
-    infoURL: 'https://www.aitd.io/',
-    shortName: 'aitdtestnet',
+    name: 'AIA Testnet',
+    chain: 'AIA',
+    icon: 'aia',
+    rpc: ['https://aia-dataseed1-testnet.aiachain.org'],
+    faucets: ['https://aia-faucet-testnet.aiachain.org'],
+    nativeCurrency: { name: 'AIA Testnet', symbol: 'AIA', decimals: 18 },
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    infoURL: 'https://aiachain.org',
+    shortName: 'aiatestnet',
     chainId: 1320,
     networkId: 1320,
     explorers: [
       {
-        name: 'AITD Chain Explorer Testnet',
-        url: 'https://block-explorer-testnet.aitd.io',
+        name: 'AIA Chain Explorer Testnet',
+        url: 'https://testnet.aiascan.com',
         standard: 'EIP3091'
       }
     ]
@@ -13211,7 +13304,7 @@ export const chains: Chains = {
     ],
     faucets: ['https://faucet.mindchain.info/'],
     nativeCurrency: { name: 'MIND Coin', symbol: 'tMIND', decimals: 18 },
-    infoURL: 'https://mindscan.info',
+    infoURL: 'https://mindchain.info',
     shortName: 'tMIND',
     chainId: 9977,
     networkId: 9977,
@@ -13220,6 +13313,26 @@ export const chains: Chains = {
         name: 'Mind Chain explorer',
         url: 'https://testnet.mindscan.info',
         standard: 'EIP3091'
+      }
+    ]
+  },
+  9990: {
+    name: 'Agung Network',
+    chain: 'Agung',
+    icon: 'agung',
+    rpc: ['https://rpcpc1-qa.agung.peaq.network'],
+    faucets: [],
+    nativeCurrency: { name: 'Agung', symbol: 'AGNG', decimals: 18 },
+    infoURL: 'https://www.peaq.network',
+    shortName: 'AGNG',
+    chainId: 9990,
+    networkId: 9990,
+    explorers: [
+      {
+        name: 'Polkadot.js',
+        url:
+          'https://polkadot.js.org/apps/?rpc=wss://wsspc1-qa.agung.peaq.network#/explorer',
+        standard: 'none'
       }
     ]
   },
@@ -13234,7 +13347,7 @@ export const chains: Chains = {
     ],
     faucets: [],
     nativeCurrency: { name: 'MIND Coin', symbol: 'MIND', decimals: 18 },
-    infoURL: 'https://mindscan.info',
+    infoURL: 'https://mindchain.info',
     shortName: 'MIND',
     chainId: 9996,
     networkId: 9996,
@@ -14642,7 +14755,7 @@ export const chains: Chains = {
     icon: 'map',
     rpc: ['https://rpc.maplabs.io'],
     faucets: [],
-    nativeCurrency: { name: 'MAP', symbol: 'MAP', decimals: 18 },
+    nativeCurrency: { name: 'MAPO', symbol: 'MAPO', decimals: 18 },
     infoURL: 'https://maplabs.io',
     shortName: 'map',
     chainId: 22776,
@@ -19387,7 +19500,7 @@ export const chains: Chains = {
     nativeCurrency: { name: 'Manta', symbol: 'MANTA', decimals: 18 },
     features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
     infoURL: 'https://manta-testnet.caldera.dev/',
-    shortName: 'manta',
+    shortName: 'mantaTestnet',
     chainId: 3441005,
     networkId: 3441005,
     icon: 'manta',
