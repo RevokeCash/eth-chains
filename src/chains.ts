@@ -2010,7 +2010,9 @@ export const chains: Chains = {
       'https://gnosis.blockpi.network/v1/rpc/public',
       'https://web3endpoints.com/gnosischain-mainnet',
       'https://gnosis.oat.farm',
-      'wss://rpc.gnosischain.com/wss'
+      'wss://rpc.gnosischain.com/wss',
+      'https://gnosis.publicnode.com',
+      'wss://gnosis.publicnode.com'
     ],
     faucets: [
       'https://gnosisfaucet.com',
@@ -3280,7 +3282,11 @@ export const chains: Chains = {
   204: {
     name: 'opBNB Mainnet',
     chain: 'opBNB',
-    rpc: ['https://opbnb-mainnet-rpc.bnbchain.org'],
+    rpc: [
+      'https://opbnb-mainnet-rpc.bnbchain.org',
+      'https://opbnb.publicnode.com',
+      'wss://opbnb.publicnode.com'
+    ],
     faucets: [],
     nativeCurrency: {
       name: 'BNB Chain Native Token',
@@ -5359,6 +5365,26 @@ export const chains: Chains = {
       }
     ]
   },
+  710: {
+    name: 'Highbury',
+    chain: 'HIGHBURY',
+    rpc: ['https://highbury.furya.io', 'https://rest.furya.io'],
+    faucets: [],
+    nativeCurrency: { name: 'Fury', symbol: 'FURY', decimals: 18 },
+    infoURL: 'https://www.fury.black',
+    shortName: 'fury',
+    chainId: 710,
+    networkId: 710,
+    icon: 'highbury',
+    explorers: [
+      {
+        name: 'Furya EVM Explorer',
+        url: 'https://explorer.furya.io',
+        standard: 'EIP3091',
+        icon: 'highbury'
+      }
+    ]
+  },
   719: {
     name: 'Shibarium Beta',
     chain: 'Shibarium',
@@ -6137,6 +6163,26 @@ export const chains: Chains = {
     chainId: 956,
     networkId: 956
   },
+  963: {
+    name: 'BTC20 Smart Chain',
+    chain: 'BTC20',
+    rpc: ['https://rpc.bitcoincode.technology/'],
+    faucets: [],
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    nativeCurrency: { name: 'BTCC', symbol: 'BTCC', decimals: 18 },
+    infoURL: 'https://bitcoincode.technology',
+    shortName: 'btc20',
+    chainId: 963,
+    networkId: 963,
+    icon: 'btc20',
+    explorers: [
+      {
+        name: 'blockscout',
+        url: 'https://scan.bitcoincode.technology',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   970: {
     name: 'Oort Mainnet',
     chain: 'Oort Mainnet',
@@ -6368,7 +6414,8 @@ export const chains: Chains = {
       {
         name: 'Tectum explorer',
         url: 'https://explorer.tectum.io',
-        standard: 'none'
+        icon: 'Tettoken256',
+        standard: 'EIP3091'
       }
     ]
   },
@@ -6703,7 +6750,7 @@ export const chains: Chains = {
     shortName: 'humans',
     chainId: 1089,
     networkId: 1089,
-    icon: 'humans',
+    icon: 'humans-dark',
     explorers: [
       {
         name: 'explorer.guru',
@@ -7330,7 +7377,12 @@ export const chains: Chains = {
   1284: {
     name: 'Moonbeam',
     chain: 'MOON',
-    rpc: ['https://rpc.api.moonbeam.network', 'wss://wss.api.moonbeam.network'],
+    rpc: [
+      'https://rpc.api.moonbeam.network',
+      'wss://wss.api.moonbeam.network',
+      'https://moonbeam.publicnode.com',
+      'wss://moonbeam.publicnode.com'
+    ],
     faucets: [],
     nativeCurrency: { name: 'Glimmer', symbol: 'GLMR', decimals: 18 },
     infoURL: 'https://moonbeam.network/networks/moonbeam/',
@@ -7350,7 +7402,9 @@ export const chains: Chains = {
     chain: 'MOON',
     rpc: [
       'https://rpc.api.moonriver.moonbeam.network',
-      'wss://wss.api.moonriver.moonbeam.network'
+      'wss://wss.api.moonriver.moonbeam.network',
+      'https://moonriver.publicnode.com',
+      'wss://moonriver.publicnode.com'
     ],
     faucets: [],
     nativeCurrency: { name: 'Moonriver', symbol: 'MOVR', decimals: 18 },
@@ -9149,6 +9203,31 @@ export const chains: Chains = {
       }
     ]
   },
+  2049: {
+    name: 'Movo Smart Chain Mainnet',
+    chain: 'MOVO',
+    rpc: [
+      'https://msc-rpc.movoscan.com',
+      'https://msc-rpc.movochain.org',
+      'https://msc-rpc.movoswap.com'
+    ],
+    faucets: [],
+    nativeCurrency: { name: 'Movo Smart Chain', symbol: 'MOVO', decimals: 18 },
+    infoURL: 'https://movo.uk',
+    shortName: 'movo',
+    chainId: 2049,
+    networkId: 2049,
+    slip44: 2050,
+    icon: 'movo',
+    explorers: [
+      {
+        name: 'movoscan',
+        url: 'https://movoscan.com',
+        icon: 'movoscan',
+        standard: 'none'
+      }
+    ]
+  },
   2077: {
     name: 'Quokkacoin Mainnet',
     chain: 'Qkacoin',
@@ -9548,7 +9627,7 @@ export const chains: Chains = {
     ]
   },
   2241: {
-    name: 'The Krest Network',
+    name: 'Krest Network',
     chain: 'Krest',
     icon: 'krest',
     rpc: ['https://erpc-krest.peaq.network'],
@@ -10885,6 +10964,19 @@ export const chains: Chains = {
         standard: 'EIP3091'
       }
     ]
+  },
+  4139: {
+    name: 'Humans.ai Testnet',
+    chain: 'Humans Testnet',
+    rpc: ['https://evm-rpc.testnet.humans.zone'],
+    faucets: [],
+    nativeCurrency: { name: 'HEART', symbol: 'HEART', decimals: 18 },
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    infoURL: 'https://humans.ai',
+    shortName: 'humans_testnet',
+    chainId: 4139,
+    networkId: 4139,
+    icon: 'humans-dark'
   },
   4141: {
     name: 'Tipboxcoin Testnet',
@@ -12255,7 +12347,13 @@ export const chains: Chains = {
     rpc: [
       'https://canto.slingshot.finance',
       'https://canto.neobase.one',
-      'https://mainnode.plexnode.org:8545'
+      'https://mainnode.plexnode.org:8545',
+      'https://canto.gravitychain.io/',
+      'https://canto.evm.chandrastation.com/',
+      'https://jsonrpc.canto.nodestake.top/',
+      'https://canto.dexvaults.com/',
+      'wss://canto.gravitychain.io:8546',
+      'wss://canto.dexvaults.com/ws'
     ],
     faucets: [],
     nativeCurrency: { name: 'Canto', symbol: 'CANTO', decimals: 18 },
@@ -13459,6 +13557,11 @@ export const chains: Chains = {
         url:
           'https://polkadot.js.org/apps/?rpc=wss://wsspc1-qa.agung.peaq.network#/explorer',
         standard: 'none'
+      },
+      {
+        name: 'Subscan',
+        url: 'https://agung.subscan.io',
+        standard: 'none'
       }
     ]
   },
@@ -13634,7 +13737,9 @@ export const chains: Chains = {
     rpc: [
       'https://rpc.chiadochain.net',
       'https://rpc.chiado.gnosis.gateway.fm',
-      'wss://rpc.chiadochain.net/wss'
+      'wss://rpc.chiadochain.net/wss',
+      'https://gnosis-chiado.publicnode.com',
+      'wss://gnosis-chiado.publicnode.com'
     ],
     faucets: ['https://gnosisfaucet.com'],
     nativeCurrency: { name: 'Chiado xDAI', symbol: 'XDAI', decimals: 18 },
@@ -14549,7 +14654,11 @@ export const chains: Chains = {
   17000: {
     name: 'Holesky',
     chain: 'ETH',
-    rpc: ['https://rpc.holesky.ethpandaops.io'],
+    rpc: [
+      'https://rpc.holesky.ethpandaops.io',
+      'https://ethereum-holesky.publicnode.com',
+      'wss://ethereum-holesky.publicnode.com'
+    ],
     faucets: [
       'https://faucet.holesky.ethpandaops.io',
       'https://holesky-faucet.pk910.de'
@@ -14565,6 +14674,18 @@ export const chains: Chains = {
       {
         name: 'Holesky Explorer',
         url: 'https://holesky.beaconcha.in',
+        icon: 'ethereum',
+        standard: 'EIP3091'
+      },
+      {
+        name: 'otterscan-holesky',
+        url: 'https://holesky.otterscan.io',
+        icon: 'ethereum',
+        standard: 'EIP3091'
+      },
+      {
+        name: 'Holesky Etherscan',
+        url: 'https://holesky.etherscan.io',
         icon: 'ethereum',
         standard: 'EIP3091'
       }
@@ -15660,6 +15781,25 @@ export const chains: Chains = {
       {
         name: 'Oasis Emerald Explorer',
         url: 'https://explorer.emerald.oasis.dev',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  42801: {
+    name: 'Gesoten Verse Testnet',
+    chain: 'Gesoten Verse',
+    rpc: ['https://rpc.testnet.verse.gesoten.com/'],
+    faucets: [],
+    nativeCurrency: { name: 'OAS', symbol: 'OAS', decimals: 18 },
+    infoURL: 'https://gesoten.com/',
+    shortName: 'GST',
+    icon: 'gesoten',
+    chainId: 42801,
+    networkId: 42801,
+    explorers: [
+      {
+        name: 'Gesoten Verse Testnet Explorer',
+        url: 'https://explorer.testnet.verse.gesoten.com',
         standard: 'EIP3091'
       }
     ]
@@ -20107,7 +20247,9 @@ export const chains: Chains = {
       'https://sepolia.infura.io/v3/${INFURA_API_KEY}',
       'wss://sepolia.infura.io/v3/${INFURA_API_KEY}',
       'https://sepolia.gateway.tenderly.co',
-      'wss://sepolia.gateway.tenderly.co'
+      'wss://sepolia.gateway.tenderly.co',
+      'https://ethereum-sepolia.publicnode.com',
+      'wss://ethereum-sepolia.publicnode.com'
     ],
     faucets: ['http://fauceth.komputing.org?chain=11155111&address=${ADDRESS}'],
     nativeCurrency: { name: 'Sepolia Ether', symbol: 'ETH', decimals: 18 },
