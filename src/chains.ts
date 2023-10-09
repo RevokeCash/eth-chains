@@ -12,7 +12,8 @@ export const chains: Chains = {
       'https://ethereum.publicnode.com',
       'wss://ethereum.publicnode.com',
       'https://mainnet.gateway.tenderly.co',
-      'wss://mainnet.gateway.tenderly.co'
+      'wss://mainnet.gateway.tenderly.co',
+      'https://rpc.blocknative.com/boost'
     ],
     features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
     faucets: [],
@@ -286,11 +287,12 @@ export const chains: Chains = {
     icon: 'flare',
     rpc: [
       'https://flare-api.flare.network/ext/C/rpc',
+      'https://flare.public-rpc.com',
       'https://rpc.ftso.au/flare'
     ],
     faucets: [],
     nativeCurrency: { name: 'Flare', symbol: 'FLR', decimals: 18 },
-    infoURL: 'https://flare.xyz',
+    infoURL: 'https://flare.network',
     shortName: 'flr',
     chainId: 14,
     networkId: 14,
@@ -298,6 +300,11 @@ export const chains: Chains = {
       {
         name: 'blockscout',
         url: 'https://flare-explorer.flare.network',
+        standard: 'EIP3091'
+      },
+      {
+        name: 'flarescan',
+        url: 'https://flarescan.com',
         standard: 'EIP3091'
       }
     ]
@@ -3802,6 +3809,26 @@ export const chains: Chains = {
       bridges: [{ url: 'https://gateway.boba.network' }]
     }
   },
+  291: {
+    name: 'Orderly Mainnet',
+    chain: 'ETH',
+    rpc: ['http://rpc.orderly.network'],
+    faucets: [],
+    nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    infoURL: 'www.orderly.network',
+    shortName: 'orderly',
+    chainId: 291,
+    networkId: 291,
+    icon: 'orderly',
+    explorers: [
+      {
+        name: 'orderlyscout',
+        url: 'https://explorer.orderly.network',
+        icon: 'blockscout',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   295: {
     name: 'Hedera Mainnet',
     chain: 'Hedera',
@@ -5822,7 +5849,7 @@ export const chains: Chains = {
     ],
     faucets: [],
     nativeCurrency: { name: 'FST', symbol: 'FST', decimals: 18 },
-    infoURL: 'https://fantasia.technology/',
+    infoURL: 'https://fantasiachain.com/',
     shortName: 'FSCMainnet',
     chainId: 868,
     networkId: 868,
@@ -6398,7 +6425,14 @@ export const chains: Chains = {
     infoURL: 'https://www.klaytn.com/',
     shortName: 'Baobab',
     chainId: 1001,
-    networkId: 1001
+    networkId: 1001,
+    explorers: [
+      {
+        name: 'klaytnscope',
+        url: 'https://scope.klaytn.com',
+        standard: 'EIP3091'
+      }
+    ]
   },
   1003: {
     name: 'Tectum Emission Token',
@@ -9206,6 +9240,7 @@ export const chains: Chains = {
   2049: {
     name: 'Movo Smart Chain Mainnet',
     chain: 'MOVO',
+    icon: 'movo',
     rpc: [
       'https://msc-rpc.movoscan.com',
       'https://msc-rpc.movochain.org',
@@ -9218,7 +9253,6 @@ export const chains: Chains = {
     chainId: 2049,
     networkId: 2049,
     slip44: 2050,
-    icon: 'movo',
     explorers: [
       {
         name: 'movoscan',
@@ -14691,6 +14725,25 @@ export const chains: Chains = {
       }
     ]
   },
+  17171: {
+    name: 'G8Chain Mainnet',
+    chain: 'G8C',
+    icon: 'G8Chain',
+    rpc: ['https://mainnet-rpc.oneg8.network'],
+    faucets: ['https://faucet.oneg8.network'],
+    nativeCurrency: { name: 'G8Chain', symbol: 'G8C', decimals: 18 },
+    infoURL: 'https://oneg8.one',
+    shortName: 'G8Cm',
+    chainId: 17171,
+    networkId: 17171,
+    explorers: [
+      {
+        name: 'G8Chain',
+        url: 'https://mainnet.oneg8.network',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   17180: {
     name: 'Palette Chain Testnet',
     chain: 'PLT',
@@ -14798,6 +14851,25 @@ export const chains: Chains = {
       {
         name: 'explorer-proofofmemes',
         url: 'https://memescan.io',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  18181: {
+    name: 'G8Chain Testnet',
+    chain: 'G8C',
+    icon: 'G8Chain',
+    rpc: ['https://testnet-rpc.oneg8.network'],
+    faucets: ['https://faucet.oneg8.network'],
+    nativeCurrency: { name: 'G8Coin', symbol: 'G8C', decimals: 18 },
+    infoURL: 'https://oneg8.one',
+    shortName: 'G8Ct',
+    chainId: 18181,
+    networkId: 18181,
+    explorers: [
+      {
+        name: 'G8Chain',
+        url: 'https://testnet.oneg8.network',
         standard: 'EIP3091'
       }
     ]
@@ -15453,6 +15525,26 @@ export const chains: Chains = {
       }
     ]
   },
+  32990: {
+    name: 'Zilliqa EVM Isolated Server',
+    chain: 'ZIL',
+    rpc: ['https://zilliqa-isolated-server.zilliqa.com/'],
+    faucets: ['https://dev-wallet.zilliqa.com/faucet?network=isolated_server'],
+    nativeCurrency: { name: 'Zilliqa', symbol: 'ZIL', decimals: 18 },
+    infoURL: 'https://www.zilliqa.com/',
+    shortName: 'zil-isolated-server',
+    chainId: 32990,
+    networkId: 32990,
+    icon: 'zilliqa',
+    explorers: [
+      {
+        name: 'Zilliqa EVM Isolated Server Explorer',
+        url:
+          'https://devex.zilliqa.com/?network=https://zilliqa-isolated-server.zilliqa.com',
+        standard: 'none'
+      }
+    ]
+  },
   33101: {
     name: 'Zilliqa EVM Testnet',
     chain: 'ZIL',
@@ -15488,6 +15580,44 @@ export const chains: Chains = {
         name: 'avescan',
         url: 'https://avescan.io',
         icon: 'avescan',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  33385: {
+    name: 'Zilliqa EVM Devnet',
+    chain: 'ZIL',
+    rpc: ['https://api.devnet.zilliqa.com/'],
+    faucets: ['https://faucet.devnet.zilliqa.com/'],
+    nativeCurrency: { name: 'Zilliqa', symbol: 'ZIL', decimals: 18 },
+    infoURL: 'https://www.zilliqa.com/',
+    shortName: 'zil-devnet',
+    chainId: 33385,
+    networkId: 33385,
+    icon: 'zilliqa',
+    explorers: [
+      {
+        name: 'Zilliqa EVM Devnet Explorer',
+        url: 'https://otterscan.devnet.zilliqa.com',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  33469: {
+    name: 'Zilliqa 2 EVM Devnet',
+    chain: 'ZIL',
+    rpc: ['https://api.zq2-devnet.zilstg.dev'],
+    faucets: ['https://faucet.zq2-devnet.zilstg.dev'],
+    nativeCurrency: { name: 'Zilliqa', symbol: 'ZIL', decimals: 18 },
+    infoURL: 'https://www.zilliqa.com/',
+    shortName: 'zq2-devnet',
+    chainId: 33469,
+    networkId: 33469,
+    icon: 'zilliqa',
+    explorers: [
+      {
+        name: 'Zilliqa 2 EVM Devnet Explorer',
+        url: 'https://explorer.zq2-devnet.zilstg.dev',
         standard: 'EIP3091'
       }
     ]
@@ -16431,6 +16561,12 @@ export const chains: Chains = {
       {
         name: 'Blockscout',
         url: 'https://explorer.linea.build',
+        standard: 'EIP3091',
+        icon: 'linea'
+      },
+      {
+        name: 'L2scan',
+        url: 'https://linea.l2scan.co',
         standard: 'EIP3091',
         icon: 'linea'
       }
@@ -19027,8 +19163,8 @@ export const chains: Chains = {
     infoURL: 'https://arbitrum.io/',
     explorers: [
       {
-        name: 'Arbitrum Goerli Rollup Explorer',
-        url: 'https://goerli-rollup-explorer.arbitrum.io',
+        name: 'Arbitrum Goerli Arbiscan',
+        url: 'https://goerli.arbiscan.io',
         standard: 'EIP3091'
       }
     ],
@@ -19275,8 +19411,13 @@ export const chains: Chains = {
     networkId: 534352,
     explorers: [
       {
-        name: 'Scroll Mainnet Block Explorer',
+        name: 'Blockscout',
         url: 'https://blockscout.scroll.io',
+        standard: 'EIP3091'
+      },
+      {
+        name: 'Scrollscan',
+        url: 'https://scrollscan.com',
         standard: 'EIP3091'
       }
     ],
@@ -19482,6 +19623,25 @@ export const chains: Chains = {
         name: 'Miexs Smartchain Explorer',
         url: 'https://miexs.com',
         standard: 'EIP3091'
+      }
+    ]
+  },
+  776877: {
+    name: 'Modularium',
+    chain: 'EVMCC',
+    rpc: ['https://fraa-dancebox-3035-rpc.a.dancebox.tanssi.network'],
+    faucets: [],
+    nativeCurrency: { name: 'Modularium', symbol: 'MDM', decimals: 18 },
+    infoURL: 'https://www.rmrk.app/',
+    shortName: 'mdlrm',
+    chainId: 776877,
+    networkId: 776877,
+    explorers: [
+      {
+        name: 'Tanssi Explorer',
+        url:
+          'https://tanssi-evmexplorer.netlify.app/?rpcUrl=https://fraa-dancebox-3035-rpc.a.dancebox.tanssi.network',
+        standard: 'none'
       }
     ]
   },
