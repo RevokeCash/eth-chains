@@ -13,7 +13,9 @@ export const chains: Chains = {
       'wss://ethereum.publicnode.com',
       'https://mainnet.gateway.tenderly.co',
       'wss://mainnet.gateway.tenderly.co',
-      'https://rpc.blocknative.com/boost'
+      'https://rpc.blocknative.com/boost',
+      'https://rpc.flashbots.net',
+      'https://rpc.flashbots.net/fast'
     ],
     features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
     faucets: [],
@@ -666,16 +668,24 @@ export const chains: Chains = {
     networkId: 33
   },
   34: {
-    name: 'Dithereum Testnet',
-    chain: 'DTH',
-    icon: 'dithereum',
-    rpc: ['https://node-testnet.dithereum.io'],
-    faucets: ['https://faucet.dithereum.org'],
-    nativeCurrency: { name: 'Dither', symbol: 'DTH', decimals: 18 },
-    infoURL: 'https://dithereum.org',
-    shortName: 'dth',
+    name: 'SecureChain Mainnet',
+    chain: 'SCAI',
+    icon: 'SCAIIcon',
+    rpc: ['https://mainnet-rpc.scai.network'],
+    faucets: ['https://faucet.securechain.ai'],
+    nativeCurrency: { name: 'SecureChain', symbol: 'SCAI', decimals: 18 },
+    infoURL: 'https://securechain.ai',
+    shortName: 'scai',
     chainId: 34,
-    networkId: 34
+    networkId: 34,
+    redFlags: ['reusedChainId'],
+    explorers: [
+      {
+        name: 'SecureChain Mainnet',
+        url: 'https://explorer.securechain.ai',
+        standard: 'EIP3091'
+      }
+    ]
   },
   35: {
     name: 'TBWG Chain',
@@ -3317,9 +3327,14 @@ export const chains: Chains = {
   },
   204: {
     name: 'opBNB Mainnet',
+    icon: 'bnbchain',
     chain: 'opBNB',
     rpc: [
       'https://opbnb-mainnet-rpc.bnbchain.org',
+      'https://opbnb-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3',
+      'wss://opbnb-mainnet.nodereal.io/ws/v1/64a9df0874fb4a93b9d0a3849de012d3',
+      'https://opbnb-mainnet.nodereal.io/v1/e9a36765eb8a40b9bd12e680a1fd2bc5',
+      'wss://opbnb-mainnet.nodereal.io/ws/v1/e9a36765eb8a40b9bd12e680a1fd2bc5',
       'https://opbnb.publicnode.com',
       'wss://opbnb.publicnode.com'
     ],
@@ -3339,6 +3354,26 @@ export const chains: Chains = {
         name: 'opbnbscan',
         url: 'https://mainnet.opbnbscan.com',
         standard: 'EIP3091'
+      }
+    ]
+  },
+  207: {
+    name: 'VinuChain Network',
+    chain: 'VinuChain',
+    icon: 'vitainu',
+    rpc: ['https://vinuchain-rpc.com'],
+    faucets: [],
+    nativeCurrency: { name: 'VinuChain', symbol: 'VС', decimals: 18 },
+    infoURL: 'https://vitainu.org',
+    shortName: 'VC',
+    chainId: 207,
+    networkId: 207,
+    explorers: [
+      {
+        name: 'VinuScan',
+        url: 'https://vinuscan.com',
+        icon: 'vinuscan',
+        standard: 'none'
       }
     ]
   },
@@ -10301,7 +10336,7 @@ export const chains: Chains = {
   },
   3068: {
     name: 'Bifrost Mainnet',
-    title: 'The Bifrost Mainnet network',
+    title: 'Bifrost Network Mainnet',
     chain: 'BFC',
     rpc: [
       'https://public-01.mainnet.thebifrost.io/rpc',
@@ -10335,6 +10370,21 @@ export const chains: Chains = {
     shortName: 'Immu3',
     chainId: 3100,
     networkId: 3100,
+    explorers: []
+  },
+  3102: {
+    name: 'Vulture EVM Beta',
+    chain: 'VFIEVMCC',
+    rpc: [
+      'https://fraa-dancebox-3050-rpc.a.dancebox.tanssi.network',
+      'wss://fraa-dancebox-3050-rpc.a.dancebox.tanssi.network'
+    ],
+    faucets: [],
+    nativeCurrency: { name: 'VFI', symbol: 'VFI', decimals: 18 },
+    infoURL: 'https://vulture.finance',
+    shortName: 'VFI',
+    chainId: 3102,
+    networkId: 3102,
     explorers: []
   },
   3141: {
@@ -11742,7 +11792,14 @@ export const chains: Chains = {
   5611: {
     name: 'opBNB Testnet',
     chain: 'opBNB',
-    rpc: ['https://opbnb-testnet-rpc.bnbchain.org'],
+    icon: 'bnbchain',
+    rpc: [
+      'https://opbnb-testnet-rpc.bnbchain.org',
+      'https://opbnb-testnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3',
+      'wss://opbnb-testnet.nodereal.io/ws/v1/64a9df0874fb4a93b9d0a3849de012d3',
+      'https://opbnb-testnet.nodereal.io/v1/e9a36765eb8a40b9bd12e680a1fd2bc5',
+      'wss://opbnb-testnet.nodereal.io/ws/v1/e9a36765eb8a40b9bd12e680a1fd2bc5'
+    ],
     faucets: ['https://testnet.bnbchain.org/faucet-smart'],
     nativeCurrency: {
       name: 'BNB Chain Native Token',
@@ -12208,7 +12265,7 @@ export const chains: Chains = {
     icon: 'zetachain',
     rpc: ['https://rpc.ankr.com/zetachain_evm_athens_testnet'],
     faucets: ['https://labs.zetachain.com/get-zeta'],
-    nativeCurrency: { name: 'Zeta', symbol: 'aZETA', decimals: 18 },
+    nativeCurrency: { name: 'Zeta', symbol: 'ZETA', decimals: 18 },
     infoURL: 'https://zetachain.com/docs',
     shortName: 'zetachain-athens',
     chainId: 7001,
@@ -13340,7 +13397,7 @@ export const chains: Chains = {
   9000: {
     name: 'Evmos Testnet',
     chain: 'Evmos',
-    rpc: ['https://eth.bd.evmos.dev:8545'],
+    rpc: ['https://evmos-testnet.lava.build', 'https://eth.bd.evmos.dev:8545'],
     faucets: ['https://faucet.evmos.dev'],
     nativeCurrency: { name: 'test-Evmos', symbol: 'tEVMOS', decimals: 18 },
     infoURL: 'https://evmos.org',
@@ -13360,7 +13417,12 @@ export const chains: Chains = {
   9001: {
     name: 'Evmos',
     chain: 'Evmos',
-    rpc: ['https://evmos-evm.publicnode.com', 'wss://evmos-evm.publicnode.com'],
+    rpc: [
+      'https://evmos.lava.build',
+      'wss://evmos.lava.build/websocket',
+      'https://evmos-evm.publicnode.com',
+      'wss://evmos-evm.publicnode.com'
+    ],
     faucets: [],
     nativeCurrency: { name: 'Evmos', symbol: 'EVMOS', decimals: 18 },
     infoURL: 'https://evmos.org',
@@ -16307,7 +16369,7 @@ export const chains: Chains = {
   },
   49088: {
     name: 'Bifrost Testnet',
-    title: 'The Bifrost Testnet network',
+    title: 'Bifrost Network Testnet',
     chain: 'BFC',
     rpc: [
       'https://public-01.testnet.thebifrost.io/rpc',
@@ -18561,6 +18623,24 @@ export const chains: Chains = {
       }
     ]
   },
+  188710: {
+    name: 'Bitica Chain Mainnet',
+    chain: 'BDCC',
+    rpc: ['https://mainnet-rpc.biticablockchain.com/'],
+    faucets: [],
+    nativeCurrency: { name: 'Bitica Coin', symbol: 'BDCC', decimals: 18 },
+    infoURL: 'https://biticablockchain.com/',
+    shortName: 'bdcc',
+    chainId: 188710,
+    networkId: 188710,
+    explorers: [
+      {
+        name: 'Bitica DPOS Blockchain Explorer',
+        url: 'https://biticablockchain.com',
+        standard: 'none'
+      }
+    ]
+  },
   188881: {
     name: 'Condor Test Network',
     chain: 'CONDOR',
@@ -19590,7 +19670,7 @@ export const chains: Chains = {
     name: 'Scroll',
     chain: 'ETH',
     status: 'incubating',
-    rpc: ['https://rpc.scroll.io'],
+    rpc: ['https://rpc.scroll.io', 'https://rpc-scroll.icecreamswap.com'],
     faucets: [],
     nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
     infoURL: 'https://scroll.io',
