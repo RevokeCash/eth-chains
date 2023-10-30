@@ -15,7 +15,11 @@ export const chains: Chains = {
       'wss://mainnet.gateway.tenderly.co',
       'https://rpc.blocknative.com/boost',
       'https://rpc.flashbots.net',
-      'https://rpc.flashbots.net/fast'
+      'https://rpc.flashbots.net/fast',
+      'https://rpc.mevblocker.io',
+      'https://rpc.mevblocker.io/fast',
+      'https://rpc.mevblocker.io/noreverts',
+      'https://rpc.mevblocker.io/fullprivacy'
     ],
     features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
     faucets: [],
@@ -670,7 +674,7 @@ export const chains: Chains = {
   34: {
     name: 'SecureChain Mainnet',
     chain: 'SCAI',
-    icon: 'SCAIIcon',
+    icon: 'scaiIcon',
     rpc: ['https://mainnet-rpc.scai.network'],
     faucets: ['https://faucet.securechain.ai'],
     nativeCurrency: { name: 'SecureChain', symbol: 'SCAI', decimals: 18 },
@@ -985,7 +989,7 @@ export const chains: Chains = {
     ]
   },
   50: {
-    name: 'XinFin XDC Network',
+    name: 'XDC Network',
     chain: 'XDC',
     rpc: [
       'https://erpc.xinfin.network',
@@ -10606,19 +10610,19 @@ export const chains: Chains = {
   },
   3636: {
     name: 'Botanix Testnet',
-    chain: 'BTC',
+    chain: 'BOTANIX',
     icon: 'botanix',
-    rpc: ['https://testnet-rpc.btxtestchain.com'],
-    faucets: ['https://faucet.btxtestchain.com'],
+    rpc: ['https://node.botanixlabs.dev'],
+    faucets: ['https://faucet.botanixlabs.dev'],
     nativeCurrency: { name: 'Botanix', symbol: 'BTC', decimals: 18 },
-    infoURL: 'https://btxtestchain.com',
-    shortName: 'BTCt',
+    infoURL: 'https://botanixlabs.xyz',
+    shortName: 'BTNX',
     chainId: 3636,
     networkId: 3636,
     explorers: [
       {
-        name: 'Botanix',
-        url: 'https://testnet.btxtestchain.com',
+        name: '3xpl',
+        url: 'https://3xpl.com/botanix',
         standard: 'EIP3091'
       }
     ]
@@ -10638,6 +10642,24 @@ export const chains: Chains = {
       {
         name: 'Botanix',
         url: 'https://btxtestchain.com',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  3639: {
+    name: 'iChain Network',
+    chain: 'iChain',
+    rpc: ['https://rpc.ichainscan.com'],
+    faucets: [],
+    nativeCurrency: { name: 'ISLAMICOIN', symbol: 'ISLAMI', decimals: 18 },
+    infoURL: 'https://islamicoin.finance',
+    shortName: 'ISLAMI',
+    chainId: 3639,
+    networkId: 3639,
+    explorers: [
+      {
+        name: 'iChainscan',
+        url: 'https://ichainscan.com',
         standard: 'EIP3091'
       }
     ]
@@ -12956,6 +12978,26 @@ export const chains: Chains = {
         url: 'https://testnet.beonescan.com',
         icon: 'beonechain',
         standard: 'none'
+      }
+    ]
+  },
+  8194: {
+    name: 'Torus Testnet',
+    chain: 'TQF',
+    icon: 'torus',
+    rpc: ['https://rpc.testnet.toruschain.com'],
+    faucets: [],
+    nativeCurrency: { name: 'tTQF', symbol: 'TTQF', decimals: 18 },
+    infoURL: 'https://docs.toruschain.com',
+    shortName: 'ttqf',
+    chainId: 8194,
+    networkId: 8194,
+    explorers: [
+      {
+        name: 'blockscout',
+        url: 'https://testnet.torusscan.com',
+        icon: 'blockscout',
+        standard: 'EIP3091'
       }
     ]
   },
@@ -16434,24 +16476,24 @@ export const chains: Chains = {
     parent: { type: 'L2', chain: 'eip155-3' }
   },
   51178: {
-    name: 'Opside Testnet Pre-Alpha',
+    name: 'Lumoz Testnet Alpha',
     chain: 'ETH',
     rpc: [
-      'https://pre-alpha-us-http-geth.opside.network',
-      'https://pre-alpha-hk-http-geth.opside.network'
+      'https://alpha-us-http-geth.lumoz.org',
+      'https://alpha-hk-http-geth.lumoz.org'
     ],
     faucets: [],
-    nativeCurrency: { name: 'IDE Test Token', symbol: 'IDE', decimals: 18 },
+    nativeCurrency: { name: 'Lumoz Test Token', symbol: 'MOZ', decimals: 18 },
     features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
-    infoURL: 'https://opsi.de/',
-    shortName: 'Opside-Testnet',
+    infoURL: 'https://lumoz.org',
+    shortName: 'Lumoz-Testnet',
     chainId: 51178,
     networkId: 51178,
     icon: 'opside-new',
     explorers: [
       {
-        name: 'OpsideTestnetInfo',
-        url: 'https://pre-alpha.opside.info',
+        name: 'LumozTestnetInfo',
+        url: 'https://lumoz.info',
         icon: 'opside-new',
         standard: 'EIP3091'
       }
@@ -19669,8 +19711,13 @@ export const chains: Chains = {
   534352: {
     name: 'Scroll',
     chain: 'ETH',
-    status: 'incubating',
-    rpc: ['https://rpc.scroll.io', 'https://rpc-scroll.icecreamswap.com'],
+    status: 'active',
+    rpc: [
+      'https://rpc.scroll.io',
+      'https://rpc-scroll.icecreamswap.com',
+      'https://rpc.ankr.com/scroll',
+      'https://scroll-mainnet.chainstacklabs.com'
+    ],
     faucets: [],
     nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
     infoURL: 'https://scroll.io',
@@ -19679,13 +19726,13 @@ export const chains: Chains = {
     networkId: 534352,
     explorers: [
       {
-        name: 'Blockscout',
-        url: 'https://blockscout.scroll.io',
+        name: 'Scrollscan',
+        url: 'https://scrollscan.com',
         standard: 'EIP3091'
       },
       {
-        name: 'Scrollscan',
-        url: 'https://scrollscan.com',
+        name: 'Blockscout',
+        url: 'https://blockscout.scroll.io',
         standard: 'EIP3091'
       }
     ],
@@ -20167,15 +20214,36 @@ export const chains: Chains = {
     title: 'Astar zkEVM Testnet zKatana',
     chain: 'ETH',
     icon: 'astarzk',
-    rpc: [],
+    rpc: [
+      'https://rpc.zkatana.gelato.digital',
+      'https://rpc.startale.com/zkatana'
+    ],
     faucets: [],
     nativeCurrency: { name: 'Sepolia Ether', symbol: 'ETH', decimals: 18 },
     infoURL: 'https://astar.network',
     chainId: 1261120,
     networkId: 1261120,
-    explorers: [],
-    parent: { type: 'L2', chain: 'eip155-11155111', bridges: [] },
-    status: 'incubating'
+    explorers: [
+      {
+        name: 'Blockscout zKatana chain explorer',
+        url: 'https://zkatana.blockscout.com',
+        standard: 'EIP3091'
+      },
+      {
+        name: 'Startale zKatana chain explorer',
+        url: 'https://zkatana.explorer.startale.com',
+        standard: 'EIP3091'
+      }
+    ],
+    parent: {
+      type: 'L2',
+      chain: 'eip155-11155111',
+      bridges: [
+        { url: 'https://portal.astar.network' },
+        { url: 'https://bridge.zkatana.gelato.digital' }
+      ]
+    },
+    status: 'active'
   },
   1313114: {
     name: 'Etho Protocol',
@@ -20357,6 +20425,17 @@ export const chains: Chains = {
         standard: 'none'
       }
     ]
+  },
+  2611555: {
+    name: 'DPU Chain',
+    chain: 'DPU',
+    rpc: ['https://sc-rpc.dpu.ac.th'],
+    faucets: [],
+    nativeCurrency: { name: 'DGS', symbol: 'DGS', decimals: 18 },
+    infoURL: '',
+    shortName: 'DPU',
+    chainId: 2611555,
+    networkId: 2611555
   },
   3141592: {
     name: 'Filecoin - Butterfly testnet',
@@ -21354,6 +21433,25 @@ export const chains: Chains = {
         url:
           'https://staging-faint-slimy-achird.explorer.staging-v3.skalenodes.com',
         icon: 'nebula',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  999999999: {
+    name: 'Zora Sepolia Testnet',
+    chain: 'ETH',
+    rpc: ['https://sepolia.rpc.zora.energy'],
+    faucets: [],
+    nativeCurrency: { name: 'Sepolia Ether', symbol: 'ETH', decimals: 18 },
+    icon: 'zoraSepoliaTestnet',
+    infoURL: 'https://zora.energy',
+    shortName: 'zsep',
+    chainId: 999999999,
+    networkId: 999999999,
+    explorers: [
+      {
+        name: 'Zora Sepolia Testnet Network Explorer',
+        url: 'https://sepolia.explorer.zora.energy',
         standard: 'EIP3091'
       }
     ]
