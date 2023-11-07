@@ -1,5 +1,8 @@
 export {
-  default as chains,
+  getChain,
+  getChainById,
+  getChainByName,
+  allChains,
   Chain,
   ChainId,
   ChainName,
