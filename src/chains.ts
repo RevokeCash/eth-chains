@@ -3204,43 +3204,41 @@ export const chains: Chains = {
     ]
   },
   195: {
-    name: 'Xgon Testnet',
-    chain: 'xgon',
-    rpc: ['https://testrpc.xgon.io'],
-    faucets: ['https://www.oklink.com/okbc-test'],
+    name: 'X1 Testnet',
+    chain: 'X1',
+    rpc: ['https://testrpc.x1.tech', 'https://x1testrpc.okx.com'],
+    faucets: ['https://www.okx.com/x1/faucet'],
     nativeCurrency: {
-      name: 'Xgon Global Utility Token in testnet',
+      name: 'X1 Global Utility Token in testnet',
       symbol: 'OKB',
       decimals: 18
     },
     features: [],
-    infoURL:
-      'https://www.okx.com/okbc/docs/dev/quick-start/introduction/introduction-to-okbchain',
+    infoURL: 'https://www.okx.com/x1',
     shortName: 'tokb',
     chainId: 195,
     networkId: 195,
     explorers: [
       {
         name: 'OKLink',
-        url: 'https://www.oklink.com/okbc-test',
+        url: 'https://www.oklink.com/x1-test',
         standard: 'EIP3091'
       }
     ],
     status: 'active'
   },
   196: {
-    name: 'Xgon Mainnet',
-    chain: 'xgon',
+    name: 'X1 Mainnet',
+    chain: 'X1',
     rpc: [],
     faucets: [],
     nativeCurrency: {
-      name: 'Xgon Global Utility Token',
+      name: 'X1 Global Utility Token',
       symbol: 'OKB',
       decimals: 18
     },
     features: [],
-    infoURL:
-      'https://www.okx.com/okbc/docs/dev/quick-start/introduction/introduction-to-okbchain',
+    infoURL: 'https://www.okx.com/x1',
     shortName: 'okb',
     chainId: 196,
     networkId: 196,
@@ -5100,8 +5098,7 @@ export const chains: Chains = {
     rpc: [
       'https://rpc.rollux.com',
       'https://rollux.public-rpc.com',
-      'wss://rpc.rollux.com/wss',
-      'https://rpc.ankr.com/rollux/${ANKR_API_KEY}'
+      'wss://rpc.rollux.com/wss'
     ],
     faucets: ['https://rollux.id/faucetapp'],
     nativeCurrency: { name: 'Syscoin', symbol: 'SYS', decimals: 18 },
@@ -7853,6 +7850,25 @@ export const chains: Chains = {
       }
     ]
   },
+  1343: {
+    name: 'Blitz Subnet',
+    chain: 'BLITZ',
+    rpc: ['https://subnets.avax.network/blitz/testnet/rpc'],
+    features: [{ name: 'EIP1559' }],
+    faucets: [],
+    nativeCurrency: { name: 'BLITZ GAS', symbol: 'BGAS', decimals: 18 },
+    infoURL: 'https://blitz.gg',
+    shortName: 'blitz',
+    chainId: 1343,
+    networkId: 1343,
+    explorers: [
+      {
+        name: 'BLITZ Explorer',
+        url: 'https://subnets-test.avax.network/blitz',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   1353: {
     name: 'CIC Chain Mainnet',
     chain: 'CIC',
@@ -9830,7 +9846,7 @@ export const chains: Chains = {
     name: 'Krest Network',
     chain: 'Krest',
     icon: 'krest',
-    rpc: ['https://erpc-krest.peaq.network'],
+    rpc: ['https://erpc-krest.peaq.network', 'https://krest.unitedbloc.com'],
     faucets: [],
     nativeCurrency: { name: 'Krest', symbol: 'KRST', decimals: 18 },
     infoURL: 'https://www.peaq.network',
@@ -11362,6 +11378,27 @@ export const chains: Chains = {
       }
     ]
   },
+  4400: {
+    name: 'Credit Smart Chain Mainnet',
+    chain: 'CREDIT',
+    rpc: ['https://rpc.creditsmartchain.com'],
+    faucets: [],
+    nativeCurrency: { name: 'Credit', symbol: 'CREDIT', decimals: 18 },
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    infoURL: 'https://creditsmartchain.com',
+    shortName: 'CreditEdge',
+    chainId: 4400,
+    networkId: 4400,
+    icon: 'credit',
+    explorers: [
+      {
+        name: 'Creditscan',
+        url: 'https://scan.creditsmartchain.com',
+        icon: 'credit',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   4444: {
     name: 'Htmlcoin Mainnet',
     chain: 'mainnet',
@@ -11673,7 +11710,9 @@ export const chains: Chains = {
       'https://rpc1.bahamut.io',
       'https://rpc2.bahamut.io',
       'wss://ws1.sahara.bahamutchain.com',
-      'wss://ws2.sahara.bahamutchain.com'
+      'wss://ws2.sahara.bahamutchain.com',
+      'https://bahamut.publicnode.com',
+      'wss://bahamut.publicnode.com'
     ],
     features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
     faucets: [],
@@ -12170,6 +12209,17 @@ export const chains: Chains = {
         standard: 'EIP3091'
       }
     ]
+  },
+  6363: {
+    name: 'Digit Soul Smart Chain',
+    chain: 'DGS',
+    rpc: ['http://dsc-rpc.digitsoul.co.th'],
+    faucets: [],
+    nativeCurrency: { name: 'Digit Coin', symbol: 'DGC', decimals: 18 },
+    infoURL: '',
+    shortName: 'DGS',
+    chainId: 6363,
+    networkId: 6363
   },
   6502: {
     name: 'Peerpay',
@@ -15895,6 +15945,25 @@ export const chains: Chains = {
       }
     ]
   },
+  33210: {
+    name: 'Cloudverse Subnet',
+    chain: 'CLOUDVERSE',
+    rpc: ['https://subnets.avax.network/cloudverse/mainnet/rpc'],
+    features: [{ name: 'EIP1559' }],
+    faucets: [],
+    nativeCurrency: { name: 'XCLOUD', symbol: 'XCLOUD', decimals: 18 },
+    infoURL: 'https://muadao.build/',
+    shortName: 'cloudverse',
+    chainId: 33210,
+    networkId: 33210,
+    explorers: [
+      {
+        name: 'CLOUDVERSE Explorer',
+        url: 'https://subnets.avax.network/cloudverse',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   33333: {
     name: 'Aves Mainnet',
     chain: 'AVS',
@@ -15951,6 +16020,25 @@ export const chains: Chains = {
         name: 'Zilliqa 2 EVM Devnet Explorer',
         url: 'https://explorer.zq2-devnet.zilstg.dev',
         standard: 'EIP3091'
+      }
+    ]
+  },
+  34443: {
+    name: 'Mode',
+    chain: 'ETH',
+    rpc: ['https://mainnet.mode.network'],
+    faucets: [],
+    nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    infoURL: 'https://docs.mode.network/',
+    shortName: 'mode',
+    chainId: 34443,
+    networkId: 34443,
+    icon: 'mode',
+    explorers: [
+      {
+        name: 'modescout',
+        url: 'https://explorer.mode.network',
+        standard: 'none'
       }
     ]
   },
@@ -17169,6 +17257,26 @@ export const chains: Chains = {
         name: 'Scolscan Explorer',
         url: 'https://explorer.scolcoin.com',
         standard: 'EIP3091'
+      }
+    ]
+  },
+  66988: {
+    name: 'Janus Testnet',
+    chain: 'JanusNetwork',
+    icon: 'janusnetwork',
+    rpc: ['https://rpc.test.janusnetwork.io'],
+    faucets: [],
+    nativeCurrency: { name: 'Janus', symbol: 'JNS', decimals: 18 },
+    infoURL: 'https://janus-network.gitbook.io/janus',
+    shortName: 'janusnetwork-testnet',
+    chainId: 66988,
+    networkId: 66988,
+    status: 'active',
+    explorers: [
+      {
+        name: 'JanusNetwork Testnet Explorer',
+        url: 'https://beta.scan.janusnetwork.io',
+        standard: 'none'
       }
     ]
   },
@@ -19421,6 +19529,17 @@ export const chains: Chains = {
       }
     ]
   },
+  363636: {
+    name: 'Digit Soul Smart Chain 2',
+    chain: 'DS2',
+    rpc: ['http://dgs-rpc.digitsoul.co.th'],
+    faucets: [],
+    nativeCurrency: { name: 'Digit Coin', symbol: 'DGC', decimals: 18 },
+    infoURL: '',
+    shortName: 'DS2',
+    chainId: 363636,
+    networkId: 363636
+  },
   373737: {
     name: 'HAPchain Testnet',
     chain: 'HAPchain',
@@ -20351,6 +20470,25 @@ export const chains: Chains = {
       }
     ]
   },
+  988207: {
+    name: 'Ecrox Chain Mainnet',
+    chain: 'Ecrox Chain',
+    rpc: ['https://mainnet-rpc.ecroxscan.com/'],
+    faucets: [],
+    nativeCurrency: { name: 'ECROX COIN', symbol: 'ECROX', decimals: 18 },
+    infoURL: 'https://ecroxcoin.io/',
+    shortName: 'ecrox',
+    icon: 'ecrox',
+    chainId: 988207,
+    networkId: 988207,
+    explorers: [
+      {
+        name: 'Ecrox Chain Explorer',
+        url: 'https://ecroxscan.com',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   1261120: {
     name: 'zKatana',
     shortName: 'azktn',
@@ -20908,6 +21046,52 @@ export const chains: Chains = {
     networkId: 8888888,
     icon: 'quarix',
     explorers: []
+  },
+  9322252: {
+    name: 'XCAP',
+    title: 'XCAP Mainnet',
+    chain: 'XCAP',
+    rpc: [
+      'https://xcap-mainnet.relay.xcap.network/znzvh2ueyvm2yts5fv5gnul395jbkfb2/rpc1'
+    ],
+    faucets: [],
+    nativeCurrency: { name: 'Gas', symbol: 'GAS', decimals: 18 },
+    infoURL: 'https://xcap.network/',
+    shortName: 'xcap',
+    chainId: 9322252,
+    networkId: 9322252,
+    icon: 'xcap',
+    explorers: [
+      {
+        name: 'blockscout',
+        url: 'https://xcap-mainnet.explorer.xcap.network',
+        icon: 'blockscout',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  9322253: {
+    name: 'Milvine',
+    title: 'XCAP Testnet Milvine',
+    chain: 'XCAP',
+    rpc: [
+      'https://xcap-milvine.relay.xcap.network/zj5l55ftsgi027kz4nf14vs8d89inego/rpc1'
+    ],
+    faucets: [],
+    nativeCurrency: { name: 'Gas', symbol: 'GAS', decimals: 18 },
+    infoURL: 'https://xcap.network/',
+    shortName: 'milv',
+    chainId: 9322253,
+    networkId: 9322253,
+    icon: 'xcap',
+    explorers: [
+      {
+        name: 'blockscout',
+        url: 'https://xcap-milvine.explorer.xcap.network',
+        icon: 'blockscout',
+        standard: 'EIP3091'
+      }
+    ]
   },
   10067275: {
     name: 'Plian Testnet Subchain 1',
