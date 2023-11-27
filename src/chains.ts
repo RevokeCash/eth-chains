@@ -909,7 +909,6 @@ export const chains: Chains = {
     rpc: [
       'https://rpc.darwinia.network',
       'https://darwinia-rpc.darwiniacommunitydao.xyz',
-      'https://darwinia2.api.onfinality.io/public-ws',
       'https://darwinia-rpc.dwellir.com'
     ],
     faucets: [],
@@ -11522,6 +11521,21 @@ export const chains: Chains = {
       }
     ]
   },
+  4893: {
+    name: 'Globel Chain',
+    chain: 'GC',
+    icon: 'globelchain',
+    rpc: ['https://rpc.gcscan.io'],
+    faucets: [],
+    nativeCurrency: { name: 'Globel Chain', symbol: 'GC', decimals: 18 },
+    infoURL: 'https://gcscan.io',
+    shortName: 'GC',
+    chainId: 4893,
+    networkId: 4893,
+    explorers: [
+      { name: 'blockscout', url: 'https://gcscan.io', standard: 'none' }
+    ]
+  },
   4918: {
     name: 'Venidium Testnet',
     chain: 'XVM',
@@ -12213,7 +12227,7 @@ export const chains: Chains = {
   6363: {
     name: 'Digit Soul Smart Chain',
     chain: 'DGS',
-    rpc: ['http://dsc-rpc.digitsoul.co.th'],
+    rpc: ['https://dsc-rpc.digitsoul.co.th'],
     faucets: [],
     nativeCurrency: { name: 'Digit Coin', symbol: 'DGC', decimals: 18 },
     infoURL: '',
@@ -13103,6 +13117,26 @@ export const chains: Chains = {
       }
     ]
   },
+  8192: {
+    name: 'Torus Mainnet',
+    chain: 'TQF',
+    icon: 'torus',
+    rpc: ['https://rpc.toruschain.com'],
+    faucets: [],
+    nativeCurrency: { name: 'TQF', symbol: 'TQF', decimals: 18 },
+    infoURL: 'https://docs.toruschain.com',
+    shortName: 'tqf',
+    chainId: 8192,
+    networkId: 8192,
+    explorers: [
+      {
+        name: 'blockscout',
+        url: 'https://toruscan.com',
+        icon: 'blockscout',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   8194: {
     name: 'Torus Testnet',
     chain: 'TQF',
@@ -13962,6 +13996,8 @@ export const chains: Chains = {
     rpc: [
       'https://rpc-msc.mindchain.info/',
       'https://seednode.mindchain.info',
+      'https://archive.mindchain.info/',
+      'wss://archive.mindchain.info/ws',
       'wss://seednode.mindchain.info/ws'
     ],
     faucets: [],
@@ -19532,7 +19568,7 @@ export const chains: Chains = {
   363636: {
     name: 'Digit Soul Smart Chain 2',
     chain: 'DS2',
-    rpc: ['http://dgs-rpc.digitsoul.co.th'],
+    rpc: ['https://dgs-rpc.digitsoul.co.th'],
     faucets: [],
     nativeCurrency: { name: 'Digit Coin', symbol: 'DGC', decimals: 18 },
     infoURL: '',
