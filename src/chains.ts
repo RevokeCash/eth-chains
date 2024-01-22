@@ -691,7 +691,7 @@ export const chains: Chains = {
     chain: 'SCAI',
     icon: 'scaiIcon',
     rpc: ['https://mainnet-rpc.scai.network'],
-    faucets: ['https://faucet.securechain.ai'],
+    faucets: [],
     nativeCurrency: { name: 'SecureChain', symbol: 'SCAI', decimals: 18 },
     infoURL: 'https://securechain.ai',
     shortName: 'scai',
@@ -4028,7 +4028,7 @@ export const chains: Chains = {
     chain: 'EGON',
     icon: 'egonicon',
     rpc: ['https://rpc.egonscan.com'],
-    faucets: ['https://faucet.egonscan.com'],
+    faucets: [],
     nativeCurrency: { name: 'EgonCoin', symbol: 'EGON', decimals: 18 },
     infoURL: 'https://egonscan.com',
     shortName: 'EGONm',
@@ -8613,19 +8613,20 @@ export const chains: Chains = {
     ]
   },
   1501: {
-    name: 'BEVM',
+    name: 'BEVM Canary',
     chain: 'ChainX',
-    rpc: ['https://rpc-1.bevm.io/', 'https://rpc-2.bevm.io/'],
+    rpc: ['https://rpc-canary-1.bevm.io/', 'https://rpc-canary-2.bevm.io/'],
     faucets: [],
     nativeCurrency: { name: 'BTC', symbol: 'BTC', decimals: 18 },
     infoURL: 'https://chainx.org',
     shortName: 'chainx',
     chainId: 1501,
     networkId: 1501,
+    icon: 'bevmcanary',
     explorers: [
       {
-        name: 'bevm scan',
-        url: 'https://scan.bevm.io',
+        name: 'bevm canary scan',
+        url: 'https://scan-canary.bevm.io',
         standard: 'none'
       }
     ]
@@ -9738,10 +9739,10 @@ export const chains: Chains = {
     chain: 'NetZ',
     icon: 'mainnetz',
     rpc: ['https://mainnet-rpc.mainnetz.io', 'https://eu-rpc.mainnetz.io'],
-    faucets: ['https://faucet.mainnetz.io'],
-    nativeCurrency: { name: 'mainnetz', symbol: 'NetZ', decimals: 18 },
+    faucets: [],
+    nativeCurrency: { name: 'MainnetZ', symbol: 'NetZ', decimals: 18 },
     infoURL: 'https://mainnetz.io',
-    shortName: 'NetZm',
+    shortName: 'netz',
     chainId: 2016,
     networkId: 2016,
     explorers: [
@@ -13371,6 +13372,26 @@ export const chains: Chains = {
       }
     ]
   },
+  6701: {
+    name: 'PAXB Mainnet',
+    chain: 'PAXB',
+    rpc: ['https://chain.paxb.io'],
+    faucets: [],
+    nativeCurrency: { name: 'PAXB', symbol: 'PAXB', decimals: 18 },
+    infoURL: 'https://paxb.io/',
+    shortName: 'PAXB',
+    chainId: 6701,
+    networkId: 6701,
+    icon: 'paxb',
+    explorers: [
+      {
+        name: 'PAXB Explorer',
+        url: 'https://scan.paxb.io',
+        icon: 'paxb',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   6779: {
     name: 'Compverse Mainnet',
     chain: 'CPV',
@@ -14899,6 +14920,25 @@ export const chains: Chains = {
       {
         name: 'Dogcoin',
         url: 'https://testnet.dogcoin.network',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  9395: {
+    name: 'Evoke Mainnet',
+    chain: 'MTHN',
+    icon: 'mthn',
+    rpc: ['https://mainnet-rpc.evokescan.org'],
+    faucets: [],
+    nativeCurrency: { name: 'MTHN', symbol: 'MTHN', decimals: 18 },
+    infoURL: 'https://explorer.evokescan.org',
+    shortName: 'MTHN',
+    chainId: 9395,
+    networkId: 9395,
+    explorers: [
+      {
+        name: 'Evoke SmartChain Explorer',
+        url: 'https://explorer.evokescan.org',
         standard: 'EIP3091'
       }
     ]
@@ -17307,6 +17347,25 @@ export const chains: Chains = {
       }
     ]
   },
+  31414: {
+    name: 'Evoke Testnet',
+    chain: 'Evoke',
+    icon: 'mthn',
+    rpc: ['https://testnet-rpc.evokescan.org'],
+    faucets: ['https://faucet.evokescan.org'],
+    nativeCurrency: { name: 'MTHN Testnet', symbol: 'MTHN', decimals: 18 },
+    infoURL: 'https://testnet-explorer.evokescan.org',
+    shortName: 'tmthn',
+    chainId: 31414,
+    networkId: 31414,
+    explorers: [
+      {
+        name: 'Evoke SmartChain Testnet Explorer',
+        url: 'https://testnet-explorer.evokescan.org',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   31415: {
     name: 'Filecoin - Wallaby testnet',
     status: 'deprecated',
@@ -17321,6 +17380,31 @@ export const chains: Chains = {
     networkId: 31415,
     slip44: 1,
     explorers: []
+  },
+  32001: {
+    name: 'W3Gamez Holesky Testnet',
+    chain: 'ETH',
+    rpc: ['https://rpc-holesky.w3gamez.network'],
+    faucets: [],
+    nativeCurrency: {
+      name: 'W3Gamez Testnet Ether',
+      symbol: 'ETH',
+      decimals: 18
+    },
+    infoURL: 'https://web3games.com/',
+    shortName: 'w3gamez',
+    chainId: 32001,
+    networkId: 32001,
+    slip44: 1,
+    icon: 'w3gamez',
+    explorers: [
+      {
+        name: 'W3Gamez Holesky Explorer',
+        url: 'https://w3gamez-holesky.web3games.com',
+        icon: 'web3games',
+        standard: 'EIP3091'
+      }
+    ]
   },
   32520: {
     name: 'Bitgert Mainnet',
@@ -23437,6 +23521,26 @@ export const chains: Chains = {
       }
     ]
   },
+  28122024: {
+    name: 'Ancient8 Testnet',
+    chain: 'Ancient8',
+    icon: 'ancient8',
+    rpc: ['https://rpcv2-testnet.ancient8.gg'],
+    faucets: [],
+    nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    infoURL: 'https://ancient8.gg/',
+    shortName: 'a8',
+    chainId: 28122024,
+    networkId: 28122024,
+    slip44: 1,
+    explorers: [
+      {
+        name: 'scan-testnet',
+        url: 'https://scanv2-testnet.ancient8.gg',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   28945486: {
     name: 'Auxilium Network Mainnet',
     chain: 'AUX',
@@ -23692,7 +23796,7 @@ export const chains: Chains = {
     name: 'Kanazawa',
     title: 'Meld Testnet Kanazawa',
     chain: 'Kanazawa',
-    rpc: ['https://subnets.avax.network/meld/testnet/rpc'],
+    rpc: ['https://testnet-rpc.meld.com'],
     faucets: [],
     features: [],
     nativeCurrency: { name: 'gMeld', symbol: 'gMELD', decimals: 18 },
@@ -23703,6 +23807,12 @@ export const chains: Chains = {
     networkId: 222000222,
     slip44: 1,
     explorers: [
+      {
+        name: 'explorer',
+        url: 'https://testnet.meldscan.io',
+        icon: 'meld',
+        standard: 'EIP3091'
+      },
       {
         name: 'explorer',
         url: 'https://subnets-test.avax.network/meld',
@@ -23828,7 +23938,7 @@ export const chains: Chains = {
     name: 'Meld',
     title: 'Meld Mainnet',
     chain: 'MELD',
-    rpc: ['https://subnets.avax.network/meld/mainnet/rpc'],
+    rpc: ['https://rpc-1.meld.com'],
     faucets: [],
     features: [],
     nativeCurrency: { name: 'gMeld', symbol: 'gMELD', decimals: 18 },
@@ -23838,6 +23948,12 @@ export const chains: Chains = {
     chainId: 333000333,
     networkId: 333000333,
     explorers: [
+      {
+        name: 'explorer',
+        url: 'https://meldscan.io',
+        icon: 'meld',
+        standard: 'EIP3091'
+      },
       {
         name: 'explorer',
         url: 'https://subnets.avax.network/meld',
@@ -24396,14 +24512,15 @@ export const chains: Chains = {
     }
   },
   2863311531: {
-    name: 'Ancient8 Testnet',
+    name: 'Ancient8 Testnet (deprecated)',
+    status: 'deprecated',
     chain: 'Ancient8',
     icon: 'ancient8',
     rpc: ['https://rpc-testnet.ancient8.gg'],
     faucets: [],
     nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
     infoURL: 'https://ancient8.gg/',
-    shortName: 'a8',
+    shortName: 'a8old',
     chainId: 2863311531,
     networkId: 2863311531,
     slip44: 1,
