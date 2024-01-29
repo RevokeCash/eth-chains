@@ -2678,22 +2678,23 @@ export const chains: Chains = {
     ]
   },
   129: {
-    name: 'ProtoJumbo Testnet',
-    chain: 'Jumbo',
-    rpc: ['https://testnode.jumbochain.org'],
-    faucets: ['https://protojumbo.jumbochain.org/faucet-smart'],
-    nativeCurrency: { name: 'JNFTC', symbol: 'JNFTC', decimals: 18 },
-    features: [{ name: 'EIP155' }],
-    infoURL: 'https://jumbochain.org',
-    shortName: 'ProtoJumbo',
+    name: 'Innovator Chain',
+    chain: 'INNOVATOR',
+    rpc: ['https://rpc.innovatorchain.com'],
+    faucets: [],
+    nativeCurrency: { name: 'INOV8', symbol: 'INOV8', decimals: 18 },
+    features: [],
+    infoURL: 'https://innovatorchain.com',
+    shortName: 'Innovator',
     chainId: 129,
     networkId: 129,
-    slip44: 1,
+    icon: 'innovator',
     explorers: [
       {
-        name: 'ProtoJumbo',
-        url: 'https://protojumbo.jumbochain.org',
-        standard: 'EIP3091'
+        name: 'Innovator Explorer',
+        url: 'https://evm.innovatorchain.com',
+        icon: 'blockscout',
+        standard: 'none'
       }
     ]
   },
@@ -4729,6 +4730,59 @@ export const chains: Chains = {
       }
     ]
   },
+  380: {
+    name: 'ZKAmoeba Testnet',
+    chain: 'FIL',
+    rpc: [
+      'https://rpc.testnet.zkamoeba.com:4050/',
+      'https://rpc1.testnet.zkamoeba.com:4050/'
+    ],
+    faucets: [],
+    nativeCurrency: { name: 'filecoin', symbol: 'FIL', decimals: 18 },
+    infoURL: 'https://testnet.zkamoeba.com',
+    shortName: 'zkamoeba-test',
+    chainId: 380,
+    networkId: 380,
+    icon: 'zkamoeba-micro',
+    explorers: [
+      {
+        name: 'ZKAmoeba Test Explorer',
+        url: 'https://testnetexplorer.zkamoeba.com',
+        icon: 'zkamoeba-micro',
+        standard: 'EIP3091'
+      }
+    ],
+    parent: {
+      type: 'L2',
+      chain: 'eip155-314',
+      bridges: [{ url: 'https://testnet.zkamoeba.com/en/bridge' }]
+    }
+  },
+  381: {
+    name: 'ZKAmoeba Mainnet',
+    chain: 'FIL',
+    rpc: ['https://rpc.mainnet.zkamoeba.com/rpc'],
+    faucets: [],
+    nativeCurrency: { name: 'filecoin', symbol: 'FIL', decimals: 18 },
+    infoURL: 'https://www.zkamoeba.com',
+    shortName: 'zkamoeba',
+    chainId: 381,
+    networkId: 381,
+    icon: 'zkamoeba-micro',
+    explorers: [
+      {
+        name: 'ZKAmoeba Explorer',
+        url: 'https://explorer.zkamoeba.com',
+        icon: 'zkamoeba-micro',
+        standard: 'EIP3091'
+      }
+    ],
+    parent: {
+      type: 'L2',
+      chain: 'eip155-314',
+      bridges: [{ url: 'https://www.zkamoeba.com/en/bridge' }]
+    }
+  },
   385: {
     name: 'Lisinski',
     chain: 'CRO',
@@ -5568,6 +5622,25 @@ export const chains: Chains = {
         url: 'https://vne.network/rose',
         standard: 'none',
         icon: 'vine'
+      }
+    ]
+  },
+  612: {
+    name: 'EIOB Mainnet',
+    chain: 'EIOB',
+    icon: 'eiob',
+    rpc: ['https://rpc.eiob.xyz'],
+    faucets: [],
+    nativeCurrency: { name: 'EIOB', symbol: 'EIOB', decimals: 18 },
+    infoURL: '',
+    shortName: 'eiob',
+    chainId: 612,
+    networkId: 612,
+    explorers: [
+      {
+        name: 'EIOB Explorer',
+        url: 'https://explorer.eiob.xyz',
+        standard: 'none'
       }
     ]
   },
@@ -11666,18 +11739,23 @@ export const chains: Chains = {
   3797: {
     name: 'AlveyChain Mainnet',
     chain: 'ALV',
-    icon: 'alveychain',
-    rpc: ['https://rpc.alveychain.com/rpc', 'https://rpc2.alvey.io/rpc'],
+    rpc: [
+      'https://elves-core1.alvey.io',
+      'https://elves-core2.alvey.io',
+      'https://elves-core3.alvey.io'
+    ],
     faucets: [],
     nativeCurrency: { name: 'AlveyCoin', symbol: 'ALV', decimals: 18 },
-    infoURL: 'https://alveyscan.com/rpc',
+    infoURL: 'https://alveychain.com/',
     shortName: 'alv',
     chainId: 3797,
     networkId: 3797,
+    icon: 'alveychain',
     explorers: [
       {
         name: 'AlveyScan',
         url: 'https://alveyscan.com',
+        icon: 'alveychain',
         standard: 'EIP3091'
       }
     ]
@@ -13516,6 +13594,25 @@ export const chains: Chains = {
       }
     ]
   },
+  7007: {
+    name: 'BST Chain',
+    chain: 'BSTC',
+    rpc: ['https://rpc.bstchain.io/'],
+    faucets: [],
+    nativeCurrency: { name: 'BST Chain', symbol: 'BSTC', decimals: 18 },
+    infoURL: 'https://bstchain.io',
+    shortName: 'BSTC',
+    chainId: 7007,
+    networkId: 7007,
+    icon: 'bstc',
+    explorers: [
+      {
+        name: 'blockscout',
+        url: 'https://bstscan.com',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   7027: {
     name: 'Ella the heart',
     chain: 'ella',
@@ -13951,6 +14048,29 @@ export const chains: Chains = {
         name: 'Hazlor Testnet Explorer',
         url: 'https://explorer.hazlor.com',
         standard: 'none'
+      }
+    ]
+  },
+  7887: {
+    name: 'Kinto Mainnet',
+    chain: 'Kinto Mainnet',
+    rpc: [
+      'https://rpc.kinto.xyz/http',
+      'https://kinto-mainnet.calderachain.xyz/http'
+    ],
+    faucets: [],
+    nativeCurrency: { name: 'Ethereum', symbol: 'ETH', decimals: 18 },
+    infoURL: 'https://kinto.xyz',
+    shortName: 'kintoMainnet',
+    chainId: 7887,
+    networkId: 7887,
+    icon: 'kinto',
+    explorers: [
+      {
+        name: 'Kinto Explorer',
+        url: 'https://explorer.kinto.xyz',
+        icon: 'kinto',
+        standard: 'EIP3091'
       }
     ]
   },
@@ -14856,6 +14976,26 @@ export const chains: Chains = {
         name: 'berylbit-explorer',
         url: 'https://explorer.berylbit.io',
         standard: 'EIP3091'
+      }
+    ]
+  },
+  9024: {
+    name: 'Nexa Block',
+    chain: 'Nexa',
+    rpc: ['https://rpc-testnet-nodes.nexablockscan.io'],
+    faucets: ['https://nexablockscan.io/faucet'],
+    nativeCurrency: { name: 'Nexa Token', symbol: 'NEXB', decimals: 18 },
+    infoURL: 'https://www.nexablock.io/',
+    shortName: 'Nexa',
+    chainId: 9024,
+    networkId: 9024,
+    icon: 'nexaChain',
+    explorers: [
+      {
+        name: 'Nexablock Explorer',
+        url: 'https://nexablockscan.io',
+        standard: 'none',
+        icon: 'nexaChain'
       }
     ]
   },
@@ -16555,6 +16695,25 @@ export const chains: Chains = {
       }
     ]
   },
+  17172: {
+    name: 'Eclipse Subnet',
+    chain: 'ECLIPSE',
+    rpc: ['https://subnets.avax.network/eclipse/testnet/rpc'],
+    features: [{ name: 'EIP1559' }],
+    faucets: [],
+    nativeCurrency: { name: 'Eclipse', symbol: 'ECLP', decimals: 16 },
+    infoURL: 'http://eclipsenet.io',
+    shortName: 'eclipse',
+    chainId: 17172,
+    networkId: 17172,
+    explorers: [
+      {
+        name: 'ECLIPSE Explorer',
+        url: 'https://subnets-test.avax.network/eclipse',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   17180: {
     name: 'Palette Chain Testnet',
     chain: 'PLT',
@@ -16727,6 +16886,18 @@ export const chains: Chains = {
     ],
     parent: { type: 'L2', chain: 'eip155-248' }
   },
+  19527: {
+    name: 'Magnet Network',
+    chain: 'Magnet',
+    rpc: ['https://magnet-rpc.magport.io/'],
+    faucets: [],
+    nativeCurrency: { name: 'Magnet Network', symbol: 'DOT', decimals: 18 },
+    infoURL: 'https://magnet.magport.io/',
+    shortName: 'mgt',
+    chainId: 19527,
+    networkId: 19527,
+    explorers: []
+  },
   19845: {
     name: 'BTCIX Network',
     chain: 'BTCIX',
@@ -16792,6 +16963,26 @@ export const chains: Chains = {
       {
         name: 'P12 Chain Explorer',
         url: 'https://explorer.p12.games',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  20765: {
+    name: 'Jono11 Subnet',
+    chain: 'JONO11',
+    icon: 'jono11',
+    rpc: ['https://subnets.avax.network/jono11/testnet/rpc'],
+    features: [{ name: 'EIP1559' }],
+    faucets: [],
+    nativeCurrency: { name: 'Jono11 Token', symbol: 'JONO', decimals: 18 },
+    infoURL: '',
+    shortName: 'jono11',
+    chainId: 20765,
+    networkId: 20765,
+    explorers: [
+      {
+        name: 'JONO11 Explorer',
+        url: 'https://subnets-test.avax.network/jono11',
         standard: 'EIP3091'
       }
     ]
@@ -17082,6 +17273,25 @@ export const chains: Chains = {
     shortName: 'mintme',
     chainId: 24734,
     networkId: 37480
+  },
+  25186: {
+    name: 'LiquidLayer Mainnet',
+    chain: 'LiquidLayer',
+    icon: 'lila',
+    rpc: ['https://mainnet.liquidlayer.network'],
+    faucets: [],
+    nativeCurrency: { name: 'LiquidLayer', symbol: 'LILA', decimals: 18 },
+    infoURL: 'https://scan.liquidlayer.network',
+    shortName: 'LILA',
+    chainId: 25186,
+    networkId: 25186,
+    explorers: [
+      {
+        name: 'LiquidLayer Mainnet Explorer',
+        url: 'https://scan.liquidlayer.network',
+        standard: 'EIP3091'
+      }
+    ]
   },
   25888: {
     name: 'Hammer Chain Mainnet',
@@ -19523,6 +19733,29 @@ export const chains: Chains = {
       }
     ]
   },
+  80085: {
+    name: 'Berachain Artio',
+    chain: 'Berachain Artio',
+    rpc: [
+      'https://artio.rpc.berachain.com',
+      'https://rpc.ankr.com/berachain_testnet'
+    ],
+    faucets: ['https://artio.faucet.berachain.com'],
+    nativeCurrency: { name: 'BERA Token', symbol: 'BERA', decimals: 18 },
+    infoURL: 'https://www.berachain.com',
+    shortName: 'berachainArtio',
+    chainId: 80085,
+    networkId: 80085,
+    icon: 'berachain',
+    explorers: [
+      {
+        name: 'Beratrail',
+        url: 'https://artio.beratrail.io',
+        icon: 'berachain',
+        standard: 'none'
+      }
+    ]
+  },
   81041: {
     name: 'Nordek Mainnet',
     chain: 'Nordek',
@@ -19938,6 +20171,29 @@ export const chains: Chains = {
         url: 'https://explorer.lambda.top',
         standard: 'EIP3091',
         icon: 'lambda'
+      }
+    ]
+  },
+  93572: {
+    name: 'LiquidLayer Testnet',
+    chain: 'LILA',
+    icon: 'lila',
+    rpc: ['https://testnet.liquidlayer.network'],
+    faucets: ['https://claim.liquidlayer.network'],
+    nativeCurrency: {
+      name: 'LiquidLayer Testnet',
+      symbol: 'LILA',
+      decimals: 18
+    },
+    infoURL: 'https://testnet-scan.liquidlayer.network',
+    shortName: 'tLILA',
+    chainId: 93572,
+    networkId: 93572,
+    explorers: [
+      {
+        name: 'LiquidLayer Testnet Explorer',
+        url: 'https://testnet-scan.liquidlayer.network',
+        standard: 'EIP3091'
       }
     ]
   },
@@ -22427,12 +22683,12 @@ export const chains: Chains = {
     infoURL: 'https://docs.astria.org',
     shortName: 'ria-dev',
     nativeCurrency: { name: 'RIA', symbol: 'RIA', decimals: 18 },
-    rpc: ['https://rpc.evm.dusk-2.devnet.astria.org'],
-    faucets: ['https://faucet.evm.dusk-2.devnet.astria.org/'],
+    rpc: ['https://rpc.evm.dusk-3.devnet.astria.org'],
+    faucets: ['https://faucet.evm.dusk-3.devnet.astria.org/'],
     explorers: [
       {
         name: 'Astria EVM Dusknet Explorer',
-        url: 'https://explorer.evm.dusk-2.devnet.astria.org',
+        url: 'https://explorer.evm.dusk-3.devnet.astria.org',
         standard: 'EIP3091'
       }
     ]
@@ -22498,6 +22754,26 @@ export const chains: Chains = {
         name: 'fncy scan testnet',
         url: 'https://fncyscan-testnet.fncy.world',
         icon: 'fncy',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  955081: {
+    name: 'Jono12 Subnet',
+    chain: 'JONO12',
+    icon: 'jono12',
+    rpc: ['https://subnets.avax.network/jono12/testnet/rpc'],
+    features: [{ name: 'EIP1559' }],
+    faucets: [],
+    nativeCurrency: { name: 'Jono12 Token', symbol: 'JONO', decimals: 18 },
+    infoURL: '',
+    shortName: 'jono12',
+    chainId: 955081,
+    networkId: 955081,
+    explorers: [
+      {
+        name: 'JONO12 Explorer',
+        url: 'https://subnets-test.avax.network/jono12',
         standard: 'EIP3091'
       }
     ]
@@ -23771,6 +24047,27 @@ export const chains: Chains = {
     chainId: 99415706,
     networkId: 99415706,
     slip44: 1
+  },
+  168587773: {
+    name: 'Blast Sepolia Testnet',
+    chain: 'ETH',
+    rpc: ['https://sepolia.blast.io'],
+    faucets: ['https://faucet.quicknode.com/blast/sepolia'],
+    nativeCurrency: { name: 'Sepolia Ether', symbol: 'ETH', decimals: 18 },
+    infoURL: 'https://blast.io/',
+    shortName: 'blastsepolia',
+    chainId: 168587773,
+    networkId: 168587773,
+    icon: 'blast',
+    explorers: [
+      {
+        name: 'Blast Sepolia Explorer',
+        url: 'https://testnet.blastscan.io',
+        icon: 'blast',
+        standard: 'EIP3091'
+      }
+    ],
+    parent: { type: 'L2', chain: 'eip155-11155111' }
   },
   192837465: {
     name: 'Gather Mainnet Network',
