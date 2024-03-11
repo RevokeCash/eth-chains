@@ -1218,8 +1218,8 @@ export const chains: Chains = {
       'https://rpc.ankr.com/syscoin/${ANKR_API_KEY}',
       'https://syscoin.public-rpc.com',
       'wss://rpc.syscoin.org/wss',
-      'https://syscoin-evm-rpc.publicnode.com',
-      'wss://syscoin-evm-rpc.publicnode.com'
+      'https://syscoin-evm.publicnode.com',
+      'wss://syscoin-evm.publicnode.com'
     ],
     faucets: ['https://faucet.syscoin.org'],
     nativeCurrency: { name: 'Syscoin', symbol: 'SYS', decimals: 18 },
@@ -3368,6 +3368,19 @@ export const chains: Chains = {
         standard: 'none'
       }
     ]
+  },
+  191: {
+    name: 'FileFileGo',
+    chain: 'FFG',
+    icon: 'ffgIcon',
+    rpc: ['https://rpc.filefilego.com/rpc'],
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    faucets: [],
+    nativeCurrency: { name: 'FFG', symbol: 'FFG', decimals: 18 },
+    infoURL: 'https://filefilego.com',
+    shortName: 'ffg',
+    chainId: 191,
+    networkId: 191
   },
   193: {
     name: 'Crypto Emergency',
@@ -5603,7 +5616,12 @@ export const chains: Chains = {
   570: {
     name: 'Rollux Mainnet',
     chain: 'SYS',
-    rpc: ['https://rpc.rollux.com', 'wss://rpc.rollux.com/wss'],
+    rpc: [
+      'https://rpc.rollux.com',
+      'wss://rpc.rollux.com/wss',
+      'https://rollux.rpc.syscoin.org',
+      'wss://rollux.rpc.syscoin.org/wss'
+    ],
     faucets: ['https://rollux.id/faucetapp'],
     nativeCurrency: { name: 'Syscoin', symbol: 'SYS', decimals: 18 },
     infoURL: 'https://rollux.com',
@@ -5874,6 +5892,25 @@ export const chains: Chains = {
         name: 'avoscan',
         url: 'https://avoscan.co',
         icon: 'avocado',
+        standard: 'none'
+      }
+    ]
+  },
+  646: {
+    name: 'FlowEVM PreviewNet',
+    chain: 'FlowEVM',
+    rpc: ['https://previewnet.evm.nodes.onflow.org'],
+    faucets: ['https://previewnet-faucet.onflow.org'],
+    nativeCurrency: { name: 'FLOW', symbol: 'FLOW', decimals: 18 },
+    infoURL: 'https://developers.flow.com/evm/about',
+    shortName: 'flowevm-preview',
+    chainId: 646,
+    networkId: 646,
+    icon: 'flowevm',
+    explorers: [
+      {
+        name: 'Flow Diver',
+        url: 'https://previewnet.flowdiver.io',
         standard: 'none'
       }
     ]
@@ -6301,6 +6338,25 @@ export const chains: Chains = {
       {
         name: 'Script Explorer',
         url: 'https://explorer.script.tv',
+        standard: 'none'
+      }
+    ]
+  },
+  747: {
+    name: 'FlowEVM Mainnet',
+    chain: 'FlowEVM',
+    rpc: ['https://mainnet.evm.nodes.onflow.org'],
+    faucets: [],
+    nativeCurrency: { name: 'FLOW', symbol: 'FLOW', decimals: 18 },
+    infoURL: 'https://developers.flow.com/evm/about',
+    shortName: 'flowevm-mainnet',
+    chainId: 747,
+    networkId: 747,
+    icon: 'flowevm',
+    explorers: [
+      {
+        name: 'Flow Diver',
+        url: 'https://flowdiver.io',
         standard: 'none'
       }
     ]
@@ -11506,6 +11562,20 @@ export const chains: Chains = {
     ],
     status: 'active'
   },
+  2525: {
+    name: 'inEVM Mainnet',
+    chain: 'inEVM',
+    icon: 'inevm',
+    rpc: ['https://mainnet.rpc.inevm.com/http'],
+    faucets: [],
+    nativeCurrency: { name: 'Injective', symbol: 'INJ', decimals: 18 },
+    infoURL: 'https://inevm.com',
+    shortName: 'inevm',
+    chainId: 2525,
+    networkId: 2525,
+    explorers: [],
+    status: 'active'
+  },
   2559: {
     name: 'Kortho Mainnet',
     chain: 'Kortho Chain',
@@ -11888,12 +11958,12 @@ export const chains: Chains = {
     title: 'Bifrost Network Mainnet',
     chain: 'BFC',
     rpc: [
-      'https://public-01.mainnet.thebifrost.io/rpc',
-      'https://public-02.mainnet.thebifrost.io/rpc'
+      'https://public-01.mainnet.bifrostnetwork.com/rpc',
+      'https://public-02.mainnet.bifrostnetwork.com/rpc'
     ],
     faucets: [],
     nativeCurrency: { name: 'Bifrost', symbol: 'BFC', decimals: 18 },
-    infoURL: 'https://thebifrost.io',
+    infoURL: 'https://bifrostnetwork.com',
     shortName: 'bfc',
     chainId: 3068,
     networkId: 3068,
@@ -11901,7 +11971,7 @@ export const chains: Chains = {
     explorers: [
       {
         name: 'explorer-thebifrost',
-        url: 'https://explorer.mainnet.thebifrost.io',
+        url: 'https://explorer.mainnet.bifrostnetwork.com',
         standard: 'EIP3091'
       }
     ]
@@ -12360,16 +12430,25 @@ export const chains: Chains = {
     shortName: 'astrzk',
     title: 'Astar zkEVM Mainnet',
     chain: 'ETH',
-    icon: 'astarzk',
-    rpc: [],
+    icon: 'astar',
+    rpc: ['https://rpc.startale.com/astar-zkevm'],
     faucets: [],
     nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
     infoURL: 'https://astar.network',
     chainId: 3776,
     networkId: 3776,
-    explorers: [],
-    parent: { type: 'L2', chain: 'eip155-1', bridges: [] },
-    status: 'incubating'
+    explorers: [
+      {
+        name: 'Blockscout Astar zkEVM explorer',
+        url: 'https://astar-zkevm.explorer.startale.com',
+        standard: 'EIP3091'
+      }
+    ],
+    parent: {
+      type: 'L2',
+      chain: 'eip155-1',
+      bridges: [{ url: 'https://portal.astar.network' }]
+    }
   },
   3797: {
     name: 'AlveyChain Mainnet',
@@ -12889,6 +12968,26 @@ export const chains: Chains = {
       {
         name: 'Tipboxcoin',
         url: 'https://testnet.tipboxcoin.net',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  4157: {
+    name: 'CrossFi Testnet',
+    title: 'CrossFi Testnet',
+    chain: 'XFI',
+    rpc: ['https://rpc.testnet.ms'],
+    faucets: [],
+    nativeCurrency: { name: 'XFI', symbol: 'XFI', decimals: 18 },
+    infoURL: 'https://crossfi.org/',
+    shortName: 'crossfi-testnet',
+    chainId: 4157,
+    networkId: 4157,
+    slip44: 1,
+    explorers: [
+      {
+        name: 'CrossFi Testnet Scan',
+        url: 'https://scan.testnet.ms',
         standard: 'EIP3091'
       }
     ]
@@ -13800,8 +13899,8 @@ export const chains: Chains = {
     rpc: [
       'https://rpc.tanenbaum.io',
       'wss://rpc.tanenbaum.io/wss',
-      'https://syscoin-tanenbaum-evm-rpc.publicnode.com',
-      'wss://syscoin-tanenbaum-evm-rpc.publicnode.com'
+      'https://syscoin-tanenbaum-evm.publicnode.com',
+      'wss://syscoin-tanenbaum-evm.publicnode.com'
     ],
     faucets: ['https://faucet.tanenbaum.io'],
     nativeCurrency: { name: 'Testnet Syscoin', symbol: 'tSYS', decimals: 18 },
@@ -14670,14 +14769,9 @@ export const chains: Chains = {
     chain: 'Canto',
     rpc: [
       'https://canto.slingshot.finance',
-      'https://canto.neobase.one',
+      'https://canto-rpc.ansybl.io',
       'https://mainnode.plexnode.org:8545',
-      'https://canto.gravitychain.io/',
-      'https://canto.evm.chandrastation.com/',
-      'https://jsonrpc.canto.nodestake.top/',
-      'https://canto.dexvaults.com/',
-      'wss://canto.gravitychain.io:8546',
-      'wss://canto.dexvaults.com/ws'
+      'https://canto.gravitychain.io/'
     ],
     faucets: [],
     nativeCurrency: { name: 'Canto', symbol: 'CANTO', decimals: 18 },
@@ -14687,19 +14781,14 @@ export const chains: Chains = {
     networkId: 7700,
     explorers: [
       {
-        name: 'Canto EVM Explorer (Blockscout)',
-        url: 'https://evm.explorer.canto.io',
-        standard: 'none'
-      },
-      {
-        name: 'Canto Cosmos Explorer',
-        url: 'https://cosmos-explorers.neobase.one',
-        standard: 'none'
+        name: 'Canto Explorer (OKLink)',
+        url: 'https://www.oklink.com/canto',
+        standard: 'EIP3091'
       },
       {
         name: 'Canto EVM Explorer (Blockscout)',
         url: 'https://tuber.build',
-        standard: 'none'
+        standard: 'EIP3091'
       },
       {
         name: 'dexguru',
@@ -19523,12 +19612,12 @@ export const chains: Chains = {
     title: 'Bifrost Network Testnet',
     chain: 'BFC',
     rpc: [
-      'https://public-01.testnet.thebifrost.io/rpc',
-      'https://public-02.testnet.thebifrost.io/rpc'
+      'https://public-01.testnet.bifrostnetwork.com/rpc',
+      'https://public-02.testnet.bifrostnetwork.com/rpc'
     ],
     faucets: [],
     nativeCurrency: { name: 'Bifrost', symbol: 'BFC', decimals: 18 },
-    infoURL: 'https://thebifrost.io',
+    infoURL: 'https://bifrostnetwork.com',
     shortName: 'tbfc',
     chainId: 49088,
     networkId: 49088,
@@ -19537,7 +19626,7 @@ export const chains: Chains = {
     explorers: [
       {
         name: 'explorer-thebifrost',
-        url: 'https://explorer.testnet.thebifrost.io',
+        url: 'https://explorer.testnet.bifrostnetwork.com',
         standard: 'EIP3091'
       }
     ]
@@ -19931,7 +20020,9 @@ export const chains: Chains = {
     rpc: [
       'https://rpc-tanenbaum.rollux.com',
       'https://rpc.ankr.com/rollux_testnet/${ANKR_API_KEY}',
-      'wss://rpc-tanenbaum.rollux.com/wss'
+      'wss://rpc-tanenbaum.rollux.com/wss',
+      'https://rollux.rpc.tanenbaum.io',
+      'wss://rollux.rpc.tanenbaum.io/wss'
     ],
     faucets: ['https://rollux.id/faucetapp'],
     nativeCurrency: { name: 'Testnet Syscoin', symbol: 'TSYS', decimals: 18 },
@@ -23594,22 +23685,22 @@ export const chains: Chains = {
     ]
   },
   513100: {
-    name: 'ethereum Fair',
+    name: 'DisChain',
     chainId: 513100,
     networkId: 513100,
-    shortName: 'ethf',
-    chain: 'ETHF',
-    nativeCurrency: { name: 'EthereumFair', symbol: 'ETHF', decimals: 18 },
-    rpc: ['https://rpc.etherfair.org'],
+    shortName: 'dis',
+    chain: 'DIS',
+    nativeCurrency: { name: 'DisChain', symbol: 'DIS', decimals: 18 },
+    rpc: ['https://rpc.dischain.xyz'],
     faucets: [],
     explorers: [
       {
-        name: 'etherfair',
-        url: 'https://www.oklink.com/ethf',
+        name: 'DisChain',
+        url: 'https://www.oklink.com/dis',
         standard: 'EIP3091'
       }
     ],
-    infoURL: 'https://etherfair.org'
+    infoURL: 'https://dischain.xyz'
   },
   534351: {
     name: 'Scroll Sepolia Testnet',
@@ -23991,6 +24082,58 @@ export const chains: Chains = {
         standard: 'EIP3091'
       }
     ]
+  },
+  810180: {
+    name: 'zkLink Nova Mainnet',
+    chain: 'ETH',
+    rpc: ['https://rpc.zklink.io', 'wss://rpc.zklink.io'],
+    faucets: [],
+    nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    infoURL: 'https://zklink.io',
+    shortName: 'zklink-nova',
+    chainId: 810180,
+    networkId: 810180,
+    slip44: 1,
+    icon: 'zklink-nova',
+    explorers: [
+      {
+        name: 'zkLink Nova Block Explorer',
+        url: 'https://explorer.zklink.io',
+        icon: 'zklink-nova',
+        standard: 'EIP3091'
+      }
+    ],
+    parent: {
+      type: 'L2',
+      chain: 'eip155-59144',
+      bridges: [{ url: 'https://portal.zklink.io' }]
+    }
+  },
+  810182: {
+    name: 'zkLink Nova Goerli Testnet',
+    chain: 'ETH',
+    rpc: ['https://goerli.rpc.zklink.io', 'wss://goerli.rpc.zklink.io'],
+    faucets: [],
+    nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    infoURL: 'https://zklink.io',
+    shortName: 'zklink-nova-goerli',
+    chainId: 810182,
+    networkId: 810182,
+    slip44: 1,
+    icon: 'zklink-nova',
+    explorers: [
+      {
+        name: 'zkLink Nova Block Explorer',
+        url: 'https://goerli.explorer.zklink.io',
+        icon: 'zklink-nova',
+        standard: 'EIP3091'
+      }
+    ],
+    parent: {
+      type: 'L2',
+      chain: 'eip155-59140',
+      bridges: [{ url: 'https://goerli.portal.zklink.io' }]
+    }
   },
   827431: {
     name: 'CURVE Mainnet',
@@ -24737,7 +24880,7 @@ export const chains: Chains = {
     networkId: 6038361,
     explorers: [
       {
-        name: 'Blockscout zKyoto chain explorer',
+        name: 'Blockscout zKyoto explorer',
         url: 'https://astar-zkyoto.blockscout.com',
         standard: 'EIP3091'
       }
@@ -24749,8 +24892,7 @@ export const chains: Chains = {
         { url: 'https://portal.astar.network' },
         { url: 'https://bridge.gelato.network/bridge/astar-zkyoto' }
       ]
-    },
-    status: 'incubating'
+    }
   },
   7225878: {
     name: 'Saakuru Mainnet',
@@ -25507,6 +25649,27 @@ export const chains: Chains = {
   },
   65100001: {
     name: 'Autonity Piccadilly (Barada) Testnet',
+    status: 'deprecated',
+    chain: 'AUT',
+    rpc: [],
+    faucets: [],
+    nativeCurrency: { name: 'Piccadilly Auton', symbol: 'ATN', decimals: 18 },
+    infoURL: 'https://autonity.org/',
+    shortName: 'piccadilly-01',
+    chainId: 65100001,
+    networkId: 65100001,
+    slip44: 1,
+    icon: 'autonity',
+    explorers: [
+      {
+        name: 'autonity-blockscout',
+        url: 'https://piccadilly.autonity.org',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  65100002: {
+    name: 'Autonity Piccadilly (Sumida) Testnet',
     chain: 'AUT',
     rpc: [
       'https://rpc1.piccadilly.autonity.org/',
@@ -25515,9 +25678,9 @@ export const chains: Chains = {
     faucets: [],
     nativeCurrency: { name: 'Piccadilly Auton', symbol: 'ATN', decimals: 18 },
     infoURL: 'https://autonity.org/',
-    shortName: 'piccadilly-01',
-    chainId: 65100001,
-    networkId: 65100001,
+    shortName: 'piccadilly-02',
+    chainId: 65100002,
+    networkId: 65100002,
     slip44: 1,
     icon: 'autonity',
     explorers: [
