@@ -2979,6 +2979,33 @@ export const chains: Chains = {
       }
     ]
   },
+  145: {
+    name: 'SoraAI Testnet',
+    chain: 'SETH',
+    icon: 'ethereum',
+    rpc: ['https://rpc-testnet.soraai.bot'],
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    faucets: [],
+    nativeCurrency: { name: 'SoraETH', symbol: 'SETH', decimals: 18 },
+    infoURL: 'https://soraai.bot',
+    shortName: 'SETH',
+    chainId: 145,
+    networkId: 145,
+    slip44: 1,
+    explorers: [
+      {
+        name: 'blockscout',
+        url: 'https://explorer.soraai.bot',
+        icon: 'blockscout',
+        standard: 'EIP3091'
+      }
+    ],
+    parent: {
+      type: 'L2',
+      chain: 'eip155-1',
+      bridges: [{ url: 'https://bridge.soraai.bot' }]
+    }
+  },
   148: {
     name: 'ShimmerEVM',
     title: 'ShimmerEVM',
@@ -6646,7 +6673,7 @@ export const chains: Chains = {
     ]
   },
   813: {
-    name: 'Qitmeer',
+    name: 'Qitmeer Network Mainnet',
     chain: 'MEER',
     rpc: [
       'https://evm-dataseed1.meerscan.io',
@@ -6945,6 +6972,26 @@ export const chains: Chains = {
     chainId: 888,
     networkId: 888,
     slip44: 5718350
+  },
+  898: {
+    name: 'MAXI Chain Testnet',
+    chain: 'MAXI',
+    rpc: ['https://rpc-testnet.maxi.network'],
+    faucets: ['https://faucet.maxi.network'],
+    nativeCurrency: { name: 'MAXICOIN', symbol: 'MAXI', decimals: 18 },
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    infoURL: 'https://maxi.network',
+    shortName: 'maxi-testnet',
+    chainId: 898,
+    networkId: 898,
+    icon: 'maxi',
+    explorers: [
+      {
+        name: 'Maxi Chain Testnet Explorer',
+        url: 'https://testnet.maxi.network',
+        standard: 'EIP3091'
+      }
+    ]
   },
   900: {
     name: 'Garizon Testnet Stage0',
@@ -15815,6 +15862,27 @@ export const chains: Chains = {
     chainId: 8768,
     networkId: 8768
   },
+  8822: {
+    name: 'IOTA EVM',
+    title: 'IOTA EVM',
+    chain: 'IOTA EVM',
+    rpc: ['https://json-rpc.evm.iotaledger.net'],
+    faucets: [],
+    nativeCurrency: { name: 'IOTA', symbol: 'IOTA', decimals: 18 },
+    infoURL: 'https://www.iota.org',
+    shortName: 'iotaevm',
+    chainId: 8822,
+    networkId: 8822,
+    icon: 'iotaevm',
+    explorers: [
+      {
+        name: 'explorer',
+        url: 'https://iota-evm.blockscout.com',
+        icon: 'iotaevm',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   8848: {
     name: 'MARO Blockchain Mainnet',
     chain: 'MARO Blockchain',
@@ -16186,7 +16254,11 @@ export const chains: Chains = {
   9025: {
     name: 'Nexa Mainnet Block',
     chain: 'Nexa Mainnet',
-    rpc: ['https://rpc-nodes.nexablockscan.io'],
+    rpc: [
+      'https://rpc-nodes.nexablockscan.io',
+      'wss://wss-nodes.nexablockscan.io',
+      'https://rpc-nodes-delta.nexablockscan.io'
+    ],
     faucets: [],
     nativeCurrency: {
       name: 'Nexa Mainnet Token',
@@ -19899,6 +19971,26 @@ export const chains: Chains = {
       }
     ]
   },
+  45454: {
+    name: 'Swamps L2',
+    chain: 'SWP',
+    icon: 'swamps',
+    rpc: ['https://swamps.tc.l2aas.com'],
+    faucets: [],
+    nativeCurrency: { name: 'SWP', symbol: 'SWP', decimals: 18 },
+    infoURL: 'https://www.swamps.fi',
+    shortName: 'SWP',
+    chainId: 45454,
+    networkId: 45454,
+    explorers: [
+      {
+        name: 'blockscout',
+        url: 'https://swamps-explorer.tc.l2aas.com',
+        icon: 'blockscout',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   45510: {
     name: 'Deelance Mainnet',
     title: 'Deelance Network Mainnet',
@@ -21343,6 +21435,27 @@ export const chains: Chains = {
       }
     ]
   },
+  80002: {
+    name: 'Amoy',
+    title: 'Polygon Amoy Testnet',
+    chain: 'Polygon',
+    icon: 'polygon',
+    rpc: ['https://rpc-amoy.polygon.technology'],
+    faucets: ['https://faucet.polygon.technology/'],
+    nativeCurrency: { name: 'MATIC', symbol: 'MATIC', decimals: 18 },
+    infoURL: 'https://polygon.technology/',
+    shortName: 'polygonamoy',
+    chainId: 80002,
+    networkId: 80002,
+    slip44: 1,
+    explorers: [
+      {
+        name: 'polygonamoy',
+        url: 'https://www.oklink.com/amoy',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   80085: {
     name: 'Berachain Artio',
     chain: 'Berachain Artio',
@@ -22238,6 +22351,27 @@ export const chains: Chains = {
       }
     ],
     redFlags: ['reusedChainId']
+  },
+  102031: {
+    name: 'Creditcoin Testnet',
+    chain: 'CTC',
+    icon: 'creditcoin',
+    rpc: ['https://rpc.cc3-testnet.creditcoin.network'],
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    nativeCurrency: { name: 'Testnet CTC', symbol: 'tCTC', decimals: 18 },
+    infoURL: 'https://creditcoin.org',
+    shortName: 'ctctest',
+    chainId: 102031,
+    networkId: 102031,
+    faucets: [],
+    explorers: [
+      {
+        name: 'blockscout',
+        url: 'https://creditcoin-testnet.blockscout.com',
+        icon: 'blockscout',
+        standard: 'EIP3091'
+      }
+    ]
   },
   103090: {
     name: 'Crystaleum',
@@ -26187,6 +26321,33 @@ export const chains: Chains = {
         standard: 'EIP3091'
       }
     ]
+  },
+  77787778: {
+    name: '0xHash Testnet',
+    chain: 'HETH',
+    icon: 'ethereum',
+    rpc: ['https://rpc-test.0xhash.io'],
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    faucets: [],
+    nativeCurrency: { name: '0xHash', symbol: 'HETH', decimals: 18 },
+    infoURL: 'https://0xhash.io',
+    shortName: 'HETH',
+    chainId: 77787778,
+    networkId: 77787778,
+    slip44: 1,
+    explorers: [
+      {
+        name: 'blockscout',
+        url: 'https://test.0xhashscan.io',
+        icon: 'blockscout',
+        standard: 'EIP3091'
+      }
+    ],
+    parent: {
+      type: 'L2',
+      chain: 'eip155-1',
+      bridges: [{ url: 'https://app.optimism.io/bridge/deposit' }]
+    }
   },
   88888888: {
     name: 'T.E.A.M Blockchain',
