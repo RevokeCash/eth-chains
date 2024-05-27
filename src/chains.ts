@@ -1331,11 +1331,8 @@ export const chains: Chains = {
     rpc: [
       'https://etc.rivet.link',
       'https://besu-at.etc-network.info',
-      'https://besu-de.etc-network.info',
       'https://geth-at.etc-network.info',
-      'https://geth-de.etc-network.info',
       'https://etc.etcdesktop.com',
-      'https://rpc.etcinscribe.com',
       'https://etc.mytokenpocket.vip'
     ],
     features: [{ name: 'EIP155' }],
@@ -2970,6 +2967,21 @@ export const chains: Chains = {
       }
     ]
   },
+  140: {
+    name: 'EternalCoin Mainnet',
+    chain: 'Eter',
+    icon: 'eternal',
+    rpc: [
+      'https://mainnet.eternalcoin.io/v1',
+      'ws://mainnet.eternalcoin.io/v1/ws'
+    ],
+    faucets: [],
+    nativeCurrency: { name: 'Eternal', symbol: 'Eter', decimals: 18 },
+    infoURL: 'https://eternalcoin.io',
+    shortName: 'Eter',
+    chainId: 140,
+    networkId: 140
+  },
   141: {
     name: 'Openpiece Testnet',
     chain: 'OPENPIECE',
@@ -3513,7 +3525,11 @@ export const chains: Chains = {
   185: {
     name: 'Mint Mainnet',
     chain: 'ETH',
-    rpc: ['https://rpc.mintchain.io'],
+    rpc: [
+      'https://rpc.mintchain.io',
+      'https://global.rpc.mintchain.io',
+      'https://asia.rpc.mintchain.io'
+    ],
     faucets: [],
     nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
     infoURL: 'https://www.mintchain.io',
@@ -6926,7 +6942,14 @@ export const chains: Chains = {
   721: {
     name: 'Lycan Chain',
     chain: 'LYC',
-    rpc: ['https://rpc.lycanchain.com/'],
+    rpc: [
+      'https://rpc.lycanchain.com/',
+      'https://us-east.lycanchain.com',
+      'https://us-west.lycanchain.com',
+      'https://eu-north.lycanchain.com',
+      'https://eu-west.lycanchain.com',
+      'https://asia-southeast.lycanchain.com'
+    ],
     faucets: [],
     nativeCurrency: { name: 'Lycan', symbol: 'LYC', decimals: 18 },
     infoURL: 'https://lycanchain.com',
@@ -10334,6 +10357,31 @@ export const chains: Chains = {
     networkId: 11235813,
     slip44: 1620
   },
+  1625: {
+    name: 'Gravity Alpha Mainnet',
+    chain: 'Gravity',
+    rpc: ['https://rpc.gravity.xyz'],
+    faucets: [],
+    nativeCurrency: { name: 'Gravity', symbol: 'G.', decimals: 18 },
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }, { name: 'EIP1108' }],
+    infoURL: 'https://gravity.xyz',
+    shortName: 'gravity',
+    chainId: 1625,
+    networkId: 1625,
+    icon: 'gravity',
+    explorers: [
+      {
+        name: 'Gravity Alpha Mainnet Explorer',
+        url: 'https://explorer.gravity.xyz',
+        standard: 'EIP3091'
+      }
+    ],
+    parent: {
+      type: 'L2',
+      chain: 'eip155-1',
+      bridges: [{ url: 'https://bridge.gravity.xyz' }]
+    }
+  },
   1657: {
     name: 'Btachain',
     chain: 'btachain',
@@ -11411,6 +11459,25 @@ export const chains: Chains = {
       {
         name: 'edexa-testnet',
         url: 'https://explorer.testnet.edexa.network',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  1996: {
+    name: 'Sanko',
+    chain: 'Sanko',
+    rpc: ['https://mainnet.sanko.xyz'],
+    faucets: [],
+    nativeCurrency: { name: 'DMT', symbol: 'DMT', decimals: 18 },
+    infoURL: 'https://sanko.xyz/',
+    shortName: 'Sanko',
+    chainId: 1996,
+    networkId: 1996,
+    icon: 'sanko',
+    explorers: [
+      {
+        name: 'Sanko Explorer',
+        url: 'https://explorer.sanko.xyz',
         standard: 'EIP3091'
       }
     ]
@@ -13885,6 +13952,18 @@ export const chains: Chains = {
       }
     ]
   },
+  3335: {
+    name: 'EthStorage Mainnet',
+    chain: 'EthStorage',
+    rpc: ['http://mainnet.ethstorage.io:9540'],
+    faucets: [],
+    nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    infoURL: 'https://ethstorage.io/',
+    shortName: 'es-m',
+    chainId: 3335,
+    networkId: 3335,
+    slip44: 1
+  },
   3400: {
     name: 'Paribu Net Mainnet',
     chain: 'PRB',
@@ -14019,6 +14098,17 @@ export const chains: Chains = {
         standard: 'none'
       }
     ]
+  },
+  3630: {
+    name: 'Tycooncoin',
+    chain: 'TYCON',
+    rpc: ['https://mainnet-rpc.tycoscan.com'],
+    faucets: [],
+    nativeCurrency: { name: 'Tycooncoin', symbol: 'TYCO', decimals: 18 },
+    infoURL: '',
+    shortName: 'TYCON',
+    chainId: 3630,
+    networkId: 3630
   },
   3636: {
     name: 'Botanix Testnet',
@@ -14558,6 +14648,30 @@ export const chains: Chains = {
         url: 'https://explorer.x1-fastnet.xen.network',
         icon: 'blockscout',
         standard: 'EIP3091'
+      }
+    ]
+  },
+  4040: {
+    name: 'Carbonium Testnet Network',
+    chain: 'CBR',
+    rpc: [
+      'https://rpc-dev.carbonium.network/',
+      'https://server-testnet.carbonium.network'
+    ],
+    nativeCurrency: { name: 'Carbonium', symbol: 'tCBR', decimals: 18 },
+    infoURL: 'https://carbonium.network',
+    shortName: 'tcbr',
+    chainId: 4040,
+    networkId: 4040,
+    slip44: 1,
+    icon: 'cbr',
+    faucets: ['https://getfaucet.carbonium.network'],
+    explorers: [
+      {
+        name: 'Carbonium Network tesnet Explorer',
+        icon: 'cbr',
+        url: 'https://testnet.carboniumscan.com',
+        standard: 'none'
       }
     ]
   },
@@ -16567,6 +16681,31 @@ export const chains: Chains = {
       }
     ]
   },
+  6868: {
+    name: 'Pools Mainnet',
+    chain: 'Pools',
+    rpc: ['https://rpc.poolsmobility.com'],
+    faucets: [],
+    nativeCurrency: {
+      name: 'POOLS Native Token',
+      symbol: 'POOLS',
+      decimals: 18
+    },
+    infoURL: 'https://www.poolschain.org',
+    shortName: 'POOLS',
+    icon: 'POOLS',
+    chainId: 6868,
+    networkId: 6868,
+    slip44: 6868,
+    explorers: [
+      {
+        name: 'poolsscan',
+        url: 'https://scan.poolsmobility.com',
+        icon: 'POOLS',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   6969: {
     name: 'Tomb Chain Mainnet',
     chain: 'Tomb Chain',
@@ -18152,6 +18291,88 @@ export const chains: Chains = {
       }
     ]
   },
+  8911: {
+    name: 'Algen',
+    chain: 'ALG',
+    rpc: ['https://rpc.algen.network'],
+    faucets: [],
+    nativeCurrency: { name: 'ALG', symbol: 'ALG', decimals: 18 },
+    infoURL: 'https://www.algen.network',
+    shortName: 'alg',
+    chainId: 8911,
+    networkId: 8911,
+    icon: 'alg',
+    explorers: [
+      {
+        name: 'algscan',
+        url: 'https://scan.algen.network',
+        icon: 'alg',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  8912: {
+    name: 'Algen Testnet',
+    chain: 'ALG',
+    rpc: ['https://rpc.test.algen.network'],
+    faucets: [],
+    nativeCurrency: { name: 'ALG', symbol: 'ALG', decimals: 18 },
+    infoURL: 'https://www.algen.network',
+    shortName: 'algTest',
+    chainId: 8912,
+    networkId: 8912,
+    icon: 'alg',
+    explorers: [
+      {
+        name: 'algscan',
+        url: 'https://scan.test.algen.network',
+        icon: 'alg',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  8921: {
+    name: 'Algen Layer2',
+    chain: 'ALG L2',
+    rpc: ['https://rpc.alg2.algen.network'],
+    faucets: [],
+    nativeCurrency: { name: 'ALG', symbol: 'ALG', decimals: 18 },
+    infoURL: 'https://www.algen.network',
+    shortName: 'algl2',
+    chainId: 8921,
+    networkId: 8921,
+    icon: 'algl2',
+    explorers: [
+      {
+        name: 'algl2scan',
+        url: 'https://scan.alg2.algen.network',
+        icon: 'algl2',
+        standard: 'EIP3091'
+      }
+    ],
+    parent: { chain: 'eip155-8911', type: 'shard' }
+  },
+  8922: {
+    name: 'Algen Layer2 Testnet',
+    chain: 'ALG L2',
+    rpc: ['https://rpc.alg2-test.algen.network'],
+    faucets: [],
+    nativeCurrency: { name: 'ALG', symbol: 'ALG', decimals: 18 },
+    infoURL: 'https://www.algen.network',
+    shortName: 'algl2Test',
+    chainId: 8922,
+    networkId: 8922,
+    icon: 'algl2',
+    explorers: [
+      {
+        name: 'algl2scan',
+        url: 'https://scan.alg2-test.algen.network',
+        icon: 'algl2',
+        standard: 'EIP3091'
+      }
+    ],
+    parent: { chain: 'eip155-8921', type: 'shard' }
+  },
   8989: {
     name: 'Giant Mammoth Mainnet',
     title: 'Giant Mammoth Chain',
@@ -19151,6 +19372,25 @@ export const chains: Chains = {
         name: '0xtrade Scan',
         url: 'https://www.0xtscan.com',
         standard: 'none'
+      }
+    ]
+  },
+  10321: {
+    name: 'TAO EVM Mainnet',
+    chain: 'TAO EVM',
+    icon: 'taoevmIcon',
+    rpc: ['https://rpc.taoevm.io'],
+    faucets: [],
+    nativeCurrency: { name: 'TAO', symbol: 'TAO', decimals: 18 },
+    infoURL: 'https://taoevm.io',
+    shortName: 'TAOm',
+    chainId: 10321,
+    networkId: 10321,
+    explorers: [
+      {
+        name: 'TAO Mainnet Explorer',
+        url: 'https://taoscan.org',
+        standard: 'EIP3091'
       }
     ]
   },
@@ -21039,6 +21279,25 @@ export const chains: Chains = {
       {
         name: 'DCpay Mainnet Explorer',
         url: 'https://mainnet.dcpay.io',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  21224: {
+    name: 'DCpay Testnet',
+    chain: 'DCpay',
+    icon: 'dcpayIcon',
+    rpc: ['https://testnet-rpc.dcpay.io'],
+    faucets: ['https://faucet.dcpay.io'],
+    nativeCurrency: { name: 'DCP', symbol: 'DCP', decimals: 18 },
+    infoURL: 'https://dcpay.io',
+    shortName: 'DCPt',
+    chainId: 21224,
+    networkId: 21224,
+    explorers: [
+      {
+        name: 'DCpay Testnet Explorer',
+        url: 'https://testnet.dcpay.io',
         standard: 'EIP3091'
       }
     ]
@@ -25176,6 +25435,7 @@ export const chains: Chains = {
     shortName: 'INOAI',
     chainId: 88559,
     networkId: 88559,
+    icon: 'inoai',
     explorers: [
       { name: 'inoai live', url: 'https://inoai.live', standard: 'none' }
     ]
@@ -25535,6 +25795,19 @@ export const chains: Chains = {
         standard: 'EIP3091'
       }
     ]
+  },
+  98881: {
+    name: 'Ebi Chain',
+    title: 'Ebi Chain',
+    chain: 'Ebi',
+    rpc: ['https://rpc.ebi.xyz'],
+    faucets: [],
+    nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    infoURL: 'https://ebi.xyz',
+    shortName: 'ebi',
+    chainId: 98881,
+    networkId: 98881,
+    status: 'incubating'
   },
   99099: {
     name: 'eLiberty Testnet',
@@ -27643,22 +27916,68 @@ export const chains: Chains = {
       }
     ]
   },
+  355110: {
+    name: 'Bitfinity Network Mainnet',
+    chain: 'BFT',
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    rpc: ['https://mainnet.bitfinity.network'],
+    faucets: [],
+    nativeCurrency: { name: 'Bitfinity Token', symbol: 'BFT', decimals: 18 },
+    infoURL: 'https://bitfinity.network',
+    shortName: 'bitfinity-mainnet',
+    chainId: 355110,
+    networkId: 355110,
+    explorers: [
+      {
+        name: 'Bitfinity Mainnet Block Explorer',
+        url: 'https://explorer.mainnet.bitfinity.network',
+        icon: 'bitfinity',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   355113: {
     name: 'Bitfinity Network Testnet',
     chain: 'BFT',
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
     rpc: ['https://testnet.bitfinity.network'],
     faucets: ['https://bitfinity.network/faucet'],
-    nativeCurrency: { name: 'BITFINITY', symbol: 'BFT', decimals: 18 },
+    nativeCurrency: { name: 'Bitfinity Token', symbol: 'BFT', decimals: 18 },
     infoURL: 'https://bitfinity.network',
-    shortName: 'Bitfinity',
+    shortName: 'bitfinity-testnet',
     chainId: 355113,
     networkId: 355113,
-    slip44: 1,
     explorers: [
       {
-        name: 'Bitfinity Block Explorer',
-        url: 'https://explorer.bitfinity.network',
+        name: 'Bitfinity Testnet Block Explorer',
+        url: 'https://explorer.testnet.bitfinity.network',
         icon: 'bitfinity',
+        standard: 'EIP3091'
+      },
+      {
+        name: 'Bitfinity Testnet Block Explorer',
+        url: 'https://bitfinity-test.dex.guru',
+        icon: 'dexguru',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  360890: {
+    name: 'LAVITA Mainnet',
+    chain: 'LAVITA',
+    icon: 'lavita',
+    rpc: ['https://tsub360890-eth-rpc.thetatoken.org/rpc'],
+    faucets: [],
+    nativeCurrency: { name: 'vTFUEL', symbol: 'vTFUEL', decimals: 18 },
+    infoURL: 'https://www.lavita.ai',
+    shortName: 'lavita-mainnet',
+    chainId: 360890,
+    networkId: 360890,
+    explorers: [
+      {
+        name: 'LAVITA Mainnet Explorer',
+        url: 'https://tsub360890-explorer.thetatoken.org',
+        icon: 'lavita',
         standard: 'EIP3091'
       }
     ]
@@ -32319,6 +32638,27 @@ export const chains: Chains = {
       {
         name: 'dchaint scan',
         url: 'https://dchaintestnet-2713017997578000-1.testnet.sagaexplorer.io',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  2716446429837000: {
+    name: 'DCHAIN',
+    title: 'DCHAIN Mainnet',
+    chain: 'dchainmainnet',
+    icon: 'dchainmainnet',
+    rpc: ['https://dchain-2716446429837000-1.jsonrpc.sagarpc.io'],
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    faucets: [],
+    nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    infoURL: 'https://www.dchain.foundation/',
+    shortName: 'dchainmainnet',
+    chainId: 2716446429837000,
+    networkId: 2716446429837000,
+    explorers: [
+      {
+        name: 'dchain scan',
+        url: 'https://dchain-2716446429837000-1.sagaexplorer.io',
         standard: 'EIP3091'
       }
     ]
