@@ -3060,6 +3060,25 @@ export const chains: Chains = {
       bridges: [{ url: 'https://bridge.soraai.bot' }]
     }
   },
+  147: {
+    name: 'Flag Mainnet',
+    chain: 'Flag',
+    icon: 'flag',
+    rpc: ['https://mainnet-rpc.flagscan.xyz'],
+    faucets: [],
+    nativeCurrency: { name: 'Flag', symbol: 'FLAG', decimals: 18 },
+    infoURL: 'https://flagscan.xyz',
+    shortName: 'FLAG',
+    chainId: 147,
+    networkId: 147,
+    explorers: [
+      {
+        name: 'Flag Mainnet Explorer',
+        url: 'https://flagscan.xyz',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   148: {
     name: 'ShimmerEVM',
     title: 'ShimmerEVM',
@@ -3111,6 +3130,7 @@ export const chains: Chains = {
     chain: 'RBN',
     chainId: 151,
     networkId: 151,
+    slip44: 824,
     rpc: [],
     faucets: [],
     infoURL: 'https://redbelly.network',
@@ -3144,7 +3164,7 @@ export const chains: Chains = {
     chainId: 153,
     networkId: 153,
     slip44: 1,
-    rpc: [],
+    rpc: ['https://governors.testnet.redbelly.network'],
     faucets: [],
     infoURL: 'https://redbelly.network',
     nativeCurrency: {
@@ -3152,7 +3172,14 @@ export const chains: Chains = {
       symbol: 'RBNT',
       decimals: 18
     },
-    status: 'incubating'
+    explorers: [
+      {
+        name: 'Redbelly Network Testnet Explorer',
+        url: 'https://explorer.testnet.redbelly.network',
+        standard: 'none'
+      }
+    ],
+    status: 'active'
   },
   154: {
     name: 'Redbelly Network TGE',
@@ -9103,6 +9130,25 @@ export const chains: Chains = {
     networkId: 1140,
     slip44: 1
   },
+  1147: {
+    name: 'Flag Testnet',
+    chain: 'Flag',
+    icon: 'flag',
+    rpc: ['https://testnet-rpc.flagscan.xyz'],
+    faucets: ['https://faucet.flagscan.xyz'],
+    nativeCurrency: { name: 'Flag Testnet', symbol: 'FLAG', decimals: 18 },
+    infoURL: 'https://testnet-explorer.flagscan.xyz',
+    shortName: 'tFLAG',
+    chainId: 1147,
+    networkId: 1147,
+    explorers: [
+      {
+        name: 'Flag Testnet Explorer',
+        url: 'https://testnet-explorer.flagscan.xyz',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   1149: {
     name: 'Symplexia Smart Chain',
     chain: 'Plexchain',
@@ -9816,6 +9862,25 @@ export const chains: Chains = {
       }
     ]
   },
+  1329: {
+    name: 'Sei Network',
+    chain: 'Sei',
+    rpc: ['https://evm-rpc.sei-apis.com', 'wss://evm-ws.sei-apis.com'],
+    faucets: [],
+    nativeCurrency: { name: 'Sei', symbol: 'SEI', decimals: 18 },
+    infoURL: 'https://www.sei.io',
+    shortName: 'sei',
+    chainId: 1329,
+    networkId: 1329,
+    icon: 'seiv2',
+    explorers: [
+      {
+        name: 'Seitrace',
+        url: 'https://seitrace.com',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   1337: {
     name: 'Geth Testnet',
     title: 'Go Ethereum (Geth) Private Testnet',
@@ -9933,6 +9998,49 @@ export const chains: Chains = {
         name: 'zafirium-explorer',
         url: 'https://explorer.zakumi.io',
         standard: 'none'
+      }
+    ]
+  },
+  1370: {
+    name: 'Ramestta Mainnet',
+    chain: 'Ramestta',
+    icon: 'ramestta',
+    rpc: [
+      'https://blockchain.ramestta.com',
+      'https://blockchain2.ramestta.com'
+    ],
+    faucets: [],
+    nativeCurrency: { name: 'Rama', symbol: 'RAMA', decimals: 18 },
+    infoURL: 'https://www.ramestta.com',
+    shortName: 'RAMA',
+    chainId: 1370,
+    networkId: 1370,
+    explorers: [
+      {
+        name: 'ramascan',
+        url: 'https://ramascan.com',
+        icon: 'ramestta',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  1377: {
+    name: 'Pingaksha testnet',
+    chain: 'Pingaksha',
+    icon: 'ramestta',
+    rpc: ['https://testnet.ramestta.com'],
+    faucets: [],
+    nativeCurrency: { name: 'Rama', symbol: 'tRAMA', decimals: 18 },
+    infoURL: 'https://www.ramestta.com',
+    shortName: 'tRAMA',
+    chainId: 1377,
+    networkId: 1377,
+    explorers: [
+      {
+        name: 'Pingaksha',
+        url: 'https://pingaksha.ramascan.com',
+        icon: 'ramestta',
+        standard: 'EIP3091'
       }
     ]
   },
@@ -10695,6 +10803,33 @@ export const chains: Chains = {
         standard: 'EIP3091'
       }
     ]
+  },
+  1789: {
+    name: 'ZKBase Sepolia Testnet',
+    chain: 'ETH',
+    rpc: ['https://sepolia-rpc.zkbase.app'],
+    faucets: [],
+    nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    infoURL: 'https://zkbase.org/',
+    shortName: 'zkbase-sepolia',
+    chainId: 1789,
+    networkId: 1789,
+    slip44: 1,
+    icon: 'zkbase',
+    explorers: [
+      {
+        name: 'ZKbase Block Explorer',
+        url: 'https://sepolia-explorer.zkbase.app',
+        icon: 'zkbase',
+        standard: 'EIP3091'
+      }
+    ],
+    parent: {
+      type: 'L2',
+      chain: 'eip155-1',
+      bridges: [{ url: 'https://portral.zkbase.app/' }]
+    },
+    redFlags: ['reusedChainId']
   },
   1804: {
     name: 'Kerleano',
@@ -14722,8 +14857,8 @@ export const chains: Chains = {
   4061: {
     name: 'Nahmii 3 Mainnet',
     chain: 'Nahmii',
-    rpc: [],
-    status: 'incubating',
+    rpc: ['https://rpc.n3.nahmii.io'],
+    status: 'active',
     faucets: [],
     nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
     infoURL: 'https://nahmii.io',
@@ -14731,18 +14866,27 @@ export const chains: Chains = {
     chainId: 4061,
     networkId: 4061,
     icon: 'nahmii',
+    explorers: [
+      {
+        name: 'Nahmii 3 Mainnet Explorer',
+        url: 'https://explorer.nahmii.io',
+        icon: 'nahmii',
+        standard: 'EIP3091'
+      }
+    ],
     parent: {
       type: 'L2',
       chain: 'eip155-1',
-      bridges: [{ url: 'https://bridge.nahmii.io' }]
+      bridges: [{ url: 'https://accounts.nahmii.io' }]
     }
   },
   4062: {
     name: 'Nahmii 3 Testnet',
     chain: 'Nahmii',
-    rpc: ['https://ngeth.testnet.n3.nahmii.io'],
+    rpc: ['https://rpc.testnet.nahmii.io'],
+    status: 'active',
     faucets: [],
-    nativeCurrency: { name: 'Goerli Ether', symbol: 'ETH', decimals: 18 },
+    nativeCurrency: { name: 'Sepolia Ether', symbol: 'ETH', decimals: 18 },
     infoURL: 'https://nahmii.io',
     shortName: 'Nahmii3Testnet',
     chainId: 4062,
@@ -14752,15 +14896,15 @@ export const chains: Chains = {
     explorers: [
       {
         name: 'Nahmii 3 Testnet Explorer',
-        url: 'https://explorer.testnet.n3.nahmii.io',
+        url: 'https://explorer.testnet.nahmii.io',
         icon: 'nahmii',
         standard: 'EIP3091'
       }
     ],
     parent: {
       type: 'L2',
-      chain: 'eip155-3',
-      bridges: [{ url: 'https://bridge.testnet.n3.nahmii.io' }]
+      chain: 'eip155-11155111',
+      bridges: [{ url: 'https://accounts.testnet.nahmii.io' }]
     }
   },
   4078: {
@@ -15860,6 +16004,24 @@ export const chains: Chains = {
       }
     ]
   },
+  5372: {
+    name: 'Settlus Testnet',
+    chain: 'Settlus',
+    rpc: ['https://settlus-test-eth.settlus.io'],
+    faucets: ['https://faucet.settlus.io'],
+    nativeCurrency: { name: 'Setl', symbol: 'SETL', decimals: 18 },
+    infoURL: 'https://settlus.org',
+    shortName: 'settlus-testnet',
+    chainId: 5372,
+    networkId: 5372,
+    explorers: [
+      {
+        name: 'Settlus Scan',
+        url: 'https://testnet.settlus.network',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   5424: {
     name: 'edeXa Mainnet',
     chain: 'edeXa Network',
@@ -15920,9 +16082,10 @@ export const chains: Chains = {
     ]
   },
   5551: {
-    name: 'Nahmii Mainnet',
+    name: 'Nahmii 2 Mainnet',
     chain: 'Nahmii',
     rpc: ['https://l2.nahmii.io'],
+    status: 'active',
     faucets: [],
     nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
     infoURL: 'https://nahmii.io',
@@ -15932,8 +16095,8 @@ export const chains: Chains = {
     icon: 'nahmii',
     explorers: [
       {
-        name: 'Nahmii mainnet explorer',
-        url: 'https://explorer.nahmii.io',
+        name: 'Nahmii 2 Mainnet Explorer',
+        url: 'https://explorer.n2.nahmii.io',
         icon: 'nahmii',
         standard: 'EIP3091'
       }
@@ -15941,13 +16104,14 @@ export const chains: Chains = {
     parent: {
       type: 'L2',
       chain: 'eip155-1',
-      bridges: [{ url: 'https://bridge.nahmii.io' }]
+      bridges: [{ url: 'https://n2.bridge.nahmii.io' }]
     }
   },
   5553: {
-    name: 'Nahmii Testnet',
+    name: 'Nahmii 2 Testnet',
     chain: 'Nahmii',
     rpc: ['https://l2.testnet.nahmii.io'],
+    status: 'deprecated',
     faucets: [],
     nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
     infoURL: 'https://nahmii.io',
@@ -16427,6 +16591,27 @@ export const chains: Chains = {
       {
         name: 'Aurascan Explorer',
         url: 'https://euphoria.aurascan.io',
+        standard: 'none',
+        icon: 'aura'
+      }
+    ]
+  },
+  6322: {
+    name: 'Aura Mainnet',
+    chain: 'Aura',
+    rpc: ['https://jsonrpc.aura.network'],
+    faucets: [],
+    nativeCurrency: { name: 'Aura', symbol: 'AURA', decimals: 18 },
+    infoURL: 'https://aura.network',
+    shortName: 'aura',
+    chainId: 6322,
+    networkId: 6322,
+    slip44: 1,
+    icon: 'aura',
+    explorers: [
+      {
+        name: 'Aurascan Explorer',
+        url: 'https://aurascan.io',
         standard: 'none',
         icon: 'aura'
       }
@@ -16926,6 +17111,26 @@ export const chains: Chains = {
         standard: 'EIP3091'
       }
     ]
+  },
+  7300: {
+    name: 'XPLA Verse',
+    chain: 'XPLA Verse',
+    icon: 'xpla_verse',
+    rpc: ['https://rpc-xpla-verse.xpla.dev'],
+    faucets: [],
+    nativeCurrency: { name: 'OAS', symbol: 'OAS', decimals: 18 },
+    infoURL: 'https://www.xpla.io',
+    shortName: 'XPLAVERSE',
+    chainId: 7300,
+    networkId: 7300,
+    explorers: [
+      {
+        name: 'XPLA Verse Explorer',
+        url: 'https://explorer-xpla-verse.xpla.dev',
+        standard: 'EIP3091'
+      }
+    ],
+    parent: { type: 'L2', chain: 'eip155-248' }
   },
   7331: {
     name: 'KLYNTAR',
@@ -17500,6 +17705,32 @@ export const chains: Chains = {
     networkId: 8029,
     slip44: 1
   },
+  8047: {
+    name: 'BOAT Mainnet',
+    title: 'BOAT Mainnet',
+    chain: 'BOAT',
+    icon: 'boat',
+    rpc: ['https://rpc0.come.boat/'],
+    faucets: [],
+    nativeCurrency: {
+      name: 'Best Of All Time Token',
+      symbol: 'BOAT',
+      decimals: 18
+    },
+    infoURL: 'https://come.boats',
+    shortName: 'boat',
+    chainId: 8047,
+    networkId: 8047,
+    slip44: 1,
+    explorers: [
+      {
+        name: 'BOAT Mainnet Explorer',
+        url: 'https://scan.come.boats',
+        icon: 'boat',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   8054: {
     name: 'Karak Sepolia',
     title: 'Karak Testnet Sepolia',
@@ -17828,6 +18059,27 @@ export const chains: Chains = {
     chainId: 8285,
     networkId: 8285,
     slip44: 1
+  },
+  8329: {
+    name: 'Lorenzo',
+    chain: 'Lorenzo',
+    rpc: ['https://rpc.lorenzo-protocol.xyz'],
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    faucets: [],
+    nativeCurrency: { name: 'Lorenzo stBTC', symbol: 'stBTC', decimals: 18 },
+    infoURL: 'https://www.lorenzo-protocol.xyz/',
+    shortName: 'lrz',
+    chainId: 8329,
+    networkId: 8329,
+    icon: 'lorenzo',
+    explorers: [
+      {
+        name: 'Lorenzo Explorer',
+        url: 'https://scan.lorenzo-protocol.xyz',
+        standard: 'none',
+        icon: 'lorenzo'
+      }
+    ]
   },
   8387: {
     name: 'Dracones Financial Services',
@@ -19660,6 +19912,25 @@ export const chains: Chains = {
       }
     ]
   },
+  11227: {
+    name: 'Jiritsu Testnet Subnet',
+    chain: 'JIRITSUTES',
+    rpc: ['https://subnets.avax.network/jiritsutes/testnet/rpc'],
+    features: [{ name: 'EIP1559' }],
+    faucets: [],
+    nativeCurrency: { name: 'JIRI', symbol: 'TZW', decimals: 18 },
+    infoURL: 'https://jiritsu.network',
+    shortName: 'jiritsutes',
+    chainId: 11227,
+    networkId: 11227,
+    explorers: [
+      {
+        name: 'JIRITSUTES Explorer',
+        url: 'https://subnets-test.avax.network/jiritsutes',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   11235: {
     name: 'Haqq Network',
     chain: 'Haqq',
@@ -20293,6 +20564,27 @@ export const chains: Chains = {
       }
     ]
   },
+  13505: {
+    name: 'Gravity Alpha Testnet Sepolia',
+    chain: 'Gravity',
+    rpc: ['https://rpc-sepolia.gravity.xyz'],
+    faucets: [],
+    nativeCurrency: { name: 'Sepolia Gravity', symbol: 'G.', decimals: 18 },
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }, { name: 'EIP1108' }],
+    infoURL: 'https://gravity.xyz',
+    shortName: 'gravitysep',
+    chainId: 13505,
+    networkId: 13505,
+    icon: 'gravity',
+    explorers: [
+      {
+        name: 'Gravity Alpha Testnet Sepolia Explorer',
+        url: 'https://explorer-sepolia.gravity.xyz',
+        standard: 'EIP3091'
+      }
+    ],
+    parent: { type: 'L2', chain: 'eip155-11155111', bridges: [] }
+  },
   13600: {
     name: 'Kronobit Mainnet',
     title: 'Kronobit Mainnet',
@@ -20429,6 +20721,44 @@ export const chains: Chains = {
         url: 'https://explorer.dev.immutable.com',
         standard: 'EIP3091',
         icon: 'immutable'
+      }
+    ]
+  },
+  15257: {
+    name: 'Poodl Testnet',
+    chain: 'Poodl',
+    icon: 'poodlIcon',
+    rpc: ['https://testnet-rpc.poodl.org'],
+    faucets: ['https://faucet.poodl.org'],
+    nativeCurrency: { name: 'Poodl', symbol: 'POODL', decimals: 18 },
+    infoURL: 'https://poodl.org',
+    shortName: 'poodlt',
+    chainId: 15257,
+    networkId: 15257,
+    explorers: [
+      {
+        name: 'Poodl Testnet Explorer',
+        url: 'https://testnet.poodl.org',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  15259: {
+    name: 'Poodl Mainnet',
+    chain: 'Poodl',
+    icon: 'poodlIcon',
+    rpc: ['https://rpc.poodl.org'],
+    faucets: [],
+    nativeCurrency: { name: 'Poodl', symbol: 'POODL', decimals: 18 },
+    infoURL: 'https://poodl.org',
+    shortName: 'poodle',
+    chainId: 15259,
+    networkId: 15259,
+    explorers: [
+      {
+        name: 'Poodl Mainnet Explorer',
+        url: 'https://explorer.poodl.org',
+        standard: 'EIP3091'
       }
     ]
   },
@@ -22751,6 +23081,25 @@ export const chains: Chains = {
     chainId: 42069,
     networkId: 42069
   },
+  42072: {
+    name: 'AgentLayer Testnet',
+    chain: 'AgentLayer',
+    icon: 'agentLayerIcon',
+    rpc: ['https://testnet-rpc.agentlayer.xyz'],
+    faucets: [],
+    nativeCurrency: { name: 'Agent', symbol: 'AGENT', decimals: 18 },
+    infoURL: 'https://agentlayer.xyz/home',
+    shortName: 'agent',
+    chainId: 42072,
+    networkId: 42072,
+    explorers: [
+      {
+        name: 'AgentLayer Testnet Explorer',
+        url: 'https://testnet-explorer.agentlayer.xyz',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   42161: {
     name: 'Arbitrum One',
     chainId: 42161,
@@ -24767,6 +25116,24 @@ export const chains: Chains = {
       }
     ]
   },
+  75512: {
+    name: 'GEEK Verse Mainnet',
+    chain: 'GEEK',
+    rpc: ['https://rpc.geekout-pte.com'],
+    faucets: [],
+    nativeCurrency: { name: 'Geek', symbol: 'GEEK', decimals: 18 },
+    infoURL: 'https://www.geekout-pte.com',
+    shortName: 'GEEK',
+    chainId: 75512,
+    networkId: 75512,
+    explorers: [
+      {
+        name: 'Geek Explorer',
+        url: 'https://explorer.geekout-pte.com',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   77001: {
     name: 'BORAchain mainnet',
     chain: 'BORA',
@@ -26692,16 +27059,22 @@ export const chains: Chains = {
   167000: {
     name: 'Taiko Mainnet',
     chain: 'ETH',
-    status: 'incubating',
+    status: 'active',
     icon: 'taiko',
-    rpc: ['https://rpc.taiko.xyz', 'wss://ws.taiko.xyz'],
+    rpc: ['https://rpc.mainnet.taiko.xyz', 'wss://ws.mainnet.taiko.xyz'],
     faucets: [],
     nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
     infoURL: 'https://taiko.xyz',
     shortName: 'tko-mainnet',
     chainId: 167000,
     networkId: 167000,
-    explorers: []
+    explorers: [
+      {
+        name: 'etherscan',
+        url: 'https://taikoscan.io',
+        standard: 'EIP3091'
+      }
+    ]
   },
   167004: {
     name: 'Taiko (Alpha-2 Testnet)',
@@ -27640,7 +28013,13 @@ export const chains: Chains = {
     chainId: 313313,
     networkId: 313313,
     icon: 'sahara',
-    explorers: []
+    explorers: [
+      {
+        name: 'Testnet Scan',
+        url: 'https://explorer.saharaa.info',
+        standard: 'EIP3091'
+      }
+    ]
   },
   314159: {
     name: 'Filecoin - Calibration testnet',
@@ -29408,6 +29787,48 @@ export const chains: Chains = {
       {
         name: 'blockscout',
         url: 'https://explorer.eluv.io',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  984122: {
+    name: 'Forma',
+    chain: 'Forma',
+    rpc: ['https://rpc.forma.art'],
+    faucets: [],
+    nativeCurrency: { name: 'TIA', symbol: 'TIA', decimals: 18 },
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    infoURL: 'https://forma.art',
+    shortName: 'forma',
+    chainId: 984122,
+    networkId: 984122,
+    icon: 'forma',
+    explorers: [
+      {
+        name: 'blockscout',
+        url: 'https://explorer.forma.art',
+        icon: 'blockscout',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  984123: {
+    name: 'Forma Sketchpad',
+    chain: 'Forma',
+    rpc: ['https://rpc.sketchpad-1.forma.art'],
+    faucets: [],
+    nativeCurrency: { name: 'TIA', symbol: 'TIA', decimals: 18 },
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    infoURL: 'https://forma.art',
+    shortName: 'sketchpad',
+    chainId: 984123,
+    networkId: 984123,
+    icon: 'forma',
+    explorers: [
+      {
+        name: 'blockscout',
+        url: 'https://explorer.sketchpad-1.forma.art',
+        icon: 'blockscout',
         standard: 'EIP3091'
       }
     ]
@@ -31195,6 +31616,19 @@ export const chains: Chains = {
     chainId: 99415706,
     networkId: 99415706,
     slip44: 1
+  },
+  108160679: {
+    name: 'Oraichain Mainnet',
+    title: 'Oraichain Mainnet',
+    chain: 'Oraichain',
+    rpc: ['https://evm.orai.io'],
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    faucets: [],
+    nativeCurrency: { name: 'Oraichain Token', symbol: 'ORAI', decimals: 18 },
+    infoURL: 'https://orai.io',
+    shortName: 'Oraichain',
+    chainId: 108160679,
+    networkId: 108160679
   },
   111557560: {
     name: 'Cyber Testnet',
