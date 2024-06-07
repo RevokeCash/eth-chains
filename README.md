@@ -4,7 +4,7 @@
 
 Helper module for getting EVM chain info from [chainid.network](https://chainid.network/).
 
-Note: This package was initially created by @taylorjdawson. We forked the repository so we can control the release process with an automated script. The original package can be found [here](https://github.com/taylorjdawson/eth-chains).
+Note: This package was initially created by @taylorjdawson. We forked the repository so we can control the release process with an automated script and make additional changes. The original package can be found [here](https://github.com/taylorjdawson/eth-chains).
 
 ## Installation
 
@@ -21,17 +21,7 @@ yarn add @revoke.cash/chains
 Import `chains` methods and enums:
 
 ```ts
-import chains, { ChainId, ChainName } from '@revoke.cash/chains'
-```
-
-### Easily get most popular chains:
-
-```ts
-import { chain } from '@revoke.cash/chains'
-
-console.log(chain.ethereum.rinkeby)
-
-console.log(chain.polygon.mumbai)
+import allChains, { ChainId, ChainName } from '@revoke.cash/chains'
 ```
 
 ### Chain names and ids via Enums:
@@ -46,23 +36,23 @@ console.log(ChainName.Rinkeby) // "Rinkeby"
 ### Chain by ID:
 
 ```ts
-chains.getById(ChainId.EthereumMainnet) // { name: "Ethereum Mainnet", ..., "infoURL": "https://ethereum.org" }
+getChainById(ChainId.EthereumMainnet) // { name: "Ethereum Mainnet", ..., "infoURL": "https://ethereum.org" }
 // Equivalent
-chains.getById(1)
+getChainById(1)
 ```
 
 ### Chain by Name:
 
 ```ts
-chains.getByName(ChainName.EthereumMainnet) // { name: "Ethereum Mainnet", ..., "infoURL": "https://ethereum.org" }
+getChainByName(ChainName.EthereumMainnet) // { name: "Ethereum Mainnet", ..., "infoURL": "https://ethereum.org" }
 // Equivalent
-chains.getByName('Ethereum Mainnet')
+getChainByName('Ethereum Mainnet')
 ```
 
 ### Get all Chains:
 
 ```ts
-const allChains = chains.all()
+const chains = allChains()
 // { 1: { name: "Ethereum Mainnet", ..., "infoURL": "https://ethereum.org" }, 2: {...}}
 ```
 
@@ -70,6 +60,6 @@ const allChains = chains.all()
 
 ```ts
 import { Chain, NativeCurrency, Explorer } from '@revoke.cash/chains'
-const ethereum: Chain = chains.getById(ChainId.EthereumMainnet)
+const ethereum: Chain = getChainById(ChainId.EthereumMainnet)
 ethereum.chain // 'ETH'
 ```

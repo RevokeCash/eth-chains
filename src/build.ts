@@ -46,9 +46,11 @@ const generateEnumFile = async (chains: Chain[]) => {
 }
 
 const generateChainsFile = async () => {
-  const chains: Chain[] = await got(
+  const initialChains: Chain[] = await got(
     'https://chainid.network/chains.json'
   ).json()
+
+  const chains = await annotateIconUrls(initialChains)
 
   await generateEnumFile(chains).catch(() => {
     console.log('Error generating enum file')
@@ -66,5 +68,21 @@ const generateChainsFile = async () => {
     )
   )
 }
+
+const annotateIconUrls = async (chains: Chain[]) => {
+  return Promise.all(
+    chains.map(async chain => {
+      if (!chain.icon) return chain;
+
+      const [icon] = await got(
+        `https://raw.githubusercontent.com/ethereum-lists/chains/master/_data/icons/${chain.icon}.json`
+      ).json<Array<{ url: string }>>();
+
+      const iconURL = icon?.url?.replace('ipfs://', 'https://cloudflare-ipfs.com/ipfs/')
+
+      return { ...chain, iconURL }
+    })
+  );
+};
 
 generateChainsFile()

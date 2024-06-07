@@ -13,6 +13,7 @@ export interface Chain {
   faucets: string[]
   infoURL: string
   icon?: string
+  iconURL?: string
   slip44?: number
   parent?: Parent
   ens?: { registry: string }
