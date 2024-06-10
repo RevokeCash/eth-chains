@@ -3094,7 +3094,7 @@ export const chains: Chains = {
       'https://cloudflare-ipfs.com/ipfs/Qma7LpnkGjAN1dwL6VTXUYqzySNxjLg4br7J8UE4yZWYec'
   },
   140: {
-    name: 'EternalCoin Mainnet',
+    name: 'Eternal Mainnet',
     chain: 'Eter',
     icon: 'eternal',
     rpc: [
@@ -6638,6 +6638,7 @@ export const chains: Chains = {
     rpc: [
       'https://rpc.rollux.com',
       'wss://rpc.rollux.com/wss',
+      'https://rpc.ankr.com/rollux',
       'https://rollux.rpc.syscoin.org',
       'wss://rollux.rpc.syscoin.org/wss'
     ],
@@ -8053,7 +8054,7 @@ export const chains: Chains = {
     chain: 'MAXI',
     rpc: ['https://rpc-testnet.maxi.network'],
     faucets: ['https://faucet.maxi.network'],
-    nativeCurrency: { name: 'MAXICOIN', symbol: 'MAXI', decimals: 18 },
+    nativeCurrency: { name: 'MAXI GAS', symbol: 'MGAS', decimals: 18 },
     features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
     infoURL: 'https://maxi.network',
     shortName: 'maxi-testnet',
@@ -8064,6 +8065,28 @@ export const chains: Chains = {
       {
         name: 'Maxi Chain Testnet Explorer',
         url: 'https://testnet.maxi.network',
+        standard: 'EIP3091'
+      }
+    ],
+    iconURL:
+      'https://cloudflare-ipfs.com/ipfs/QmXMLcCaNPMyWCEYX2MZDJHNvj5cpj2cR5dRQtedBRNypT'
+  },
+  899: {
+    name: 'MAXI Chain Mainnet',
+    chain: 'MAXI',
+    rpc: ['https://rpc.maxi.network'],
+    faucets: [],
+    nativeCurrency: { name: 'MAXI GAS', symbol: 'MGAS', decimals: 18 },
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    infoURL: 'https://maxi.network',
+    shortName: 'maxi-mainnet',
+    chainId: 899,
+    networkId: 899,
+    icon: 'maxi',
+    explorers: [
+      {
+        name: 'Maxi Chain Mainnet Explorer',
+        url: 'https://mainnet.maxi.network',
         standard: 'EIP3091'
       }
     ],
@@ -9582,6 +9605,7 @@ export const chains: Chains = {
   1135: {
     name: 'Lisk',
     chain: 'ETH',
+    icon: 'lisk',
     rpc: ['https://rpc.api.lisk.com'],
     faucets: [],
     nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
@@ -9597,7 +9621,9 @@ export const chains: Chains = {
         icon: 'blockscout',
         standard: 'EIP3091'
       }
-    ]
+    ],
+    iconURL:
+      'https://cloudflare-ipfs.com/ipfs/QmVTS8jmWD5e7jVEn86wLjJsuMnc6s8fym3JbtE4etzSKf'
   },
   1138: {
     name: 'AmStar Testnet',
@@ -10008,6 +10034,24 @@ export const chains: Chains = {
     },
     iconURL:
       'https://cloudflare-ipfs.com/ipfs/QmVp9jyb3UFW71867yVtymmiRw7dPY4BTnsp3hEjr9tn8L'
+  },
+  1235: {
+    name: 'ITX Mainnet',
+    chain: 'ITX',
+    rpc: ['https://rpc.itxchain.com'],
+    faucets: [],
+    nativeCurrency: { name: 'ITX', symbol: 'ITX', decimals: 18 },
+    infoURL: 'https://explorer.itxchain.com',
+    shortName: 'itx',
+    chainId: 1235,
+    networkId: 1235,
+    explorers: [
+      {
+        name: 'ITX Mainnet Explorer (Blockscout)',
+        url: 'https://explorer.itxchain.com',
+        standard: 'EIP3091'
+      }
+    ]
   },
   1243: {
     name: 'ARC Mainnet',
@@ -14440,15 +14484,21 @@ export const chains: Chains = {
   2777: {
     name: 'GM Network Mainnet',
     chain: 'GM Network Mainnet',
-    rpc: [],
+    rpc: ['https://rpc.gmnetwork.ai'],
     faucets: [],
     nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
     infoURL: 'https://gmnetwork.ai',
     shortName: 'gmnetwork-mainnet',
     chainId: 2777,
     networkId: 2777,
-    explorers: [],
-    status: 'incubating'
+    explorers: [
+      {
+        name: 'GM Network Mainnet Explorer',
+        url: 'https://scan.gmnetwork.ai',
+        standard: 'EIP3091'
+      }
+    ],
+    status: 'active'
   },
   2810: {
     name: 'Morph Holesky',
@@ -15015,6 +15065,28 @@ export const chains: Chains = {
     ],
     iconURL:
       'https://cloudflare-ipfs.com/ipfs/Qme2Z8VFYjhHGfLQPBnfseNpEdRfmTDy7VXqrdH4AHETJf'
+  },
+  3456: {
+    name: 'LayerEdge testnet',
+    chain: 'LayerEdge',
+    rpc: ['https://testnet-rpc.layeredge.io'],
+    faucets: ['https://testnet-faucet.layeredge.io'],
+    nativeCurrency: { name: 'Bitcoin', symbol: 'BTC', decimals: 18 },
+    infoURL: 'https://www.layeredge.io',
+    shortName: 'LayerEdge-testnet',
+    chainId: 3456,
+    networkId: 3456,
+    icon: 'layerEdge',
+    explorers: [
+      {
+        name: 'LayerEdge Testnet Explorer',
+        url: 'https://testnet-explorer.layeredge.io',
+        icon: 'layerEdge',
+        standard: 'EIP3091'
+      }
+    ],
+    iconURL:
+      'https://cloudflare-ipfs.com/ipfs/QmT2RotFAn8edji6FqBiP1TpTb1EFqHr28qbQGoRaJ9nTN'
   },
   3500: {
     name: 'Paribu Net Testnet',
@@ -16084,8 +16156,9 @@ export const chains: Chains = {
   4202: {
     name: 'Lisk Sepolia Testnet',
     chain: 'ETH',
+    icon: 'lisk',
     rpc: ['https://rpc.sepolia-api.lisk.com'],
-    faucets: [],
+    faucets: ['https://app.optimism.io/faucet'],
     nativeCurrency: { name: 'Sepolia Ether', symbol: 'ETH', decimals: 18 },
     infoURL: 'https://lisk.com',
     shortName: 'lisksep',
@@ -16099,7 +16172,9 @@ export const chains: Chains = {
         icon: 'blockscout',
         standard: 'EIP3091'
       }
-    ]
+    ],
+    iconURL:
+      'https://cloudflare-ipfs.com/ipfs/QmVTS8jmWD5e7jVEn86wLjJsuMnc6s8fym3JbtE4etzSKf'
   },
   4242: {
     name: 'Nexi Mainnet',
@@ -16286,7 +16361,7 @@ export const chains: Chains = {
     nativeCurrency: { name: 'Hydra', symbol: 'HYDRA', decimals: 18 },
     features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
     infoURL: 'https://hydrachain.org',
-    shortName: 'hydra',
+    shortName: 'HYDRA',
     chainId: 4488,
     networkId: 4488,
     icon: 'hydra',
@@ -16823,6 +16898,29 @@ export const chains: Chains = {
       }
     ]
   },
+  5112: {
+    name: 'Ham',
+    chain: 'Ham',
+    rpc: ['https://rpc.ham.fun'],
+    faucets: [],
+    nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    infoURL: 'https://ham.fun',
+    shortName: 'ham',
+    chainId: 5112,
+    networkId: 5112,
+    icon: 'ham',
+    explorers: [
+      {
+        name: 'blockscout',
+        url: 'https://explorer.ham.fun',
+        icon: 'blockscout',
+        standard: 'EIP3091'
+      }
+    ],
+    status: 'active',
+    iconURL:
+      'https://cloudflare-ipfs.com/ipfs/QmcbYVenTET9HBS7vs7SGv1MNqnRscAKVF5kaRVHaVCfvs'
+  },
   5165: {
     name: 'Bahamut',
     title: 'Bahamut mainnet',
@@ -16979,6 +17077,24 @@ export const chains: Chains = {
     ],
     iconURL:
       'https://cloudflare-ipfs.com/ipfs/QmYktPMo4tdQhMA9nRJBVckjzHcFLbpHbTVNSpGUUPEP8J'
+  },
+  5321: {
+    name: 'ITX Testnet',
+    chain: 'ITX',
+    rpc: ['https://rpc.testnet.itxchain.com'],
+    faucets: [],
+    nativeCurrency: { name: 'ITX', symbol: 'ITX', decimals: 18 },
+    infoURL: 'https://explorer.testnet.itxchain.com',
+    shortName: 'itx-testnet',
+    chainId: 5321,
+    networkId: 5321,
+    explorers: [
+      {
+        name: 'ITX Testnet Explorer (Blockscout)',
+        url: 'https://explorer.testnet.itxchain.com',
+        standard: 'EIP3091'
+      }
+    ]
   },
   5353: {
     name: 'Tritanium Testnet',
@@ -19534,7 +19650,7 @@ export const chains: Chains = {
     nativeCurrency: { name: 'tHydra', symbol: 'tHYDRA', decimals: 18 },
     features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
     infoURL: 'https://hydrachain.org',
-    shortName: 'thydra',
+    shortName: 'THYDRA',
     chainId: 8844,
     networkId: 8844,
     icon: 'hydra',
@@ -20930,6 +21046,29 @@ export const chains: Chains = {
     iconURL:
       'https://cloudflare-ipfs.com/ipfs/QmRhQG9TZrXDdbQeTzBmjg3pqgwaD5TKVZj8k4kaz8AoZx'
   },
+  10222: {
+    name: 'GLScan',
+    chain: 'GLC',
+    icon: 'glc',
+    rpc: ['https://glc-dataseed.glscan.io/'],
+    faucets: [],
+    nativeCurrency: { name: 'GLC', symbol: 'GLC', decimals: 18 },
+    infoURL: 'https://glscan.io/',
+    shortName: 'glc',
+    chainId: 10222,
+    networkId: 10222,
+    slip44: 1,
+    explorers: [
+      {
+        name: 'GLScan Explorer',
+        url: 'https://glscan.io',
+        standard: 'none',
+        icon: 'glc'
+      }
+    ],
+    iconURL:
+      'https://cloudflare-ipfs.com/ipfs/QmTw21p6UfXVH2BCU81G2Ck28ecoknz4v9mC35fF8Z987i'
+  },
   10242: {
     name: 'Arthera Mainnet',
     chain: 'AA',
@@ -21477,13 +21616,14 @@ export const chains: Chains = {
       'https://cloudflare-ipfs.com/ipfs/QmdR9QJjQEh1mBnf2WbJfehverxiP5RDPWMtEECbDP2rc3'
   },
   11888: {
-    name: 'Santiment Intelligence Network',
-    chain: 'Santiment Intelligence Network',
+    status: 'deprecated',
+    name: 'Santiment Intelligence Network DEPRECATED',
+    chain: 'Santiment Intelligence Network DEPRECATED',
     rpc: ['https://sanrchain-node.santiment.net'],
     faucets: [],
-    nativeCurrency: { name: 'SANR', symbol: 'SANR', decimals: 18 },
+    nativeCurrency: { name: 'SANold', symbol: 'SANold', decimals: 18 },
     infoURL: 'https://sanr.app',
-    shortName: 'SAN',
+    shortName: 'SANold',
     chainId: 11888,
     networkId: 11888,
     icon: 'sanrchain',
@@ -24306,6 +24446,32 @@ export const chains: Chains = {
     iconURL:
       'https://cloudflare-ipfs.com/ipfs/QmaQdiE7vwxKeuWCjk4nKBikcpg4XCzQkFWGrAZHmMKnrq'
   },
+  32382: {
+    name: 'Santiment Intelligence Network',
+    chain: 'Santiment Intelligence Network',
+    rpc: ['https://node.sanr.app'],
+    faucets: [],
+    nativeCurrency: { name: 'SANR', symbol: 'SANR', decimals: 18 },
+    infoURL: 'https://sanr.app',
+    shortName: 'SANR',
+    chainId: 32382,
+    networkId: 32382,
+    icon: 'sanrchain',
+    parent: {
+      chain: 'eip155-1',
+      type: 'L2',
+      bridges: [{ url: 'https://sanr.app' }]
+    },
+    explorers: [
+      {
+        name: 'Santiment Intelligence Explorer',
+        url: 'https://app-explorer-pos.sanr.app',
+        standard: 'none'
+      }
+    ],
+    iconURL:
+      'https://cloudflare-ipfs.com/ipfs/QmPLMg5mYD8XRknvYbDkD2x7FXxYan7MPTeUWZC2CihwDM'
+  },
   32520: {
     name: 'Bitgert Mainnet',
     chain: 'Brise',
@@ -25364,6 +25530,47 @@ export const chains: Chains = {
         standard: 'none'
       }
     ]
+  },
+  48795: {
+    name: 'Space Subnet Testnet',
+    chain: 'SPACETESTNET',
+    rpc: ['https://subnets.avax.network/space/testnet/rpc'],
+    features: [{ name: 'EIP1559' }],
+    faucets: [],
+    nativeCurrency: { name: 'FUEL', symbol: 'FUEL', decimals: 18 },
+    infoURL: 'https://otherworld.network',
+    shortName: 'spacetestnet',
+    chainId: 48795,
+    networkId: 48795,
+    explorers: [
+      {
+        name: 'SPACE Explorer',
+        url: 'https://subnets-test.avax.network/space',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  48899: {
+    name: 'Zircuit Testnet',
+    chain: 'Zircuit Testnet',
+    icon: 'zircuit',
+    rpc: ['https://zircuit1.p2pify.com/'],
+    faucets: [],
+    nativeCurrency: { name: 'ETH', symbol: 'ETH', decimals: 18 },
+    infoURL: 'https://www.zircuit.com/',
+    shortName: 'zircuit-testnet',
+    chainId: 48899,
+    networkId: 48899,
+    explorers: [
+      {
+        name: 'Zircuit',
+        url: 'https://explorer.zircuit.com',
+        icon: 'zircuit',
+        standard: 'none'
+      }
+    ],
+    iconURL:
+      'https://cloudflare-ipfs.com/ipfs/QmV4nUUiRaTTZSyWubpF98ZL9jNCoXkrgg6AWR6FKqdxMk'
   },
   49049: {
     name: 'Wireshape Floripa Testnet',
@@ -31314,7 +31521,7 @@ export const chains: Chains = {
     icon: 'atlas',
     rpc: ['https://rpc.testnet.atl.network'],
     faucets: [],
-    nativeCurrency: { name: 'ATLAS', symbol: 'ATLAS', decimals: 18 },
+    nativeCurrency: { name: 'TON', symbol: 'TON', decimals: 18 },
     infoURL: 'https://atl.network',
     shortName: 'atlas-testnet',
     chainId: 622463,
@@ -32497,6 +32704,24 @@ export const chains: Chains = {
       bridges: [{ url: 'https://portal.playfi.ai/bridge' }]
     }
   },
+  1637450: {
+    name: 'Xterio Testnet',
+    chain: 'Xterio Testnet',
+    rpc: ['https://xterio-testnet.alt.technology'],
+    faucets: [],
+    nativeCurrency: { name: 'tBNB', symbol: 'tBNB', decimals: 18 },
+    infoURL: 'https://xter.io',
+    shortName: 'xteriotest',
+    chainId: 1637450,
+    networkId: 1637450,
+    explorers: [
+      {
+        name: 'Xterio Testnet Explorer',
+        url: 'https://testnet.xterscan.io',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   1731313: {
     name: 'Turkey Demo Dev',
     chain: 'ETH',
@@ -33131,6 +33356,25 @@ export const chains: Chains = {
       }
     ],
     parent: { chain: 'eip155-2099156', type: 'L2' }
+  },
+  8008135: {
+    name: 'Fhenix Helium',
+    chain: 'tFHE',
+    rpc: ['https://api.helium.fhenix.zone'],
+    faucets: ['https://get-helium.fhenix.zone'],
+    nativeCurrency: { name: 'tFHE', symbol: 'tFHE', decimals: 18 },
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    infoURL: 'https://www.fhenix.io',
+    shortName: 'fhe-helium',
+    chainId: 8008135,
+    networkId: 8008135,
+    explorers: [
+      {
+        name: 'Fhenix Helium Explorer (Blockscout)',
+        url: 'https://explorer.helium.fhenix.zone',
+        standard: 'EIP3091'
+      }
+    ]
   },
   8080808: {
     name: 'Hokum',
@@ -34482,6 +34726,27 @@ export const chains: Chains = {
     iconURL:
       'https://cloudflare-ipfs.com/ipfs/QmRhqq4Gp8G9w27ND3LeFW49o5PxcxrbJsqHbpBFtzEMfC'
   },
+  328527624: {
+    name: 'Nal Sepolia Testnet',
+    chain: 'ETH',
+    rpc: ['https://testnet-rpc.nal.network'],
+    faucets: [],
+    nativeCurrency: { name: 'Sepolia Ether', symbol: 'ETH', decimals: 18 },
+    icon: 'nal',
+    infoURL: 'https://www.nal.network',
+    shortName: 'nalsep',
+    chainId: 328527624,
+    networkId: 328527624,
+    explorers: [
+      {
+        name: 'Nal Sepolia Testnet Network Explorer',
+        url: 'https://testnet-scan.nal.network',
+        standard: 'EIP3091'
+      }
+    ],
+    iconURL:
+      'https://cloudflare-ipfs.com/ipfs/QmZLZHX18YUswejxo1JFNPx5EwMsVhUwBeBWEcd1JUHAK5'
+  },
   333000333: {
     name: 'Meld',
     title: 'Meld Mainnet',
@@ -35602,6 +35867,24 @@ export const chains: Chains = {
     ],
     iconURL:
       'https://cloudflare-ipfs.com/ipfs/QmSW2YhCvMpnwtPGTJAuEK2QgyWfFjmnwcrapUg6kqFsPf'
+  },
+  202402181627: {
+    name: 'GM Network Testnet',
+    chain: 'GM Network Testnet',
+    rpc: ['https://gmnetwork-testnet.alt.technology/'],
+    faucets: [],
+    nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    infoURL: 'https://gmnetwork.ai',
+    shortName: 'gmnetwork-testnet',
+    chainId: 202402181627,
+    networkId: 202402181627,
+    explorers: [
+      {
+        name: 'gmnetwork-testnet',
+        url: 'https://gmnetwork-testnet-explorer.alt.technology',
+        standard: 'EIP3091'
+      }
+    ]
   },
   383414847825: {
     name: 'Zeniq',
