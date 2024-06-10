@@ -78,7 +78,7 @@ const annotateIconUrls = async (chains: Chain[]) => {
         `https://raw.githubusercontent.com/ethereum-lists/chains/master/_data/icons/${chain.icon}.json`
       ).json<Array<{ url: string }>>();
 
-      const iconURL = icon?.url?.replace('ipfs://', 'https://cloudflare-ipfs.com/ipfs/')
+      const iconURL = icon?.url?.replace('ipfs://', 'https://ipfs.io/ipfs/')
 
       return { ...chain, iconURL }
     })

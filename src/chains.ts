@@ -52,7 +52,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdwQDr6vmBtXmK2TmknkEuZNoaDqTasFdZdu3DRw8b2wt'
+      'https://ipfs.io/ipfs/QmdwQDr6vmBtXmK2TmknkEuZNoaDqTasFdZdu3DRw8b2wt'
   },
   2: {
     name: 'Expanse Network',
@@ -178,7 +178,7 @@ export const chains: Chains = {
     networkId: 6,
     slip44: 1,
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmawMDPsaj3kBTZErCYQ3tshv5RrMAN3smWNs72m943Fyj'
+      'https://ipfs.io/ipfs/QmawMDPsaj3kBTZErCYQ3tshv5RrMAN3smWNs72m943Fyj'
   },
   7: {
     name: 'ThaiChain',
@@ -351,7 +351,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmbT52cCx4h1rcz6nXGfUPFdRyw1VfFMU8kKpY7YCtvUjs'
+      'https://ipfs.io/ipfs/QmbT52cCx4h1rcz6nXGfUPFdRyw1VfFMU8kKpY7YCtvUjs'
   },
   15: {
     name: 'Diode Prenet',
@@ -397,7 +397,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmV5PVhxaT3ePRHYsH3aryEHin2c49W18xW3Xg4o171iYE'
+      'https://ipfs.io/ipfs/QmV5PVhxaT3ePRHYsH3aryEHin2c49W18xW3Xg4o171iYE'
   },
   17: {
     name: 'ThaiChain 2.0 ThaiFi',
@@ -470,7 +470,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdpaH9pEFDXB4tUPxcqAHfB3Sfx3BQufz6EAzBWhHH6Ka'
+      'https://ipfs.io/ipfs/QmdpaH9pEFDXB4tUPxcqAHfB3Sfx3BQufz6EAzBWhHH6Ka'
   },
   20: {
     name: 'Elastos Smart Chain',
@@ -544,7 +544,7 @@ export const chains: Chains = {
     networkId: 0,
     redFlags: ['reusedChainId'],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXoHaZXJevc59GuzEgBhwRSH6kio1agMRvL8bD93pARRV'
+      'https://ipfs.io/ipfs/QmXoHaZXJevc59GuzEgBhwRSH6kio1agMRvL8bD93pARRV'
   },
   25: {
     name: 'Cronos Mainnet',
@@ -677,7 +677,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreigidzbf22dnpmmlfxv6u7oifq6ln33j4n57ox4ipiproalufrheym'
+      'https://ipfs.io/ipfs/bafkreigidzbf22dnpmmlfxv6u7oifq6ln33j4n57ox4ipiproalufrheym'
   },
   31: {
     name: 'Rootstock Testnet',
@@ -706,7 +706,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreigidzbf22dnpmmlfxv6u7oifq6ln33j4n57ox4ipiproalufrheym'
+      'https://ipfs.io/ipfs/bafkreigidzbf22dnpmmlfxv6u7oifq6ln33j4n57ox4ipiproalufrheym'
   },
   32: {
     name: 'GoodData Testnet',
@@ -759,7 +759,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qme2Z8VFYjhHGfLQPBnfseNpEdRfmTDy7VXqrdH4AHETJf'
+      'https://ipfs.io/ipfs/Qme2Z8VFYjhHGfLQPBnfseNpEdRfmTDy7VXqrdH4AHETJf'
   },
   35: {
     name: 'TBWG Chain',
@@ -787,7 +787,7 @@ export const chains: Chains = {
       { name: 'dxscan', url: 'https://dxscan.io', standard: 'EIP3091' }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYBup5bWoBfkaHntbcgW8Ji7ncad7f53deJ4Q55z4PNQs'
+      'https://ipfs.io/ipfs/QmYBup5bWoBfkaHntbcgW8Ji7ncad7f53deJ4Q55z4PNQs'
   },
   37: {
     name: 'Xpla Mainnet',
@@ -809,7 +809,7 @@ export const chains: Chains = {
     ],
     redFlags: ['reusedChainId'],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmf4GoxfpeA5VGqu7KP5eyv1WKaCpNDbvMxq1MjQBwFWxq'
+      'https://ipfs.io/ipfs/Qmf4GoxfpeA5VGqu7KP5eyv1WKaCpNDbvMxq1MjQBwFWxq'
   },
   38: {
     name: 'Valorbit',
@@ -843,7 +843,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmcW64RgqQVHnNbVFyfaMNKt7dJvFqEbfEHZmeyeK8dpEa'
+      'https://ipfs.io/ipfs/QmcW64RgqQVHnNbVFyfaMNKt7dJvFqEbfEHZmeyeK8dpEa'
   },
   40: {
     name: 'Telos EVM Mainnet',
@@ -914,7 +914,7 @@ export const chains: Chains = {
     features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
     redFlags: ['reusedChainId'],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmeg9sFF5tAGi6MCx7YjtVHW6a23zqvHRK1xwzSdp9iE7z'
+      'https://ipfs.io/ipfs/Qmeg9sFF5tAGi6MCx7YjtVHW6a23zqvHRK1xwzSdp9iE7z'
   },
   43: {
     name: 'Darwinia Pangolin Testnet',
@@ -1056,7 +1056,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmT7DTqT1V2y42pRpt3sj9ifijfmbtkHN7D2vTfAUAS622'
+      'https://ipfs.io/ipfs/QmT7DTqT1V2y42pRpt3sj9ifijfmbtkHN7D2vTfAUAS622'
   },
   49: {
     name: 'Ennothem Testnet Pioneer',
@@ -1078,7 +1078,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmT7DTqT1V2y42pRpt3sj9ifijfmbtkHN7D2vTfAUAS622'
+      'https://ipfs.io/ipfs/QmT7DTqT1V2y42pRpt3sj9ifijfmbtkHN7D2vTfAUAS622'
   },
   50: {
     name: 'XDC Network',
@@ -1111,7 +1111,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeRq7pabiJE2n1xU3Y5Mb4TZSX9kQ74x7a3P2Z4PqcMRX'
+      'https://ipfs.io/ipfs/QmeRq7pabiJE2n1xU3Y5Mb4TZSX9kQ74x7a3P2Z4PqcMRX'
   },
   51: {
     name: 'XDC Apothem Network',
@@ -1139,7 +1139,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeRq7pabiJE2n1xU3Y5Mb4TZSX9kQ74x7a3P2Z4PqcMRX'
+      'https://ipfs.io/ipfs/QmeRq7pabiJE2n1xU3Y5Mb4TZSX9kQ74x7a3P2Z4PqcMRX'
   },
   52: {
     name: 'CoinEx Smart Chain Mainnet',
@@ -1205,7 +1205,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVTahJkdSH3HPYsJMK2GmqfWZjLyxE7cXy1aHEnHU3vp2'
+      'https://ipfs.io/ipfs/QmVTahJkdSH3HPYsJMK2GmqfWZjLyxE7cXy1aHEnHU3vp2'
   },
   55: {
     name: 'Zyx Mainnet',
@@ -1326,7 +1326,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreigmvn6spvbiirtutowpq6jmetevbxoof5plzixjoerbeswy4htfb4'
+      'https://ipfs.io/ipfs/bafkreigmvn6spvbiirtutowpq6jmetevbxoof5plzixjoerbeswy4htfb4'
   },
   59: {
     name: 'EOS EVM Legacy',
@@ -1419,7 +1419,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qme7PT7gidTzRuf3T2JdxQ64JeZPgFH7yNBB8mYoMPbpTe'
+      'https://ipfs.io/ipfs/Qme7PT7gidTzRuf3T2JdxQ64JeZPgFH7yNBB8mYoMPbpTe'
   },
   62: {
     name: 'Morden Testnet',
@@ -1436,7 +1436,7 @@ export const chains: Chains = {
     networkId: 2,
     slip44: 1,
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmawMDPsaj3kBTZErCYQ3tshv5RrMAN3smWNs72m943Fyj'
+      'https://ipfs.io/ipfs/QmawMDPsaj3kBTZErCYQ3tshv5RrMAN3smWNs72m943Fyj'
   },
   63: {
     name: 'Mordor Testnet',
@@ -1473,7 +1473,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmawMDPsaj3kBTZErCYQ3tshv5RrMAN3smWNs72m943Fyj'
+      'https://ipfs.io/ipfs/QmawMDPsaj3kBTZErCYQ3tshv5RrMAN3smWNs72m943Fyj'
   },
   64: {
     name: 'Ellaism',
@@ -1629,7 +1629,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreifj7n24u2dslfijfihwqvpdeigt5aj3k3sxv6s35lv75sxsfr3ojy'
+      'https://ipfs.io/ipfs/bafkreifj7n24u2dslfijfihwqvpdeigt5aj3k3sxv6s35lv75sxsfr3ojy'
   },
   72: {
     name: 'DxChain Testnet',
@@ -1663,7 +1663,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmfXCh6UnaEHn3Evz7RFJ3p2ggJBRm9hunDHegeoquGuhD'
+      'https://ipfs.io/ipfs/QmfXCh6UnaEHn3Evz7RFJ3p2ggJBRm9hunDHegeoquGuhD'
   },
   74: {
     name: 'IDChain Mainnet',
@@ -1684,7 +1684,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZVwsY6HPXScKqZCA9SWNrr4jrQAHkPhVhMWi6Fj1DsrJ'
+      'https://ipfs.io/ipfs/QmZVwsY6HPXScKqZCA9SWNrr4jrQAHkPhVhMWi6Fj1DsrJ'
   },
   75: {
     name: 'Decimal Smart Chain Mainnet',
@@ -1713,7 +1713,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSgzwKnJJjys3Uq2aVVdwJ3NffLj3CXMVCph9uByTBegc'
+      'https://ipfs.io/ipfs/QmSgzwKnJJjys3Uq2aVVdwJ3NffLj3CXMVCph9uByTBegc'
   },
   76: {
     name: 'Mix',
@@ -1833,7 +1833,7 @@ export const chains: Chains = {
     ],
     redFlags: ['reusedChainId'],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreidhsiuqrct42bel76zhi3rx35k4lnk6aqgde27nvvxcz563ttfefy'
+      'https://ipfs.io/ipfs/bafkreidhsiuqrct42bel76zhi3rx35k4lnk6aqgde27nvvxcz563ttfefy'
   },
   82: {
     name: 'Meter Mainnet',
@@ -1950,7 +1950,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTTamJ55YGQwMboq4aqf3JjTEy5WDtjo4GBRQ5VdsWA6U'
+      'https://ipfs.io/ipfs/QmTTamJ55YGQwMboq4aqf3JjTEy5WDtjo4GBRQ5VdsWA6U'
   },
   88: {
     name: 'Viction',
@@ -1996,7 +1996,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmW3WRyuLZ95K8hvV2QN6rP5yWY98sSzWyVUxD2eUjXGrc'
+      'https://ipfs.io/ipfs/QmW3WRyuLZ95K8hvV2QN6rP5yWY98sSzWyVUxD2eUjXGrc'
   },
   91: {
     name: 'Garizon Stage1',
@@ -2019,7 +2019,7 @@ export const chains: Chains = {
     ],
     parent: { chain: 'eip155-90', type: 'shard' },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmW3WRyuLZ95K8hvV2QN6rP5yWY98sSzWyVUxD2eUjXGrc'
+      'https://ipfs.io/ipfs/QmW3WRyuLZ95K8hvV2QN6rP5yWY98sSzWyVUxD2eUjXGrc'
   },
   92: {
     name: 'Garizon Stage2',
@@ -2042,7 +2042,7 @@ export const chains: Chains = {
     ],
     parent: { chain: 'eip155-90', type: 'shard' },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmW3WRyuLZ95K8hvV2QN6rP5yWY98sSzWyVUxD2eUjXGrc'
+      'https://ipfs.io/ipfs/QmW3WRyuLZ95K8hvV2QN6rP5yWY98sSzWyVUxD2eUjXGrc'
   },
   93: {
     name: 'Garizon Stage3',
@@ -2065,7 +2065,7 @@ export const chains: Chains = {
     ],
     parent: { chain: 'eip155-90', type: 'shard' },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmW3WRyuLZ95K8hvV2QN6rP5yWY98sSzWyVUxD2eUjXGrc'
+      'https://ipfs.io/ipfs/QmW3WRyuLZ95K8hvV2QN6rP5yWY98sSzWyVUxD2eUjXGrc'
   },
   94: {
     name: 'SwissDLT',
@@ -2088,7 +2088,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreig7x5z4j6vh2r3pugmjnob3tmlksaekhqcgsorqzvs55o6v7ehqd4'
+      'https://ipfs.io/ipfs/bafkreig7x5z4j6vh2r3pugmjnob3tmlksaekhqcgsorqzvs55o6v7ehqd4'
   },
   95: {
     name: 'CamDL Mainnet',
@@ -2112,7 +2112,7 @@ export const chains: Chains = {
     ],
     status: 'active',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmW5Fpb2Ywnfqcj4ibvpbKvPv5Mo5eseWdYZnnUvLkj2Hp'
+      'https://ipfs.io/ipfs/QmW5Fpb2Ywnfqcj4ibvpbKvPv5Mo5eseWdYZnnUvLkj2Hp'
   },
   96: {
     name: 'Bitkub Chain',
@@ -2135,7 +2135,7 @@ export const chains: Chains = {
     ],
     redFlags: ['reusedChainId'],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYFYwyquipwc9gURQGcEd4iAq7pq15chQrJ3zJJe9HuFT'
+      'https://ipfs.io/ipfs/QmYFYwyquipwc9gURQGcEd4iAq7pq15chQrJ3zJJe9HuFT'
   },
   97: {
     name: 'BNB Smart Chain Testnet',
@@ -2189,7 +2189,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmP93z696v8Hetu13peY2oEHDXq8Bj5CqaDRwpVkpnM15A'
+      'https://ipfs.io/ipfs/QmP93z696v8Hetu13peY2oEHDXq8Bj5CqaDRwpVkpnM15A'
   },
   99: {
     name: 'POA Network Core',
@@ -2264,7 +2264,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeidk4swpgdyqmpz6shd5onvpaujvwiwthrhypufnwr6xh3dausz2dm'
+      'https://ipfs.io/ipfs/bafybeidk4swpgdyqmpz6shd5onvpaujvwiwthrhypufnwr6xh3dausz2dm'
   },
   101: {
     name: 'EtherInc',
@@ -2295,7 +2295,7 @@ export const chains: Chains = {
     networkId: 102,
     slip44: 1,
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmUc57w3UTHiWapNW9oQb1dP57ymtdemTTbpvGkjVHBRCo'
+      'https://ipfs.io/ipfs/QmUc57w3UTHiWapNW9oQb1dP57ymtdemTTbpvGkjVHBRCo'
   },
   103: {
     name: 'WorldLand Mainnet',
@@ -2319,7 +2319,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYZNTfK3byhgLsTjXP8vPubVHRz2CWsBrTJxZrQmKq6JZ'
+      'https://ipfs.io/ipfs/QmYZNTfK3byhgLsTjXP8vPubVHRz2CWsBrTJxZrQmKq6JZ'
   },
   104: {
     name: 'Kaiba Lightning Chain Testnet',
@@ -2346,7 +2346,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeihbsw3ky7yf6llpww6fabo4dicotcgwjpefscoxrppstjx25dvtea'
+      'https://ipfs.io/ipfs/bafybeihbsw3ky7yf6llpww6fabo4dicotcgwjpefscoxrppstjx25dvtea'
   },
   105: {
     name: 'Web3Games Devnet',
@@ -2367,7 +2367,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmUc57w3UTHiWapNW9oQb1dP57ymtdemTTbpvGkjVHBRCo'
+      'https://ipfs.io/ipfs/QmUc57w3UTHiWapNW9oQb1dP57ymtdemTTbpvGkjVHBRCo'
   },
   106: {
     name: 'Velas EVM Mainnet',
@@ -2391,7 +2391,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNXiCXJxEeBd7ZYGYjPSMTSdbDd2nfodLC677gUfk9ku5'
+      'https://ipfs.io/ipfs/QmNXiCXJxEeBd7ZYGYjPSMTSdbDd2nfodLC677gUfk9ku5'
   },
   107: {
     name: 'Nebula Testnet',
@@ -2413,7 +2413,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeFaJtQqTKKuXQR7ysS53bLFPasFBcZw445cvYJ2HGeTo'
+      'https://ipfs.io/ipfs/QmeFaJtQqTKKuXQR7ysS53bLFPasFBcZw445cvYJ2HGeTo'
   },
   108: {
     name: 'ThunderCore Mainnet',
@@ -2457,7 +2457,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYNVkoZgRjDBQzJz6kog9mA2yPzQFW2oSKvhnkwuBhLQE'
+      'https://ipfs.io/ipfs/QmYNVkoZgRjDBQzJz6kog9mA2yPzQFW2oSKvhnkwuBhLQE'
   },
   110: {
     name: 'Proton Testnet',
@@ -2483,7 +2483,7 @@ export const chains: Chains = {
     networkId: 111,
     icon: 'etherlite',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmbNAai1KnBnw4SPQKgrf6vBddifPCQTg2PePry1bmmZYy'
+      'https://ipfs.io/ipfs/QmbNAai1KnBnw4SPQKgrf6vBddifPCQTg2PePry1bmmZYy'
   },
   112: {
     name: 'Coinbit Mainnet',
@@ -2505,7 +2505,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdaQRUbAXJGfHeJ8jaB8WVh8CCmHExq8VjvAfXpLWWQEo'
+      'https://ipfs.io/ipfs/QmdaQRUbAXJGfHeJ8jaB8WVh8CCmHExq8VjvAfXpLWWQEo'
   },
   113: {
     name: 'Dehvo',
@@ -2565,7 +2565,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSmXY36oXCLmTp1u3Z2MSrBstBFVFyQv3aGKLKf1hxB6u'
+      'https://ipfs.io/ipfs/QmSmXY36oXCLmTp1u3Z2MSrBstBFVFyQv3aGKLKf1hxB6u'
   },
   115: {
     name: 'DeBank Testnet(Deprecated)',
@@ -2582,7 +2582,7 @@ export const chains: Chains = {
     slip44: 1,
     explorers: [],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmW9pBps8WHRRWmyXhjLZrjZJUe8F48hUu7z98bu2RVsjN'
+      'https://ipfs.io/ipfs/QmW9pBps8WHRRWmyXhjLZrjZJUe8F48hUu7z98bu2RVsjN'
   },
   116: {
     name: 'DeBank Mainnet',
@@ -2598,7 +2598,7 @@ export const chains: Chains = {
     networkId: 116,
     explorers: [],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmW9pBps8WHRRWmyXhjLZrjZJUe8F48hUu7z98bu2RVsjN'
+      'https://ipfs.io/ipfs/QmW9pBps8WHRRWmyXhjLZrjZJUe8F48hUu7z98bu2RVsjN'
   },
   117: {
     name: 'Uptick Mainnet',
@@ -2620,7 +2620,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRGJ6PqYHDTWuUQ6xfnK8S82NzRXiMjTnSGat9qtLuaLP'
+      'https://ipfs.io/ipfs/QmRGJ6PqYHDTWuUQ6xfnK8S82NzRXiMjTnSGat9qtLuaLP'
   },
   118: {
     name: 'Arcology Testnet',
@@ -2642,7 +2642,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRD7itMvaZutfBjyA7V9xkMGDtsZiJSagPwd3ijqka8kE'
+      'https://ipfs.io/ipfs/QmRD7itMvaZutfBjyA7V9xkMGDtsZiJSagPwd3ijqka8kE'
   },
   119: {
     name: 'ENULS Mainnet',
@@ -2664,7 +2664,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYz8LK5WkUN8UwqKfWUjnyLuYqQZWihT7J766YXft4TSy'
+      'https://ipfs.io/ipfs/QmYz8LK5WkUN8UwqKfWUjnyLuYqQZWihT7J766YXft4TSy'
   },
   120: {
     name: 'ENULS Testnet',
@@ -2687,7 +2687,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYz8LK5WkUN8UwqKfWUjnyLuYqQZWihT7J766YXft4TSy'
+      'https://ipfs.io/ipfs/QmYz8LK5WkUN8UwqKfWUjnyLuYqQZWihT7J766YXft4TSy'
   },
   121: {
     name: 'Realchain Mainnet',
@@ -2741,7 +2741,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmR3gooSiRfCuryT2y7Q37a3DqmdCKvV6vYp1fVpJW3VWz'
+      'https://ipfs.io/ipfs/QmR3gooSiRfCuryT2y7Q37a3DqmdCKvV6vYp1fVpJW3VWz'
   },
   123: {
     name: 'Fuse Sparknet',
@@ -2809,7 +2809,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXW5T2MaGHznXUmQEXoyJjcdmX7dhLbj5fnqvZZKqeKzA'
+      'https://ipfs.io/ipfs/QmXW5T2MaGHznXUmQEXoyJjcdmX7dhLbj5fnqvZZKqeKzA'
   },
   127: {
     name: 'Factory 127 Mainnet',
@@ -2870,7 +2870,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVJBGeFYZXMQqicNdzctMfvPN5CrtRrfZBTw3CEpkCBsS'
+      'https://ipfs.io/ipfs/QmVJBGeFYZXMQqicNdzctMfvPN5CrtRrfZBTw3CEpkCBsS'
   },
   131: {
     name: 'Engram Testnet',
@@ -2900,7 +2900,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreidn7dolavrzgqxthydb6rt5iwuzm6cvkxqirzh2szarjspsdp4kyu'
+      'https://ipfs.io/ipfs/bafkreidn7dolavrzgqxthydb6rt5iwuzm6cvkxqirzh2szarjspsdp4kyu'
   },
   132: {
     name: 'Namefi Chain Mainnet',
@@ -2947,7 +2947,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmUYKpVmZL4aS3TEZLG5wbrRJ6exxLiwm1rejfGYYNicfb'
+      'https://ipfs.io/ipfs/QmUYKpVmZL4aS3TEZLG5wbrRJ6exxLiwm1rejfGYYNicfb'
   },
   135: {
     name: 'Alyx Chain Testnet',
@@ -2973,7 +2973,7 @@ export const chains: Chains = {
     ],
     icon: 'alyx',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreifd43fcvh77mdcwjrpzpnlhthounc6b4u645kukqpqhduaveatf6i'
+      'https://ipfs.io/ipfs/bafkreifd43fcvh77mdcwjrpzpnlhthounc6b4u645kukqpqhduaveatf6i'
   },
   136: {
     name: 'Deamchain Mainnet',
@@ -2999,7 +2999,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXvHWmjfXKdZMSz7x82NR4SjEqigKdJELVHbnzUPkj17F'
+      'https://ipfs.io/ipfs/QmXvHWmjfXKdZMSz7x82NR4SjEqigKdJELVHbnzUPkj17F'
   },
   137: {
     name: 'Polygon Mainnet',
@@ -3040,7 +3040,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRNqgazYuxUa5WdddFPftTWiP3KwzBMgV9Z19QWnLMETc'
+      'https://ipfs.io/ipfs/QmRNqgazYuxUa5WdddFPftTWiP3KwzBMgV9Z19QWnLMETc'
   },
   138: {
     name: 'Defi Oracle Meta Mainnet',
@@ -3069,7 +3069,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYrMRnjQJcNkYq9AvZ2FQ9kzYj9szzP4YDmyNA1ybd8xE'
+      'https://ipfs.io/ipfs/QmYrMRnjQJcNkYq9AvZ2FQ9kzYj9szzP4YDmyNA1ybd8xE'
   },
   139: {
     name: 'WoopChain Mainnet',
@@ -3091,10 +3091,10 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qma7LpnkGjAN1dwL6VTXUYqzySNxjLg4br7J8UE4yZWYec'
+      'https://ipfs.io/ipfs/Qma7LpnkGjAN1dwL6VTXUYqzySNxjLg4br7J8UE4yZWYec'
   },
   140: {
-    name: 'EternalCoin Mainnet',
+    name: 'Eternal Mainnet',
     chain: 'Eter',
     icon: 'eternal',
     rpc: [
@@ -3108,7 +3108,7 @@ export const chains: Chains = {
     chainId: 140,
     networkId: 140,
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeibexfskndvhn5xtrcmpjoifp2ufnzgwiwbfrjcxat55alergskkve'
+      'https://ipfs.io/ipfs/bafybeibexfskndvhn5xtrcmpjoifp2ufnzgwiwbfrjcxat55alergskkve'
   },
   141: {
     name: 'Openpiece Testnet',
@@ -3130,7 +3130,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVTahJkdSH3HPYsJMK2GmqfWZjLyxE7cXy1aHEnHU3vp2'
+      'https://ipfs.io/ipfs/QmVTahJkdSH3HPYsJMK2GmqfWZjLyxE7cXy1aHEnHU3vp2'
   },
   142: {
     name: 'DAX CHAIN',
@@ -3163,7 +3163,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreid6pm3mic7izp3a6zlfwhhe7etd276bjfsq2xash6a4s2vmcdf65a'
+      'https://ipfs.io/ipfs/bafkreid6pm3mic7izp3a6zlfwhhe7etd276bjfsq2xash6a4s2vmcdf65a'
   },
   145: {
     name: 'SoraAI Testnet',
@@ -3192,7 +3192,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://bridge.soraai.bot' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdwQDr6vmBtXmK2TmknkEuZNoaDqTasFdZdu3DRw8b2wt'
+      'https://ipfs.io/ipfs/QmdwQDr6vmBtXmK2TmknkEuZNoaDqTasFdZdu3DRw8b2wt'
   },
   147: {
     name: 'Flag Mainnet',
@@ -3213,7 +3213,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeibcrxeavdxpwwmj4mc6hhp232nkrfbpvfpngcqux2v5rmoshycj3u'
+      'https://ipfs.io/ipfs/bafybeibcrxeavdxpwwmj4mc6hhp232nkrfbpvfpngcqux2v5rmoshycj3u'
   },
   148: {
     name: 'ShimmerEVM',
@@ -3236,7 +3236,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreibky2sy6qhi6arktayvologkrgu5kudpgdxfkx4uosbvmstz7v4di'
+      'https://ipfs.io/ipfs/bafkreibky2sy6qhi6arktayvologkrgu5kudpgdxfkx4uosbvmstz7v4di'
   },
   150: {
     name: 'Six Protocol Testnet',
@@ -3262,7 +3262,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmP93z696v8Hetu13peY2oEHDXq8Bj5CqaDRwpVkpnM15A'
+      'https://ipfs.io/ipfs/QmP93z696v8Hetu13peY2oEHDXq8Bj5CqaDRwpVkpnM15A'
   },
   151: {
     name: 'Redbelly Network Mainnet',
@@ -3358,7 +3358,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmc1gqjWTzNo4pyFSGtQuCu7kRSZZBUVybtTjHn2nNEEPA'
+      'https://ipfs.io/ipfs/Qmc1gqjWTzNo4pyFSGtQuCu7kRSZZBUVybtTjHn2nNEEPA'
   },
   156: {
     name: 'OEBlock Testnet',
@@ -3381,7 +3381,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdoQUfYqtkWMfjtoPv2KWDY4MxDDSsyWgwXtCx6jfkezz'
+      'https://ipfs.io/ipfs/QmdoQUfYqtkWMfjtoPv2KWDY4MxDDSsyWgwXtCx6jfkezz'
   },
   157: {
     name: 'Puppynet Shibarium',
@@ -3402,7 +3402,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYNVkoZgRjDBQzJz6kog9mA2yPzQFW2oSKvhnkwuBhLQE'
+      'https://ipfs.io/ipfs/QmYNVkoZgRjDBQzJz6kog9mA2yPzQFW2oSKvhnkwuBhLQE'
   },
   158: {
     name: 'Roburna Mainnet',
@@ -3424,7 +3424,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTk1uhB9nvnvXifvwEPGFcdgsXRt4EXNjovUGyUmfFRcB'
+      'https://ipfs.io/ipfs/QmTk1uhB9nvnvXifvwEPGFcdgsXRt4EXNjovUGyUmfFRcB'
   },
   159: {
     name: 'Roburna Testnet',
@@ -3446,7 +3446,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTk1uhB9nvnvXifvwEPGFcdgsXRt4EXNjovUGyUmfFRcB'
+      'https://ipfs.io/ipfs/QmTk1uhB9nvnvXifvwEPGFcdgsXRt4EXNjovUGyUmfFRcB'
   },
   160: {
     name: 'Armonia Eva Chain Mainnet',
@@ -3590,7 +3590,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmfFK6B4MFLrpSS46aLf7hjpt28poHFeTGEKEuH248Tbyj'
+      'https://ipfs.io/ipfs/QmfFK6B4MFLrpSS46aLf7hjpt28poHFeTGEKEuH248Tbyj'
   },
   168: {
     name: 'AIOZ Network',
@@ -3612,7 +3612,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRAGPFhvQiXgoJkui7WHajpKctGFrJNhHqzYdwcWt5V3Z'
+      'https://ipfs.io/ipfs/QmRAGPFhvQiXgoJkui7WHajpKctGFrJNhHqzYdwcWt5V3Z'
   },
   169: {
     name: 'Manta Pacific Mainnet',
@@ -3638,7 +3638,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTckcVTViRZ3NqT36MTt8AvgBSmudrbgU3pi8AaNtthoV'
+      'https://ipfs.io/ipfs/QmTckcVTViRZ3NqT36MTt8AvgBSmudrbgU3pi8AaNtthoV'
   },
   170: {
     name: 'HOO Smart Chain Testnet',
@@ -3687,7 +3687,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQsNtUoaKUHWaxFMBuCQwkX9WmKHz7iNotcZTFkWo7Qgt'
+      'https://ipfs.io/ipfs/QmQsNtUoaKUHWaxFMBuCQwkX9WmKHz7iNotcZTFkWo7Qgt'
   },
   180: {
     name: 'AME Chain Mainnet',
@@ -3721,7 +3721,7 @@ export const chains: Chains = {
     icon: 'waterfall-main',
     explorers: [],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSDJPBKh9cLVL8UZ5KYwdwPyhD8bRWNb33jjt48wtu5Uc'
+      'https://ipfs.io/ipfs/QmSDJPBKh9cLVL8UZ5KYwdwPyhD8bRWNb33jjt48wtu5Uc'
   },
   185: {
     name: 'Mint Mainnet',
@@ -3747,7 +3747,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVfsiKWkiYzxoq1j2Ri3yLYGvgHJBPybVEPsgyw5kqsMN'
+      'https://ipfs.io/ipfs/QmVfsiKWkiYzxoq1j2Ri3yLYGvgHJBPybVEPsgyw5kqsMN'
   },
   186: {
     name: 'Seele Mainnet',
@@ -3817,7 +3817,7 @@ export const chains: Chains = {
     chainId: 191,
     networkId: 191,
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreihsas2rwakc7lllmtb4pcgwutlel2woibmqmhd4aiin342zgtpmwy'
+      'https://ipfs.io/ipfs/bafkreihsas2rwakc7lllmtb4pcgwutlel2woibmqmhd4aiin342zgtpmwy'
   },
   193: {
     name: 'Crypto Emergency',
@@ -3863,7 +3863,7 @@ export const chains: Chains = {
     ],
     status: 'active',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSLkiAAr6VtJ6jEqEzz3QdZtVEHzR6Az7E4XD8qXwjuio'
+      'https://ipfs.io/ipfs/QmSLkiAAr6VtJ6jEqEzz3QdZtVEHzR6Az7E4XD8qXwjuio'
   },
   196: {
     name: 'X Layer Mainnet',
@@ -3890,7 +3890,7 @@ export const chains: Chains = {
     ],
     status: 'active',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSLkiAAr6VtJ6jEqEzz3QdZtVEHzR6Az7E4XD8qXwjuio'
+      'https://ipfs.io/ipfs/QmSLkiAAr6VtJ6jEqEzz3QdZtVEHzR6Az7E4XD8qXwjuio'
   },
   197: {
     name: 'Neutrinos TestNet',
@@ -4046,7 +4046,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeib75gwytvblyvjpfminitr3i6mpat3a624udfsqsl5nysf5vuuvie'
+      'https://ipfs.io/ipfs/bafybeib75gwytvblyvjpfminitr3i6mpat3a624udfsqsl5nysf5vuuvie'
   },
   206: {
     name: 'VinuChain Testnet',
@@ -4069,7 +4069,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreidtie4srt52ry67wd3dpxhklmug2ozrawvf3jdlljveinp3frutra'
+      'https://ipfs.io/ipfs/bafkreidtie4srt52ry67wd3dpxhklmug2ozrawvf3jdlljveinp3frutra'
   },
   207: {
     name: 'VinuChain Network',
@@ -4091,7 +4091,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeiderli6uaaxk7eboyf7g4abnybgrkbglmqbkmf25z57ode7zdzmvy'
+      'https://ipfs.io/ipfs/bafybeiderli6uaaxk7eboyf7g4abnybgrkbglmqbkmf25z57ode7zdzmvy'
   },
   208: {
     name: 'Structx Mainnet',
@@ -4123,7 +4123,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmS9h3nFiCzaBLnBNw8Wot4U7vvEVK45EQfi8nxH4nvrmz'
+      'https://ipfs.io/ipfs/QmS9h3nFiCzaBLnBNw8Wot4U7vvEVK45EQfi8nxH4nvrmz'
   },
   211: {
     name: 'Freight Trust Network',
@@ -4182,7 +4182,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPV6ASrQDEkEW3g3ni7p2rJMPeciRLpEpvrAc1QfzVkx9'
+      'https://ipfs.io/ipfs/QmPV6ASrQDEkEW3g3ni7p2rJMPeciRLpEpvrAc1QfzVkx9'
   },
   214: {
     name: 'Shinarium Mainnet',
@@ -4203,7 +4203,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeiadbavrwcial76vs5ovhyykyaobteltuhliqcthdairbja4klwzhu'
+      'https://ipfs.io/ipfs/bafybeiadbavrwcial76vs5ovhyykyaobteltuhliqcthdairbja4klwzhu'
   },
   217: {
     name: 'SiriusNet V2',
@@ -4224,7 +4224,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeicxuxdzrzpwsil4owqmn7wpwka2rqsohpfqmukg57pifzyxr5om2q'
+      'https://ipfs.io/ipfs/bafybeicxuxdzrzpwsil4owqmn7wpwka2rqsohpfqmukg57pifzyxr5om2q'
   },
   218: {
     name: 'SoterOne Mainnet old',
@@ -4261,7 +4261,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmayuauUTSkYxbT1xi2AkkG5VLEMDhcMeZ18WZHiApPa9M'
+      'https://ipfs.io/ipfs/QmayuauUTSkYxbT1xi2AkkG5VLEMDhcMeZ18WZHiApPa9M'
   },
   222: {
     name: 'Permission',
@@ -4307,7 +4307,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://www.bsquared.network/bridge' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPV6ASrQDEkEW3g3ni7p2rJMPeciRLpEpvrAc1QfzVkx9'
+      'https://ipfs.io/ipfs/QmPV6ASrQDEkEW3g3ni7p2rJMPeciRLpEpvrAc1QfzVkx9'
   },
   224: {
     name: 'Viridis Testnet',
@@ -4328,7 +4328,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPdxcJwPogfZdec7UAqxeatRxrivEktpP1ftJBTeJQTdR'
+      'https://ipfs.io/ipfs/QmPdxcJwPogfZdec7UAqxeatRxrivEktpP1ftJBTeJQTdR'
   },
   225: {
     name: 'LACHAIN Mainnet',
@@ -4349,7 +4349,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQxGA6rhuCQDXUueVcNvFRhMEWisyTmnF57TqL7h6k6cZ'
+      'https://ipfs.io/ipfs/QmQxGA6rhuCQDXUueVcNvFRhMEWisyTmnF57TqL7h6k6cZ'
   },
   226: {
     name: 'LACHAIN Testnet',
@@ -4371,7 +4371,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQxGA6rhuCQDXUueVcNvFRhMEWisyTmnF57TqL7h6k6cZ'
+      'https://ipfs.io/ipfs/QmQxGA6rhuCQDXUueVcNvFRhMEWisyTmnF57TqL7h6k6cZ'
   },
   228: {
     name: 'Mind Network Mainnet',
@@ -4451,7 +4451,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXvHWmjfXKdZMSz7x82NR4SjEqigKdJELVHbnzUPkj17F'
+      'https://ipfs.io/ipfs/QmXvHWmjfXKdZMSz7x82NR4SjEqigKdJELVHbnzUPkj17F'
   },
   238: {
     name: 'Blast Mainnet',
@@ -4472,7 +4472,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdHpjiepU2Q4bt4kR48tKHPgaQW57Sb6UVFgLh4MCyg6U'
+      'https://ipfs.io/ipfs/QmdHpjiepU2Q4bt4kR48tKHPgaQW57Sb6UVFgLh4MCyg6U'
   },
   242: {
     name: 'Plinga Mainnet',
@@ -4497,7 +4497,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeibpvlod5nyev6wyuvp6pbestmgvru3ovbadsul32odpno26xwld6y'
+      'https://ipfs.io/ipfs/bafybeibpvlod5nyev6wyuvp6pbestmgvru3ovbadsul32odpno26xwld6y'
   },
   246: {
     name: 'Energy Web Chain',
@@ -4537,7 +4537,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVjT18MJ7S965w5oTce5D3KPbzfoGGaKaNDKJcfGfSNWm'
+      'https://ipfs.io/ipfs/QmVjT18MJ7S965w5oTce5D3KPbzfoGGaKaNDKJcfGfSNWm'
   },
   250: {
     name: 'Fantom Opera',
@@ -4571,7 +4571,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmcM8kHNsNYoitt5S3kLThyrKVFTZo3k2rgnume6tnNroQ'
+      'https://ipfs.io/ipfs/QmcM8kHNsNYoitt5S3kLThyrKVFTZo3k2rgnume6tnNroQ'
   },
   252: {
     name: 'Fraxtal',
@@ -4593,7 +4593,7 @@ export const chains: Chains = {
     ],
     status: 'active',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreiet3pmz37ymq6wlkglw5wmcee6jdyz4bbe4zg6h2voso2z2mf2s7q'
+      'https://ipfs.io/ipfs/bafkreiet3pmz37ymq6wlkglw5wmcee6jdyz4bbe4zg6h2voso2z2mf2s7q'
   },
   255: {
     name: 'Kroma',
@@ -4620,7 +4620,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://kroma.network/bridge' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVpV2WET6ZrqnvvPfE9hCwoE2y5ygbPuniuugpaRoxrho'
+      'https://ipfs.io/ipfs/QmVpV2WET6ZrqnvvPfE9hCwoE2y5ygbPuniuugpaRoxrho'
   },
   256: {
     name: 'Huobi ECO Chain Testnet',
@@ -4675,7 +4675,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmX3hBv8WyvVfYjh1gmgDfJCpJBvKk4TYG9wFX9sC8WAjz'
+      'https://ipfs.io/ipfs/QmX3hBv8WyvVfYjh1gmgDfJCpJBvKk4TYG9wFX9sC8WAjz'
   },
   262: {
     name: 'SUR Blockchain Network',
@@ -4697,7 +4697,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmbUcDQHCvheYQrWk9WFJRMW5fTJQmtZqkoGUed4bhCM7T'
+      'https://ipfs.io/ipfs/QmbUcDQHCvheYQrWk9WFJRMW5fTJQmtZqkoGUed4bhCM7T'
   },
   266: {
     name: 'Neura',
@@ -4715,7 +4715,7 @@ export const chains: Chains = {
     status: 'incubating',
     explorers: [],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWdpK5WFKrosaCSpJRCvU7uXeKk2qVeCckTxh6Zw2JrK8'
+      'https://ipfs.io/ipfs/QmWdpK5WFKrosaCSpJRCvU7uXeKk2qVeCckTxh6Zw2JrK8'
   },
   267: {
     name: 'Neura Testnet',
@@ -4747,7 +4747,7 @@ export const chains: Chains = {
     status: 'active',
     slip44: 1,
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWdpK5WFKrosaCSpJRCvU7uXeKk2qVeCckTxh6Zw2JrK8'
+      'https://ipfs.io/ipfs/QmWdpK5WFKrosaCSpJRCvU7uXeKk2qVeCckTxh6Zw2JrK8'
   },
   268: {
     name: 'Neura Devnet',
@@ -4766,7 +4766,7 @@ export const chains: Chains = {
     status: 'incubating',
     slip44: 1,
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWdpK5WFKrosaCSpJRCvU7uXeKk2qVeCckTxh6Zw2JrK8'
+      'https://ipfs.io/ipfs/QmWdpK5WFKrosaCSpJRCvU7uXeKk2qVeCckTxh6Zw2JrK8'
   },
   269: {
     name: 'High Performance Blockchain',
@@ -4806,7 +4806,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNZiMmzMQYjyGtNSghtzLg4UooYhDgMQsa677DAP5KsBg'
+      'https://ipfs.io/ipfs/QmNZiMmzMQYjyGtNSghtzLg4UooYhDgMQsa677DAP5KsBg'
   },
   274: {
     name: 'LaChain',
@@ -4832,7 +4832,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQxGA6rhuCQDXUueVcNvFRhMEWisyTmnF57TqL7h6k6cZ'
+      'https://ipfs.io/ipfs/QmQxGA6rhuCQDXUueVcNvFRhMEWisyTmnF57TqL7h6k6cZ'
   },
   278: {
     name: 'xFair.AI Mainnet',
@@ -4858,7 +4858,7 @@ export const chains: Chains = {
     chainId: 279,
     networkId: 279,
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreiatcu42wbjlo24mr35jou4awvsqpaqys6iv4kxgkjhno3haovsiaq'
+      'https://ipfs.io/ipfs/bafkreiatcu42wbjlo24mr35jou4awvsqpaqys6iv4kxgkjhno3haovsiaq'
   },
   280: {
     name: 'zkSync Era Goerli Testnet (deprecated)',
@@ -4887,7 +4887,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://bridge.zksync.io/' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRkhUD6J3B9WhT4hEWLrcFVTrBhx3CQgNC783aJsrwxSN'
+      'https://ipfs.io/ipfs/QmRkhUD6J3B9WhT4hEWLrcFVTrBhx3CQgNC783aJsrwxSN'
   },
   282: {
     name: 'Cronos zkEVM Testnet',
@@ -4963,7 +4963,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSpwp3RAVhZsErAQrCQxEmjnGqJQMigarzZbfqr9Ktakb'
+      'https://ipfs.io/ipfs/QmSpwp3RAVhZsErAQrCQxEmjnGqJQMigarzZbfqr9Ktakb'
   },
   295: {
     name: 'Hedera Mainnet',
@@ -5006,7 +5006,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQikzhvZKyMmbZJd7BVLZb2YTBDMgNDnaMCAErsVjsfuz'
+      'https://ipfs.io/ipfs/QmQikzhvZKyMmbZJd7BVLZb2YTBDMgNDnaMCAErsVjsfuz'
   },
   296: {
     name: 'Hedera Testnet',
@@ -5049,7 +5049,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQikzhvZKyMmbZJd7BVLZb2YTBDMgNDnaMCAErsVjsfuz'
+      'https://ipfs.io/ipfs/QmQikzhvZKyMmbZJd7BVLZb2YTBDMgNDnaMCAErsVjsfuz'
   },
   297: {
     name: 'Hedera Previewnet',
@@ -5072,7 +5072,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQikzhvZKyMmbZJd7BVLZb2YTBDMgNDnaMCAErsVjsfuz'
+      'https://ipfs.io/ipfs/QmQikzhvZKyMmbZJd7BVLZb2YTBDMgNDnaMCAErsVjsfuz'
   },
   298: {
     name: 'Hedera Localnet',
@@ -5089,7 +5089,7 @@ export const chains: Chains = {
     slip44: 3030,
     explorers: [],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQikzhvZKyMmbZJd7BVLZb2YTBDMgNDnaMCAErsVjsfuz'
+      'https://ipfs.io/ipfs/QmQikzhvZKyMmbZJd7BVLZb2YTBDMgNDnaMCAErsVjsfuz'
   },
   300: {
     name: 'zkSync Sepolia Testnet',
@@ -5122,7 +5122,7 @@ export const chains: Chains = {
     },
     redFlags: ['reusedChainId'],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRkhUD6J3B9WhT4hEWLrcFVTrBhx3CQgNC783aJsrwxSN'
+      'https://ipfs.io/ipfs/QmRkhUD6J3B9WhT4hEWLrcFVTrBhx3CQgNC783aJsrwxSN'
   },
   301: {
     name: 'Bobaopera',
@@ -5174,7 +5174,7 @@ export const chains: Chains = {
     },
     redFlags: ['reusedChainId'],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreib5jsvl6kxn2qvv4giag3l3e54d2wolo2lqbgkhivxu4cpjzi77eq'
+      'https://ipfs.io/ipfs/bafkreib5jsvl6kxn2qvv4giag3l3e54d2wolo2lqbgkhivxu4cpjzi77eq'
   },
   303: {
     name: 'Neurochain Testnet',
@@ -5217,7 +5217,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmaopiJuCSxRKZJHDkCu9w77x2HEmbNb3QeLC1SUavehEE'
+      'https://ipfs.io/ipfs/QmaopiJuCSxRKZJHDkCu9w77x2HEmbNb3QeLC1SUavehEE'
   },
   307: {
     name: 'Lovely Network Testnet',
@@ -5238,7 +5238,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPB7uW7Wj8zWWdeuPnUHPJ5FhaiTL76tv4ZQ4oKWEpb1g'
+      'https://ipfs.io/ipfs/QmPB7uW7Wj8zWWdeuPnUHPJ5FhaiTL76tv4ZQ4oKWEpb1g'
   },
   308: {
     name: 'Furtheon',
@@ -5280,7 +5280,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeDfLgA5heAAXsU8kf5J23Y8up4uHN27uRBEAJFPMJEu7'
+      'https://ipfs.io/ipfs/QmeDfLgA5heAAXsU8kf5J23Y8up4uHN27uRBEAJFPMJEu7'
   },
   311: {
     name: 'Omax Mainnet',
@@ -5302,7 +5302,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmd7omPxrehSuxHHPMYd5Nr7nfrtjKdRJQEhDLfTb87w8G'
+      'https://ipfs.io/ipfs/Qmd7omPxrehSuxHHPMYd5Nr7nfrtjKdRJQEhDLfTb87w8G'
   },
   313: {
     name: 'Neurochain Mainnet',
@@ -5366,7 +5366,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmS9r9XQkMHVomWcSBNDkKkz9n87h9bH9ssabeiKZtANoU'
+      'https://ipfs.io/ipfs/QmS9r9XQkMHVomWcSBNDkKkz9n87h9bH9ssabeiKZtANoU'
   },
   321: {
     name: 'KCC Mainnet',
@@ -5462,7 +5462,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://bridge.zksync.io/' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRkhUD6J3B9WhT4hEWLrcFVTrBhx3CQgNC783aJsrwxSN'
+      'https://ipfs.io/ipfs/QmRkhUD6J3B9WhT4hEWLrcFVTrBhx3CQgNC783aJsrwxSN'
   },
   333: {
     name: 'Web3Q Mainnet',
@@ -5503,7 +5503,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQB48m15TzhUFrmu56QCRQjkrkgUaKfgCmKE8o3RzmuPJ'
+      'https://ipfs.io/ipfs/QmQB48m15TzhUFrmu56QCRQjkrkgUaKfgCmKE8o3RzmuPJ'
   },
   336: {
     name: 'Shiden',
@@ -5538,7 +5538,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQySjAoWHgk3ou1yvBi2TrTcgH6KhfGiU7GcrLzrAeRkE'
+      'https://ipfs.io/ipfs/QmQySjAoWHgk3ou1yvBi2TrTcgH6KhfGiU7GcrLzrAeRkE'
   },
   338: {
     name: 'Cronos Testnet',
@@ -5583,7 +5583,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYmQAo5hSr16LDeSbWbXfKdF6qa2zCoK7e88r2f7RiFdt'
+      'https://ipfs.io/ipfs/QmYmQAo5hSr16LDeSbWbXfKdF6qa2zCoK7e88r2f7RiFdt'
   },
   361: {
     name: 'Theta Mainnet',
@@ -5715,7 +5715,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmfQ1yae6uvXgBSwnwJM4Mtp8ctH66tM6mB1Hsgu4XvsC9'
+      'https://ipfs.io/ipfs/QmfQ1yae6uvXgBSwnwJM4Mtp8ctH66tM6mB1Hsgu4XvsC9'
   },
   380: {
     name: 'ZKAmoeba Testnet',
@@ -5745,7 +5745,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://testnet.zkamoeba.com/en/bridge' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRTChjmiwh9HrGsLh9qECsH7WHQAhqT5Ww8S34s8ME2Cp'
+      'https://ipfs.io/ipfs/QmRTChjmiwh9HrGsLh9qECsH7WHQAhqT5Ww8S34s8ME2Cp'
   },
   381: {
     name: 'ZKAmoeba Mainnet',
@@ -5772,7 +5772,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://www.zkamoeba.com/en/bridge' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRTChjmiwh9HrGsLh9qECsH7WHQAhqT5Ww8S34s8ME2Cp'
+      'https://ipfs.io/ipfs/QmRTChjmiwh9HrGsLh9qECsH7WHQAhqT5Ww8S34s8ME2Cp'
   },
   385: {
     name: 'Lisinski',
@@ -5806,7 +5806,7 @@ export const chains: Chains = {
     ],
     status: 'active',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmW5Fpb2Ywnfqcj4ibvpbKvPv5Mo5eseWdYZnnUvLkj2Hp'
+      'https://ipfs.io/ipfs/QmW5Fpb2Ywnfqcj4ibvpbKvPv5Mo5eseWdYZnnUvLkj2Hp'
   },
   397: {
     name: 'Near Mainnet',
@@ -5827,7 +5827,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreiayxzdbu3e5ahri3ooieg6k6pjxrwkrkc2x5cnyadqeu5zbmaummq'
+      'https://ipfs.io/ipfs/bafkreiayxzdbu3e5ahri3ooieg6k6pjxrwkrkc2x5cnyadqeu5zbmaummq'
   },
   398: {
     name: 'Near Testnet',
@@ -5848,7 +5848,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreiayxzdbu3e5ahri3ooieg6k6pjxrwkrkc2x5cnyadqeu5zbmaummq'
+      'https://ipfs.io/ipfs/bafkreiayxzdbu3e5ahri3ooieg6k6pjxrwkrkc2x5cnyadqeu5zbmaummq'
   },
   399: {
     name: 'Nativ3 Mainnet',
@@ -5874,7 +5874,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://bridge.nativ3.network' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVzJDndPui6qBSeJWe5kMLA56C3KpVhqqqk9xvVKE1DGb'
+      'https://ipfs.io/ipfs/QmVzJDndPui6qBSeJWe5kMLA56C3KpVhqqqk9xvVKE1DGb'
   },
   400: {
     name: 'HyperonChain TestNet',
@@ -5897,7 +5897,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWxhyxXTEsWH98v7M3ck4ZL1qQoUaHG4HgtgxzD2KJQ5m'
+      'https://ipfs.io/ipfs/QmWxhyxXTEsWH98v7M3ck4ZL1qQoUaHG4HgtgxzD2KJQ5m'
   },
   401: {
     name: 'Ozone Chain Testnet',
@@ -5919,7 +5919,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmbM4weV8Bk6c9yNhosYntkVw39SNZtCHYGgWyXTxkevZ8'
+      'https://ipfs.io/ipfs/QmbM4weV8Bk6c9yNhosYntkVw39SNZtCHYGgWyXTxkevZ8'
   },
   404: {
     name: 'Syndr L3',
@@ -5946,7 +5946,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://bridge.syndr.com' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreibsl7iuxeibovp7uddigbus3lyse2f7n4s2lomgvf33fmgyxjwq5i'
+      'https://ipfs.io/ipfs/bafkreibsl7iuxeibovp7uddigbus3lyse2f7n4s2lomgvf33fmgyxjwq5i'
   },
   411: {
     name: 'Pepe Chain Mainnet',
@@ -5968,7 +5968,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreibjsc3gww3moti27za2hpyq552aevux3yv5y2ntdklksyr4v4uavy'
+      'https://ipfs.io/ipfs/bafkreibjsc3gww3moti27za2hpyq552aevux3yv5y2ntdklksyr4v4uavy'
   },
   416: {
     name: 'SX Network Mainnet',
@@ -5989,7 +5989,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSXLXqyr2H6Ja5XrmznXbWTEvF2gFaL8RXNXgyLmDHjAF'
+      'https://ipfs.io/ipfs/QmSXLXqyr2H6Ja5XrmznXbWTEvF2gFaL8RXNXgyLmDHjAF'
   },
   418: {
     name: 'LaTestnet',
@@ -6014,7 +6014,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQxGA6rhuCQDXUueVcNvFRhMEWisyTmnF57TqL7h6k6cZ'
+      'https://ipfs.io/ipfs/QmQxGA6rhuCQDXUueVcNvFRhMEWisyTmnF57TqL7h6k6cZ'
   },
   420: {
     name: 'Optimism Goerli Testnet',
@@ -6063,7 +6063,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPdxcJwPogfZdec7UAqxeatRxrivEktpP1ftJBTeJQTdR'
+      'https://ipfs.io/ipfs/QmPdxcJwPogfZdec7UAqxeatRxrivEktpP1ftJBTeJQTdR'
   },
   424: {
     name: 'PGN (Public Goods Network)',
@@ -6091,7 +6091,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://bridge.publicgoods.network' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmUVJ7MLCEAfq3pHVPFLscqRMiyAY5biVgTkeDQCmAhHNS'
+      'https://ipfs.io/ipfs/QmUVJ7MLCEAfq3pHVPFLscqRMiyAY5biVgTkeDQCmAhHNS'
   },
   427: {
     name: 'Zeeth Chain',
@@ -6130,7 +6130,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmb7oJY9zd9sTzxNNQNTVZQz2hkd1aA94mWm4cvXfJ9QxV'
+      'https://ipfs.io/ipfs/Qmb7oJY9zd9sTzxNNQNTVZQz2hkd1aA94mWm4cvXfJ9QxV'
   },
   434: {
     name: 'Boyaa Mainnet',
@@ -6155,7 +6155,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeiapootrvggtigdlvgvk6srfseplpuowsqq3zpyup4j5yj5moxuala'
+      'https://ipfs.io/ipfs/bafybeiapootrvggtigdlvgvk6srfseplpuowsqq3zpyup4j5yj5moxuala'
   },
   443: {
     name: 'Ten Testnet',
@@ -6232,7 +6232,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmUwqGWGjjQweTprn5LBirAwRjYnteTiFLCVpSNHrfMmSL'
+      'https://ipfs.io/ipfs/QmUwqGWGjjQweTprn5LBirAwRjYnteTiFLCVpSNHrfMmSL'
   },
   462: {
     name: 'Areon Network Testnet',
@@ -6260,7 +6260,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreihs2nrnizpcuzjmuu2yi7wrtwd7qlqje46qnil5bnntfbfkb2roea'
+      'https://ipfs.io/ipfs/bafkreihs2nrnizpcuzjmuu2yi7wrtwd7qlqje46qnil5bnntfbfkb2roea'
   },
   463: {
     name: 'Areon Network Mainnet',
@@ -6287,7 +6287,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreihs2nrnizpcuzjmuu2yi7wrtwd7qlqje46qnil5bnntfbfkb2roea'
+      'https://ipfs.io/ipfs/bafkreihs2nrnizpcuzjmuu2yi7wrtwd7qlqje46qnil5bnntfbfkb2roea'
   },
   499: {
     name: 'Rupaya',
@@ -6320,7 +6320,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSEoUonisawfCvT3osysuZzbqUEHugtgNraePKWL8PKYa'
+      'https://ipfs.io/ipfs/QmSEoUonisawfCvT3osysuZzbqUEHugtgNraePKWL8PKYa'
   },
   501: {
     name: 'Columbus Test Network',
@@ -6342,7 +6342,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSEoUonisawfCvT3osysuZzbqUEHugtgNraePKWL8PKYa'
+      'https://ipfs.io/ipfs/QmSEoUonisawfCvT3osysuZzbqUEHugtgNraePKWL8PKYa'
   },
   510: {
     name: 'Syndicate Chain',
@@ -6358,7 +6358,7 @@ export const chains: Chains = {
     status: 'incubating',
     icon: 'syndicate',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeSvQcD3XvLFAiMLoQSPbGK9JxVfbCWPBUTMLhhhzYPqX'
+      'https://ipfs.io/ipfs/QmeSvQcD3XvLFAiMLoQSPbGK9JxVfbCWPBUTMLhhhzYPqX'
   },
   512: {
     name: 'Double-A Chain Mainnet',
@@ -6384,7 +6384,7 @@ export const chains: Chains = {
     ],
     icon: 'aac',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRUrz4dULaoaMpnqd8qXT7ehwz3aaqnYKY4ePsy7isGaF'
+      'https://ipfs.io/ipfs/QmRUrz4dULaoaMpnqd8qXT7ehwz3aaqnYKY4ePsy7isGaF'
   },
   513: {
     name: 'Double-A Chain Testnet',
@@ -6410,7 +6410,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRUrz4dULaoaMpnqd8qXT7ehwz3aaqnYKY4ePsy7isGaF'
+      'https://ipfs.io/ipfs/QmRUrz4dULaoaMpnqd8qXT7ehwz3aaqnYKY4ePsy7isGaF'
   },
   516: {
     name: 'Gear Zero Network Mainnet',
@@ -6456,7 +6456,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNmAFgQKkjofaBR5mhB5ygE1Gna36YBVsGkgZQxrwW85s'
+      'https://ipfs.io/ipfs/QmNmAFgQKkjofaBR5mhB5ygE1Gna36YBVsGkgZQxrwW85s'
   },
   529: {
     name: 'Firechain Mainnet',
@@ -6472,7 +6472,7 @@ export const chains: Chains = {
     explorers: [],
     status: 'incubating',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYjuztyURb3Fc6ZTLgCbwQa64CcVoigF5j9cafzuSbqgf'
+      'https://ipfs.io/ipfs/QmYjuztyURb3Fc6ZTLgCbwQa64CcVoigF5j9cafzuSbqgf'
   },
   530: {
     name: 'F(x)Core Mainnet Network',
@@ -6493,7 +6493,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmauD5hzc5q1VgEU1nT4AGLCeV79CB8GgfnXXeeLmBZVHf'
+      'https://ipfs.io/ipfs/QmauD5hzc5q1VgEU1nT4AGLCeV79CB8GgfnXXeeLmBZVHf'
   },
   534: {
     name: 'Candle',
@@ -6534,7 +6534,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYktPMo4tdQhMA9nRJBVckjzHcFLbpHbTVNSpGUUPEP8J'
+      'https://ipfs.io/ipfs/QmYktPMo4tdQhMA9nRJBVckjzHcFLbpHbTVNSpGUUPEP8J'
   },
   542: {
     name: 'PAWCHAIN Testnet',
@@ -6574,7 +6574,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQFugEvsfU3ARjjJ7YRLJwSxMfTk54WWzrofekTRBKFaC'
+      'https://ipfs.io/ipfs/QmQFugEvsfU3ARjjJ7YRLJwSxMfTk54WWzrofekTRBKFaC'
   },
   555: {
     name: 'Vela1 Chain Mainnet',
@@ -6630,7 +6630,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNS6B6L8FfgGSMTEi2SxD3bK5cdmKPNtQKcYaJeRWrkHs'
+      'https://ipfs.io/ipfs/QmNS6B6L8FfgGSMTEi2SxD3bK5cdmKPNtQKcYaJeRWrkHs'
   },
   570: {
     name: 'Rollux Mainnet',
@@ -6638,6 +6638,7 @@ export const chains: Chains = {
     rpc: [
       'https://rpc.rollux.com',
       'wss://rpc.rollux.com/wss',
+      'https://rpc.ankr.com/rollux',
       'https://rollux.rpc.syscoin.org',
       'wss://rollux.rpc.syscoin.org/wss'
     ],
@@ -6676,7 +6677,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmUH2Ph2hW4upvevEAGCaSo7nd8nthqMx5RrHcrnNZ9Y3g'
+      'https://ipfs.io/ipfs/QmUH2Ph2hW4upvevEAGCaSo7nd8nthqMx5RrHcrnNZ9Y3g'
   },
   579: {
     name: 'Filenova Mainnet',
@@ -6698,7 +6699,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmc4KSKiAChhtN7ZNE5gvkLTRbvtLreKU9xaQFG8BKM8RE'
+      'https://ipfs.io/ipfs/Qmc4KSKiAChhtN7ZNE5gvkLTRbvtLreKU9xaQFG8BKM8RE'
   },
   588: {
     name: 'Metis Stardust Testnet',
@@ -6751,7 +6752,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmdvmx3p6gXBCLUMU1qivscaTNkT6h3URdhUTZCHLwKudg'
+      'https://ipfs.io/ipfs/Qmdvmx3p6gXBCLUMU1qivscaTNkT6h3URdhUTZCHLwKudg'
   },
   595: {
     name: 'Acala Mandala Testnet TC9',
@@ -6885,7 +6886,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTPbbhH4CkQiQWm4JUh3J9o5w79vXjFZaMBW4DKNuSVU3'
+      'https://ipfs.io/ipfs/QmTPbbhH4CkQiQWm4JUh3J9o5w79vXjFZaMBW4DKNuSVU3'
   },
   612: {
     name: 'EIOB Mainnet',
@@ -6906,7 +6907,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmfJLG2mXgSqKx2V3A2jzTwt4vkozvQTTXkRy3os27wEVm'
+      'https://ipfs.io/ipfs/QmfJLG2mXgSqKx2V3A2jzTwt4vkozvQTTXkRy3os27wEVm'
   },
   614: {
     name: 'Graphlinq Blockchain Mainnet',
@@ -6946,7 +6947,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qma9rJSgy32UL1iXtXKFZQJA6FjkcUcDU4HR6y13Wu1vjn'
+      'https://ipfs.io/ipfs/Qma9rJSgy32UL1iXtXKFZQJA6FjkcUcDU4HR6y13Wu1vjn'
   },
   646: {
     name: 'Previewnet',
@@ -6967,7 +6968,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQFugEvsfU3ARjjJ7YRLJwSxMfTk54WWzrofekTRBKFaC'
+      'https://ipfs.io/ipfs/QmQFugEvsfU3ARjjJ7YRLJwSxMfTk54WWzrofekTRBKFaC'
   },
   647: {
     name: 'SX Network Testnet',
@@ -6989,7 +6990,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSXLXqyr2H6Ja5XrmznXbWTEvF2gFaL8RXNXgyLmDHjAF'
+      'https://ipfs.io/ipfs/QmSXLXqyr2H6Ja5XrmznXbWTEvF2gFaL8RXNXgyLmDHjAF'
   },
   648: {
     name: 'Endurance Smart Chain Mainnet',
@@ -7032,7 +7033,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreieox7v337p3jfhd37dz74mq6mn3uk5i5475rmzpirmyp6ydcfzzqi'
+      'https://ipfs.io/ipfs/bafkreieox7v337p3jfhd37dz74mq6mn3uk5i5475rmzpirmyp6ydcfzzqi'
   },
   654: {
     name: 'Kalichain',
@@ -7053,7 +7054,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreieox7v337p3jfhd37dz74mq6mn3uk5i5475rmzpirmyp6ydcfzzqi'
+      'https://ipfs.io/ipfs/bafkreieox7v337p3jfhd37dz74mq6mn3uk5i5475rmzpirmyp6ydcfzzqi'
   },
   662: {
     name: 'UltronSmartchain',
@@ -7074,7 +7075,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTns2FXAqDCq1QJsocUBGjhxsgWYK7pFfD4UrRZ9JBsF1'
+      'https://ipfs.io/ipfs/QmTns2FXAqDCq1QJsocUBGjhxsgWYK7pFfD4UrRZ9JBsF1'
   },
   666: {
     name: 'Pixie Chain Testnet',
@@ -7119,7 +7120,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZ4YYcvhcaeotMPaGXC5Vab7JFaVkka37V8TiTJpT7Mak'
+      'https://ipfs.io/ipfs/QmZ4YYcvhcaeotMPaGXC5Vab7JFaVkka37V8TiTJpT7Mak'
   },
   668: {
     name: 'JuncaChain',
@@ -7217,7 +7218,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://redstone.xyz/deposit' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreieyaqgkgntvxuo5tnhgseladga5q6gutc37dab7kqqfdguhq7vkxq'
+      'https://ipfs.io/ipfs/bafkreieyaqgkgntvxuo5tnhgseladga5q6gutc37dab7kqqfdguhq7vkxq'
   },
   700: {
     name: 'Star Social Testnet',
@@ -7295,7 +7296,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreiby27m6esbsjthmknckq5ktsaaj2z6hylzljbsmvx4fgezdra3q4m'
+      'https://ipfs.io/ipfs/bafkreiby27m6esbsjthmknckq5ktsaaj2z6hylzljbsmvx4fgezdra3q4m'
   },
   713: {
     name: 'Vrcscan Mainnet',
@@ -7326,7 +7327,7 @@ export const chains: Chains = {
     ],
     icon: 'vrcscan',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmasMkZJ6m7y77fgY6SooNnrH3Y4a3vVYNDWe9T3KusxeU'
+      'https://ipfs.io/ipfs/QmasMkZJ6m7y77fgY6SooNnrH3Y4a3vVYNDWe9T3KusxeU'
   },
   719: {
     name: 'Shibarium Beta',
@@ -7347,7 +7348,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYNVkoZgRjDBQzJz6kog9mA2yPzQFW2oSKvhnkwuBhLQE'
+      'https://ipfs.io/ipfs/QmYNVkoZgRjDBQzJz6kog9mA2yPzQFW2oSKvhnkwuBhLQE'
   },
   721: {
     name: 'Lycan Chain',
@@ -7375,7 +7376,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZsp3gnmHCJPw3qReiqV8P8Ct5Eidib4E5jDNfBUxYEgP'
+      'https://ipfs.io/ipfs/QmZsp3gnmHCJPw3qReiqV8P8Ct5Eidib4E5jDNfBUxYEgP'
   },
   727: {
     name: 'Blucrates',
@@ -7408,7 +7409,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPB7uW7Wj8zWWdeuPnUHPJ5FhaiTL76tv4ZQ4oKWEpb1g'
+      'https://ipfs.io/ipfs/QmPB7uW7Wj8zWWdeuPnUHPJ5FhaiTL76tv4ZQ4oKWEpb1g'
   },
   740: {
     name: 'Canto Testnet',
@@ -7450,7 +7451,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmcNepHmbmHW1BZYM3MFqJW4awwhmDqhUPRXXmRnXwg1U4'
+      'https://ipfs.io/ipfs/QmcNepHmbmHW1BZYM3MFqJW4awwhmDqhUPRXXmRnXwg1U4'
   },
   742: {
     name: 'Script Testnet',
@@ -7490,7 +7491,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQFugEvsfU3ARjjJ7YRLJwSxMfTk54WWzrofekTRBKFaC'
+      'https://ipfs.io/ipfs/QmQFugEvsfU3ARjjJ7YRLJwSxMfTk54WWzrofekTRBKFaC'
   },
   766: {
     name: 'QL1',
@@ -7513,7 +7514,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRc1kJ7AgcDL1BSoMYudatWHTrz27K6WNTwGifQb5V17D'
+      'https://ipfs.io/ipfs/QmRc1kJ7AgcDL1BSoMYudatWHTrz27K6WNTwGifQb5V17D'
   },
   776: {
     name: 'OpenChain Testnet',
@@ -7568,7 +7569,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreiexfqfe2x4impvwhra3xxa5eb25gv25zi3kkaoatdnld7wbxdzf2a'
+      'https://ipfs.io/ipfs/bafkreiexfqfe2x4impvwhra3xxa5eb25gv25zi3kkaoatdnld7wbxdzf2a'
   },
   787: {
     name: 'Acala Network',
@@ -7637,7 +7638,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTNTSNn3t5WpSEzQmUYbkxYkBKaH6QahyVdVrRKyPHChr'
+      'https://ipfs.io/ipfs/QmTNTSNn3t5WpSEzQmUYbkxYkBKaH6QahyVdVrRKyPHChr'
   },
   799: {
     name: 'Rupaya Testnet',
@@ -7677,7 +7678,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeigxiyyxll4vst5cjjh732mr6zhsnligxubaldyiul2xdvvi6ibktu'
+      'https://ipfs.io/ipfs/bafybeigxiyyxll4vst5cjjh732mr6zhsnligxubaldyiul2xdvvi6ibktu'
   },
   803: {
     name: 'Haic',
@@ -7708,7 +7709,7 @@ export const chains: Chains = {
     slip44: 1,
     explorers: [],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeMa6aw3ebUKJdGgbzDgcVtggzp7cQdfSrmzMYmnt5ywc'
+      'https://ipfs.io/ipfs/QmeMa6aw3ebUKJdGgbzDgcVtggzp7cQdfSrmzMYmnt5ywc'
   },
   810: {
     name: 'Haven1 Testnet',
@@ -7731,7 +7732,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreih4jq33lz2mjwvu62hmo2ptt277et5l6oqi5ejuyxv2dir2iohsai'
+      'https://ipfs.io/ipfs/bafkreih4jq33lz2mjwvu62hmo2ptt277et5l6oqi5ejuyxv2dir2iohsai'
   },
   813: {
     name: 'Qitmeer Network Mainnet',
@@ -7769,7 +7770,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
+      'https://ipfs.io/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
   },
   814: {
     name: 'Firechain zkEVM',
@@ -7790,7 +7791,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://zkevm-bridge-rpc.thefirechain.com' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYjuztyURb3Fc6ZTLgCbwQa64CcVoigF5j9cafzuSbqgf'
+      'https://ipfs.io/ipfs/QmYjuztyURb3Fc6ZTLgCbwQa64CcVoigF5j9cafzuSbqgf'
   },
   818: {
     name: 'BeOne Chain Mainnet',
@@ -7823,7 +7824,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmbVLQnaMDu86bPyKgCvTGhFBeYwjr15hQnrCcsp1EkAGL'
+      'https://ipfs.io/ipfs/QmbVLQnaMDu86bPyKgCvTGhFBeYwjr15hQnrCcsp1EkAGL'
   },
   820: {
     name: 'Callisto Mainnet',
@@ -7875,7 +7876,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmW3RZKwBq12F7jVV2pn6T9WzwU5rosLYkVqoRQckfKvXo'
+      'https://ipfs.io/ipfs/QmW3RZKwBq12F7jVV2pn6T9WzwU5rosLYkVqoRQckfKvXo'
   },
   831: {
     name: 'CheckDot Blockchain Devnet',
@@ -7914,7 +7915,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQhdktNyBeXmCaVuQpi1B4yXheSUKrJA17L4wpECKzG5D'
+      'https://ipfs.io/ipfs/QmQhdktNyBeXmCaVuQpi1B4yXheSUKrJA17L4wpECKzG5D'
   },
   842: {
     name: 'Taraxa Testnet',
@@ -7936,7 +7937,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQhdktNyBeXmCaVuQpi1B4yXheSUKrJA17L4wpECKzG5D'
+      'https://ipfs.io/ipfs/QmQhdktNyBeXmCaVuQpi1B4yXheSUKrJA17L4wpECKzG5D'
   },
   859: {
     name: 'Zeeth Chain Dev',
@@ -7998,7 +7999,7 @@ export const chains: Chains = {
     ],
     parent: { type: 'L2', chain: 'eip155-248' },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreifhetalm3vpvjrg5u5d2momkcgvkz6rhltur5co3rslltbxzpr6yq'
+      'https://ipfs.io/ipfs/bafkreifhetalm3vpvjrg5u5d2momkcgvkz6rhltur5co3rslltbxzpr6yq'
   },
   877: {
     name: 'Dexit Network',
@@ -8053,7 +8054,7 @@ export const chains: Chains = {
     chain: 'MAXI',
     rpc: ['https://rpc-testnet.maxi.network'],
     faucets: ['https://faucet.maxi.network'],
-    nativeCurrency: { name: 'MAXICOIN', symbol: 'MAXI', decimals: 18 },
+    nativeCurrency: { name: 'MAXI GAS', symbol: 'MGAS', decimals: 18 },
     features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
     infoURL: 'https://maxi.network',
     shortName: 'maxi-testnet',
@@ -8068,7 +8069,29 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXMLcCaNPMyWCEYX2MZDJHNvj5cpj2cR5dRQtedBRNypT'
+      'https://ipfs.io/ipfs/QmXMLcCaNPMyWCEYX2MZDJHNvj5cpj2cR5dRQtedBRNypT'
+  },
+  899: {
+    name: 'MAXI Chain Mainnet',
+    chain: 'MAXI',
+    rpc: ['https://rpc.maxi.network'],
+    faucets: [],
+    nativeCurrency: { name: 'MAXI GAS', symbol: 'MGAS', decimals: 18 },
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    infoURL: 'https://maxi.network',
+    shortName: 'maxi-mainnet',
+    chainId: 899,
+    networkId: 899,
+    icon: 'maxi',
+    explorers: [
+      {
+        name: 'Maxi Chain Mainnet Explorer',
+        url: 'https://mainnet.maxi.network',
+        standard: 'EIP3091'
+      }
+    ],
+    iconURL:
+      'https://ipfs.io/ipfs/QmXMLcCaNPMyWCEYX2MZDJHNvj5cpj2cR5dRQtedBRNypT'
   },
   900: {
     name: 'Garizon Testnet Stage0',
@@ -8090,7 +8113,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmW3WRyuLZ95K8hvV2QN6rP5yWY98sSzWyVUxD2eUjXGrc'
+      'https://ipfs.io/ipfs/QmW3WRyuLZ95K8hvV2QN6rP5yWY98sSzWyVUxD2eUjXGrc'
   },
   901: {
     name: 'Garizon Testnet Stage1',
@@ -8114,7 +8137,7 @@ export const chains: Chains = {
     ],
     parent: { chain: 'eip155-900', type: 'shard' },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmW3WRyuLZ95K8hvV2QN6rP5yWY98sSzWyVUxD2eUjXGrc'
+      'https://ipfs.io/ipfs/QmW3WRyuLZ95K8hvV2QN6rP5yWY98sSzWyVUxD2eUjXGrc'
   },
   902: {
     name: 'Garizon Testnet Stage2',
@@ -8138,7 +8161,7 @@ export const chains: Chains = {
     ],
     parent: { chain: 'eip155-900', type: 'shard' },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmW3WRyuLZ95K8hvV2QN6rP5yWY98sSzWyVUxD2eUjXGrc'
+      'https://ipfs.io/ipfs/QmW3WRyuLZ95K8hvV2QN6rP5yWY98sSzWyVUxD2eUjXGrc'
   },
   903: {
     name: 'Garizon Testnet Stage3',
@@ -8162,7 +8185,7 @@ export const chains: Chains = {
     ],
     parent: { chain: 'eip155-900', type: 'shard' },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmW3WRyuLZ95K8hvV2QN6rP5yWY98sSzWyVUxD2eUjXGrc'
+      'https://ipfs.io/ipfs/QmW3WRyuLZ95K8hvV2QN6rP5yWY98sSzWyVUxD2eUjXGrc'
   },
   909: {
     name: 'Portal Fantasy Chain',
@@ -8182,7 +8205,7 @@ export const chains: Chains = {
     explorers: [],
     status: 'incubating',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeMa6aw3ebUKJdGgbzDgcVtggzp7cQdfSrmzMYmnt5ywc'
+      'https://ipfs.io/ipfs/QmeMa6aw3ebUKJdGgbzDgcVtggzp7cQdfSrmzMYmnt5ywc'
   },
   910: {
     name: 'DecentraBone Layer1 Testnet',
@@ -8217,7 +8240,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeucqvcreQk8nnSRUiHo3QTvLoYYB7shJTKXj5Tk6BtWi'
+      'https://ipfs.io/ipfs/QmeucqvcreQk8nnSRUiHo3QTvLoYYB7shJTKXj5Tk6BtWi'
   },
   917: {
     name: 'Rinia Testnet',
@@ -8239,7 +8262,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRnnw2gtbU9TWJMLJ6tks7SN6HQV5rRugeoyN6csTYHt1'
+      'https://ipfs.io/ipfs/QmRnnw2gtbU9TWJMLJ6tks7SN6HQV5rRugeoyN6csTYHt1'
   },
   919: {
     name: 'Mode Testnet',
@@ -8266,7 +8289,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://bridge.mode.network/' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreidi5y7afj5z4xrz7uz5rkg2mcsv2p2n4ui4g7q4k4ecdz65i2agou'
+      'https://ipfs.io/ipfs/bafkreidi5y7afj5z4xrz7uz5rkg2mcsv2p2n4ui4g7q4k4ecdz65i2agou'
   },
   927: {
     name: 'Yidark Chain Mainnet',
@@ -8287,7 +8310,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdbFGqrpiLQGtAeUAyeS2NBvACfgrchEF466ni5q36fuZ'
+      'https://ipfs.io/ipfs/QmdbFGqrpiLQGtAeUAyeS2NBvACfgrchEF466ni5q36fuZ'
   },
   940: {
     name: 'PulseChain Testnet',
@@ -8373,7 +8396,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmckj9B9F3jWDk9bv9HwoPmfjrx2Ju8J2BQSNoPFdYGduj'
+      'https://ipfs.io/ipfs/Qmckj9B9F3jWDk9bv9HwoPmfjrx2Ju8J2BQSNoPFdYGduj'
   },
   956: {
     name: 'muNode Testnet',
@@ -8408,7 +8431,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreifrvwcwcgs2luampufdbdgohuxue5rep3u4p4owmwskob7hzpcfdq'
+      'https://ipfs.io/ipfs/bafkreifrvwcwcgs2luampufdbdgohuxue5rep3u4p4owmwskob7hzpcfdq'
   },
   963: {
     name: 'BTC20 Smart Chain',
@@ -8430,7 +8453,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRUzDpn3xqPYnjLuZvFs2Attio9VxGRUprXEjcNQDcpe5'
+      'https://ipfs.io/ipfs/QmRUzDpn3xqPYnjLuZvFs2Attio9VxGRUprXEjcNQDcpe5'
   },
   969: {
     name: 'EthXY',
@@ -8455,7 +8478,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreihq3b3cqbg2ttlp4dfbgmirrwdw6bbpmmbr5wolddd2izbyqay4xq'
+      'https://ipfs.io/ipfs/bafkreihq3b3cqbg2ttlp4dfbgmirrwdw6bbpmmbr5wolddd2izbyqay4xq'
   },
   970: {
     name: 'Oort Mainnet',
@@ -8477,7 +8500,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreidrbvklkb52sgmg7cmy42fhf7vqpig7qj7bnrq24ijdwywkzr2tfy'
+      'https://ipfs.io/ipfs/bafkreidrbvklkb52sgmg7cmy42fhf7vqpig7qj7bnrq24ijdwywkzr2tfy'
   },
   971: {
     name: 'Oort Huygens',
@@ -8491,7 +8514,7 @@ export const chains: Chains = {
     networkId: 971,
     icon: 'ccn',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZ1jbxFZcuotj3eZ6iKFrg9ZXnaV8AK6sGRa7ELrceWyD'
+      'https://ipfs.io/ipfs/QmZ1jbxFZcuotj3eZ6iKFrg9ZXnaV8AK6sGRa7ELrceWyD'
   },
   972: {
     name: 'Oort Ascraeus',
@@ -8514,7 +8537,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreidrbvklkb52sgmg7cmy42fhf7vqpig7qj7bnrq24ijdwywkzr2tfy'
+      'https://ipfs.io/ipfs/bafkreidrbvklkb52sgmg7cmy42fhf7vqpig7qj7bnrq24ijdwywkzr2tfy'
   },
   977: {
     name: 'Nepal Blockchain Network',
@@ -8557,7 +8580,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreihq3b3cqbg2ttlp4dfbgmirrwdw6bbpmmbr5wolddd2izbyqay4xq'
+      'https://ipfs.io/ipfs/bafkreihq3b3cqbg2ttlp4dfbgmirrwdw6bbpmmbr5wolddd2izbyqay4xq'
   },
   980: {
     name: 'TOP Mainnet EVM',
@@ -8578,7 +8601,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYikaM849eZrL8pGNeVhEHVTKWpxdGMvCY5oFBfZ2ndhd'
+      'https://ipfs.io/ipfs/QmYikaM849eZrL8pGNeVhEHVTKWpxdGMvCY5oFBfZ2ndhd'
   },
   985: {
     name: 'Memo Smart Chain Mainnet',
@@ -8600,7 +8623,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreig52paynhccs4o5ew6f7mk3xoqu2bqtitmfvlgnwarh2pm33gbdrq'
+      'https://ipfs.io/ipfs/bafkreig52paynhccs4o5ew6f7mk3xoqu2bqtitmfvlgnwarh2pm33gbdrq'
   },
   989: {
     name: 'TOP Mainnet',
@@ -8621,7 +8644,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYikaM849eZrL8pGNeVhEHVTKWpxdGMvCY5oFBfZ2ndhd'
+      'https://ipfs.io/ipfs/QmYikaM849eZrL8pGNeVhEHVTKWpxdGMvCY5oFBfZ2ndhd'
   },
   990: {
     name: 'eLiberty Mainnet',
@@ -8642,7 +8665,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmcr8US1DZcK3ooiMtE8tEQPgep12abXzxPw1jCkgZhji9'
+      'https://ipfs.io/ipfs/Qmcr8US1DZcK3ooiMtE8tEQPgep12abXzxPw1jCkgZhji9'
   },
   997: {
     name: '5ireChain Thunder',
@@ -8664,7 +8687,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmaZDNDFLWESH4i3XqwEWfWBb1HPnQSNbDAr74nr2x8QAk'
+      'https://ipfs.io/ipfs/QmaZDNDFLWESH4i3XqwEWfWBb1HPnQSNbDAr74nr2x8QAk'
   },
   998: {
     name: 'Lucky Network',
@@ -8690,7 +8713,7 @@ export const chains: Chains = {
       { name: 'expedition', url: 'https://lnscan.org', standard: 'none' }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreidmvcd5i7touug55hj45mf2pgabxamy5fziva7mtx5n664s3yap6m'
+      'https://ipfs.io/ipfs/bafkreidmvcd5i7touug55hj45mf2pgabxamy5fziva7mtx5n664s3yap6m'
   },
   999: {
     name: 'Wanchain Testnet',
@@ -8790,7 +8813,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmfMd564KUPK8eKZDwGCT71ZC2jMnUZqP6LCtLpup3rHH1'
+      'https://ipfs.io/ipfs/QmfMd564KUPK8eKZDwGCT71ZC2jMnUZqP6LCtLpup3rHH1'
   },
   1007: {
     name: 'Newton Testnet',
@@ -8824,7 +8847,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmaGd5L9jGPbfyGXBFhu9gjinWJ66YtNrXq8x6Q98Eep9e'
+      'https://ipfs.io/ipfs/QmaGd5L9jGPbfyGXBFhu9gjinWJ66YtNrXq8x6Q98Eep9e'
   },
   1009: {
     name: 'Jumbochain Mainnet',
@@ -8885,7 +8908,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreifzag46dhp33vb2uldg4htqbqipuqrapjga6ml6pnhn5yibbvb4gq'
+      'https://ipfs.io/ipfs/bafkreifzag46dhp33vb2uldg4htqbqipuqrapjga6ml6pnhn5yibbvb4gq'
   },
   1012: {
     name: 'Newton',
@@ -8970,7 +8993,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreifj7n24u2dslfijfihwqvpdeigt5aj3k3sxv6s35lv75sxsfr3ojy'
+      'https://ipfs.io/ipfs/bafkreifj7n24u2dslfijfihwqvpdeigt5aj3k3sxv6s35lv75sxsfr3ojy'
   },
   1031: {
     name: 'Proxy Network Testnet',
@@ -9012,7 +9035,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeifkgtmhnq4sxu6jn22i7ass7aih6ubodr77k6ygtu4tjbvpmkw2ga'
+      'https://ipfs.io/ipfs/bafybeifkgtmhnq4sxu6jn22i7ass7aih6ubodr77k6ygtu4tjbvpmkw2ga'
   },
   1039: {
     name: 'Bronos Mainnet',
@@ -9034,7 +9057,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeifkgtmhnq4sxu6jn22i7ass7aih6ubodr77k6ygtu4tjbvpmkw2ga'
+      'https://ipfs.io/ipfs/bafybeifkgtmhnq4sxu6jn22i7ass7aih6ubodr77k6ygtu4tjbvpmkw2ga'
   },
   1071: {
     name: 'ShimmerEVM Testnet Deprecated',
@@ -9061,7 +9084,7 @@ export const chains: Chains = {
     ],
     status: 'deprecated',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreibky2sy6qhi6arktayvologkrgu5kudpgdxfkx4uosbvmstz7v4di'
+      'https://ipfs.io/ipfs/bafkreibky2sy6qhi6arktayvologkrgu5kudpgdxfkx4uosbvmstz7v4di'
   },
   1072: {
     name: 'ShimmerEVM Testnet Deprecated 1072',
@@ -9088,7 +9111,7 @@ export const chains: Chains = {
     ],
     status: 'deprecated',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreibky2sy6qhi6arktayvologkrgu5kudpgdxfkx4uosbvmstz7v4di'
+      'https://ipfs.io/ipfs/bafkreibky2sy6qhi6arktayvologkrgu5kudpgdxfkx4uosbvmstz7v4di'
   },
   1073: {
     name: 'ShimmerEVM Testnet',
@@ -9114,7 +9137,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreibky2sy6qhi6arktayvologkrgu5kudpgdxfkx4uosbvmstz7v4di'
+      'https://ipfs.io/ipfs/bafkreibky2sy6qhi6arktayvologkrgu5kudpgdxfkx4uosbvmstz7v4di'
   },
   1075: {
     name: 'IOTA EVM Testnet',
@@ -9136,7 +9159,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreibky2sy6qhi6arktayvologkrgu5kudpgdxfkx4uosbvmstz7v4di'
+      'https://ipfs.io/ipfs/bafkreibky2sy6qhi6arktayvologkrgu5kudpgdxfkx4uosbvmstz7v4di'
   },
   1079: {
     name: 'Mintara Testnet',
@@ -9159,7 +9182,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeie7jzlzlpz7c3a3oh4x5joej23dj2qf3cexmchjyc72hv3fblcaja'
+      'https://ipfs.io/ipfs/bafybeie7jzlzlpz7c3a3oh4x5joej23dj2qf3cexmchjyc72hv3fblcaja'
   },
   1080: {
     name: 'Mintara Mainnet',
@@ -9181,7 +9204,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeie7jzlzlpz7c3a3oh4x5joej23dj2qf3cexmchjyc72hv3fblcaja'
+      'https://ipfs.io/ipfs/bafybeie7jzlzlpz7c3a3oh4x5joej23dj2qf3cexmchjyc72hv3fblcaja'
   },
   1088: {
     name: 'Metis Andromeda Mainnet',
@@ -9240,7 +9263,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmX6XuoQDTTjYqAmdNJiieLDZSwHHyUx44yQb4E3tmHmEA'
+      'https://ipfs.io/ipfs/QmX6XuoQDTTjYqAmdNJiieLDZSwHHyUx44yQb4E3tmHmEA'
   },
   1099: {
     name: 'MOAC mainnet',
@@ -9280,7 +9303,7 @@ export const chains: Chains = {
       { name: 'dym.fyi', url: 'https://dym.fyi', standard: 'EIP3091' }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreic4sjyqikz33xzpcctczvkiwfj44q5i3i7zslycnjiqmyx5ybc3fi'
+      'https://ipfs.io/ipfs/bafkreic4sjyqikz33xzpcctczvkiwfj44q5i3i7zslycnjiqmyx5ybc3fi'
   },
   1101: {
     name: 'Polygon zkEVM',
@@ -9312,7 +9335,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://bridge.zkevm-rpc.com' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNmJZkQgx9RcFLS3rvxQTVYcPfyAFPr667keHTUxB9PDv'
+      'https://ipfs.io/ipfs/QmNmJZkQgx9RcFLS3rvxQTVYcPfyAFPr667keHTUxB9PDv'
   },
   1107: {
     name: 'BLXq Testnet',
@@ -9335,7 +9358,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmS9kDKr1rgcz5W55yCQVfFs1vRTCneaLHt1t9cBizpqpH'
+      'https://ipfs.io/ipfs/QmS9kDKr1rgcz5W55yCQVfFs1vRTCneaLHt1t9cBizpqpH'
   },
   1108: {
     name: 'BLXq Mainnet',
@@ -9357,7 +9380,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmS9kDKr1rgcz5W55yCQVfFs1vRTCneaLHt1t9cBizpqpH'
+      'https://ipfs.io/ipfs/QmS9kDKr1rgcz5W55yCQVfFs1vRTCneaLHt1t9cBizpqpH'
   },
   1111: {
     name: 'WEMIX3.0 Mainnet',
@@ -9416,7 +9439,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPV6ASrQDEkEW3g3ni7p2rJMPeciRLpEpvrAc1QfzVkx9'
+      'https://ipfs.io/ipfs/QmPV6ASrQDEkEW3g3ni7p2rJMPeciRLpEpvrAc1QfzVkx9'
   },
   1115: {
     name: 'Core Blockchain Testnet',
@@ -9443,7 +9466,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeTQaBCkpbsxNNWTpoNrMsnwnAEf1wYTcn7CiiZGfUXD2'
+      'https://ipfs.io/ipfs/QmeTQaBCkpbsxNNWTpoNrMsnwnAEf1wYTcn7CiiZGfUXD2'
   },
   1116: {
     name: 'Core Blockchain Mainnet',
@@ -9474,7 +9497,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeTQaBCkpbsxNNWTpoNrMsnwnAEf1wYTcn7CiiZGfUXD2'
+      'https://ipfs.io/ipfs/QmeTQaBCkpbsxNNWTpoNrMsnwnAEf1wYTcn7CiiZGfUXD2'
   },
   1117: {
     name: 'Dogcoin Mainnet',
@@ -9495,7 +9518,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZCadkExKThak3msvszZjo6UnAbUJKE61dAcg4TixuMC3'
+      'https://ipfs.io/ipfs/QmZCadkExKThak3msvszZjo6UnAbUJKE61dAcg4TixuMC3'
   },
   1123: {
     name: 'B2 Testnet',
@@ -9519,7 +9542,7 @@ export const chains: Chains = {
     ],
     parent: { type: 'L2', chain: 'eip155-1113' },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPV6ASrQDEkEW3g3ni7p2rJMPeciRLpEpvrAc1QfzVkx9'
+      'https://ipfs.io/ipfs/QmPV6ASrQDEkEW3g3ni7p2rJMPeciRLpEpvrAc1QfzVkx9'
   },
   1130: {
     name: 'DeFiChain EVM Network Mainnet',
@@ -9536,7 +9559,7 @@ export const chains: Chains = {
     icon: 'defichain-network',
     explorers: [],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdR3YL9F95ajwVwfxAGoEzYwm9w7JNsPSfUPjSaQogVjK'
+      'https://ipfs.io/ipfs/QmdR3YL9F95ajwVwfxAGoEzYwm9w7JNsPSfUPjSaQogVjK'
   },
   1131: {
     name: 'DeFiChain EVM Network Testnet',
@@ -9553,7 +9576,7 @@ export const chains: Chains = {
     icon: 'defichain-network',
     explorers: [],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdR3YL9F95ajwVwfxAGoEzYwm9w7JNsPSfUPjSaQogVjK'
+      'https://ipfs.io/ipfs/QmdR3YL9F95ajwVwfxAGoEzYwm9w7JNsPSfUPjSaQogVjK'
   },
   1133: {
     name: 'DeFiMetaChain Changi Testnet',
@@ -9577,11 +9600,12 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdR3YL9F95ajwVwfxAGoEzYwm9w7JNsPSfUPjSaQogVjK'
+      'https://ipfs.io/ipfs/QmdR3YL9F95ajwVwfxAGoEzYwm9w7JNsPSfUPjSaQogVjK'
   },
   1135: {
     name: 'Lisk',
     chain: 'ETH',
+    icon: 'lisk',
     rpc: ['https://rpc.api.lisk.com'],
     faucets: [],
     nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
@@ -9597,7 +9621,9 @@ export const chains: Chains = {
         icon: 'blockscout',
         standard: 'EIP3091'
       }
-    ]
+    ],
+    iconURL:
+      'https://ipfs.io/ipfs/QmVTS8jmWD5e7jVEn86wLjJsuMnc6s8fym3JbtE4etzSKf'
   },
   1138: {
     name: 'AmStar Testnet',
@@ -9619,7 +9645,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmd4TMQdnYxaUZqnVddh5S37NGH72g2kkK38ccCEgdZz1C'
+      'https://ipfs.io/ipfs/Qmd4TMQdnYxaUZqnVddh5S37NGH72g2kkK38ccCEgdZz1C'
   },
   1139: {
     name: 'MathChain',
@@ -9666,7 +9692,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeibcrxeavdxpwwmj4mc6hhp232nkrfbpvfpngcqux2v5rmoshycj3u'
+      'https://ipfs.io/ipfs/bafybeibcrxeavdxpwwmj4mc6hhp232nkrfbpvfpngcqux2v5rmoshycj3u'
   },
   1149: {
     name: 'Symplexia Smart Chain',
@@ -9688,7 +9714,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmcXzfMNSQ7SZzKemNquVoXyG5ergdqCGeLWjRYETGBTUM'
+      'https://ipfs.io/ipfs/QmcXzfMNSQ7SZzKemNquVoXyG5ergdqCGeLWjRYETGBTUM'
   },
   1170: {
     name: 'Origin Testnet',
@@ -9711,7 +9737,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRGJ6PqYHDTWuUQ6xfnK8S82NzRXiMjTnSGat9qtLuaLP'
+      'https://ipfs.io/ipfs/QmRGJ6PqYHDTWuUQ6xfnK8S82NzRXiMjTnSGat9qtLuaLP'
   },
   1177: {
     name: 'Smart Host Teknoloji TESTNET',
@@ -9739,7 +9765,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTrLGHyQ1Le25Q7EgNSF5Qq8D2SocKvroDkLqurdBuSQQ'
+      'https://ipfs.io/ipfs/QmTrLGHyQ1Le25Q7EgNSF5Qq8D2SocKvroDkLqurdBuSQQ'
   },
   1188: {
     name: 'ClubMos Mainnet',
@@ -9761,7 +9787,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmczQf61mZmg3NmmGnwseDxzH1AqapA252KCTT85GuNG96'
+      'https://ipfs.io/ipfs/QmczQf61mZmg3NmmGnwseDxzH1AqapA252KCTT85GuNG96'
   },
   1197: {
     name: 'Iora Chain',
@@ -9782,7 +9808,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeiehps5cqdhqottu2efo4jeehwpkz5rbux3cjxd75rm6rjm4sgs2wi'
+      'https://ipfs.io/ipfs/bafybeiehps5cqdhqottu2efo4jeehwpkz5rbux3cjxd75rm6rjm4sgs2wi'
   },
   1201: {
     name: 'Evanesco Testnet',
@@ -9838,7 +9864,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVFWTqfqnMXbiPKpDFucE9QSQ1SVsUWs4HxBqRGjgQCbu'
+      'https://ipfs.io/ipfs/QmVFWTqfqnMXbiPKpDFucE9QSQ1SVsUWs4HxBqRGjgQCbu'
   },
   1213: {
     name: 'Popcateum Mainnet',
@@ -9878,7 +9904,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmb2UYVc1MjLPi8vhszWRxqBJYoYkWQVxDJRSmtrgk6j2E'
+      'https://ipfs.io/ipfs/Qmb2UYVc1MjLPi8vhszWRxqBJYoYkWQVxDJRSmtrgk6j2E'
   },
   1221: {
     name: 'Cycle Network Testnet',
@@ -9892,7 +9918,7 @@ export const chains: Chains = {
     networkId: 1221,
     icon: 'cycle',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeC4mKGbBpwmLfFxUSsareWkSWJomevUmex8ajjxo1zHx'
+      'https://ipfs.io/ipfs/QmeC4mKGbBpwmLfFxUSsareWkSWJomevUmex8ajjxo1zHx'
   },
   1224: {
     name: 'Hybrid Testnet',
@@ -9913,7 +9939,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdGfvH9qfvbMXYKosS1nHbw3q5UtFJky4hdMDmmKDTx8Y'
+      'https://ipfs.io/ipfs/QmdGfvH9qfvbMXYKosS1nHbw3q5UtFJky4hdMDmmKDTx8Y'
   },
   1229: {
     name: 'Exzo Network Mainnet',
@@ -9934,7 +9960,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeYpc2JfEsHa2Bh11SKRx3sgDtMeg6T8KpXNLepBEKnbJ'
+      'https://ipfs.io/ipfs/QmeYpc2JfEsHa2Bh11SKRx3sgDtMeg6T8KpXNLepBEKnbJ'
   },
   1230: {
     name: 'Ultron Testnet',
@@ -9957,7 +9983,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPC6odFVyAQrXJQaZJVFpEQfRNbzZ5BjDZ7KBKmXPaYDw'
+      'https://ipfs.io/ipfs/QmPC6odFVyAQrXJQaZJVFpEQfRNbzZ5BjDZ7KBKmXPaYDw'
   },
   1231: {
     name: 'Ultron Mainnet',
@@ -9979,7 +10005,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPC6odFVyAQrXJQaZJVFpEQfRNbzZ5BjDZ7KBKmXPaYDw'
+      'https://ipfs.io/ipfs/QmPC6odFVyAQrXJQaZJVFpEQfRNbzZ5BjDZ7KBKmXPaYDw'
   },
   1234: {
     name: 'Step Network',
@@ -10007,7 +10033,25 @@ export const chains: Chains = {
       bridges: [{ url: 'https://bridge.step.network' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVp9jyb3UFW71867yVtymmiRw7dPY4BTnsp3hEjr9tn8L'
+      'https://ipfs.io/ipfs/QmVp9jyb3UFW71867yVtymmiRw7dPY4BTnsp3hEjr9tn8L'
+  },
+  1235: {
+    name: 'ITX Mainnet',
+    chain: 'ITX',
+    rpc: ['https://rpc.itxchain.com'],
+    faucets: [],
+    nativeCurrency: { name: 'ITX', symbol: 'ITX', decimals: 18 },
+    infoURL: 'https://explorer.itxchain.com',
+    shortName: 'itx',
+    chainId: 1235,
+    networkId: 1235,
+    explorers: [
+      {
+        name: 'ITX Mainnet Explorer (Blockscout)',
+        url: 'https://explorer.itxchain.com',
+        standard: 'EIP3091'
+      }
+    ]
   },
   1243: {
     name: 'ARC Mainnet',
@@ -10028,7 +10072,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeiady63oqduls2pm4aaykzjhahblagokhnpsc5qeq5dmkxqelh7i2i'
+      'https://ipfs.io/ipfs/bafybeiady63oqduls2pm4aaykzjhahblagokhnpsc5qeq5dmkxqelh7i2i'
   },
   1244: {
     name: 'ARC Testnet',
@@ -10050,7 +10094,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeiady63oqduls2pm4aaykzjhahblagokhnpsc5qeq5dmkxqelh7i2i'
+      'https://ipfs.io/ipfs/bafybeiady63oqduls2pm4aaykzjhahblagokhnpsc5qeq5dmkxqelh7i2i'
   },
   1246: {
     name: 'OM Platform Mainnet',
@@ -10113,7 +10157,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNekc5gpyrQkeDQcmfJLBrP5fa6GMarB13iy6aHVdQJDU'
+      'https://ipfs.io/ipfs/QmNekc5gpyrQkeDQcmfJLBrP5fa6GMarB13iy6aHVdQJDU'
   },
   1280: {
     name: 'HALO Mainnet',
@@ -10278,7 +10322,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeihuintkoipxalwans23vhxajbwjnozpy34ww7ia7ds7nay3rpylzi'
+      'https://ipfs.io/ipfs/bafybeihuintkoipxalwans23vhxajbwjnozpy34ww7ia7ds7nay3rpylzi'
   },
   1294: {
     name: 'Bobabeam',
@@ -10370,7 +10414,7 @@ export const chains: Chains = {
     ],
     icon: 'alyx',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreifd43fcvh77mdcwjrpzpnlhthounc6b4u645kukqpqhduaveatf6i'
+      'https://ipfs.io/ipfs/bafkreifd43fcvh77mdcwjrpzpnlhthounc6b4u645kukqpqhduaveatf6i'
   },
   1319: {
     name: 'AIA Mainnet',
@@ -10396,7 +10440,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXbBMMhjTTGAGjmqMpJm3ufFrtdkfEXCFyXYgz7nnZzsy'
+      'https://ipfs.io/ipfs/QmXbBMMhjTTGAGjmqMpJm3ufFrtdkfEXCFyXYgz7nnZzsy'
   },
   1320: {
     name: 'AIA Testnet',
@@ -10419,7 +10463,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXbBMMhjTTGAGjmqMpJm3ufFrtdkfEXCFyXYgz7nnZzsy'
+      'https://ipfs.io/ipfs/QmXbBMMhjTTGAGjmqMpJm3ufFrtdkfEXCFyXYgz7nnZzsy'
   },
   1329: {
     name: 'Sei Network',
@@ -10440,7 +10484,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreia2tiurhfkc2lifytbpv356d4rfmqoivzrepg2wsrqwrqgbb4bp7a'
+      'https://ipfs.io/ipfs/bafkreia2tiurhfkc2lifytbpv356d4rfmqoivzrepg2wsrqwrqgbb4bp7a'
   },
   1337: {
     name: 'Geth Testnet',
@@ -10539,7 +10583,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNekc5gpyrQkeDQcmfJLBrP5fa6GMarB13iy6aHVdQJDU'
+      'https://ipfs.io/ipfs/QmNekc5gpyrQkeDQcmfJLBrP5fa6GMarB13iy6aHVdQJDU'
   },
   1369: {
     name: 'Zafirium Mainnet',
@@ -10564,7 +10608,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZT1Wq3P4YbgKBSUmCtgbs5ijPF5d91BzaMPh7Aub8d8t'
+      'https://ipfs.io/ipfs/QmZT1Wq3P4YbgKBSUmCtgbs5ijPF5d91BzaMPh7Aub8d8t'
   },
   1370: {
     name: 'Ramestta Mainnet',
@@ -10589,7 +10633,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmUtnYVBeDMKudGq2Wue25pqYfQEdgbyvzTzoGPMqRGMJZ'
+      'https://ipfs.io/ipfs/QmUtnYVBeDMKudGq2Wue25pqYfQEdgbyvzTzoGPMqRGMJZ'
   },
   1377: {
     name: 'Pingaksha testnet',
@@ -10611,7 +10655,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmUtnYVBeDMKudGq2Wue25pqYfQEdgbyvzTzoGPMqRGMJZ'
+      'https://ipfs.io/ipfs/QmUtnYVBeDMKudGq2Wue25pqYfQEdgbyvzTzoGPMqRGMJZ'
   },
   1379: {
     name: 'Kalar Chain',
@@ -10633,7 +10677,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreihfoy2kgf2rebaoicso7z5h7ju46z6gtr64mskkths3qbfkrtnkjm'
+      'https://ipfs.io/ipfs/bafkreihfoy2kgf2rebaoicso7z5h7ju46z6gtr64mskkths3qbfkrtnkjm'
   },
   1388: {
     name: 'AmStar Mainnet',
@@ -10654,7 +10698,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmd4TMQdnYxaUZqnVddh5S37NGH72g2kkK38ccCEgdZz1C'
+      'https://ipfs.io/ipfs/Qmd4TMQdnYxaUZqnVddh5S37NGH72g2kkK38ccCEgdZz1C'
   },
   1392: {
     name: 'Joseon Mainnet',
@@ -10675,7 +10719,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQjwcNRCLXU8JBtSkPLUnbWVrpoqbnZVffpJ9Bu8rG34e'
+      'https://ipfs.io/ipfs/QmQjwcNRCLXU8JBtSkPLUnbWVrpoqbnZVffpJ9Bu8rG34e'
   },
   1402: {
     name: 'Polygon zkEVM Testnet old',
@@ -10714,7 +10758,7 @@ export const chains: Chains = {
     parent: { type: 'L2', chain: 'eip155-11155111', bridges: [] },
     status: 'incubating',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTEnk2fosqbY6HQW5vySrLGbopJfeni9ThZ6R9sVefbnq'
+      'https://ipfs.io/ipfs/QmTEnk2fosqbY6HQW5vySrLGbopJfeni9ThZ6R9sVefbnq'
   },
   1422: {
     name: 'Polygon zkEVM Testnet Pre Audit-Upgraded',
@@ -10757,7 +10801,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmfJ1Qxpzi6CSLeFeWY1Bwe435CpT5za5WfrLUE7vNzZfy'
+      'https://ipfs.io/ipfs/QmfJ1Qxpzi6CSLeFeWY1Bwe435CpT5za5WfrLUE7vNzZfy'
   },
   1440: {
     name: 'Living Assets Mainnet',
@@ -10774,7 +10818,7 @@ export const chains: Chains = {
     chainId: 1440,
     networkId: 1440,
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRidubY7BVwC737BQwGEttenP1npAXN7ZNryktE416uUW'
+      'https://ipfs.io/ipfs/QmRidubY7BVwC737BQwGEttenP1npAXN7ZNryktE416uUW'
   },
   1442: {
     name: 'Polygon zkEVM Testnet',
@@ -10820,7 +10864,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeDXUAYgQxwaSJLsqWgTqnrJVwicgEyNf9199xAMyRkqA'
+      'https://ipfs.io/ipfs/QmeDXUAYgQxwaSJLsqWgTqnrJVwicgEyNf9199xAMyRkqA'
   },
   1453: {
     name: 'MetaChain Istanbul',
@@ -10843,7 +10887,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmUH2Ph2hW4upvevEAGCaSo7nd8nthqMx5RrHcrnNZ9Y3g'
+      'https://ipfs.io/ipfs/QmUH2Ph2hW4upvevEAGCaSo7nd8nthqMx5RrHcrnNZ9Y3g'
   },
   1455: {
     name: 'Ctex Scan Blockchain',
@@ -10864,7 +10908,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreid5evn4qovxo6msuekizv5zn7va62tea7w2zpdx5sskconebuhqle'
+      'https://ipfs.io/ipfs/bafkreid5evn4qovxo6msuekizv5zn7va62tea7w2zpdx5sskconebuhqle'
   },
   1490: {
     name: 'Vitruveo Mainnet',
@@ -10888,7 +10932,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreidjhjv7uu7if745ys7ari3ka75spm2hqyr5po66sbe7kqsfk7ahua'
+      'https://ipfs.io/ipfs/bafkreidjhjv7uu7if745ys7ari3ka75spm2hqyr5po66sbe7kqsfk7ahua'
   },
   1499: {
     name: 'iDos Games Chain Testnet',
@@ -10909,7 +10953,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeXuzaYXCDwHgQdpuE9L55JfEChzj11P73Ngrn8vDTE9T'
+      'https://ipfs.io/ipfs/QmeXuzaYXCDwHgQdpuE9L55JfEChzj11P73Ngrn8vDTE9T'
   },
   1501: {
     name: 'BEVM Canary',
@@ -10930,7 +10974,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdDHRKWaQErTzt4SdcVgoVHEzBHCswhoaojBxT9LNR6sq'
+      'https://ipfs.io/ipfs/QmdDHRKWaQErTzt4SdcVgoVHEzBHCswhoaojBxT9LNR6sq'
   },
   1506: {
     name: 'Sherpax Mainnet',
@@ -11012,7 +11056,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmc1gqjWTzNo4pyFSGtQuCu7kRSZZBUVybtTjHn2nNEEPA'
+      'https://ipfs.io/ipfs/Qmc1gqjWTzNo4pyFSGtQuCu7kRSZZBUVybtTjHn2nNEEPA'
   },
   1617: {
     name: 'Ethereum Inscription Mainnet',
@@ -11085,7 +11129,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://bridge.gravity.xyz' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmU5XU4S5oaGM5fj8oU1ovhWoXCzGWspwRj2zWRTuJrU4k'
+      'https://ipfs.io/ipfs/QmU5XU4S5oaGM5fj8oU1ovhWoXCzGWspwRj2zWRTuJrU4k'
   },
   1657: {
     name: 'Btachain',
@@ -11142,7 +11186,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSFMBk3rMyu45Sy9KQHjgArFj4HdywANNYrSosLMUdcti'
+      'https://ipfs.io/ipfs/QmSFMBk3rMyu45Sy9KQHjgArFj4HdywANNYrSosLMUdcti'
   },
   1686: {
     name: 'Mint Testnet',
@@ -11169,7 +11213,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://testnet-bridge.mintchain.io' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQsYisbKkCTKoKG2YSVs94UGuWWMiBspirH4Af4FyZeZz'
+      'https://ipfs.io/ipfs/QmQsYisbKkCTKoKG2YSVs94UGuWWMiBspirH4Af4FyZeZz'
   },
   1687: {
     name: 'Mint Sepolia Testnet',
@@ -11196,7 +11240,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://sepolia-testnet-bridge.mintchain.io' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQsYisbKkCTKoKG2YSVs94UGuWWMiBspirH4Af4FyZeZz'
+      'https://ipfs.io/ipfs/QmQsYisbKkCTKoKG2YSVs94UGuWWMiBspirH4Af4FyZeZz'
   },
   1688: {
     name: 'LUDAN Mainnet',
@@ -11210,7 +11254,7 @@ export const chains: Chains = {
     chainId: 1688,
     networkId: 1688,
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreigzeanzqgxrzzep45t776ovbwi242poqxbryuu2go5eedeuwwcsay'
+      'https://ipfs.io/ipfs/bafkreigzeanzqgxrzzep45t776ovbwi242poqxbryuu2go5eedeuwwcsay'
   },
   1701: {
     name: 'Anytype EVM Chain',
@@ -11232,7 +11276,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmaARJiAQUn4Z6wG8GLEry3kTeBB3k6RfHzSZU9SPhBgcG'
+      'https://ipfs.io/ipfs/QmaARJiAQUn4Z6wG8GLEry3kTeBB3k6RfHzSZU9SPhBgcG'
   },
   1707: {
     name: 'TBSI Mainnet',
@@ -11292,7 +11336,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdFEozqneC8abhpfgtGpvfKpWVEbL8eMZjJKtUPuBTanK'
+      'https://ipfs.io/ipfs/QmdFEozqneC8abhpfgtGpvfKpWVEbL8eMZjJKtUPuBTanK'
   },
   1718: {
     name: 'Palette Chain Mainnet',
@@ -11315,7 +11359,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPCEGZD1p1keTT2YfPp725azx1r9Ci41hejeUuGL2whFA'
+      'https://ipfs.io/ipfs/QmPCEGZD1p1keTT2YfPp725azx1r9Ci41hejeUuGL2whFA'
   },
   1729: {
     name: 'Reya Network',
@@ -11355,7 +11399,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmesm61n8vVVDEeZU7npz39aQYofes9vMfXYwWM4JehLFS'
+      'https://ipfs.io/ipfs/Qmesm61n8vVVDEeZU7npz39aQYofes9vMfXYwWM4JehLFS'
   },
   1750: {
     name: 'Metal L2',
@@ -11377,7 +11421,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmesm61n8vVVDEeZU7npz39aQYofes9vMfXYwWM4JehLFS'
+      'https://ipfs.io/ipfs/Qmesm61n8vVVDEeZU7npz39aQYofes9vMfXYwWM4JehLFS'
   },
   1773: {
     name: 'PartyChain',
@@ -11400,7 +11444,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmerDBFoXvgev2xx9U71gAaAK4CtxaaQVaAPf9Qi6UF9MS'
+      'https://ipfs.io/ipfs/QmerDBFoXvgev2xx9U71gAaAK4CtxaaQVaAPf9Qi6UF9MS'
   },
   1777: {
     name: 'Gauss Mainnet',
@@ -11421,7 +11465,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeDXUAYgQxwaSJLsqWgTqnrJVwicgEyNf9199xAMyRkqA'
+      'https://ipfs.io/ipfs/QmeDXUAYgQxwaSJLsqWgTqnrJVwicgEyNf9199xAMyRkqA'
   },
   1789: {
     name: 'ZKBase Sepolia Testnet',
@@ -11450,7 +11494,7 @@ export const chains: Chains = {
     },
     redFlags: ['reusedChainId'],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRLtNvkVhC7rRDiLMHLckWbesaSU6sNYhQZgsAM1phTZx'
+      'https://ipfs.io/ipfs/QmRLtNvkVhC7rRDiLMHLckWbesaSU6sNYhQZgsAM1phTZx'
   },
   1804: {
     name: 'Kerleano',
@@ -11484,7 +11528,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRLwpq47tyEd3rfK4tKRhbTvyb3fc7PCutExnL1XAb37A'
+      'https://ipfs.io/ipfs/QmRLwpq47tyEd3rfK4tKRhbTvyb3fc7PCutExnL1XAb37A'
   },
   1807: {
     name: 'Rabbit Analog Testnet Chain',
@@ -11510,7 +11554,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdfbjjF3ZzN2jTkH9REgrA8jDS6A6c21n7rbWSVbSnvQc'
+      'https://ipfs.io/ipfs/QmdfbjjF3ZzN2jTkH9REgrA8jDS6A6c21n7rbWSVbSnvQc'
   },
   1818: {
     name: 'Cube Chain Mainnet',
@@ -11543,7 +11587,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmbENgHTymTUUArX5MZ2XXH69WGenirU3oamkRD448hYdz'
+      'https://ipfs.io/ipfs/QmbENgHTymTUUArX5MZ2XXH69WGenirU3oamkRD448hYdz'
   },
   1819: {
     name: 'Cube Chain Testnet',
@@ -11578,7 +11622,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmbENgHTymTUUArX5MZ2XXH69WGenirU3oamkRD448hYdz'
+      'https://ipfs.io/ipfs/QmbENgHTymTUUArX5MZ2XXH69WGenirU3oamkRD448hYdz'
   },
   1821: {
     name: 'Ruby Smart Chain MAINNET',
@@ -11608,7 +11652,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXGJevyPHHKT28hDfsJ9Cq2DQ2bAavdie37MEwFQUVCQz'
+      'https://ipfs.io/ipfs/QmXGJevyPHHKT28hDfsJ9Cq2DQ2bAavdie37MEwFQUVCQz'
   },
   1856: {
     name: 'Teslafunds',
@@ -11640,7 +11684,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNeELax6vjkR9WZVmtggk8cam9xHVABZ4WvQyqkGCJ5qf'
+      'https://ipfs.io/ipfs/QmNeELax6vjkR9WZVmtggk8cam9xHVABZ4WvQyqkGCJ5qf'
   },
   1881: {
     name: 'Gitshock Cartenz Testnet',
@@ -11663,7 +11707,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreifqpj5jkjazvh24muc7wv4r22tihzzl75cevgecxhvojm4ls6mzpq'
+      'https://ipfs.io/ipfs/bafkreifqpj5jkjazvh24muc7wv4r22tihzzl75cevgecxhvojm4ls6mzpq'
   },
   1890: {
     name: 'Lightlink Phoenix Mainnet',
@@ -11686,7 +11730,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXMDj6iAFn2ducQcUU1M87PMMdT2jfyL3Tp3Lz5uUD5Lv'
+      'https://ipfs.io/ipfs/QmXMDj6iAFn2ducQcUU1M87PMMdT2jfyL3Tp3Lz5uUD5Lv'
   },
   1891: {
     name: 'Lightlink Pegasus Testnet',
@@ -11710,7 +11754,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXMDj6iAFn2ducQcUU1M87PMMdT2jfyL3Tp3Lz5uUD5Lv'
+      'https://ipfs.io/ipfs/QmXMDj6iAFn2ducQcUU1M87PMMdT2jfyL3Tp3Lz5uUD5Lv'
   },
   1898: {
     name: 'BON Network',
@@ -11749,7 +11793,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdW7XfRgeyoaHXEvXp8MaVteonankR32CxhL3K5Yc2uQM'
+      'https://ipfs.io/ipfs/QmdW7XfRgeyoaHXEvXp8MaVteonankR32CxhL3K5Yc2uQM'
   },
   1907: {
     name: 'Bitcichain Mainnet',
@@ -11770,7 +11814,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmbxmfWw5sVMASz5EbR1DCgLfk8PnqpSJGQKpYuEUpoxqn'
+      'https://ipfs.io/ipfs/QmbxmfWw5sVMASz5EbR1DCgLfk8PnqpSJGQKpYuEUpoxqn'
   },
   1908: {
     name: 'Bitcichain Testnet',
@@ -11792,7 +11836,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmbxmfWw5sVMASz5EbR1DCgLfk8PnqpSJGQKpYuEUpoxqn'
+      'https://ipfs.io/ipfs/QmbxmfWw5sVMASz5EbR1DCgLfk8PnqpSJGQKpYuEUpoxqn'
   },
   1909: {
     name: 'Merkle Scan',
@@ -11813,7 +11857,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZocJpCSLoQqoYFkF1kn7uKDuAiFRNTK8P5PoVeiigDBU'
+      'https://ipfs.io/ipfs/QmZocJpCSLoQqoYFkF1kn7uKDuAiFRNTK8P5PoVeiigDBU'
   },
   1911: {
     name: 'Scalind',
@@ -11834,7 +11878,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmayuauUTSkYxbT1xi2AkkG5VLEMDhcMeZ18WZHiApPa9M'
+      'https://ipfs.io/ipfs/QmayuauUTSkYxbT1xi2AkkG5VLEMDhcMeZ18WZHiApPa9M'
   },
   1912: {
     name: 'Ruby Smart Chain Testnet',
@@ -11861,7 +11905,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXGJevyPHHKT28hDfsJ9Cq2DQ2bAavdie37MEwFQUVCQz'
+      'https://ipfs.io/ipfs/QmXGJevyPHHKT28hDfsJ9Cq2DQ2bAavdie37MEwFQUVCQz'
   },
   1918: {
     name: 'UPB CRESCDI Testnet',
@@ -11910,7 +11954,7 @@ export const chains: Chains = {
     faucets: [],
     infoURL: '',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmV2vhTqS9UyrX9Q6BSCbK4JrKBnS8ErHvstMjfb2oVWaj'
+      'https://ipfs.io/ipfs/QmV2vhTqS9UyrX9Q6BSCbK4JrKBnS8ErHvstMjfb2oVWaj'
   },
   1953: {
     name: 'Selendra Network Testnet',
@@ -11927,7 +11971,7 @@ export const chains: Chains = {
     networkId: 1953,
     icon: 'selendra',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmbnLDuVc4JReFysyKvmpuqUtj9HCus6qoKD5nQ9QkokzK'
+      'https://ipfs.io/ipfs/QmbnLDuVc4JReFysyKvmpuqUtj9HCus6qoKD5nQ9QkokzK'
   },
   1954: {
     name: 'Dexilla Testnet',
@@ -11958,7 +12002,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://bridge.dexilla.com' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmUBveetVibvSEWQrjyxySgUphLuoMGSVLGmYnobt5FgEZ'
+      'https://ipfs.io/ipfs/QmUBveetVibvSEWQrjyxySgUphLuoMGSVLGmYnobt5FgEZ'
   },
   1956: {
     name: 'AIW3 Testnet',
@@ -11979,7 +12023,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreigfxcyvnx2r46a3unljb2auxeez5olbg56lbu4gkpa4me7wqoajjy'
+      'https://ipfs.io/ipfs/bafkreigfxcyvnx2r46a3unljb2auxeez5olbg56lbu4gkpa4me7wqoajjy'
   },
   1961: {
     name: 'Selendra Network Mainnet',
@@ -12000,7 +12044,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmbnLDuVc4JReFysyKvmpuqUtj9HCus6qoKD5nQ9QkokzK'
+      'https://ipfs.io/ipfs/QmbnLDuVc4JReFysyKvmpuqUtj9HCus6qoKD5nQ9QkokzK'
   },
   1967: {
     name: 'Eleanor',
@@ -12046,7 +12090,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmW4C4QHLMhLeH5MsdVbauMc2Skb4ehzLKU3egLKKoux4D'
+      'https://ipfs.io/ipfs/QmW4C4QHLMhLeH5MsdVbauMc2Skb4ehzLKU3egLKKoux4D'
   },
   1970: {
     name: 'Super Smart Chain Mainnet',
@@ -12071,7 +12115,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmW4C4QHLMhLeH5MsdVbauMc2Skb4ehzLKU3egLKKoux4D'
+      'https://ipfs.io/ipfs/QmW4C4QHLMhLeH5MsdVbauMc2Skb4ehzLKU3egLKKoux4D'
   },
   1971: {
     name: 'Atelier',
@@ -12087,7 +12131,7 @@ export const chains: Chains = {
     slip44: 1,
     icon: 'atlr',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreigcquvoalec3ll2m26v4wsx5enlxwyn6nk2mgfqwncyqrgwivla5u'
+      'https://ipfs.io/ipfs/bafkreigcquvoalec3ll2m26v4wsx5enlxwyn6nk2mgfqwncyqrgwivla5u'
   },
   1972: {
     name: 'RedeCoin',
@@ -12148,7 +12192,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmaGd5L9jGPbfyGXBFhu9gjinWJ66YtNrXq8x6Q98Eep9e'
+      'https://ipfs.io/ipfs/QmaGd5L9jGPbfyGXBFhu9gjinWJ66YtNrXq8x6Q98Eep9e'
   },
   1985: {
     name: 'SatoshIE',
@@ -12170,7 +12214,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRHT4o9ihiY6nVkkRdwZjdugbEAQiXrrov3GS9a3GTuL7'
+      'https://ipfs.io/ipfs/QmRHT4o9ihiY6nVkkRdwZjdugbEAQiXrrov3GS9a3GTuL7'
   },
   1986: {
     name: 'SatoshIE Testnet',
@@ -12193,7 +12237,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRHT4o9ihiY6nVkkRdwZjdugbEAQiXrrov3GS9a3GTuL7'
+      'https://ipfs.io/ipfs/QmRHT4o9ihiY6nVkkRdwZjdugbEAQiXrrov3GS9a3GTuL7'
   },
   1987: {
     name: 'EtherGem',
@@ -12228,7 +12272,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmU9t9fZaWiqpAZ9dw2ojTpJycnB8BxekLWVSCJikJVgjW'
+      'https://ipfs.io/ipfs/QmU9t9fZaWiqpAZ9dw2ojTpJycnB8BxekLWVSCJikJVgjW'
   },
   1994: {
     name: 'Ekta',
@@ -12250,7 +12294,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmfMd564KUPK8eKZDwGCT71ZC2jMnUZqP6LCtLpup3rHH1'
+      'https://ipfs.io/ipfs/QmfMd564KUPK8eKZDwGCT71ZC2jMnUZqP6LCtLpup3rHH1'
   },
   1995: {
     name: 'edeXa Testnet',
@@ -12275,7 +12319,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSgvmLpRsCiu2ySqyceA5xN4nwi7URJRNEZLffwEKXdoR'
+      'https://ipfs.io/ipfs/QmSgvmLpRsCiu2ySqyceA5xN4nwi7URJRNEZLffwEKXdoR'
   },
   1996: {
     name: 'Sanko',
@@ -12296,7 +12340,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmbwi5FoJdL6HuFmQGQu1sdyoGrSuj45H12tMNTnpRAmLw'
+      'https://ipfs.io/ipfs/Qmbwi5FoJdL6HuFmQGQu1sdyoGrSuj45H12tMNTnpRAmLw'
   },
   1998: {
     name: 'Kyoto Testnet',
@@ -12341,7 +12385,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNS6B6L8FfgGSMTEi2SxD3bK5cdmKPNtQKcYaJeRWrkHs'
+      'https://ipfs.io/ipfs/QmNS6B6L8FfgGSMTEi2SxD3bK5cdmKPNtQKcYaJeRWrkHs'
   },
   2001: {
     name: 'Milkomeda C1 Mainnet',
@@ -12365,7 +12409,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdoUtvHDybu5ppYBZT8BMRp6AqByVSoQs8nFwKbaS55jd'
+      'https://ipfs.io/ipfs/QmdoUtvHDybu5ppYBZT8BMRp6AqByVSoQs8nFwKbaS55jd'
   },
   2002: {
     name: 'Milkomeda A1 Mainnet',
@@ -12389,7 +12433,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdoUtvHDybu5ppYBZT8BMRp6AqByVSoQs8nFwKbaS55jd'
+      'https://ipfs.io/ipfs/QmdoUtvHDybu5ppYBZT8BMRp6AqByVSoQs8nFwKbaS55jd'
   },
   2008: {
     name: 'CloudWalk Testnet',
@@ -12462,7 +12506,7 @@ export const chains: Chains = {
       { name: 'nowscan', url: 'https://nowscan.io', standard: 'EIP3091' }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSUzhRGzMyMyGwBcE3ooZ5jvHKyJ1FjVjh5SfoGHG36MX'
+      'https://ipfs.io/ipfs/QmSUzhRGzMyMyGwBcE3ooZ5jvHKyJ1FjVjh5SfoGHG36MX'
   },
   2016: {
     name: 'MainnetZ Mainnet',
@@ -12483,7 +12527,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmT5gJ5weBiLT3GoYuF5yRTRLdPLCVZ3tXznfqW7M8fxgG'
+      'https://ipfs.io/ipfs/QmT5gJ5weBiLT3GoYuF5yRTRLdPLCVZ3tXznfqW7M8fxgG'
   },
   2017: {
     name: 'Adiri',
@@ -12514,7 +12558,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreih4obvrymfdqohzhiafhvpcy6zwqbgpfm26aahrv3qx2dtcei7hk4'
+      'https://ipfs.io/ipfs/bafkreih4obvrymfdqohzhiafhvpcy6zwqbgpfm26aahrv3qx2dtcei7hk4'
   },
   2018: {
     name: 'PublicMint Devnet',
@@ -12614,7 +12658,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWCSXYLigYE6qEiese4cso2icgKQyosV3x1adtxJnRyJ9'
+      'https://ipfs.io/ipfs/QmWCSXYLigYE6qEiese4cso2icgKQyosV3x1adtxJnRyJ9'
   },
   2022: {
     name: 'Beresheet BereEVM Testnet',
@@ -12665,7 +12709,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreidvjcc73v747lqlyrhgbnkvkdepdvepo6baj6hmjsmjtvdyhmzzmq'
+      'https://ipfs.io/ipfs/bafkreidvjcc73v747lqlyrhgbnkvkdepdvepo6baj6hmjsmjtvdyhmzzmq'
   },
   2024: {
     name: 'Swan Saturn Testnet',
@@ -12702,7 +12746,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXR5e5SDABWfQn6XT9uMsVYAo5Bv7vUv4jVs8DFqatZWG'
+      'https://ipfs.io/ipfs/QmXR5e5SDABWfQn6XT9uMsVYAo5Bv7vUv4jVs8DFqatZWG'
   },
   2026: {
     name: 'Edgeless Network',
@@ -12757,7 +12801,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmedNc3WvTm66iNK2NYW6Fzu5tx5FgNa6HCBf3DTHpzQZ1'
+      'https://ipfs.io/ipfs/QmedNc3WvTm66iNK2NYW6Fzu5tx5FgNa6HCBf3DTHpzQZ1'
   },
   2032: {
     name: 'Catalyst',
@@ -12845,7 +12889,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmbeSYW2c5pXAyEUzj8UFRdJhp5oMQzRMPqAsxJAqbGiem'
+      'https://ipfs.io/ipfs/QmbeSYW2c5pXAyEUzj8UFRdJhp5oMQzRMPqAsxJAqbGiem'
   },
   2040: {
     name: 'Vanar Mainnet',
@@ -12869,7 +12913,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmbx25iq4Vn4zLooPit9bbguXJzdiogwtVQWtSseyQPuSC'
+      'https://ipfs.io/ipfs/Qmbx25iq4Vn4zLooPit9bbguXJzdiogwtVQWtSseyQPuSC'
   },
   2043: {
     name: 'NeuroWeb',
@@ -12914,7 +12958,7 @@ export const chains: Chains = {
     icon: 'aiw3',
     explorers: [],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreigfxcyvnx2r46a3unljb2auxeez5olbg56lbu4gkpa4me7wqoajjy'
+      'https://ipfs.io/ipfs/bafkreigfxcyvnx2r46a3unljb2auxeez5olbg56lbu4gkpa4me7wqoajjy'
   },
   2047: {
     name: 'Stratos Testnet',
@@ -12988,7 +13032,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSQGKhhBpMTM7vYpGdgMTDFyzaAN3PGG5AnmWy7KQPdSn'
+      'https://ipfs.io/ipfs/QmSQGKhhBpMTM7vYpGdgMTDFyzaAN3PGG5AnmWy7KQPdSn'
   },
   2077: {
     name: 'Quokkacoin Mainnet',
@@ -13024,7 +13068,7 @@ export const chains: Chains = {
     chainId: 2088,
     networkId: 2088,
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSwqWxZ5HRdc25HMhEmVKxZkwSKapuuyGHb8kyrtuzxat'
+      'https://ipfs.io/ipfs/QmSwqWxZ5HRdc25HMhEmVKxZkwSKapuuyGHb8kyrtuzxat'
   },
   2089: {
     name: 'Algol',
@@ -13097,7 +13141,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmaQxfwpXYTomUd24PMx5tKjosupXcm99z1jL1XLq9LWBS'
+      'https://ipfs.io/ipfs/QmaQxfwpXYTomUd24PMx5tKjosupXcm99z1jL1XLq9LWBS'
   },
   2112: {
     name: 'UCHAIN Mainnet',
@@ -13119,7 +13163,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmUz6jimQbYZ43aeQBC6nSy2m7W7U6xR2qG8tCki2Jvj9k'
+      'https://ipfs.io/ipfs/QmUz6jimQbYZ43aeQBC6nSy2m7W7U6xR2qG8tCki2Jvj9k'
   },
   2121: {
     name: 'Catena Mainnet',
@@ -13141,7 +13185,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeAwHS3wcYz7k24LSYEjN1G7nwSfWmGf5FghNZ2qzVD4N'
+      'https://ipfs.io/ipfs/QmeAwHS3wcYz7k24LSYEjN1G7nwSfWmGf5FghNZ2qzVD4N'
   },
   2122: {
     name: 'Metaplayerone Mainnet',
@@ -13163,7 +13207,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZyxS9BfRGYWWDtvrV6qtthCYV4TwdjLoH2sF6MkiTYFf'
+      'https://ipfs.io/ipfs/QmZyxS9BfRGYWWDtvrV6qtthCYV4TwdjLoH2sF6MkiTYFf'
   },
   2124: {
     name: 'Metaplayerone Dubai Testnet',
@@ -13240,7 +13284,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYrMRnjQJcNkYq9AvZ2FQ9kzYj9szzP4YDmyNA1ybd8xE'
+      'https://ipfs.io/ipfs/QmYrMRnjQJcNkYq9AvZ2FQ9kzYj9szzP4YDmyNA1ybd8xE'
   },
   2140: {
     name: 'Oneness Network',
@@ -13298,7 +13342,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmW3CT4SHmso5dRJdsjR8GL1qmt79HkdAebCn2uNaWXFYh'
+      'https://ipfs.io/ipfs/QmW3CT4SHmso5dRJdsjR8GL1qmt79HkdAebCn2uNaWXFYh'
   },
   2152: {
     name: 'Findora Mainnet',
@@ -13377,7 +13421,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmaQxfwpXYTomUd24PMx5tKjosupXcm99z1jL1XLq9LWBS'
+      'https://ipfs.io/ipfs/QmaQxfwpXYTomUd24PMx5tKjosupXcm99z1jL1XLq9LWBS'
   },
   2202: {
     name: 'Antofy Mainnet',
@@ -13398,7 +13442,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdTfku81ohnG9ECU1Xswmeumt678cBhwHWuFYZ7i1Qsto'
+      'https://ipfs.io/ipfs/QmdTfku81ohnG9ECU1Xswmeumt678cBhwHWuFYZ7i1Qsto'
   },
   2203: {
     name: 'Bitcoin EVM',
@@ -13420,7 +13464,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreic4aq265oaf6yze7ba5okefqh6vnqudyrz6ovukvbnrlhet36itle'
+      'https://ipfs.io/ipfs/bafkreic4aq265oaf6yze7ba5okefqh6vnqudyrz6ovukvbnrlhet36itle'
   },
   2213: {
     name: 'Evanesco Mainnet',
@@ -13441,7 +13485,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZbmGYdfbMRrWJore3c7hyD6q7B5pXHJqTSNjbZZUK6V8'
+      'https://ipfs.io/ipfs/QmZbmGYdfbMRrWJore3c7hyD6q7B5pXHJqTSNjbZZUK6V8'
   },
   2221: {
     name: 'Kava Testnet',
@@ -13469,7 +13513,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdpRTk6oL1HRW9xC6cAc4Rnf9gs6zgdAcr4Z3HcLztusm'
+      'https://ipfs.io/ipfs/QmdpRTk6oL1HRW9xC6cAc4Rnf9gs6zgdAcr4Z3HcLztusm'
   },
   2222: {
     name: 'Kava',
@@ -13503,7 +13547,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdpRTk6oL1HRW9xC6cAc4Rnf9gs6zgdAcr4Z3HcLztusm'
+      'https://ipfs.io/ipfs/QmdpRTk6oL1HRW9xC6cAc4Rnf9gs6zgdAcr4Z3HcLztusm'
   },
   2223: {
     name: 'VChain Mainnet',
@@ -13548,7 +13592,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreid732273ib5at7krjdl2t7lteljlepwd3tvifqge7mu7g6naxavhe'
+      'https://ipfs.io/ipfs/bafkreid732273ib5at7krjdl2t7lteljlepwd3tvifqge7mu7g6naxavhe'
   },
   2300: {
     name: 'BOMB Chain',
@@ -13570,7 +13614,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmc44uSjfdNHdcxPTgZAL8eZ8TLe4UmSHibcvKQFyGJxTB'
+      'https://ipfs.io/ipfs/Qmc44uSjfdNHdcxPTgZAL8eZ8TLe4UmSHibcvKQFyGJxTB'
   },
   2306: {
     name: 'Ebro Network',
@@ -13623,7 +13667,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmadSU2tcyvuzssDYGJ4rVLag43QLnKwcBerZR2zKLVU2N'
+      'https://ipfs.io/ipfs/QmadSU2tcyvuzssDYGJ4rVLag43QLnKwcBerZR2zKLVU2N'
   },
   2330: {
     name: 'Altcoinchain',
@@ -13646,7 +13690,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYwHmGC9CRVcKo1LSesqxU31SDj9vk2iQxcFjQArzhix4'
+      'https://ipfs.io/ipfs/QmYwHmGC9CRVcKo1LSesqxU31SDj9vk2iQxcFjQArzhix4'
   },
   2331: {
     name: 'RSS3 VSL Sepolia Testnet',
@@ -13672,7 +13716,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://explorer.testnet.rss3.io/bridge' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTE6hnMTQaGU8Fm7nQbeTqQ5Ha3kyLKHR6QTd59prP2mC'
+      'https://ipfs.io/ipfs/QmTE6hnMTQaGU8Fm7nQbeTqQ5Ha3kyLKHR6QTd59prP2mC'
   },
   2332: {
     name: 'SOMA Network Mainnet',
@@ -13700,7 +13744,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmadSU2tcyvuzssDYGJ4rVLag43QLnKwcBerZR2zKLVU2N'
+      'https://ipfs.io/ipfs/QmadSU2tcyvuzssDYGJ4rVLag43QLnKwcBerZR2zKLVU2N'
   },
   2340: {
     name: 'Atleta Olympia',
@@ -13733,7 +13777,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmV2JVr4FCcb6aRiUoA3wS5erLoxtLBLonQ1Nvz8fNuEcR'
+      'https://ipfs.io/ipfs/QmV2JVr4FCcb6aRiUoA3wS5erLoxtLBLonQ1Nvz8fNuEcR'
   },
   2342: {
     name: 'Omnia Chain',
@@ -13754,7 +13798,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdNQMFxcjB9PAP1LZVqaQmyppV5QGTqXXmbBeQyaTUpMM'
+      'https://ipfs.io/ipfs/QmdNQMFxcjB9PAP1LZVqaQmyppV5QGTqXXmbBeQyaTUpMM'
   },
   2355: {
     name: 'Silicon zkEVM',
@@ -13772,7 +13816,7 @@ export const chains: Chains = {
     parent: { type: 'L2', chain: 'eip155-1', bridges: [] },
     status: 'incubating',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTEnk2fosqbY6HQW5vySrLGbopJfeni9ThZ6R9sVefbnq'
+      'https://ipfs.io/ipfs/QmTEnk2fosqbY6HQW5vySrLGbopJfeni9ThZ6R9sVefbnq'
   },
   2357: {
     name: '(deprecated) Kroma Sepolia',
@@ -13802,7 +13846,7 @@ export const chains: Chains = {
     },
     status: 'deprecated',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVpV2WET6ZrqnvvPfE9hCwoE2y5ygbPuniuugpaRoxrho'
+      'https://ipfs.io/ipfs/QmVpV2WET6ZrqnvvPfE9hCwoE2y5ygbPuniuugpaRoxrho'
   },
   2358: {
     name: 'Kroma Sepolia',
@@ -13831,7 +13875,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://kroma.network/bridge' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVpV2WET6ZrqnvvPfE9hCwoE2y5ygbPuniuugpaRoxrho'
+      'https://ipfs.io/ipfs/QmVpV2WET6ZrqnvvPfE9hCwoE2y5ygbPuniuugpaRoxrho'
   },
   2370: {
     name: 'Nexis Network Testnet',
@@ -13852,7 +13896,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdJwWuMgbhoZhgFM4zWrZne6qs5ktcL1vBLKX12VGgALM'
+      'https://ipfs.io/ipfs/QmdJwWuMgbhoZhgFM4zWrZne6qs5ktcL1vBLKX12VGgALM'
   },
   2399: {
     name: 'BOMB Chain Testnet',
@@ -13875,7 +13919,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmc44uSjfdNHdcxPTgZAL8eZ8TLe4UmSHibcvKQFyGJxTB'
+      'https://ipfs.io/ipfs/Qmc44uSjfdNHdcxPTgZAL8eZ8TLe4UmSHibcvKQFyGJxTB'
   },
   2400: {
     name: 'TCG Verse Mainnet',
@@ -13897,7 +13941,7 @@ export const chains: Chains = {
     ],
     parent: { type: 'L2', chain: 'eip155-248' },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreidg4wpewve5mdxrofneqblydkrjl3oevtgpdf3fk3z3vjqam6ocoe'
+      'https://ipfs.io/ipfs/bafkreidg4wpewve5mdxrofneqblydkrjl3oevtgpdf3fk3z3vjqam6ocoe'
   },
   2410: {
     name: 'Karak Mainnet',
@@ -13919,7 +13963,7 @@ export const chains: Chains = {
     ],
     parent: { type: 'L2', chain: 'eip155-1' },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRvHRuhfQgDRyGgt6vCoHqjZW2Dir7siowYnBpR5BRSej'
+      'https://ipfs.io/ipfs/QmRvHRuhfQgDRyGgt6vCoHqjZW2Dir7siowYnBpR5BRSej'
   },
   2415: {
     name: 'XODEX',
@@ -13945,7 +13989,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXt49jPfHUmDF4n8TF7ks6txiPztx6qUHanWmHnCoEAhW'
+      'https://ipfs.io/ipfs/QmXt49jPfHUmDF4n8TF7ks6txiPztx6qUHanWmHnCoEAhW'
   },
   2425: {
     name: 'King Of Legends Devnet',
@@ -13969,7 +14013,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTZFXhYJboYE9fbaeje12iTF3QPLn6xgyFgrDVe2isDBH'
+      'https://ipfs.io/ipfs/QmTZFXhYJboYE9fbaeje12iTF3QPLn6xgyFgrDVe2isDBH'
   },
   2442: {
     name: 'Polygon zkEVM Cardona Testnet',
@@ -13996,7 +14040,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://bridge-ui.cardona.zkevm-rpc.com' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNmJZkQgx9RcFLS3rvxQTVYcPfyAFPr667keHTUxB9PDv'
+      'https://ipfs.io/ipfs/QmNmJZkQgx9RcFLS3rvxQTVYcPfyAFPr667keHTUxB9PDv'
   },
   2458: {
     name: 'Hybrid Chain Network Testnet',
@@ -14023,7 +14067,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQDNdhPvCrrijEKC3G9Px5if2CHgdxq7Q2Pg66cy9xwbF'
+      'https://ipfs.io/ipfs/QmQDNdhPvCrrijEKC3G9Px5if2CHgdxq7Q2Pg66cy9xwbF'
   },
   2468: {
     name: 'Hybrid Chain Network Mainnet',
@@ -14052,7 +14096,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQDNdhPvCrrijEKC3G9Px5if2CHgdxq7Q2Pg66cy9xwbF'
+      'https://ipfs.io/ipfs/QmQDNdhPvCrrijEKC3G9Px5if2CHgdxq7Q2Pg66cy9xwbF'
   },
   2484: {
     name: 'Unicorn Ultra Nebulas Testnet',
@@ -14079,7 +14123,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmcW64RgqQVHnNbVFyfaMNKt7dJvFqEbfEHZmeyeK8dpEa'
+      'https://ipfs.io/ipfs/QmcW64RgqQVHnNbVFyfaMNKt7dJvFqEbfEHZmeyeK8dpEa'
   },
   2511: {
     name: 'Karak Goerli',
@@ -14102,7 +14146,7 @@ export const chains: Chains = {
     ],
     parent: { type: 'L2', chain: 'eip155-5' },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRvHRuhfQgDRyGgt6vCoHqjZW2Dir7siowYnBpR5BRSej'
+      'https://ipfs.io/ipfs/QmRvHRuhfQgDRyGgt6vCoHqjZW2Dir7siowYnBpR5BRSej'
   },
   2522: {
     name: 'Fraxtal Testnet',
@@ -14125,7 +14169,7 @@ export const chains: Chains = {
     ],
     status: 'active',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreiet3pmz37ymq6wlkglw5wmcee6jdyz4bbe4zg6h2voso2z2mf2s7q'
+      'https://ipfs.io/ipfs/bafkreiet3pmz37ymq6wlkglw5wmcee6jdyz4bbe4zg6h2voso2z2mf2s7q'
   },
   2525: {
     name: 'inEVM Mainnet',
@@ -14141,7 +14185,7 @@ export const chains: Chains = {
     explorers: [],
     status: 'active',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmU9KU1qgReJR7vyVxN5zwWB3nkhSs658ViArUjT7GCh4r'
+      'https://ipfs.io/ipfs/QmU9KU1qgReJR7vyVxN5zwWB3nkhSs658ViArUjT7GCh4r'
   },
   2559: {
     name: 'Kortho Mainnet',
@@ -14174,7 +14218,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQyTyJUnhD1dca35Vyj96pm3v3Xyw8xbG9m8HXHw3k2zR'
+      'https://ipfs.io/ipfs/QmQyTyJUnhD1dca35Vyj96pm3v3Xyw8xbG9m8HXHw3k2zR'
   },
   2606: {
     name: 'PoCRNet',
@@ -14205,7 +14249,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRLwpq47tyEd3rfK4tKRhbTvyb3fc7PCutExnL1XAb37A'
+      'https://ipfs.io/ipfs/QmRLwpq47tyEd3rfK4tKRhbTvyb3fc7PCutExnL1XAb37A'
   },
   2611: {
     name: 'Redlight Chain Mainnet',
@@ -14244,7 +14288,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPKJbYCFjGmY9X2cA4b9YQjWYHQncmKnFtKyQh9rHkFTb'
+      'https://ipfs.io/ipfs/QmPKJbYCFjGmY9X2cA4b9YQjWYHQncmKnFtKyQh9rHkFTb'
   },
   2613: {
     name: 'EZChain C-Chain Testnet',
@@ -14266,7 +14310,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPKJbYCFjGmY9X2cA4b9YQjWYHQncmKnFtKyQh9rHkFTb'
+      'https://ipfs.io/ipfs/QmPKJbYCFjGmY9X2cA4b9YQjWYHQncmKnFtKyQh9rHkFTb'
   },
   2625: {
     name: 'Whitechain Testnet',
@@ -14288,7 +14332,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNeELax6vjkR9WZVmtggk8cam9xHVABZ4WvQyqkGCJ5qf'
+      'https://ipfs.io/ipfs/QmNeELax6vjkR9WZVmtggk8cam9xHVABZ4WvQyqkGCJ5qf'
   },
   2662: {
     name: 'APEX',
@@ -14305,7 +14349,7 @@ export const chains: Chains = {
     explorers: [],
     parent: { type: 'L2', chain: 'eip155-1' },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTYgeN1E3GGXnMF2oa43v2ehX2bYqrHPrGQ9xbBMXy1we'
+      'https://ipfs.io/ipfs/QmTYgeN1E3GGXnMF2oa43v2ehX2bYqrHPrGQ9xbBMXy1we'
   },
   2710: {
     name: 'Morph Testnet',
@@ -14355,7 +14399,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmW26eoxJeyUfikZ4DUT1Gfk78sBkvydEo8QzHa1BXjUUL'
+      'https://ipfs.io/ipfs/QmW26eoxJeyUfikZ4DUT1Gfk78sBkvydEo8QzHa1BXjUUL'
   },
   2730: {
     name: 'XR Sepolia',
@@ -14385,7 +14429,7 @@ export const chains: Chains = {
     },
     status: 'active',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTrFxtjUBwxi87rty13jbXg4BW9nvVuBmtbzb9j9F99Gt'
+      'https://ipfs.io/ipfs/QmTrFxtjUBwxi87rty13jbXg4BW9nvVuBmtbzb9j9F99Gt'
   },
   2731: {
     name: 'Elizabeth Testnet',
@@ -14407,7 +14451,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreidoudwo453gr3hoxpreleguga73rm55yl6vuedxrfmhknljppqbiu'
+      'https://ipfs.io/ipfs/bafkreidoudwo453gr3hoxpreleguga73rm55yl6vuedxrfmhknljppqbiu'
   },
   2748: {
     name: 'Nanon',
@@ -14435,20 +14479,26 @@ export const chains: Chains = {
       bridges: [{ url: 'https://bridge.nanon.network' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeiduib2fygrwziqpy4yuqr6vvnd6elhahpigbcowcipjjhk6c3qiny'
+      'https://ipfs.io/ipfs/bafybeiduib2fygrwziqpy4yuqr6vvnd6elhahpigbcowcipjjhk6c3qiny'
   },
   2777: {
     name: 'GM Network Mainnet',
     chain: 'GM Network Mainnet',
-    rpc: [],
+    rpc: ['https://rpc.gmnetwork.ai'],
     faucets: [],
     nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
     infoURL: 'https://gmnetwork.ai',
     shortName: 'gmnetwork-mainnet',
     chainId: 2777,
     networkId: 2777,
-    explorers: [],
-    status: 'incubating'
+    explorers: [
+      {
+        name: 'GM Network Mainnet Explorer',
+        url: 'https://scan.gmnetwork.ai',
+        standard: 'EIP3091'
+      }
+    ],
+    status: 'active'
   },
   2810: {
     name: 'Morph Holesky',
@@ -14523,7 +14573,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQC7LzzFj8kL71a1MXRgn3TSeRrgF1tTuVEzvWx5cQjv1'
+      'https://ipfs.io/ipfs/QmQC7LzzFj8kL71a1MXRgn3TSeRrgF1tTuVEzvWx5cQjv1'
   },
   2911: {
     name: 'HYCHAIN',
@@ -14550,7 +14600,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://bridge.hychain.com' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmcSJmAfk3iay6uCGJxgUPd9pTsRxbtF4BrNnC5txE9cg8'
+      'https://ipfs.io/ipfs/QmcSJmAfk3iay6uCGJxgUPd9pTsRxbtF4BrNnC5txE9cg8'
   },
   2941: {
     name: 'Xenon Chain Testnet',
@@ -14575,7 +14625,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNSoxDnj6MV8mPJWiuzzLbATcbk5op11NTwMTdzcr272F'
+      'https://ipfs.io/ipfs/QmNSoxDnj6MV8mPJWiuzzLbATcbk5op11NTwMTdzcr272F'
   },
   2999: {
     name: 'BitYuan Mainnet',
@@ -14596,7 +14646,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmUmJVof2m5e4HUXb3GmijWUFsLUNhrQiwwQG3CqcXEtHt'
+      'https://ipfs.io/ipfs/QmUmJVof2m5e4HUXb3GmijWUFsLUNhrQiwwQG3CqcXEtHt'
   },
   3000: {
     name: 'CENNZnet Rata',
@@ -14610,7 +14660,7 @@ export const chains: Chains = {
     networkId: 3000,
     icon: 'cennz',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWhNm7tTi6SYbiumULDRk956hxgqaZSX77vcxBNn8fvnw'
+      'https://ipfs.io/ipfs/QmWhNm7tTi6SYbiumULDRk956hxgqaZSX77vcxBNn8fvnw'
   },
   3001: {
     name: 'CENNZnet Nikau',
@@ -14631,7 +14681,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWhNm7tTi6SYbiumULDRk956hxgqaZSX77vcxBNn8fvnw'
+      'https://ipfs.io/ipfs/QmWhNm7tTi6SYbiumULDRk956hxgqaZSX77vcxBNn8fvnw'
   },
   3003: {
     name: 'Canxium Mainnet',
@@ -14652,7 +14702,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXHSbtVNCJVfe2CvRH7njdyf2SrX5u5bNTfvhqjLeFN2A'
+      'https://ipfs.io/ipfs/QmXHSbtVNCJVfe2CvRH7njdyf2SrX5u5bNTfvhqjLeFN2A'
   },
   3011: {
     name: 'PLAYA3ULL GAMES',
@@ -14675,7 +14725,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreib62bv2d65d7nidojgpkgatrt7smee2l4ov6i6ozqhpfaqsonxku4'
+      'https://ipfs.io/ipfs/bafkreib62bv2d65d7nidojgpkgatrt7smee2l4ov6i6ozqhpfaqsonxku4'
   },
   3031: {
     name: 'Orlando Chain',
@@ -14697,7 +14747,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNsuuBBTHErnuFDcdyzaY8CKoVJtobsLJx2WQjaPjcp7g'
+      'https://ipfs.io/ipfs/QmNsuuBBTHErnuFDcdyzaY8CKoVJtobsLJx2WQjaPjcp7g'
   },
   3033: {
     name: 'Rebus Testnet',
@@ -14726,7 +14776,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreifzag46dhp33vb2uldg4htqbqipuqrapjga6ml6pnhn5yibbvb4gq'
+      'https://ipfs.io/ipfs/bafkreifzag46dhp33vb2uldg4htqbqipuqrapjga6ml6pnhn5yibbvb4gq'
   },
   3068: {
     name: 'Bifrost Mainnet',
@@ -14751,7 +14801,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYxniqbiFD7nXBNjN8boUhoXYEAW23YquArD2Rnkq8WHS'
+      'https://ipfs.io/ipfs/QmYxniqbiFD7nXBNjN8boUhoXYEAW23YquArD2Rnkq8WHS'
   },
   3073: {
     name: 'Movement EVM',
@@ -14773,7 +14823,7 @@ export const chains: Chains = {
     ],
     status: 'incubating',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWRAor77N6VyjJiQgtsEE7h9Bd1Q7vtRveTYv2A6wZyAT'
+      'https://ipfs.io/ipfs/QmWRAor77N6VyjJiQgtsEE7h9Bd1Q7vtRveTYv2A6wZyAT'
   },
   3100: {
     name: 'Immu3 EVM',
@@ -14817,7 +14867,7 @@ export const chains: Chains = {
     networkId: 3109,
     icon: 'satoshivm',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdXnQw9YwzEBZnciSe42MMwnH1SqhfY3FcVbseyM4k7Th'
+      'https://ipfs.io/ipfs/QmdXnQw9YwzEBZnciSe42MMwnH1SqhfY3FcVbseyM4k7Th'
   },
   3110: {
     name: 'SatoshiVM Testnet',
@@ -14831,7 +14881,7 @@ export const chains: Chains = {
     networkId: 3110,
     icon: 'satoshivm',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdXnQw9YwzEBZnciSe42MMwnH1SqhfY3FcVbseyM4k7Th'
+      'https://ipfs.io/ipfs/QmdXnQw9YwzEBZnciSe42MMwnH1SqhfY3FcVbseyM4k7Th'
   },
   3141: {
     name: 'Filecoin - Hyperspace testnet',
@@ -14848,7 +14898,7 @@ export const chains: Chains = {
     slip44: 1,
     explorers: [],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmS9r9XQkMHVomWcSBNDkKkz9n87h9bH9ssabeiKZtANoU'
+      'https://ipfs.io/ipfs/QmS9r9XQkMHVomWcSBNDkKkz9n87h9bH9ssabeiKZtANoU'
   },
   3269: {
     name: 'Dubxcoin network',
@@ -14893,7 +14943,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeib5q4hez37s7b2fx4hqt2q4ji2tuudxjhfdgnp6q3d5mqm6wsxdfq'
+      'https://ipfs.io/ipfs/bafybeib5q4hez37s7b2fx4hqt2q4ji2tuudxjhfdgnp6q3d5mqm6wsxdfq'
   },
   3331: {
     name: 'ZCore Testnet',
@@ -14908,7 +14958,7 @@ export const chains: Chains = {
     networkId: 3331,
     slip44: 1,
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQnXu13ym8W1VA3QxocaNVXGAuEPmamSCkS7bBscVk1f4'
+      'https://ipfs.io/ipfs/QmQnXu13ym8W1VA3QxocaNVXGAuEPmamSCkS7bBscVk1f4'
   },
   3333: {
     name: 'EthStorage Testnet',
@@ -14971,7 +15021,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVgc77jYo2zrxQjhYwT4KzvSrSZ1DBJraJVX57xAvP8MD'
+      'https://ipfs.io/ipfs/QmVgc77jYo2zrxQjhYwT4KzvSrSZ1DBJraJVX57xAvP8MD'
   },
   3424: {
     name: 'EVOLVE Mainnet',
@@ -14992,7 +15042,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVxtpYYzc5214CB7BgsMC4mRNRHCD8fpbNMzZguBWyRwa'
+      'https://ipfs.io/ipfs/QmVxtpYYzc5214CB7BgsMC4mRNRHCD8fpbNMzZguBWyRwa'
   },
   3434: {
     name: 'SecureChain Testnet',
@@ -15014,7 +15064,29 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qme2Z8VFYjhHGfLQPBnfseNpEdRfmTDy7VXqrdH4AHETJf'
+      'https://ipfs.io/ipfs/Qme2Z8VFYjhHGfLQPBnfseNpEdRfmTDy7VXqrdH4AHETJf'
+  },
+  3456: {
+    name: 'LayerEdge testnet',
+    chain: 'LayerEdge',
+    rpc: ['https://testnet-rpc.layeredge.io'],
+    faucets: ['https://testnet-faucet.layeredge.io'],
+    nativeCurrency: { name: 'Bitcoin', symbol: 'BTC', decimals: 18 },
+    infoURL: 'https://www.layeredge.io',
+    shortName: 'LayerEdge-testnet',
+    chainId: 3456,
+    networkId: 3456,
+    icon: 'layerEdge',
+    explorers: [
+      {
+        name: 'LayerEdge Testnet Explorer',
+        url: 'https://testnet-explorer.layeredge.io',
+        icon: 'layerEdge',
+        standard: 'EIP3091'
+      }
+    ],
+    iconURL:
+      'https://ipfs.io/ipfs/QmT2RotFAn8edji6FqBiP1TpTb1EFqHr28qbQGoRaJ9nTN'
   },
   3500: {
     name: 'Paribu Net Testnet',
@@ -15036,7 +15108,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVgc77jYo2zrxQjhYwT4KzvSrSZ1DBJraJVX57xAvP8MD'
+      'https://ipfs.io/ipfs/QmVgc77jYo2zrxQjhYwT4KzvSrSZ1DBJraJVX57xAvP8MD'
   },
   3501: {
     name: 'JFIN Chain',
@@ -15075,7 +15147,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNduBtT5BNGDw7DjRwDvaZBb6gjxf46WD7BYhn4gauGc9'
+      'https://ipfs.io/ipfs/QmNduBtT5BNGDw7DjRwDvaZBb6gjxf46WD7BYhn4gauGc9'
   },
   3602: {
     name: 'PandoProject Testnet',
@@ -15097,7 +15169,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNduBtT5BNGDw7DjRwDvaZBb6gjxf46WD7BYhn4gauGc9'
+      'https://ipfs.io/ipfs/QmNduBtT5BNGDw7DjRwDvaZBb6gjxf46WD7BYhn4gauGc9'
   },
   3630: {
     name: 'Tycooncoin',
@@ -15135,7 +15207,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVE5s2pXiqdMnAcxhAmWkZYhpFB5CysypeLyPKzT4rGYe'
+      'https://ipfs.io/ipfs/QmVE5s2pXiqdMnAcxhAmWkZYhpFB5CysypeLyPKzT4rGYe'
   },
   3637: {
     name: 'Botanix Mainnet',
@@ -15156,7 +15228,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVE5s2pXiqdMnAcxhAmWkZYhpFB5CysypeLyPKzT4rGYe'
+      'https://ipfs.io/ipfs/QmVE5s2pXiqdMnAcxhAmWkZYhpFB5CysypeLyPKzT4rGYe'
   },
   3639: {
     name: 'iChain Network',
@@ -15250,7 +15322,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmcpyTj4hUyHJZ2VmSdkXFpPpRcNKRP1VxMs7Cp1anymNy'
+      'https://ipfs.io/ipfs/QmcpyTj4hUyHJZ2VmSdkXFpPpRcNKRP1VxMs7Cp1anymNy'
   },
   3699: {
     name: 'SenjePowers Mainnet',
@@ -15271,7 +15343,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmcpyTj4hUyHJZ2VmSdkXFpPpRcNKRP1VxMs7Cp1anymNy'
+      'https://ipfs.io/ipfs/QmcpyTj4hUyHJZ2VmSdkXFpPpRcNKRP1VxMs7Cp1anymNy'
   },
   3701: {
     name: 'Xpla Testnet',
@@ -15294,7 +15366,7 @@ export const chains: Chains = {
     ],
     status: 'deprecated',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmf4GoxfpeA5VGqu7KP5eyv1WKaCpNDbvMxq1MjQBwFWxq'
+      'https://ipfs.io/ipfs/Qmf4GoxfpeA5VGqu7KP5eyv1WKaCpNDbvMxq1MjQBwFWxq'
   },
   3737: {
     name: 'Crossbell',
@@ -15315,7 +15387,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmS8zEetTb6pwdNpVjv5bz55BXiSMGP9BjTJmNcjcUT91t'
+      'https://ipfs.io/ipfs/QmS8zEetTb6pwdNpVjv5bz55BXiSMGP9BjTJmNcjcUT91t'
   },
   3776: {
     name: 'Astar zkEVM',
@@ -15342,7 +15414,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://portal.astar.network' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmdvmx3p6gXBCLUMU1qivscaTNkT6h3URdhUTZCHLwKudg'
+      'https://ipfs.io/ipfs/Qmdvmx3p6gXBCLUMU1qivscaTNkT6h3URdhUTZCHLwKudg'
   },
   3797: {
     name: 'AlveyChain Mainnet',
@@ -15368,7 +15440,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTuY2Goyxpuy5GmA32EMYZBwxRcGsahiMFgfeBixSk7rb'
+      'https://ipfs.io/ipfs/QmTuY2Goyxpuy5GmA32EMYZBwxRcGsahiMFgfeBixSk7rb'
   },
   3799: {
     name: 'Tangle Testnet',
@@ -15399,7 +15471,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmbxMNBTeQgch8t9GpWdLiS2R3wPYCzVRaX5kCQ4o5QU3w'
+      'https://ipfs.io/ipfs/QmbxMNBTeQgch8t9GpWdLiS2R3wPYCzVRaX5kCQ4o5QU3w'
   },
   3885: {
     name: 'Firechain zkEVM Ghostrider',
@@ -15434,7 +15506,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmUaXcPewLuQtY5a7xPTzJyVdjkH487VfV7gSR8UXrbxQ3'
+      'https://ipfs.io/ipfs/QmUaXcPewLuQtY5a7xPTzJyVdjkH487VfV7gSR8UXrbxQ3'
   },
   3889: {
     name: 'KalyChain Testnet',
@@ -15457,7 +15529,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmUaXcPewLuQtY5a7xPTzJyVdjkH487VfV7gSR8UXrbxQ3'
+      'https://ipfs.io/ipfs/QmUaXcPewLuQtY5a7xPTzJyVdjkH487VfV7gSR8UXrbxQ3'
   },
   3912: {
     name: 'DRAC Network',
@@ -15479,7 +15551,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXbsQe7QsVFZJZdBmbZVvS6LgX9ZFoaTMBs9MiQXUzJTw'
+      'https://ipfs.io/ipfs/QmXbsQe7QsVFZJZdBmbZVvS6LgX9ZFoaTMBs9MiQXUzJTw'
   },
   3939: {
     name: 'DOS Tesnet',
@@ -15502,7 +15574,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmV2Nowzo81F6pi2qFcHePA4MwmmdMKBMUzBJUrxcymxx4'
+      'https://ipfs.io/ipfs/QmV2Nowzo81F6pi2qFcHePA4MwmmdMKBMUzBJUrxcymxx4'
   },
   3966: {
     name: 'DYNO Mainnet',
@@ -15566,7 +15638,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://apexlayer.xyz/bridge' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/qmxhs7fvjanzwm14vjpbnmklre32gsiy9chsarrnbtfa1n'
+      'https://ipfs.io/ipfs/qmxhs7fvjanzwm14vjpbnmklre32gsiy9chsarrnbtfa1n'
   },
   3999: {
     name: 'YuanChain Mainnet',
@@ -15587,7 +15659,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdbPhiB5W2gbHZGkYsN7i2VTKKP9casmAN2hRnpDaL9W4'
+      'https://ipfs.io/ipfs/QmdbPhiB5W2gbHZGkYsN7i2VTKKP9casmAN2hRnpDaL9W4'
   },
   4000: {
     name: 'Ozone Chain Mainnet',
@@ -15608,7 +15680,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmbM4weV8Bk6c9yNhosYntkVw39SNZtCHYGgWyXTxkevZ8'
+      'https://ipfs.io/ipfs/QmbM4weV8Bk6c9yNhosYntkVw39SNZtCHYGgWyXTxkevZ8'
   },
   4001: {
     name: 'Peperium Chain Testnet',
@@ -15635,7 +15707,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmag2hr5DQghRzKPN3oUFBkjWzqd5CndQzZeb5LfoiMCXf'
+      'https://ipfs.io/ipfs/Qmag2hr5DQghRzKPN3oUFBkjWzqd5CndQzZeb5LfoiMCXf'
   },
   4002: {
     name: 'Fantom Testnet',
@@ -15665,7 +15737,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmcM8kHNsNYoitt5S3kLThyrKVFTZo3k2rgnume6tnNroQ'
+      'https://ipfs.io/ipfs/QmcM8kHNsNYoitt5S3kLThyrKVFTZo3k2rgnume6tnNroQ'
   },
   4003: {
     name: 'X1 Fastnet',
@@ -15711,7 +15783,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmUTDMvoY7JgDs9sZuuBhsyJz6B2dNfc5jj6xUj355be2C'
+      'https://ipfs.io/ipfs/QmUTDMvoY7JgDs9sZuuBhsyJz6B2dNfc5jj6xUj355be2C'
   },
   4048: {
     name: 'GAN Testnet',
@@ -15732,7 +15804,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTYgL4PMNJya3XchuRx99ggNzMHL9kWaZvj3wycdEwpQA'
+      'https://ipfs.io/ipfs/QmTYgL4PMNJya3XchuRx99ggNzMHL9kWaZvj3wycdEwpQA'
   },
   4051: {
     name: 'Bobaopera Testnet',
@@ -15785,7 +15857,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://accounts.nahmii.io' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZhKXgoGpzvthr2eh8ZNgT75YvMtEBegdELAaMPPzf5QT'
+      'https://ipfs.io/ipfs/QmZhKXgoGpzvthr2eh8ZNgT75YvMtEBegdELAaMPPzf5QT'
   },
   4062: {
     name: 'Nahmii 3 Testnet',
@@ -15814,7 +15886,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://accounts.testnet.nahmii.io' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZhKXgoGpzvthr2eh8ZNgT75YvMtEBegdELAaMPPzf5QT'
+      'https://ipfs.io/ipfs/QmZhKXgoGpzvthr2eh8ZNgT75YvMtEBegdELAaMPPzf5QT'
   },
   4078: {
     name: 'Muster Mainnet',
@@ -15836,7 +15908,7 @@ export const chains: Chains = {
     infoURL: '',
     parent: { type: 'L2', chain: 'eip155-42161', bridges: [] },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreiexm4aoscqo4d7dipicdgmfaemgzck2w7qhfp5mnoo7z2plcxleju'
+      'https://ipfs.io/ipfs/bafkreiexm4aoscqo4d7dipicdgmfaemgzck2w7qhfp5mnoo7z2plcxleju'
   },
   4080: {
     name: 'Tobe Chain',
@@ -15857,7 +15929,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXARMjJGkXEVEdjUyxkeG4ffsWvEo9vSJpVon3JwRxckS'
+      'https://ipfs.io/ipfs/QmXARMjJGkXEVEdjUyxkeG4ffsWvEo9vSJpVon3JwRxckS'
   },
   4090: {
     name: 'Fastex Chain (Bahamut) Oasis Testnet',
@@ -15881,7 +15953,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSemioP83RXnDWwTZbet8VpwJxcFRboX4B3pcdhLZGodP'
+      'https://ipfs.io/ipfs/QmSemioP83RXnDWwTZbet8VpwJxcFRboX4B3pcdhLZGodP'
   },
   4096: {
     name: 'Bitindi Testnet',
@@ -15903,7 +15975,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRAFFPiLiSgjGTs9QaZdnR9fsDgyUdTejwSxcnPXo292s'
+      'https://ipfs.io/ipfs/QmRAFFPiLiSgjGTs9QaZdnR9fsDgyUdTejwSxcnPXo292s'
   },
   4099: {
     name: 'Bitindi Mainnet',
@@ -15924,7 +15996,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRAFFPiLiSgjGTs9QaZdnR9fsDgyUdTejwSxcnPXo292s'
+      'https://ipfs.io/ipfs/QmRAFFPiLiSgjGTs9QaZdnR9fsDgyUdTejwSxcnPXo292s'
   },
   4102: {
     name: 'AIOZ Network Testnet',
@@ -15946,7 +16018,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRAGPFhvQiXgoJkui7WHajpKctGFrJNhHqzYdwcWt5V3Z'
+      'https://ipfs.io/ipfs/QmRAGPFhvQiXgoJkui7WHajpKctGFrJNhHqzYdwcWt5V3Z'
   },
   4139: {
     name: 'Humans.ai Testnet',
@@ -15962,7 +16034,7 @@ export const chains: Chains = {
     slip44: 1,
     icon: 'humans-dark',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmX6XuoQDTTjYqAmdNJiieLDZSwHHyUx44yQb4E3tmHmEA'
+      'https://ipfs.io/ipfs/QmX6XuoQDTTjYqAmdNJiieLDZSwHHyUx44yQb4E3tmHmEA'
   },
   4141: {
     name: 'Tipboxcoin Testnet',
@@ -15984,7 +16056,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmbiaHnR3fVVofZ7Xq2GYZxwHkLEy3Fh5qDtqnqXD6ACAh'
+      'https://ipfs.io/ipfs/QmbiaHnR3fVVofZ7Xq2GYZxwHkLEy3Fh5qDtqnqXD6ACAh'
   },
   4157: {
     name: 'CrossFi Testnet',
@@ -16026,7 +16098,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreid6pm3mic7izp3a6zlfwhhe7etd276bjfsq2xash6a4s2vmcdf65a'
+      'https://ipfs.io/ipfs/bafkreid6pm3mic7izp3a6zlfwhhe7etd276bjfsq2xash6a4s2vmcdf65a'
   },
   4200: {
     name: 'Merlin Mainnet',
@@ -16053,7 +16125,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmULpMFUvKSmJT8sWXS3WDnTm4EacgRbsEynDenpxcfrAj'
+      'https://ipfs.io/ipfs/QmULpMFUvKSmJT8sWXS3WDnTm4EacgRbsEynDenpxcfrAj'
   },
   4201: {
     name: 'LUKSO Testnet',
@@ -16079,13 +16151,14 @@ export const chains: Chains = {
     slip44: 1,
     features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmeg9sFF5tAGi6MCx7YjtVHW6a23zqvHRK1xwzSdp9iE7z'
+      'https://ipfs.io/ipfs/Qmeg9sFF5tAGi6MCx7YjtVHW6a23zqvHRK1xwzSdp9iE7z'
   },
   4202: {
     name: 'Lisk Sepolia Testnet',
     chain: 'ETH',
+    icon: 'lisk',
     rpc: ['https://rpc.sepolia-api.lisk.com'],
-    faucets: [],
+    faucets: ['https://app.optimism.io/faucet'],
     nativeCurrency: { name: 'Sepolia Ether', symbol: 'ETH', decimals: 18 },
     infoURL: 'https://lisk.com',
     shortName: 'lisksep',
@@ -16099,7 +16172,9 @@ export const chains: Chains = {
         icon: 'blockscout',
         standard: 'EIP3091'
       }
-    ]
+    ],
+    iconURL:
+      'https://ipfs.io/ipfs/QmVTS8jmWD5e7jVEn86wLjJsuMnc6s8fym3JbtE4etzSKf'
   },
   4242: {
     name: 'Nexi Mainnet',
@@ -16125,7 +16200,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeifxqd7zel2m237kq5enavnh2s6cshaavswigogyvae2wevxy5k2ti'
+      'https://ipfs.io/ipfs/bafybeifxqd7zel2m237kq5enavnh2s6cshaavswigogyvae2wevxy5k2ti'
   },
   4243: {
     name: 'Nexi V2 Mainnet',
@@ -16150,7 +16225,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeifxqd7zel2m237kq5enavnh2s6cshaavswigogyvae2wevxy5k2ti'
+      'https://ipfs.io/ipfs/bafybeifxqd7zel2m237kq5enavnh2s6cshaavswigogyvae2wevxy5k2ti'
   },
   4328: {
     name: 'Bobafuji Testnet',
@@ -16206,7 +16281,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQJ21NWyGGDraicVEzS1Uqq1yXahM9NCuNZgnfYvtspdt'
+      'https://ipfs.io/ipfs/QmQJ21NWyGGDraicVEzS1Uqq1yXahM9NCuNZgnfYvtspdt'
   },
   4400: {
     name: 'Credit Smart Chain Mainnet',
@@ -16229,7 +16304,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreifbso3gd4wu5wxl27xyurxctmuae2jyuy37guqtzx23nga6ba4ag4'
+      'https://ipfs.io/ipfs/bafkreifbso3gd4wu5wxl27xyurxctmuae2jyuy37guqtzx23nga6ba4ag4'
   },
   4444: {
     name: 'Htmlcoin Mainnet',
@@ -16252,7 +16327,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmR1oDRSadPerfyWMhKHNP268vPKvpczt5zPawgFSZisz2'
+      'https://ipfs.io/ipfs/QmR1oDRSadPerfyWMhKHNP268vPKvpczt5zPawgFSZisz2'
   },
   4460: {
     name: 'Orderly Sepolia Testnet',
@@ -16276,7 +16351,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSpwp3RAVhZsErAQrCQxEmjnGqJQMigarzZbfqr9Ktakb'
+      'https://ipfs.io/ipfs/QmSpwp3RAVhZsErAQrCQxEmjnGqJQMigarzZbfqr9Ktakb'
   },
   4488: {
     name: 'Hydra Chain',
@@ -16286,14 +16361,14 @@ export const chains: Chains = {
     nativeCurrency: { name: 'Hydra', symbol: 'HYDRA', decimals: 18 },
     features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
     infoURL: 'https://hydrachain.org',
-    shortName: 'hydra',
+    shortName: 'HYDRA',
     chainId: 4488,
     networkId: 4488,
     icon: 'hydra',
     explorers: [],
     status: 'incubating',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVxyUjuA8t9q3oWDgv8ExqaUXcRuDqiKrZAiLaBWHYcmG'
+      'https://ipfs.io/ipfs/QmVxyUjuA8t9q3oWDgv8ExqaUXcRuDqiKrZAiLaBWHYcmG'
   },
   4544: {
     name: 'Emoney Network Testnet',
@@ -16316,7 +16391,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreigo4gtboztftjdnbvy2rb2ku2gxxbhm4iwutzgnzhvden3vcbsqui'
+      'https://ipfs.io/ipfs/bafkreigo4gtboztftjdnbvy2rb2ku2gxxbhm4iwutzgnzhvden3vcbsqui'
   },
   4613: {
     name: 'VERY Mainnet',
@@ -16339,7 +16414,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreidyrvphfojaf7iev57trxk3sxbo6qikg26pdy66ke4n22dgm52wwa'
+      'https://ipfs.io/ipfs/bafkreidyrvphfojaf7iev57trxk3sxbo6qikg26pdy66ke4n22dgm52wwa'
   },
   4653: {
     name: 'Gold Chain',
@@ -16355,7 +16430,7 @@ export const chains: Chains = {
     status: 'incubating',
     icon: 'gold',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmbvuHpn8Np5uTTbVNgv4JHCj2zfHBfmSoRcVNdWbcV5Vq'
+      'https://ipfs.io/ipfs/QmbvuHpn8Np5uTTbVNgv4JHCj2zfHBfmSoRcVNdWbcV5Vq'
   },
   4689: {
     name: 'IoTeX Network Mainnet',
@@ -16415,7 +16490,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPuQ6gaCfUtNdRuaEDbdhot2m2KCy2ZHCJUvZXJAtdeyJ'
+      'https://ipfs.io/ipfs/QmPuQ6gaCfUtNdRuaEDbdhot2m2KCy2ZHCJUvZXJAtdeyJ'
   },
   4777: {
     name: 'BlackFort Exchange Network Testnet',
@@ -16443,7 +16518,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPasA8xykRtJDivB2bcKDiRCUNWDPtfUTTKVAcaF2wVxC'
+      'https://ipfs.io/ipfs/QmPasA8xykRtJDivB2bcKDiRCUNWDPtfUTTKVAcaF2wVxC'
   },
   4893: {
     name: 'Globel Chain',
@@ -16460,7 +16535,7 @@ export const chains: Chains = {
       { name: 'blockscout', url: 'https://gcscan.io', standard: 'none' }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPRHDsVNpRZ72GoQgDbpa3R4wKENmrXCRNuYJkxocFRDb'
+      'https://ipfs.io/ipfs/QmPRHDsVNpRZ72GoQgDbpa3R4wKENmrXCRNuYJkxocFRDb'
   },
   4918: {
     name: 'Venidium Testnet',
@@ -16500,7 +16575,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreiaplwlym5g27jm4mjhotfqq6al2cxp3fnkmzdusqjg7wnipq5wn2e'
+      'https://ipfs.io/ipfs/bafkreiaplwlym5g27jm4mjhotfqq6al2cxp3fnkmzdusqjg7wnipq5wn2e'
   },
   4999: {
     name: 'BlackFort Exchange Network',
@@ -16528,7 +16603,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPasA8xykRtJDivB2bcKDiRCUNWDPtfUTTKVAcaF2wVxC'
+      'https://ipfs.io/ipfs/QmPasA8xykRtJDivB2bcKDiRCUNWDPtfUTTKVAcaF2wVxC'
   },
   5000: {
     name: 'Mantle',
@@ -16558,7 +16633,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://bridge.mantle.xyz' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYddHh5zdceSsBU7uGfQvEHg6UUtAFbzQBBaePS4whx7o'
+      'https://ipfs.io/ipfs/QmYddHh5zdceSsBU7uGfQvEHg6UUtAFbzQBBaePS4whx7o'
   },
   5001: {
     name: 'Mantle Testnet',
@@ -16605,7 +16680,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTcNX8ukHkXiVfVah1W8Sed3vtGN95Sq2QSimfLuHva6B'
+      'https://ipfs.io/ipfs/QmTcNX8ukHkXiVfVah1W8Sed3vtGN95Sq2QSimfLuHva6B'
   },
   5003: {
     name: 'Mantle Sepolia Testnet',
@@ -16653,7 +16728,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTcNX8ukHkXiVfVah1W8Sed3vtGN95Sq2QSimfLuHva6B'
+      'https://ipfs.io/ipfs/QmTcNX8ukHkXiVfVah1W8Sed3vtGN95Sq2QSimfLuHva6B'
   },
   5039: {
     name: 'ONIGIRI Test Subnet',
@@ -16675,7 +16750,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreieenivbkpmaxslvvvaybi53hynnarng4ek37xhtf5euvsyunvhbai'
+      'https://ipfs.io/ipfs/bafkreieenivbkpmaxslvvvaybi53hynnarng4ek37xhtf5euvsyunvhbai'
   },
   5040: {
     name: 'ONIGIRI Subnet',
@@ -16697,7 +16772,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreieenivbkpmaxslvvvaybi53hynnarng4ek37xhtf5euvsyunvhbai'
+      'https://ipfs.io/ipfs/bafkreieenivbkpmaxslvvvaybi53hynnarng4ek37xhtf5euvsyunvhbai'
   },
   5051: {
     name: 'Nollie Skatechain Testnet',
@@ -16720,7 +16795,7 @@ export const chains: Chains = {
     ],
     status: 'active',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdofX1W8QFt4TSDaq2wyPvYuUba9LabgD1MYcn3Hezu8h'
+      'https://ipfs.io/ipfs/QmdofX1W8QFt4TSDaq2wyPvYuUba9LabgD1MYcn3Hezu8h'
   },
   5100: {
     name: 'Syndicate Testnet',
@@ -16736,7 +16811,7 @@ export const chains: Chains = {
     status: 'incubating',
     icon: 'syndicate',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeSvQcD3XvLFAiMLoQSPbGK9JxVfbCWPBUTMLhhhzYPqX'
+      'https://ipfs.io/ipfs/QmeSvQcD3XvLFAiMLoQSPbGK9JxVfbCWPBUTMLhhhzYPqX'
   },
   5101: {
     name: 'Syndicate Frame Chain',
@@ -16752,7 +16827,7 @@ export const chains: Chains = {
     status: 'incubating',
     icon: 'syndicate',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeSvQcD3XvLFAiMLoQSPbGK9JxVfbCWPBUTMLhhhzYPqX'
+      'https://ipfs.io/ipfs/QmeSvQcD3XvLFAiMLoQSPbGK9JxVfbCWPBUTMLhhhzYPqX'
   },
   5102: {
     name: 'SIC Testnet',
@@ -16823,6 +16898,29 @@ export const chains: Chains = {
       }
     ]
   },
+  5112: {
+    name: 'Ham',
+    chain: 'Ham',
+    rpc: ['https://rpc.ham.fun'],
+    faucets: [],
+    nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    infoURL: 'https://ham.fun',
+    shortName: 'ham',
+    chainId: 5112,
+    networkId: 5112,
+    icon: 'ham',
+    explorers: [
+      {
+        name: 'blockscout',
+        url: 'https://explorer.ham.fun',
+        icon: 'blockscout',
+        standard: 'EIP3091'
+      }
+    ],
+    status: 'active',
+    iconURL:
+      'https://ipfs.io/ipfs/QmcbYVenTET9HBS7vs7SGv1MNqnRscAKVF5kaRVHaVCfvs'
+  },
   5165: {
     name: 'Bahamut',
     title: 'Bahamut mainnet',
@@ -16851,7 +16949,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSemioP83RXnDWwTZbet8VpwJxcFRboX4B3pcdhLZGodP'
+      'https://ipfs.io/ipfs/QmSemioP83RXnDWwTZbet8VpwJxcFRboX4B3pcdhLZGodP'
   },
   5169: {
     name: 'Smart Layer Network',
@@ -16890,7 +16988,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmaR5TsgnWSjLys6wGaciKUbc5qYL3Es4jtgQcosVqDWR3'
+      'https://ipfs.io/ipfs/QmaR5TsgnWSjLys6wGaciKUbc5qYL3Es4jtgQcosVqDWR3'
   },
   5197: {
     name: 'EraSwap Mainnet',
@@ -16907,7 +17005,7 @@ export const chains: Chains = {
     chainId: 5197,
     networkId: 5197,
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmV1wZ1RVXeD7216aiVBpLkbBBHWNuoTvcSzpVQsqi2uaH'
+      'https://ipfs.io/ipfs/QmV1wZ1RVXeD7216aiVBpLkbBBHWNuoTvcSzpVQsqi2uaH'
   },
   5234: {
     name: 'Humanode Mainnet',
@@ -16929,7 +17027,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeihuskzfwqogwvutaxil6sztmvpiavzbrzwjwpn6w2i4j3jysbybra'
+      'https://ipfs.io/ipfs/bafybeihuskzfwqogwvutaxil6sztmvpiavzbrzwjwpn6w2i4j3jysbybra'
   },
   5290: {
     name: 'Firechain Mainnet Old',
@@ -16945,7 +17043,7 @@ export const chains: Chains = {
     explorers: [],
     status: 'deprecated',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYjuztyURb3Fc6ZTLgCbwQa64CcVoigF5j9cafzuSbqgf'
+      'https://ipfs.io/ipfs/QmYjuztyURb3Fc6ZTLgCbwQa64CcVoigF5j9cafzuSbqgf'
   },
   5315: {
     name: 'Uzmi Network Mainnet',
@@ -16978,7 +17076,25 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYktPMo4tdQhMA9nRJBVckjzHcFLbpHbTVNSpGUUPEP8J'
+      'https://ipfs.io/ipfs/QmYktPMo4tdQhMA9nRJBVckjzHcFLbpHbTVNSpGUUPEP8J'
+  },
+  5321: {
+    name: 'ITX Testnet',
+    chain: 'ITX',
+    rpc: ['https://rpc.testnet.itxchain.com'],
+    faucets: [],
+    nativeCurrency: { name: 'ITX', symbol: 'ITX', decimals: 18 },
+    infoURL: 'https://explorer.testnet.itxchain.com',
+    shortName: 'itx-testnet',
+    chainId: 5321,
+    networkId: 5321,
+    explorers: [
+      {
+        name: 'ITX Testnet Explorer (Blockscout)',
+        url: 'https://explorer.testnet.itxchain.com',
+        standard: 'EIP3091'
+      }
+    ]
   },
   5353: {
     name: 'Tritanium Testnet',
@@ -17008,7 +17124,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRm6gcEPJmU9a86zrmyP7FALTN4Toz9HrnrL2Kwg6FPeh'
+      'https://ipfs.io/ipfs/QmRm6gcEPJmU9a86zrmyP7FALTN4Toz9HrnrL2Kwg6FPeh'
   },
   5372: {
     name: 'Settlus Testnet',
@@ -17053,7 +17169,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSgvmLpRsCiu2ySqyceA5xN4nwi7URJRNEZLffwEKXdoR'
+      'https://ipfs.io/ipfs/QmSgvmLpRsCiu2ySqyceA5xN4nwi7URJRNEZLffwEKXdoR'
   },
   5439: {
     name: 'Egochain',
@@ -17089,7 +17205,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmcZiEAGFYEEax1uxYnDUh8X5YBvZqMi9K92yZoq4o2zeM'
+      'https://ipfs.io/ipfs/QmcZiEAGFYEEax1uxYnDUh8X5YBvZqMi9K92yZoq4o2zeM'
   },
   5551: {
     name: 'Nahmii 2 Mainnet',
@@ -17117,7 +17233,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://n2.bridge.nahmii.io' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZhKXgoGpzvthr2eh8ZNgT75YvMtEBegdELAaMPPzf5QT'
+      'https://ipfs.io/ipfs/QmZhKXgoGpzvthr2eh8ZNgT75YvMtEBegdELAaMPPzf5QT'
   },
   5553: {
     name: 'Nahmii 2 Testnet',
@@ -17146,7 +17262,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://bridge.nahmii.io' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZhKXgoGpzvthr2eh8ZNgT75YvMtEBegdELAaMPPzf5QT'
+      'https://ipfs.io/ipfs/QmZhKXgoGpzvthr2eh8ZNgT75YvMtEBegdELAaMPPzf5QT'
   },
   5555: {
     name: 'Chain Verse Mainnet',
@@ -17167,7 +17283,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQyJt28h4wN3QHPXUQJQYQqGiFUD77han3zibZPzHbitk'
+      'https://ipfs.io/ipfs/QmQyJt28h4wN3QHPXUQJQYQqGiFUD77han3zibZPzHbitk'
   },
   5611: {
     name: 'opBNB Testnet',
@@ -17206,7 +17322,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeib75gwytvblyvjpfminitr3i6mpat3a624udfsqsl5nysf5vuuvie'
+      'https://ipfs.io/ipfs/bafybeib75gwytvblyvjpfminitr3i6mpat3a624udfsqsl5nysf5vuuvie'
   },
   5615: {
     name: 'Arcturus Testneet',
@@ -17261,7 +17377,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRoNxCti6cHrPgZ48YQVSMg9g6ympfXuV8kGQJXrbbmed'
+      'https://ipfs.io/ipfs/QmRoNxCti6cHrPgZ48YQVSMg9g6ympfXuV8kGQJXrbbmed'
   },
   5675: {
     name: 'Filenova Testnet',
@@ -17283,7 +17399,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmc4KSKiAChhtN7ZNE5gvkLTRbvtLreKU9xaQFG8BKM8RE'
+      'https://ipfs.io/ipfs/Qmc4KSKiAChhtN7ZNE5gvkLTRbvtLreKU9xaQFG8BKM8RE'
   },
   5678: {
     name: 'Tanssi Demo',
@@ -17351,7 +17467,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmW44FPm3CMM2JDs8BQxLNvUtykkUtrGkQkQsUDJSi3Gmp'
+      'https://ipfs.io/ipfs/QmW44FPm3CMM2JDs8BQxLNvUtykkUtrGkQkQsUDJSi3Gmp'
   },
   5758: {
     name: 'SatoshiChain Testnet',
@@ -17373,7 +17489,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRegpZQBW4o1imYNsW3d27MQjygBSU23Gf6JKje26nvs7'
+      'https://ipfs.io/ipfs/QmRegpZQBW4o1imYNsW3d27MQjygBSU23Gf6JKje26nvs7'
   },
   5777: {
     name: 'Ganache',
@@ -17390,7 +17506,7 @@ export const chains: Chains = {
     slip44: 1,
     explorers: [],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmc9N7V8CiLB4r7FEcG7GojqfiGGsRCZqcFWCahwMohbDW'
+      'https://ipfs.io/ipfs/Qmc9N7V8CiLB4r7FEcG7GojqfiGGsRCZqcFWCahwMohbDW'
   },
   5845: {
     name: 'Tangle',
@@ -17412,7 +17528,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmbxMNBTeQgch8t9GpWdLiS2R3wPYCzVRaX5kCQ4o5QU3w'
+      'https://ipfs.io/ipfs/QmbxMNBTeQgch8t9GpWdLiS2R3wPYCzVRaX5kCQ4o5QU3w'
   },
   5851: {
     name: 'Ontology Testnet',
@@ -17443,7 +17559,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreigmvn6spvbiirtutowpq6jmetevbxoof5plzixjoerbeswy4htfb4'
+      'https://ipfs.io/ipfs/bafkreigmvn6spvbiirtutowpq6jmetevbxoof5plzixjoerbeswy4htfb4'
   },
   5869: {
     name: 'Wegochain Rubidium Mainnet',
@@ -17482,7 +17598,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXry4fg4n371PCokLGKUMwmws1SoJb5giZM3EedeEQaZz'
+      'https://ipfs.io/ipfs/QmXry4fg4n371PCokLGKUMwmws1SoJb5giZM3EedeEQaZz'
   },
   6001: {
     name: 'BounceBit Mainnet',
@@ -17503,7 +17619,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXry4fg4n371PCokLGKUMwmws1SoJb5giZM3EedeEQaZz'
+      'https://ipfs.io/ipfs/QmXry4fg4n371PCokLGKUMwmws1SoJb5giZM3EedeEQaZz'
   },
   6065: {
     name: 'Tres Testnet',
@@ -17526,7 +17642,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmS33ypsZ1Hx5LMMACaJaxePy9QNYMwu4D12niobExLK74'
+      'https://ipfs.io/ipfs/QmS33ypsZ1Hx5LMMACaJaxePy9QNYMwu4D12niobExLK74'
   },
   6066: {
     name: 'Tres Mainnet',
@@ -17548,7 +17664,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmS33ypsZ1Hx5LMMACaJaxePy9QNYMwu4D12niobExLK74'
+      'https://ipfs.io/ipfs/QmS33ypsZ1Hx5LMMACaJaxePy9QNYMwu4D12niobExLK74'
   },
   6102: {
     name: 'Cascadia Testnet',
@@ -17576,7 +17692,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQtcwxNiJ9D1QDz4k6jZ7qacLcqMk6CeW85TTBWBvNp3z'
+      'https://ipfs.io/ipfs/QmQtcwxNiJ9D1QDz4k6jZ7qacLcqMk6CeW85TTBWBvNp3z'
   },
   6118: {
     name: 'UPTN Testnet',
@@ -17599,7 +17715,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qma6cGPCDcJPFxy5KQaMBrLtuVQiqeLncXVybcBoQuhai5'
+      'https://ipfs.io/ipfs/Qma6cGPCDcJPFxy5KQaMBrLtuVQiqeLncXVybcBoQuhai5'
   },
   6119: {
     name: 'UPTN',
@@ -17621,7 +17737,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qma6cGPCDcJPFxy5KQaMBrLtuVQiqeLncXVybcBoQuhai5'
+      'https://ipfs.io/ipfs/Qma6cGPCDcJPFxy5KQaMBrLtuVQiqeLncXVybcBoQuhai5'
   },
   6321: {
     name: 'Aura Euphoria Testnet',
@@ -17644,7 +17760,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmbpQPpjKy1bkDmuzCSSE9iFTUK37AiWYgJbgN3Fr7MWYq'
+      'https://ipfs.io/ipfs/QmbpQPpjKy1bkDmuzCSSE9iFTUK37AiWYgJbgN3Fr7MWYq'
   },
   6322: {
     name: 'Aura Mainnet',
@@ -17667,7 +17783,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmbpQPpjKy1bkDmuzCSSE9iFTUK37AiWYgJbgN3Fr7MWYq'
+      'https://ipfs.io/ipfs/QmbpQPpjKy1bkDmuzCSSE9iFTUK37AiWYgJbgN3Fr7MWYq'
   },
   6363: {
     name: 'Digit Soul Smart Chain',
@@ -17681,7 +17797,7 @@ export const chains: Chains = {
     chainId: 6363,
     networkId: 6363,
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRiAUu3xV5uiX6Nk1iXD5w6qjki5ugGFETRVavzJ2h5QF'
+      'https://ipfs.io/ipfs/QmRiAUu3xV5uiX6Nk1iXD5w6qjki5ugGFETRVavzJ2h5QF'
   },
   6502: {
     name: 'Peerpay',
@@ -17715,7 +17831,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVES1eqDXhP8SdeCpM85wvjmhrQDXGRquQebDrSdvJqpt'
+      'https://ipfs.io/ipfs/QmVES1eqDXhP8SdeCpM85wvjmhrQDXGRquQebDrSdvJqpt'
   },
   6565: {
     name: 'Fox Testnet Network',
@@ -17742,7 +17858,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmbp1rwhtRr6JQRyYqyfLqkbmzXr1T17zbmChsi2ouvg3M'
+      'https://ipfs.io/ipfs/Qmbp1rwhtRr6JQRyYqyfLqkbmzXr1T17zbmChsi2ouvg3M'
   },
   6626: {
     name: 'Pixie Chain Mainnet',
@@ -17788,7 +17904,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmUU784i1ZHDNwgXvt9weZmq6YbHHkyXvuDS7r4iDzao72'
+      'https://ipfs.io/ipfs/QmUU784i1ZHDNwgXvt9weZmq6YbHHkyXvuDS7r4iDzao72'
   },
   6661: {
     name: 'Cybria Mainnet',
@@ -17816,7 +17932,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://app.optimism.io/bridge' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreiarso74bytq5ccnl3mlfhd4ejiylwautsr6ovbqgmynzjzmkorn6y'
+      'https://ipfs.io/ipfs/bafkreiarso74bytq5ccnl3mlfhd4ejiylwautsr6ovbqgmynzjzmkorn6y'
   },
   6666: {
     name: 'Cybria Testnet',
@@ -17844,7 +17960,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://app.optimism.io/bridge' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreiarso74bytq5ccnl3mlfhd4ejiylwautsr6ovbqgmynzjzmkorn6y'
+      'https://ipfs.io/ipfs/bafkreiarso74bytq5ccnl3mlfhd4ejiylwautsr6ovbqgmynzjzmkorn6y'
   },
   6688: {
     name: 'IRIShub',
@@ -17871,7 +17987,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTKgKs7kJiWDhdjbELE4Y2HVZ36KS4bYkNCbXdsXk66sW'
+      'https://ipfs.io/ipfs/QmTKgKs7kJiWDhdjbELE4Y2HVZ36KS4bYkNCbXdsXk66sW'
   },
   6701: {
     name: 'PAXB Mainnet',
@@ -17893,7 +18009,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSP66CHynXpMYkjV28uLjTR4kjuoJyy92igYYpvLoqHtG'
+      'https://ipfs.io/ipfs/QmSP66CHynXpMYkjV28uLjTR4kjuoJyy92igYYpvLoqHtG'
   },
   6779: {
     name: 'Compverse Mainnet',
@@ -17915,7 +18031,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYbskrGpidbMwsJekTeLrr8Z6GA9q4Uxh7piS1F9BdWWv'
+      'https://ipfs.io/ipfs/QmYbskrGpidbMwsJekTeLrr8Z6GA9q4Uxh7piS1F9BdWWv'
   },
   6789: {
     name: 'Gold Smart Chain Mainnet',
@@ -17936,7 +18052,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPNuymyaKLJhCaXnyrsL8358FeTxabZFsaxMmWNU4Tzt3'
+      'https://ipfs.io/ipfs/QmPNuymyaKLJhCaXnyrsL8358FeTxabZFsaxMmWNU4Tzt3'
   },
   6868: {
     name: 'Pools Mainnet',
@@ -17963,7 +18079,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmV18PRFPkp9pwKKJp4ksVDhMEiqNZ8A5DhQapdNCckeeQ'
+      'https://ipfs.io/ipfs/QmV18PRFPkp9pwKKJp4ksVDhMEiqNZ8A5DhQapdNCckeeQ'
   },
   6969: {
     name: 'Tomb Chain Mainnet',
@@ -18026,7 +18142,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmP4Gnf4Lkp8q5LQVePNjAWxSqrw8vU2JAf7amcFz4vEUy'
+      'https://ipfs.io/ipfs/QmP4Gnf4Lkp8q5LQVePNjAWxSqrw8vU2JAf7amcFz4vEUy'
   },
   7001: {
     name: 'ZetaChain Athens 3 Testnet',
@@ -18059,7 +18175,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmP4Gnf4Lkp8q5LQVePNjAWxSqrw8vU2JAf7amcFz4vEUy'
+      'https://ipfs.io/ipfs/QmP4Gnf4Lkp8q5LQVePNjAWxSqrw8vU2JAf7amcFz4vEUy'
   },
   7007: {
     name: 'BST Chain',
@@ -18080,7 +18196,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPko9BJhR5FWTsThcwUFnnnjgLjrXVDm1n98dCuaQNW59'
+      'https://ipfs.io/ipfs/QmPko9BJhR5FWTsThcwUFnnnjgLjrXVDm1n98dCuaQNW59'
   },
   7027: {
     name: 'Ella the heart',
@@ -18097,7 +18213,7 @@ export const chains: Chains = {
       { name: 'Ella', url: 'https://ella.network', standard: 'EIP3091' }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVkAhSaHhH3wKoLT56Aq8dNyEH4RySPEpqPcLwsptGBDm'
+      'https://ipfs.io/ipfs/QmVkAhSaHhH3wKoLT56Aq8dNyEH4RySPEpqPcLwsptGBDm'
   },
   7070: {
     name: 'Planq Mainnet',
@@ -18123,7 +18239,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWEy9xK5BoqxPuVs7T48WM4exJrxzkEFt45iHcxWqUy8D'
+      'https://ipfs.io/ipfs/QmWEy9xK5BoqxPuVs7T48WM4exJrxzkEFt45iHcxWqUy8D'
   },
   7077: {
     name: 'Planq Atlas Testnet',
@@ -18138,7 +18254,7 @@ export const chains: Chains = {
     networkId: 7077,
     explorers: [],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWEy9xK5BoqxPuVs7T48WM4exJrxzkEFt45iHcxWqUy8D'
+      'https://ipfs.io/ipfs/QmWEy9xK5BoqxPuVs7T48WM4exJrxzkEFt45iHcxWqUy8D'
   },
   7100: {
     name: 'Nume',
@@ -18161,7 +18277,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNbp1K6vKKFYh7bWeWtjBqKgdH88suDVbztP5CYU3pYNG'
+      'https://ipfs.io/ipfs/QmNbp1K6vKKFYh7bWeWtjBqKgdH88suDVbztP5CYU3pYNG'
   },
   7118: {
     name: 'Help The Homeless',
@@ -18181,7 +18297,7 @@ export const chains: Chains = {
     status: 'incubating',
     explorers: [],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNR4Y3cUxefV7KGpGxMkjp5ofeJvbaUkR1GavsmTtK248'
+      'https://ipfs.io/ipfs/QmNR4Y3cUxefV7KGpGxMkjp5ofeJvbaUkR1GavsmTtK248'
   },
   7171: {
     name: 'Bitrock Mainnet',
@@ -18202,7 +18318,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmfXZCAh3HWS2bJroUStN9TieL4QA9QArMotie3X4pwBfj'
+      'https://ipfs.io/ipfs/QmfXZCAh3HWS2bJroUStN9TieL4QA9QArMotie3X4pwBfj'
   },
   7300: {
     name: 'XPLA Verse',
@@ -18224,7 +18340,7 @@ export const chains: Chains = {
     ],
     parent: { type: 'L2', chain: 'eip155-248' },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZvqcTNWPUoT1F3r9DTAMhdjt3zQC8eRUStvUGEF68KCt'
+      'https://ipfs.io/ipfs/QmZvqcTNWPUoT1F3r9DTAMhdjt3zQC8eRUStvUGEF68KCt'
   },
   7331: {
     name: 'KLYNTAR',
@@ -18244,7 +18360,7 @@ export const chains: Chains = {
     explorers: [],
     status: 'incubating',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmaDr9R6dKnZLsogRxojjq4dwXuXcudR8UeTZ8Nq553K4u'
+      'https://ipfs.io/ipfs/QmaDr9R6dKnZLsogRxojjq4dwXuXcudR8UeTZ8Nq553K4u'
   },
   7332: {
     name: 'Horizen EON Mainnet',
@@ -18271,7 +18387,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSFMBk3rMyu45Sy9KQHjgArFj4HdywANNYrSosLMUdcti'
+      'https://ipfs.io/ipfs/QmSFMBk3rMyu45Sy9KQHjgArFj4HdywANNYrSosLMUdcti'
   },
   7341: {
     name: 'Shyft Mainnet',
@@ -18293,7 +18409,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmUkFZC2ZmoYPTKf7AHdjwRPZoV2h1MCuHaGM4iu8SNFpi'
+      'https://ipfs.io/ipfs/QmUkFZC2ZmoYPTKf7AHdjwRPZoV2h1MCuHaGM4iu8SNFpi'
   },
   7484: {
     name: 'Raba Network Mainnet',
@@ -18314,7 +18430,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmatP9qMHEYoXqRDyHMTyjYRQa6j6Gk7pmv1QLxQkvpGRP'
+      'https://ipfs.io/ipfs/QmatP9qMHEYoXqRDyHMTyjYRQa6j6Gk7pmv1QLxQkvpGRP'
   },
   7518: {
     name: 'MEVerse Chain Mainnet',
@@ -18336,7 +18452,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPuQ6gaCfUtNdRuaEDbdhot2m2KCy2ZHCJUvZXJAtdeyJ'
+      'https://ipfs.io/ipfs/QmPuQ6gaCfUtNdRuaEDbdhot2m2KCy2ZHCJUvZXJAtdeyJ'
   },
   7560: {
     name: 'Cyber Mainnet',
@@ -18367,7 +18483,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://cyber.co/bridge' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmR8NuaSqALStb95YsMsJRG2BoYkibjS1XE1pZFtvEkAXY'
+      'https://ipfs.io/ipfs/QmR8NuaSqALStb95YsMsJRG2BoYkibjS1XE1pZFtvEkAXY'
   },
   7575: {
     name: 'ADIL Testnet',
@@ -18389,7 +18505,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeHNYUx6n8CjUFSLWNT17oAtDYrUq6r8buyvGCUBXCJw6'
+      'https://ipfs.io/ipfs/QmeHNYUx6n8CjUFSLWNT17oAtDYrUq6r8buyvGCUBXCJw6'
   },
   7576: {
     name: 'Adil Chain V2 Mainnet',
@@ -18410,7 +18526,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeHNYUx6n8CjUFSLWNT17oAtDYrUq6r8buyvGCUBXCJw6'
+      'https://ipfs.io/ipfs/QmeHNYUx6n8CjUFSLWNT17oAtDYrUq6r8buyvGCUBXCJw6'
   },
   7668: {
     name: 'The Root Network - Mainnet',
@@ -18534,7 +18650,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmfXZCAh3HWS2bJroUStN9TieL4QA9QArMotie3X4pwBfj'
+      'https://ipfs.io/ipfs/QmfXZCAh3HWS2bJroUStN9TieL4QA9QArMotie3X4pwBfj'
   },
   7775: {
     name: 'GDCC TESTNET',
@@ -18555,7 +18671,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmY4vp1mJoGpUiuWbRVenNiDZC17wSyyueGPK9A5QyK1M2'
+      'https://ipfs.io/ipfs/QmY4vp1mJoGpUiuWbRVenNiDZC17wSyyueGPK9A5QyK1M2'
   },
   7777: {
     name: 'Rise of the Warbots Testnet',
@@ -18608,7 +18724,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXszYAtQxaFCG3s9vGHoLJnqxGJw2wTKNbruTJ8iDXU7K'
+      'https://ipfs.io/ipfs/QmXszYAtQxaFCG3s9vGHoLJnqxGJw2wTKNbruTJ8iDXU7K'
   },
   7798: {
     name: 'OpenEX LONG Testnet',
@@ -18632,7 +18748,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreidnu6p6vmmplerzvkboq7fz73ygkomzpnnokuxstrqv2fvxgmgg7i'
+      'https://ipfs.io/ipfs/bafkreidnu6p6vmmplerzvkboq7fz73ygkomzpnnokuxstrqv2fvxgmgg7i'
   },
   7860: {
     name: 'MaalChain Testnet',
@@ -18654,7 +18770,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreiexfqfe2x4impvwhra3xxa5eb25gv25zi3kkaoatdnld7wbxdzf2a'
+      'https://ipfs.io/ipfs/bafkreiexfqfe2x4impvwhra3xxa5eb25gv25zi3kkaoatdnld7wbxdzf2a'
   },
   7878: {
     name: 'Hazlor Testnet',
@@ -18701,7 +18817,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZw4zfR4Q8MD6MZRwkQrMeiiiu77AJffHdCMdemt4R2VM'
+      'https://ipfs.io/ipfs/QmZw4zfR4Q8MD6MZRwkQrMeiiiu77AJffHdCMdemt4R2VM'
   },
   7895: {
     name: 'ARDENIUM Athena',
@@ -18723,7 +18839,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdwifhejRfF8QfyzYrNdFVhfhCR6iuzWMmppK4eL7kttG'
+      'https://ipfs.io/ipfs/QmdwifhejRfF8QfyzYrNdFVhfhCR6iuzWMmppK4eL7kttG'
   },
   7923: {
     name: 'Dot Blox',
@@ -18744,7 +18860,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZy2TMY881ghRxXJA7VyRA8Zhj2LJJ86DpHRZs3VQZqoJ'
+      'https://ipfs.io/ipfs/QmZy2TMY881ghRxXJA7VyRA8Zhj2LJJ86DpHRZs3VQZqoJ'
   },
   7924: {
     name: 'MO Mainnet',
@@ -18765,7 +18881,7 @@ export const chains: Chains = {
     ],
     infoURL: 'https://mochain.app',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmfJYJiR7L8xMG3KAWroVA9CQEfRGcbprC4JmVsiVk1E4e'
+      'https://ipfs.io/ipfs/QmfJYJiR7L8xMG3KAWroVA9CQEfRGcbprC4JmVsiVk1E4e'
   },
   7979: {
     name: 'DOS Chain',
@@ -18787,7 +18903,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmV2Nowzo81F6pi2qFcHePA4MwmmdMKBMUzBJUrxcymxx4'
+      'https://ipfs.io/ipfs/QmV2Nowzo81F6pi2qFcHePA4MwmmdMKBMUzBJUrxcymxx4'
   },
   8000: {
     name: 'Teleport',
@@ -18815,7 +18931,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdP1sLnsmW9dwnfb1GxAXU1nHDzCvWBQNumvMXpdbCSuz'
+      'https://ipfs.io/ipfs/QmdP1sLnsmW9dwnfb1GxAXU1nHDzCvWBQNumvMXpdbCSuz'
   },
   8001: {
     name: 'Teleport Testnet',
@@ -18844,7 +18960,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdP1sLnsmW9dwnfb1GxAXU1nHDzCvWBQNumvMXpdbCSuz'
+      'https://ipfs.io/ipfs/QmdP1sLnsmW9dwnfb1GxAXU1nHDzCvWBQNumvMXpdbCSuz'
   },
   8029: {
     name: 'MDGL Testnet',
@@ -18884,7 +19000,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreibqgh23s7yt7rikybybiwfivwtoh32n24scjykvgbgewo3ecbrcye'
+      'https://ipfs.io/ipfs/bafkreibqgh23s7yt7rikybybiwfivwtoh32n24scjykvgbgewo3ecbrcye'
   },
   8054: {
     name: 'Karak Sepolia',
@@ -18907,7 +19023,7 @@ export const chains: Chains = {
     ],
     parent: { type: 'L2', chain: 'eip155-11155111' },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRvHRuhfQgDRyGgt6vCoHqjZW2Dir7siowYnBpR5BRSej'
+      'https://ipfs.io/ipfs/QmRvHRuhfQgDRyGgt6vCoHqjZW2Dir7siowYnBpR5BRSej'
   },
   8080: {
     name: 'Shardeum Liberty 1.X',
@@ -18929,7 +19045,7 @@ export const chains: Chains = {
     ],
     redFlags: ['reusedChainId'],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qma1bfuubpepKn7DLDy4NPSKDeT3S4VPCNhu6UmdGrb6YD'
+      'https://ipfs.io/ipfs/Qma1bfuubpepKn7DLDy4NPSKDeT3S4VPCNhu6UmdGrb6YD'
   },
   8081: {
     name: 'Shardeum Liberty 2.X',
@@ -18951,7 +19067,7 @@ export const chains: Chains = {
     ],
     redFlags: ['reusedChainId'],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qma1bfuubpepKn7DLDy4NPSKDeT3S4VPCNhu6UmdGrb6YD'
+      'https://ipfs.io/ipfs/Qma1bfuubpepKn7DLDy4NPSKDeT3S4VPCNhu6UmdGrb6YD'
   },
   8082: {
     name: 'Shardeum Sphinx 1.X',
@@ -18973,7 +19089,7 @@ export const chains: Chains = {
     ],
     redFlags: ['reusedChainId'],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qma1bfuubpepKn7DLDy4NPSKDeT3S4VPCNhu6UmdGrb6YD'
+      'https://ipfs.io/ipfs/Qma1bfuubpepKn7DLDy4NPSKDeT3S4VPCNhu6UmdGrb6YD'
   },
   8086: {
     name: 'Bitcoin Chain',
@@ -19037,7 +19153,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
+      'https://ipfs.io/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
   },
   8132: {
     name: 'Qitmeer Network Mixnet',
@@ -19052,7 +19168,7 @@ export const chains: Chains = {
     networkId: 8132,
     status: 'incubating',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
+      'https://ipfs.io/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
   },
   8133: {
     name: 'Qitmeer Network Privnet',
@@ -19067,7 +19183,7 @@ export const chains: Chains = {
     networkId: 8133,
     status: 'incubating',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
+      'https://ipfs.io/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
   },
   8134: {
     name: 'Amana',
@@ -19082,7 +19198,7 @@ export const chains: Chains = {
     networkId: 8134,
     status: 'incubating',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
+      'https://ipfs.io/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
   },
   8135: {
     name: 'Flana',
@@ -19097,7 +19213,7 @@ export const chains: Chains = {
     networkId: 8135,
     status: 'incubating',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
+      'https://ipfs.io/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
   },
   8136: {
     name: 'Mizana',
@@ -19112,7 +19228,7 @@ export const chains: Chains = {
     networkId: 8136,
     status: 'incubating',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
+      'https://ipfs.io/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
   },
   8181: {
     name: 'Testnet BeOne Chain',
@@ -19139,7 +19255,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmbVLQnaMDu86bPyKgCvTGhFBeYwjr15hQnrCcsp1EkAGL'
+      'https://ipfs.io/ipfs/QmbVLQnaMDu86bPyKgCvTGhFBeYwjr15hQnrCcsp1EkAGL'
   },
   8192: {
     name: 'Torus Mainnet',
@@ -19161,7 +19277,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreidchntjaxmq52cuqqoalpajk5ssk4p77k7n4jgywqmkpldo5qgobm'
+      'https://ipfs.io/ipfs/bafkreidchntjaxmq52cuqqoalpajk5ssk4p77k7n4jgywqmkpldo5qgobm'
   },
   8194: {
     name: 'Torus Testnet',
@@ -19184,7 +19300,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreidchntjaxmq52cuqqoalpajk5ssk4p77k7n4jgywqmkpldo5qgobm'
+      'https://ipfs.io/ipfs/bafkreidchntjaxmq52cuqqoalpajk5ssk4p77k7n4jgywqmkpldo5qgobm'
   },
   8217: {
     name: 'Klaytn Mainnet Cypress',
@@ -19248,7 +19364,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreig3hoedafisrgc6iffdo2jcblm6kov35h72gcblc3zkmt7t4ucwhy'
+      'https://ipfs.io/ipfs/bafkreig3hoedafisrgc6iffdo2jcblm6kov35h72gcblc3zkmt7t4ucwhy'
   },
   8285: {
     name: 'KorthoTest',
@@ -19283,7 +19399,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmcwDCeZpzvRWBwtTgyEFv4tLJk6SFUb26rwsRXyJrhnP7'
+      'https://ipfs.io/ipfs/QmcwDCeZpzvRWBwtTgyEFv4tLJk6SFUb26rwsRXyJrhnP7'
   },
   8387: {
     name: 'Dracones Financial Services',
@@ -19303,7 +19419,7 @@ export const chains: Chains = {
     icon: 'dracones',
     explorers: [],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeibpyckp65pqjvrvqhdt26wqoqk55m6anshbfgyqnaemn6l34nlwya'
+      'https://ipfs.io/ipfs/bafybeibpyckp65pqjvrvqhdt26wqoqk55m6anshbfgyqnaemn6l34nlwya'
   },
   8453: {
     name: 'Base',
@@ -19340,7 +19456,7 @@ export const chains: Chains = {
     ],
     status: 'active',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmaxRoHpxZd8PqccAynherrMznMufG6sdmHZLihkECXmZv'
+      'https://ipfs.io/ipfs/QmaxRoHpxZd8PqccAynherrMznMufG6sdmHZLihkECXmZv'
   },
   8654: {
     name: 'Toki Network',
@@ -19355,7 +19471,7 @@ export const chains: Chains = {
     icon: 'toki',
     explorers: [],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmbCBBH4dFHGr8u1yQspCieQG9hLcPFNYdRx1wnVsX8hUw'
+      'https://ipfs.io/ipfs/QmbCBBH4dFHGr8u1yQspCieQG9hLcPFNYdRx1wnVsX8hUw'
   },
   8655: {
     name: 'Toki Testnet',
@@ -19371,7 +19487,7 @@ export const chains: Chains = {
     icon: 'toki',
     explorers: [],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmbCBBH4dFHGr8u1yQspCieQG9hLcPFNYdRx1wnVsX8hUw'
+      'https://ipfs.io/ipfs/QmbCBBH4dFHGr8u1yQspCieQG9hLcPFNYdRx1wnVsX8hUw'
   },
   8668: {
     name: 'Hela Official Runtime Mainnet',
@@ -19392,7 +19508,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQbUVcaxFwY8gqMq1Jeup4NEyivo12QYhbLvVRvgXRBFb'
+      'https://ipfs.io/ipfs/QmQbUVcaxFwY8gqMq1Jeup4NEyivo12QYhbLvVRvgXRBFb'
   },
   8723: {
     name: 'TOOL Global Mainnet',
@@ -19444,7 +19560,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmfN9r1S7FvzkbjqfNMdUikhHmCw5e6UqsTuRD51S8T6Cq'
+      'https://ipfs.io/ipfs/QmfN9r1S7FvzkbjqfNMdUikhHmCw5e6UqsTuRD51S8T6Cq'
   },
   8727: {
     name: 'Storagechain Testnet',
@@ -19466,7 +19582,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmfN9r1S7FvzkbjqfNMdUikhHmCw5e6UqsTuRD51S8T6Cq'
+      'https://ipfs.io/ipfs/QmfN9r1S7FvzkbjqfNMdUikhHmCw5e6UqsTuRD51S8T6Cq'
   },
   8738: {
     name: 'Alph Network',
@@ -19498,7 +19614,7 @@ export const chains: Chains = {
     chainId: 8768,
     networkId: 8768,
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmcd19ksUvNMD1XQFSC55jJhDPoF2zUzzV7woteFiugwBH'
+      'https://ipfs.io/ipfs/Qmcd19ksUvNMD1XQFSC55jJhDPoF2zUzzV7woteFiugwBH'
   },
   8822: {
     name: 'IOTA EVM',
@@ -19524,7 +19640,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreibky2sy6qhi6arktayvologkrgu5kudpgdxfkx4uosbvmstz7v4di'
+      'https://ipfs.io/ipfs/bafkreibky2sy6qhi6arktayvologkrgu5kudpgdxfkx4uosbvmstz7v4di'
   },
   8844: {
     name: 'Hydra Chain Testnet',
@@ -19534,7 +19650,7 @@ export const chains: Chains = {
     nativeCurrency: { name: 'tHydra', symbol: 'tHYDRA', decimals: 18 },
     features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
     infoURL: 'https://hydrachain.org',
-    shortName: 'thydra',
+    shortName: 'THYDRA',
     chainId: 8844,
     networkId: 8844,
     icon: 'hydra',
@@ -19547,7 +19663,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVxyUjuA8t9q3oWDgv8ExqaUXcRuDqiKrZAiLaBWHYcmG'
+      'https://ipfs.io/ipfs/QmVxyUjuA8t9q3oWDgv8ExqaUXcRuDqiKrZAiLaBWHYcmG'
   },
   8848: {
     name: 'MARO Blockchain Mainnet',
@@ -19568,7 +19684,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreig47k53aipns6nu3u5fxpysp7mogzk6zyvatgpbam7yut3yvtuefa'
+      'https://ipfs.io/ipfs/bafkreig47k53aipns6nu3u5fxpysp7mogzk6zyvatgpbam7yut3yvtuefa'
   },
   8866: {
     name: 'SuperLumio',
@@ -19589,7 +19705,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXiatdz5WBFypfsudoDsFnsLdiHzDwcD3pWcHwBovbPiZ'
+      'https://ipfs.io/ipfs/QmXiatdz5WBFypfsudoDsFnsLdiHzDwcD3pWcHwBovbPiZ'
   },
   8880: {
     name: 'Unique',
@@ -19615,7 +19731,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmbJ7CGZ2GxWMp7s6jy71UGzRsMe4w3KANKXDAExYWdaFR'
+      'https://ipfs.io/ipfs/QmbJ7CGZ2GxWMp7s6jy71UGzRsMe4w3KANKXDAExYWdaFR'
   },
   8881: {
     name: 'Quartz by Unique',
@@ -19642,7 +19758,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmaGPdccULQEFcCGxzstnmE8THfac2kSiGwvWRAiaRq4dp'
+      'https://ipfs.io/ipfs/QmaGPdccULQEFcCGxzstnmE8THfac2kSiGwvWRAiaRq4dp'
   },
   8882: {
     name: 'Opal testnet by Unique',
@@ -19669,7 +19785,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYJDpmWyjDa3H6BxweFmQXk4fU8b1GU7M9EqYcaUNvXzc'
+      'https://ipfs.io/ipfs/QmYJDpmWyjDa3H6BxweFmQXk4fU8b1GU7M9EqYcaUNvXzc'
   },
   8883: {
     name: 'Sapphire by Unique',
@@ -19695,7 +19811,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmd1PGt4cDRjFbh4ihP5QKEd4XQVwN1MkebYKdF56V74pf'
+      'https://ipfs.io/ipfs/Qmd1PGt4cDRjFbh4ihP5QKEd4XQVwN1MkebYKdF56V74pf'
   },
   8888: {
     name: 'XANAChain',
@@ -19717,7 +19833,7 @@ export const chains: Chains = {
     ],
     redFlags: ['reusedChainId'],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWGNfwJ9o2vmKD3E6fjrxpbFP8W5q45zmYzHHoXwqqAoj'
+      'https://ipfs.io/ipfs/QmWGNfwJ9o2vmKD3E6fjrxpbFP8W5q45zmYzHHoXwqqAoj'
   },
   8889: {
     name: 'Vyvo Smart Chain',
@@ -19757,7 +19873,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXszYAtQxaFCG3s9vGHoLJnqxGJw2wTKNbruTJ8iDXU7K'
+      'https://ipfs.io/ipfs/QmXszYAtQxaFCG3s9vGHoLJnqxGJw2wTKNbruTJ8iDXU7K'
   },
   8898: {
     name: 'Mammoth Mainnet',
@@ -19784,7 +19900,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmaF5gi2CbDKsJ2UchNkjBqmWjv8JEDP3vePBmxeUHiaK4'
+      'https://ipfs.io/ipfs/QmaF5gi2CbDKsJ2UchNkjBqmWjv8JEDP3vePBmxeUHiaK4'
   },
   8899: {
     name: 'JIBCHAIN L1',
@@ -19806,7 +19922,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWvTUSCcQ17mDiKg3w1X5nW3q4wZGuVsZ9vwzJ8S9oCns'
+      'https://ipfs.io/ipfs/QmWvTUSCcQ17mDiKg3w1X5nW3q4wZGuVsZ9vwzJ8S9oCns'
   },
   8911: {
     name: 'Algen',
@@ -19828,7 +19944,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdSNGv2Atdaexawc4L3uAL7dL5aDREgWwPo2HNayQbpLm'
+      'https://ipfs.io/ipfs/QmdSNGv2Atdaexawc4L3uAL7dL5aDREgWwPo2HNayQbpLm'
   },
   8912: {
     name: 'Algen Testnet',
@@ -19850,7 +19966,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdSNGv2Atdaexawc4L3uAL7dL5aDREgWwPo2HNayQbpLm'
+      'https://ipfs.io/ipfs/QmdSNGv2Atdaexawc4L3uAL7dL5aDREgWwPo2HNayQbpLm'
   },
   8921: {
     name: 'Algen Layer2',
@@ -19873,7 +19989,7 @@ export const chains: Chains = {
     ],
     parent: { chain: 'eip155-8911', type: 'shard' },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmbLWspX1WryyfhiiuPpG5A7AGBJUvwdZtVPuzZoJyxS23'
+      'https://ipfs.io/ipfs/QmbLWspX1WryyfhiiuPpG5A7AGBJUvwdZtVPuzZoJyxS23'
   },
   8922: {
     name: 'Algen Layer2 Testnet',
@@ -19896,7 +20012,7 @@ export const chains: Chains = {
     ],
     parent: { chain: 'eip155-8921', type: 'shard' },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmbLWspX1WryyfhiiuPpG5A7AGBJUvwdZtVPuzZoJyxS23'
+      'https://ipfs.io/ipfs/QmbLWspX1WryyfhiiuPpG5A7AGBJUvwdZtVPuzZoJyxS23'
   },
   8989: {
     name: 'Giant Mammoth Mainnet',
@@ -19923,7 +20039,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVth4aPeskDTFqRifUugJx6gyEHCmx2PFbMWUtsCSQFkF'
+      'https://ipfs.io/ipfs/QmVth4aPeskDTFqRifUugJx6gyEHCmx2PFbMWUtsCSQFkF'
   },
   8995: {
     name: 'bloxberg',
@@ -19962,7 +20078,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeZW6VKUFTbz7PPW8PmDR3ZHa6osYPLBFPnW8T5LSU49c'
+      'https://ipfs.io/ipfs/QmeZW6VKUFTbz7PPW8PmDR3ZHa6osYPLBFPnW8T5LSU49c'
   },
   9001: {
     name: 'Evmos',
@@ -19989,7 +20105,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeZW6VKUFTbz7PPW8PmDR3ZHa6osYPLBFPnW8T5LSU49c'
+      'https://ipfs.io/ipfs/QmeZW6VKUFTbz7PPW8PmDR3ZHa6osYPLBFPnW8T5LSU49c'
   },
   9007: {
     name: 'Shido Testnet Block',
@@ -20018,7 +20134,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreiatrf5pp7ywvrwvsv4otrex73u6v6bvhorqkxiop2hy2i572zjrba'
+      'https://ipfs.io/ipfs/bafkreiatrf5pp7ywvrwvsv4otrex73u6v6bvhorqkxiop2hy2i572zjrba'
   },
   9008: {
     name: 'Shido Mainnet Block',
@@ -20049,7 +20165,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreiatrf5pp7ywvrwvsv4otrex73u6v6bvhorqkxiop2hy2i572zjrba'
+      'https://ipfs.io/ipfs/bafkreiatrf5pp7ywvrwvsv4otrex73u6v6bvhorqkxiop2hy2i572zjrba'
   },
   9012: {
     name: 'BerylBit Mainnet',
@@ -20074,7 +20190,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeDXHkpranzqGN1BmQqZSrFp4vGXf4JfaB5iq8WHHiwDi'
+      'https://ipfs.io/ipfs/QmeDXHkpranzqGN1BmQqZSrFp4vGXf4JfaB5iq8WHHiwDi'
   },
   9024: {
     name: 'Nexa Testnet Block',
@@ -20100,7 +20216,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreib2t2lcaoh6iixrx4gjjvepws5tlsszfla5hb36b3mgyq7clve35y'
+      'https://ipfs.io/ipfs/bafkreib2t2lcaoh6iixrx4gjjvepws5tlsszfla5hb36b3mgyq7clve35y'
   },
   9025: {
     name: 'Nexa Mainnet Block',
@@ -20130,7 +20246,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreib2t2lcaoh6iixrx4gjjvepws5tlsszfla5hb36b3mgyq7clve35y'
+      'https://ipfs.io/ipfs/bafkreib2t2lcaoh6iixrx4gjjvepws5tlsszfla5hb36b3mgyq7clve35y'
   },
   9100: {
     name: 'Genesis Coin',
@@ -20158,7 +20274,7 @@ export const chains: Chains = {
     explorers: [],
     status: 'deprecated',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRnnw2gtbU9TWJMLJ6tks7SN6HQV5rRugeoyN6csTYHt1'
+      'https://ipfs.io/ipfs/QmRnnw2gtbU9TWJMLJ6tks7SN6HQV5rRugeoyN6csTYHt1'
   },
   9223: {
     name: 'Codefin Mainnet',
@@ -20179,7 +20295,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVyAuAnKKNnGEpqeYMLPRfMdysLgPBTZeEXihXbRytGhp'
+      'https://ipfs.io/ipfs/QmVyAuAnKKNnGEpqeYMLPRfMdysLgPBTZeEXihXbRytGhp'
   },
   9339: {
     name: 'Dogcoin Testnet',
@@ -20201,7 +20317,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZCadkExKThak3msvszZjo6UnAbUJKE61dAcg4TixuMC3'
+      'https://ipfs.io/ipfs/QmZCadkExKThak3msvszZjo6UnAbUJKE61dAcg4TixuMC3'
   },
   9393: {
     name: 'Dela Sepolia Testnet',
@@ -20224,7 +20340,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZQbfJfxYez8iQyVsB65y7ZTssKbgUpMXzPTEk5xGDwQB'
+      'https://ipfs.io/ipfs/QmZQbfJfxYez8iQyVsB65y7ZTssKbgUpMXzPTEk5xGDwQB'
   },
   9395: {
     name: 'Evoke Mainnet',
@@ -20245,7 +20361,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreia5q26knsvxgkwxze7woepvsqat5n2hodokh4ozzphmhexqez5s34'
+      'https://ipfs.io/ipfs/bafkreia5q26knsvxgkwxze7woepvsqat5n2hodokh4ozzphmhexqez5s34'
   },
   9527: {
     name: 'Rangers Protocol Testnet Robin',
@@ -20271,7 +20387,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXR5e5SDABWfQn6XT9uMsVYAo5Bv7vUv4jVs8DFqatZWG'
+      'https://ipfs.io/ipfs/QmXR5e5SDABWfQn6XT9uMsVYAo5Bv7vUv4jVs8DFqatZWG'
   },
   9528: {
     name: 'QEasyWeb3 Testnet',
@@ -20317,7 +20433,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmX3hBv8WyvVfYjh1gmgDfJCpJBvKk4TYG9wFX9sC8WAjz'
+      'https://ipfs.io/ipfs/QmX3hBv8WyvVfYjh1gmgDfJCpJBvKk4TYG9wFX9sC8WAjz'
   },
   9700: {
     name: 'Oort MainnetDev',
@@ -20340,7 +20456,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreidrbvklkb52sgmg7cmy42fhf7vqpig7qj7bnrq24ijdwywkzr2tfy'
+      'https://ipfs.io/ipfs/bafkreidrbvklkb52sgmg7cmy42fhf7vqpig7qj7bnrq24ijdwywkzr2tfy'
   },
   9728: {
     name: 'Boba BNB Testnet',
@@ -20393,7 +20509,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmT5gJ5weBiLT3GoYuF5yRTRLdPLCVZ3tXznfqW7M8fxgG'
+      'https://ipfs.io/ipfs/QmT5gJ5weBiLT3GoYuF5yRTRLdPLCVZ3tXznfqW7M8fxgG'
   },
   9779: {
     name: 'PepeNetwork Mainnet',
@@ -20415,7 +20531,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPX3uipdwd195z1MJff7uj8hpZdSuVvM5z47eiz2o7Gz5'
+      'https://ipfs.io/ipfs/QmPX3uipdwd195z1MJff7uj8hpZdSuVvM5z47eiz2o7Gz5'
   },
   9789: {
     name: 'Tabi Testnet',
@@ -20448,7 +20564,7 @@ export const chains: Chains = {
     networkId: 9790,
     explorers: [],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQUHqi1gyuTuKmJQHqt9EyhN1FPmmmLNUK8u93nMGrxAy'
+      'https://ipfs.io/ipfs/QmQUHqi1gyuTuKmJQHqt9EyhN1FPmmmLNUK8u93nMGrxAy'
   },
   9792: {
     name: 'Carbon EVM Testnet',
@@ -20464,7 +20580,7 @@ export const chains: Chains = {
     slip44: 1,
     explorers: [],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQUHqi1gyuTuKmJQHqt9EyhN1FPmmmLNUK8u93nMGrxAy'
+      'https://ipfs.io/ipfs/QmQUHqi1gyuTuKmJQHqt9EyhN1FPmmmLNUK8u93nMGrxAy'
   },
   9797: {
     name: 'OptimusZ7 Mainnet',
@@ -20485,7 +20601,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmerd9Q3otjDuQAFbdiQyUnZk7UfPvkCr21E5N4VCNvhbj'
+      'https://ipfs.io/ipfs/Qmerd9Q3otjDuQAFbdiQyUnZk7UfPvkCr21E5N4VCNvhbj'
   },
   9818: {
     name: 'IMPERIUM TESTNET',
@@ -20511,7 +20627,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmcNGLzKyc7Gu2dgpBFF6t3KJwFuKC79D56DW8GTc5DWRw'
+      'https://ipfs.io/ipfs/QmcNGLzKyc7Gu2dgpBFF6t3KJwFuKC79D56DW8GTc5DWRw'
   },
   9819: {
     name: 'IMPERIUM MAINNET',
@@ -20536,7 +20652,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmcNGLzKyc7Gu2dgpBFF6t3KJwFuKC79D56DW8GTc5DWRw'
+      'https://ipfs.io/ipfs/QmcNGLzKyc7Gu2dgpBFF6t3KJwFuKC79D56DW8GTc5DWRw'
   },
   9888: {
     name: 'Dogelayer Mainnet',
@@ -20578,7 +20694,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZTWoZ3LvivSinaJ4aSwqU8pCXw8oSZNnUCh4wwXxtAoQ'
+      'https://ipfs.io/ipfs/QmZTWoZ3LvivSinaJ4aSwqU8pCXw8oSZNnUCh4wwXxtAoQ'
   },
   9911: {
     name: 'Espento Mainnet',
@@ -20600,7 +20716,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVvQdmAj6GNQjP1dsxQKbA7xgzqsciooGTQtQ2RsJ37Lf'
+      'https://ipfs.io/ipfs/QmVvQdmAj6GNQjP1dsxQKbA7xgzqsciooGTQtQ2RsJ37Lf'
   },
   9977: {
     name: 'Mind Smart Chain Testnet',
@@ -20625,7 +20741,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmX2b4CzNyrNgy4ERBEteSS9MsuYNVYeq2sSMMiogGjbFP'
+      'https://ipfs.io/ipfs/QmX2b4CzNyrNgy4ERBEteSS9MsuYNVYeq2sSMMiogGjbFP'
   },
   9980: {
     name: 'Combo Mainnet',
@@ -20650,7 +20766,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRR4v6h6z21BpgS9xY3ExLB4Gkmm3i3dJWQx27oTGifq8'
+      'https://ipfs.io/ipfs/QmRR4v6h6z21BpgS9xY3ExLB4Gkmm3i3dJWQx27oTGifq8'
   },
   9990: {
     name: 'Agung Network',
@@ -20677,7 +20793,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreibkqdof3ztkdhgukwvkacwgrjb27e23hgz5c6mmudzu5hipyvgisa'
+      'https://ipfs.io/ipfs/bafkreibkqdof3ztkdhgukwvkacwgrjb27e23hgz5c6mmudzu5hipyvgisa'
   },
   9996: {
     name: 'Mind Smart Chain Mainnet',
@@ -20705,7 +20821,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmX2b4CzNyrNgy4ERBEteSS9MsuYNVYeq2sSMMiogGjbFP'
+      'https://ipfs.io/ipfs/QmX2b4CzNyrNgy4ERBEteSS9MsuYNVYeq2sSMMiogGjbFP'
   },
   9997: {
     name: 'AltLayer Testnet',
@@ -20729,7 +20845,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmcEfZJU7NMn9ycTAcEooQgGNfa2nYBToSUZHdFCFadcjb'
+      'https://ipfs.io/ipfs/QmcEfZJU7NMn9ycTAcEooQgGNfa2nYBToSUZHdFCFadcjb'
   },
   9998: {
     name: 'Ztc Mainnet',
@@ -20814,7 +20930,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPtiJGaApbW3ATZhPW3pKJpw3iGVrRGsZLWhrDKF9ZK18'
+      'https://ipfs.io/ipfs/QmPtiJGaApbW3ATZhPW3pKJpw3iGVrRGsZLWhrDKF9ZK18'
   },
   10081: {
     name: 'Japan Open Chain Testnet',
@@ -20903,7 +21019,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeidk4swpgdyqmpz6shd5onvpaujvwiwthrhypufnwr6xh3dausz2dm'
+      'https://ipfs.io/ipfs/bafybeidk4swpgdyqmpz6shd5onvpaujvwiwthrhypufnwr6xh3dausz2dm'
   },
   10201: {
     name: 'MaxxChain Mainnet',
@@ -20928,7 +21044,30 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRhQG9TZrXDdbQeTzBmjg3pqgwaD5TKVZj8k4kaz8AoZx'
+      'https://ipfs.io/ipfs/QmRhQG9TZrXDdbQeTzBmjg3pqgwaD5TKVZj8k4kaz8AoZx'
+  },
+  10222: {
+    name: 'GLScan',
+    chain: 'GLC',
+    icon: 'glc',
+    rpc: ['https://glc-dataseed.glscan.io/'],
+    faucets: [],
+    nativeCurrency: { name: 'GLC', symbol: 'GLC', decimals: 18 },
+    infoURL: 'https://glscan.io/',
+    shortName: 'glc',
+    chainId: 10222,
+    networkId: 10222,
+    slip44: 1,
+    explorers: [
+      {
+        name: 'GLScan Explorer',
+        url: 'https://glscan.io',
+        standard: 'none',
+        icon: 'glc'
+      }
+    ],
+    iconURL:
+      'https://ipfs.io/ipfs/QmTw21p6UfXVH2BCU81G2Ck28ecoknz4v9mC35fF8Z987i'
   },
   10242: {
     name: 'Arthera Mainnet',
@@ -20951,7 +21090,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYQp3e52KjkT4bYdAvB6ACEEpXs2D8DozsDitaADRY2Ak'
+      'https://ipfs.io/ipfs/QmYQp3e52KjkT4bYdAvB6ACEEpXs2D8DozsDitaADRY2Ak'
   },
   10243: {
     name: 'Arthera Testnet',
@@ -20974,7 +21113,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYQp3e52KjkT4bYdAvB6ACEEpXs2D8DozsDitaADRY2Ak'
+      'https://ipfs.io/ipfs/QmYQp3e52KjkT4bYdAvB6ACEEpXs2D8DozsDitaADRY2Ak'
   },
   10248: {
     name: '0XTade',
@@ -21013,7 +21152,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmS78hUX5zqYDqoFgyVmtWpCcx7bZW86Nhw5Nqt2GJrLh2'
+      'https://ipfs.io/ipfs/QmS78hUX5zqYDqoFgyVmtWpCcx7bZW86Nhw5Nqt2GJrLh2'
   },
   10324: {
     name: 'TAO EVM Testnet',
@@ -21034,7 +21173,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmS78hUX5zqYDqoFgyVmtWpCcx7bZW86Nhw5Nqt2GJrLh2'
+      'https://ipfs.io/ipfs/QmS78hUX5zqYDqoFgyVmtWpCcx7bZW86Nhw5Nqt2GJrLh2'
   },
   10395: {
     name: 'WorldLand Testnet',
@@ -21056,7 +21195,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYZNTfK3byhgLsTjXP8vPubVHRz2CWsBrTJxZrQmKq6JZ'
+      'https://ipfs.io/ipfs/QmYZNTfK3byhgLsTjXP8vPubVHRz2CWsBrTJxZrQmKq6JZ'
   },
   10507: {
     name: 'Numbers Mainnet',
@@ -21077,7 +21216,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreie3ba6ofosjqqiya6empkyw6u5xdrtcfzi2evvyt4u6utzeiezyhi'
+      'https://ipfs.io/ipfs/bafkreie3ba6ofosjqqiya6empkyw6u5xdrtcfzi2evvyt4u6utzeiezyhi'
   },
   10508: {
     name: 'Numbers Testnet',
@@ -21102,7 +21241,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreie3ba6ofosjqqiya6empkyw6u5xdrtcfzi2evvyt4u6utzeiezyhi'
+      'https://ipfs.io/ipfs/bafkreie3ba6ofosjqqiya6empkyw6u5xdrtcfzi2evvyt4u6utzeiezyhi'
   },
   10823: {
     name: 'CryptoCoinPay',
@@ -21126,7 +21265,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPw1ixYYeXvTiRWoCt2jWe4YMd3B5o7TzL18SBEHXvhXX'
+      'https://ipfs.io/ipfs/QmPw1ixYYeXvTiRWoCt2jWe4YMd3B5o7TzL18SBEHXvhXX'
   },
   10849: {
     name: 'Lamina1',
@@ -21192,7 +21331,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZFiYHnE4TrezPz8wSap9nMxG6m98w4fv7ataj2TfLNck'
+      'https://ipfs.io/ipfs/QmZFiYHnE4TrezPz8wSap9nMxG6m98w4fv7ataj2TfLNck'
   },
   10947: {
     name: 'Quadrans Blockchain Testnet',
@@ -21219,7 +21358,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZFiYHnE4TrezPz8wSap9nMxG6m98w4fv7ataj2TfLNck'
+      'https://ipfs.io/ipfs/QmZFiYHnE4TrezPz8wSap9nMxG6m98w4fv7ataj2TfLNck'
   },
   11110: {
     name: 'Astra',
@@ -21247,7 +21386,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmaBtaukPNNUNjdJSUAwuFFQMLbZX1Pc3fvXKTKQcds7Kf'
+      'https://ipfs.io/ipfs/QmaBtaukPNNUNjdJSUAwuFFQMLbZX1Pc3fvXKTKQcds7Kf'
   },
   11111: {
     name: 'WAGMI',
@@ -21268,7 +21407,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNoyUXxnak8B3xgFxErkVfyVEPJUMHBzq7qJcYzkUrPR4'
+      'https://ipfs.io/ipfs/QmNoyUXxnak8B3xgFxErkVfyVEPJUMHBzq7qJcYzkUrPR4'
   },
   11115: {
     name: 'Astra Testnet',
@@ -21297,7 +21436,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmaBtaukPNNUNjdJSUAwuFFQMLbZX1Pc3fvXKTKQcds7Kf'
+      'https://ipfs.io/ipfs/QmaBtaukPNNUNjdJSUAwuFFQMLbZX1Pc3fvXKTKQcds7Kf'
   },
   11119: {
     name: 'HashBit Mainnet',
@@ -21341,7 +21480,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmUBkpY3prCTZHpx1fjrYLAJ6dPaGvNVTj97iy6p3NPUi1'
+      'https://ipfs.io/ipfs/QmUBkpY3prCTZHpx1fjrYLAJ6dPaGvNVTj97iy6p3NPUi1'
   },
   11227: {
     name: 'Jiritsu Testnet Subnet',
@@ -21410,7 +21549,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmUkFZC2ZmoYPTKf7AHdjwRPZoV2h1MCuHaGM4iu8SNFpi'
+      'https://ipfs.io/ipfs/QmUkFZC2ZmoYPTKf7AHdjwRPZoV2h1MCuHaGM4iu8SNFpi'
   },
   11501: {
     name: 'BEVM Mainnet',
@@ -21431,7 +21570,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmfMXiYn4xF9JwdjaqM5YKhqoByox51XvnL68VvKJS6yyu'
+      'https://ipfs.io/ipfs/QmfMXiYn4xF9JwdjaqM5YKhqoByox51XvnL68VvKJS6yyu'
   },
   11503: {
     name: 'BEVM Testnet',
@@ -21452,7 +21591,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmfMXiYn4xF9JwdjaqM5YKhqoByox51XvnL68VvKJS6yyu'
+      'https://ipfs.io/ipfs/QmfMXiYn4xF9JwdjaqM5YKhqoByox51XvnL68VvKJS6yyu'
   },
   11612: {
     name: 'Sardis Testnet',
@@ -21474,16 +21613,17 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdR9QJjQEh1mBnf2WbJfehverxiP5RDPWMtEECbDP2rc3'
+      'https://ipfs.io/ipfs/QmdR9QJjQEh1mBnf2WbJfehverxiP5RDPWMtEECbDP2rc3'
   },
   11888: {
-    name: 'Santiment Intelligence Network',
-    chain: 'Santiment Intelligence Network',
+    status: 'deprecated',
+    name: 'Santiment Intelligence Network DEPRECATED',
+    chain: 'Santiment Intelligence Network DEPRECATED',
     rpc: ['https://sanrchain-node.santiment.net'],
     faucets: [],
-    nativeCurrency: { name: 'SANR', symbol: 'SANR', decimals: 18 },
+    nativeCurrency: { name: 'SANold', symbol: 'SANold', decimals: 18 },
     infoURL: 'https://sanr.app',
-    shortName: 'SAN',
+    shortName: 'SANold',
     chainId: 11888,
     networkId: 11888,
     icon: 'sanrchain',
@@ -21500,7 +21640,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPLMg5mYD8XRknvYbDkD2x7FXxYan7MPTeUWZC2CihwDM'
+      'https://ipfs.io/ipfs/QmPLMg5mYD8XRknvYbDkD2x7FXxYan7MPTeUWZC2CihwDM'
   },
   11891: {
     name: 'Polygon Supernet Arianee',
@@ -21540,7 +21680,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRegpZQBW4o1imYNsW3d27MQjygBSU23Gf6JKje26nvs7'
+      'https://ipfs.io/ipfs/QmRegpZQBW4o1imYNsW3d27MQjygBSU23Gf6JKje26nvs7'
   },
   12020: {
     name: 'Aternos',
@@ -21562,7 +21702,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmUgfhv3rEsS6t9g6Lsf3TJ1mbnJqBrb8YUFPDiNG59QvT'
+      'https://ipfs.io/ipfs/QmUgfhv3rEsS6t9g6Lsf3TJ1mbnJqBrb8YUFPDiNG59QvT'
   },
   12051: {
     name: 'Singularity ZERO Testnet',
@@ -21625,7 +21765,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmX8qGX7xoZqYUpHxA85uZwQX2fgbTHvmddE1NfseDyBED'
+      'https://ipfs.io/ipfs/QmX8qGX7xoZqYUpHxA85uZwQX2fgbTHvmddE1NfseDyBED'
   },
   12306: {
     name: 'Fibonacci Mainnet',
@@ -21665,7 +21805,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreidiedaz3jugxmh2ylzlc4nympbd5iwab33adhwkcnblyop6vvj25y'
+      'https://ipfs.io/ipfs/bafkreidiedaz3jugxmh2ylzlc4nympbd5iwab33adhwkcnblyop6vvj25y'
   },
   12321: {
     name: 'BLG Testnet',
@@ -21680,7 +21820,7 @@ export const chains: Chains = {
     networkId: 12321,
     slip44: 1,
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmUN5j2cre8GHKv52JE8ag88aAnRmuHMGFxePPvKMogisC'
+      'https://ipfs.io/ipfs/QmUN5j2cre8GHKv52JE8ag88aAnRmuHMGFxePPvKMogisC'
   },
   12324: {
     name: 'L3X Protocol',
@@ -21706,7 +21846,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://bridge.arbitrum.io' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmf1cim2ZvkgszKiFtmZj3K1z2YgVY7A4VtLkWw8kQxijq'
+      'https://ipfs.io/ipfs/Qmf1cim2ZvkgszKiFtmZj3K1z2YgVY7A4VtLkWw8kQxijq'
   },
   12325: {
     name: 'L3X Protocol Testnet',
@@ -21732,7 +21872,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://bridge.arbitrum.io' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmf1cim2ZvkgszKiFtmZj3K1z2YgVY7A4VtLkWw8kQxijq'
+      'https://ipfs.io/ipfs/Qmf1cim2ZvkgszKiFtmZj3K1z2YgVY7A4VtLkWw8kQxijq'
   },
   12345: {
     name: 'Step Testnet',
@@ -21757,7 +21897,7 @@ export const chains: Chains = {
     ],
     parent: { type: 'L2', chain: 'eip155-43113' },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVp9jyb3UFW71867yVtymmiRw7dPY4BTnsp3hEjr9tn8L'
+      'https://ipfs.io/ipfs/QmVp9jyb3UFW71867yVtymmiRw7dPY4BTnsp3hEjr9tn8L'
   },
   12553: {
     name: 'RSS3 VSL Mainnet',
@@ -21783,7 +21923,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://explorer.rss3.io/bridge' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZFWYnufi6G2Z54oJ25sx2yf2Skx5tseJHJJa6Hc1G34t'
+      'https://ipfs.io/ipfs/QmZFWYnufi6G2Z54oJ25sx2yf2Skx5tseJHJJa6Hc1G34t'
   },
   12715: {
     name: 'Rikeza Network Testnet',
@@ -21806,7 +21946,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmfJ1Qxpzi6CSLeFeWY1Bwe435CpT5za5WfrLUE7vNzZfy'
+      'https://ipfs.io/ipfs/QmfJ1Qxpzi6CSLeFeWY1Bwe435CpT5za5WfrLUE7vNzZfy'
   },
   12781: {
     name: 'Playdapp Testnet',
@@ -21828,7 +21968,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmY6AkNb5TYrDbM5M7YpSM8X3aYn2LcPXeLXz6F7WoB27r'
+      'https://ipfs.io/ipfs/QmY6AkNb5TYrDbM5M7YpSM8X3aYn2LcPXeLXz6F7WoB27r'
   },
   12890: {
     name: 'Quantum Chain Testnet',
@@ -21850,7 +21990,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreibwywok67uewqbtqdzgr7nlk3lvvg7hxmbgwtn7kdwxe34useucvm'
+      'https://ipfs.io/ipfs/bafkreibwywok67uewqbtqdzgr7nlk3lvvg7hxmbgwtn7kdwxe34useucvm'
   },
   12898: {
     name: 'PlayFair Testnet Subnet',
@@ -21873,7 +22013,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNvoUp2RWiWQzHUKrZ7SnPzwF3FbCNd3jSdpGJhQdH1y5'
+      'https://ipfs.io/ipfs/QmNvoUp2RWiWQzHUKrZ7SnPzwF3FbCNd3jSdpGJhQdH1y5'
   },
   13000: {
     name: 'SPS',
@@ -21914,7 +22054,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreifbso3gd4wu5wxl27xyurxctmuae2jyuy37guqtzx23nga6ba4ag4'
+      'https://ipfs.io/ipfs/bafkreifbso3gd4wu5wxl27xyurxctmuae2jyuy37guqtzx23nga6ba4ag4'
   },
   13337: {
     name: 'Beam Testnet',
@@ -21945,7 +22085,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQJ21NWyGGDraicVEzS1Uqq1yXahM9NCuNZgnfYvtspdt'
+      'https://ipfs.io/ipfs/QmQJ21NWyGGDraicVEzS1Uqq1yXahM9NCuNZgnfYvtspdt'
   },
   13371: {
     name: 'Immutable zkEVM',
@@ -21971,7 +22111,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXFUYFW4e6wifbU9LKVq7owM14bnE6ZbbYq3bn1jBP3Mw'
+      'https://ipfs.io/ipfs/QmXFUYFW4e6wifbU9LKVq7owM14bnE6ZbbYq3bn1jBP3Mw'
   },
   13381: {
     name: 'Phoenix Mainnet',
@@ -21992,7 +22132,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYiLMeKDXMSNuQmtxNdxm53xR588pcRXMf7zuiZLjQnc6'
+      'https://ipfs.io/ipfs/QmYiLMeKDXMSNuQmtxNdxm53xR588pcRXMf7zuiZLjQnc6'
   },
   13396: {
     name: 'Masa',
@@ -22014,7 +22154,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmV4f9byENNduHgLi8o1pC1sBNe3QAege2NnFkqGkTKojT'
+      'https://ipfs.io/ipfs/QmV4f9byENNduHgLi8o1pC1sBNe3QAege2NnFkqGkTKojT'
   },
   13473: {
     name: 'Immutable zkEVM Testnet',
@@ -22041,7 +22181,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXFUYFW4e6wifbU9LKVq7owM14bnE6ZbbYq3bn1jBP3Mw'
+      'https://ipfs.io/ipfs/QmXFUYFW4e6wifbU9LKVq7owM14bnE6ZbbYq3bn1jBP3Mw'
   },
   13505: {
     name: 'Gravity Alpha Testnet Sepolia',
@@ -22064,7 +22204,7 @@ export const chains: Chains = {
     ],
     parent: { type: 'L2', chain: 'eip155-11155111', bridges: [] },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmU5XU4S5oaGM5fj8oU1ovhWoXCzGWspwRj2zWRTuJrU4k'
+      'https://ipfs.io/ipfs/QmU5XU4S5oaGM5fj8oU1ovhWoXCzGWspwRj2zWRTuJrU4k'
   },
   13600: {
     name: 'Kronobit Mainnet',
@@ -22087,7 +22227,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZEuR4bJaZkC497qQnsxHv23pZFcXb9dTdaDPCPo2sj9Z'
+      'https://ipfs.io/ipfs/QmZEuR4bJaZkC497qQnsxHv23pZFcXb9dTdaDPCPo2sj9Z'
   },
   13812: {
     name: 'Susono',
@@ -22147,7 +22287,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVxtpYYzc5214CB7BgsMC4mRNRHCD8fpbNMzZguBWyRwa'
+      'https://ipfs.io/ipfs/QmVxtpYYzc5214CB7BgsMC4mRNRHCD8fpbNMzZguBWyRwa'
   },
   14333: {
     name: 'Vitruveo Testnet',
@@ -22175,7 +22315,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreidjhjv7uu7if745ys7ari3ka75spm2hqyr5po66sbe7kqsfk7ahua'
+      'https://ipfs.io/ipfs/bafkreidjhjv7uu7if745ys7ari3ka75spm2hqyr5po66sbe7kqsfk7ahua'
   },
   14853: {
     name: 'Humanode Testnet 5 Israfel',
@@ -22191,7 +22331,7 @@ export const chains: Chains = {
     icon: 'humanode',
     explorers: [],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeihuskzfwqogwvutaxil6sztmvpiavzbrzwjwpn6w2i4j3jysbybra'
+      'https://ipfs.io/ipfs/bafybeihuskzfwqogwvutaxil6sztmvpiavzbrzwjwpn6w2i4j3jysbybra'
   },
   15003: {
     name: 'Immutable zkEVM Devnet',
@@ -22213,7 +22353,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXFUYFW4e6wifbU9LKVq7owM14bnE6ZbbYq3bn1jBP3Mw'
+      'https://ipfs.io/ipfs/QmXFUYFW4e6wifbU9LKVq7owM14bnE6ZbbYq3bn1jBP3Mw'
   },
   15257: {
     name: 'Poodl Testnet',
@@ -22234,7 +22374,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXfBFHHb5kJGQ3dMLnhDhfFBsgAvm9U72jBSYcfmRHL2p'
+      'https://ipfs.io/ipfs/QmXfBFHHb5kJGQ3dMLnhDhfFBsgAvm9U72jBSYcfmRHL2p'
   },
   15259: {
     name: 'Poodl Mainnet',
@@ -22255,7 +22395,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXfBFHHb5kJGQ3dMLnhDhfFBsgAvm9U72jBSYcfmRHL2p'
+      'https://ipfs.io/ipfs/QmXfBFHHb5kJGQ3dMLnhDhfFBsgAvm9U72jBSYcfmRHL2p'
   },
   15551: {
     name: 'LoopNetwork Mainnet',
@@ -22319,7 +22459,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://bridge.testnet.evm.eosnetwork.com' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXkK5D5GWizvY1FmL6pV8cYLAbhehKETubktCgh6qDJZb'
+      'https://ipfs.io/ipfs/QmXkK5D5GWizvY1FmL6pV8cYLAbhehKETubktCgh6qDJZb'
   },
   16000: {
     name: 'MetaDot Mainnet',
@@ -22369,7 +22509,7 @@ export const chains: Chains = {
     ],
     parent: { type: 'L2', chain: 'eip155-248' },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmaSqPELi11UepS3odwHyiwfUPkLBnE4WP4zNkwumHoPmw'
+      'https://ipfs.io/ipfs/QmaSqPELi11UepS3odwHyiwfUPkLBnE4WP4zNkwumHoPmw'
   },
   16507: {
     name: 'Genesys Mainnet',
@@ -22390,7 +22530,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreie6nai3yhykcdlsyshn5lbcbyba5y7zwsqg6owcfek2urhoucr6rm'
+      'https://ipfs.io/ipfs/bafkreie6nai3yhykcdlsyshn5lbcbyba5y7zwsqg6owcfek2urhoucr6rm'
   },
   16688: {
     name: 'IRIShub Testnet',
@@ -22414,7 +22554,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRaSx7AX1VDgcqjwLgSDP4WZmKBHPdHhbjkcEEXPA2Fnc'
+      'https://ipfs.io/ipfs/QmRaSx7AX1VDgcqjwLgSDP4WZmKBHPdHhbjkcEEXPA2Fnc'
   },
   16718: {
     name: 'AirDAO Mainnet',
@@ -22435,7 +22575,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSxXjvWng3Diz4YwXDV2VqSPgMyzLYBNfkjJcr7rzkxom'
+      'https://ipfs.io/ipfs/QmSxXjvWng3Diz4YwXDV2VqSPgMyzLYBNfkjJcr7rzkxom'
   },
   16888: {
     name: 'IVAR Chain Testnet',
@@ -22457,7 +22597,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmV8UmSwqGF2fxrqVEBTHbkyZueahqyYtkfH2RBF5pNysM'
+      'https://ipfs.io/ipfs/QmV8UmSwqGF2fxrqVEBTHbkyZueahqyYtkfH2RBF5pNysM'
   },
   17000: {
     name: 'Holesky',
@@ -22504,7 +22644,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdwQDr6vmBtXmK2TmknkEuZNoaDqTasFdZdu3DRw8b2wt'
+      'https://ipfs.io/ipfs/QmdwQDr6vmBtXmK2TmknkEuZNoaDqTasFdZdu3DRw8b2wt'
   },
   17001: {
     name: 'Redstone Holesky Testnet',
@@ -22532,7 +22672,7 @@ export const chains: Chains = {
     ],
     status: 'deprecated',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreieyaqgkgntvxuo5tnhgseladga5q6gutc37dab7kqqfdguhq7vkxq'
+      'https://ipfs.io/ipfs/bafkreieyaqgkgntvxuo5tnhgseladga5q6gutc37dab7kqqfdguhq7vkxq'
   },
   17069: {
     name: 'Garnet Holesky',
@@ -22559,7 +22699,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://garnetchain.com/deposit' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWhHvjbjTiNNsHKpbEz9rxSt4CCL2Q5xVZjk8eQkp82B9'
+      'https://ipfs.io/ipfs/QmWhHvjbjTiNNsHKpbEz9rxSt4CCL2Q5xVZjk8eQkp82B9'
   },
   17117: {
     name: 'DeFiVerse Testnet',
@@ -22581,7 +22721,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmaSqPELi11UepS3odwHyiwfUPkLBnE4WP4zNkwumHoPmw'
+      'https://ipfs.io/ipfs/QmaSqPELi11UepS3odwHyiwfUPkLBnE4WP4zNkwumHoPmw'
   },
   17171: {
     name: 'G8Chain Mainnet',
@@ -22602,7 +22742,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmbkCVC5vZpVAfq8SuPXR9PhpTRS2m8w6LGqBkhXAvmie6'
+      'https://ipfs.io/ipfs/QmbkCVC5vZpVAfq8SuPXR9PhpTRS2m8w6LGqBkhXAvmie6'
   },
   17172: {
     name: 'Eclipse Subnet',
@@ -22645,7 +22785,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPCEGZD1p1keTT2YfPp725azx1r9Ci41hejeUuGL2whFA'
+      'https://ipfs.io/ipfs/QmPCEGZD1p1keTT2YfPp725azx1r9Ci41hejeUuGL2whFA'
   },
   17217: {
     name: 'KONET Mainnet',
@@ -22667,7 +22807,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSszu2AhLPgcp8SZYiBYCQiRVwb9ueqbnGbcTx9H9CJjZ'
+      'https://ipfs.io/ipfs/QmSszu2AhLPgcp8SZYiBYCQiRVwb9ueqbnGbcTx9H9CJjZ'
   },
   17777: {
     name: 'EOS EVM Network',
@@ -22696,7 +22836,7 @@ export const chains: Chains = {
       ]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXkK5D5GWizvY1FmL6pV8cYLAbhehKETubktCgh6qDJZb'
+      'https://ipfs.io/ipfs/QmXkK5D5GWizvY1FmL6pV8cYLAbhehKETubktCgh6qDJZb'
   },
   18000: {
     name: 'Frontier of Dreams Testnet',
@@ -22737,7 +22877,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRgZVpjik4cH3Sb6wLRpdnfv9kiMEZ8fugfkzTgk3bpRW'
+      'https://ipfs.io/ipfs/QmRgZVpjik4cH3Sb6wLRpdnfv9kiMEZ8fugfkzTgk3bpRW'
   },
   18159: {
     name: 'Proof Of Memes',
@@ -22764,7 +22904,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmePhfibWz9jnGUqF9Rven4x734br1h3LxrChYTEjbbQvo'
+      'https://ipfs.io/ipfs/QmePhfibWz9jnGUqF9Rven4x734br1h3LxrChYTEjbbQvo'
   },
   18181: {
     name: 'G8Chain Testnet',
@@ -22786,7 +22926,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmbkCVC5vZpVAfq8SuPXR9PhpTRS2m8w6LGqBkhXAvmie6'
+      'https://ipfs.io/ipfs/QmbkCVC5vZpVAfq8SuPXR9PhpTRS2m8w6LGqBkhXAvmie6'
   },
   18231: {
     name: 'unreal-old',
@@ -22815,7 +22955,7 @@ export const chains: Chains = {
     parent: { type: 'L2', chain: 'eip155-11155111', bridges: [] },
     status: 'deprecated',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZbtoK9Q1DHTHjsgPUfHkzb9xdWzrSfPwPQ8M8FPu84mA'
+      'https://ipfs.io/ipfs/QmZbtoK9Q1DHTHjsgPUfHkzb9xdWzrSfPwPQ8M8FPu84mA'
   },
   18233: {
     name: 'unreal',
@@ -22847,7 +22987,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://bridge.gelato.network/bridge/unreal' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZbtoK9Q1DHTHjsgPUfHkzb9xdWzrSfPwPQ8M8FPu84mA'
+      'https://ipfs.io/ipfs/QmZbtoK9Q1DHTHjsgPUfHkzb9xdWzrSfPwPQ8M8FPu84mA'
   },
   18686: {
     name: 'MXC zkEVM Moonchain',
@@ -22872,7 +23012,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdGCthKA11K9kCZJdbTP5WPAyq1wiRZ3REn6KG58MrWaE'
+      'https://ipfs.io/ipfs/QmdGCthKA11K9kCZJdbTP5WPAyq1wiRZ3REn6KG58MrWaE'
   },
   18888: {
     name: 'Titan (TKX)',
@@ -22900,7 +23040,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreicyvc7t55zsejv6vwaxbmhvea5vdfkkbgqkmn65rhyyifpg3mq3ua'
+      'https://ipfs.io/ipfs/bafkreicyvc7t55zsejv6vwaxbmhvea5vdfkkbgqkmn65rhyyifpg3mq3ua'
   },
   18889: {
     name: 'Titan (TKX) Testnet',
@@ -22927,7 +23067,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreicyvc7t55zsejv6vwaxbmhvea5vdfkkbgqkmn65rhyyifpg3mq3ua'
+      'https://ipfs.io/ipfs/bafkreicyvc7t55zsejv6vwaxbmhvea5vdfkkbgqkmn65rhyyifpg3mq3ua'
   },
   19011: {
     name: 'HOME Verse Mainnet',
@@ -22949,7 +23089,7 @@ export const chains: Chains = {
     ],
     parent: { type: 'L2', chain: 'eip155-248' },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeGb65zSworzoHmwK3jdkPtEsQZMUSJRxf8K8Feg56soU'
+      'https://ipfs.io/ipfs/QmeGb65zSworzoHmwK3jdkPtEsQZMUSJRxf8K8Feg56soU'
   },
   19224: {
     name: 'Decentraconnect Social',
@@ -22974,7 +23114,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmatvJXLgMthjXwydGBVFRtga9fZXJ3qFEVJ6cMRxniFUc'
+      'https://ipfs.io/ipfs/QmatvJXLgMthjXwydGBVFRtga9fZXJ3qFEVJ6cMRxniFUc'
   },
   19527: {
     name: 'Magnet Network',
@@ -23010,7 +23150,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmUoSiFWaPTbVY6ZfJswzrM9jKuhfhXWwstRo49cVCWr8x'
+      'https://ipfs.io/ipfs/QmUoSiFWaPTbVY6ZfJswzrM9jKuhfhXWwstRo49cVCWr8x'
   },
   19845: {
     name: 'BTCIX Network',
@@ -23049,7 +23189,7 @@ export const chains: Chains = {
     ],
     infoURL: 'https://www.camelark.com',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeJerrsURFNt2LL7DE7TxeunjrQXiuezdfHyqmsbwX3MZ'
+      'https://ipfs.io/ipfs/QmeJerrsURFNt2LL7DE7TxeunjrQXiuezdfHyqmsbwX3MZ'
   },
   20041: {
     name: 'Niza Chain Mainnet',
@@ -23070,7 +23210,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPh2FdjoPWBaCKNrknv6HjruxdUCr8AvJYvhpgHZP6e2C'
+      'https://ipfs.io/ipfs/QmPh2FdjoPWBaCKNrknv6HjruxdUCr8AvJYvhpgHZP6e2C'
   },
   20073: {
     name: 'Niza Chain Testnet',
@@ -23091,7 +23231,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPh2FdjoPWBaCKNrknv6HjruxdUCr8AvJYvhpgHZP6e2C'
+      'https://ipfs.io/ipfs/QmPh2FdjoPWBaCKNrknv6HjruxdUCr8AvJYvhpgHZP6e2C'
   },
   20729: {
     name: 'Callisto Testnet',
@@ -23125,7 +23265,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreieiro4imoujeewc4r4thf5hxj47l56j2iwuz6d6pdj6ieb6ub3h7e'
+      'https://ipfs.io/ipfs/bafkreieiro4imoujeewc4r4thf5hxj47l56j2iwuz6d6pdj6ieb6ub3h7e'
   },
   20765: {
     name: 'Jono11 Subnet',
@@ -23147,7 +23287,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreievzx4ke62dtc77o47x7vs7nn67ghzrwku6h5dxo3hwcsqfeblke4'
+      'https://ipfs.io/ipfs/bafkreievzx4ke62dtc77o47x7vs7nn67ghzrwku6h5dxo3hwcsqfeblke4'
   },
   21004: {
     name: 'C4EI',
@@ -23206,7 +23346,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmezBwVepoegoCqb86idzPgvPxtaSuXzMLBGiiYfyTGTkc'
+      'https://ipfs.io/ipfs/QmezBwVepoegoCqb86idzPgvPxtaSuXzMLBGiiYfyTGTkc'
   },
   21224: {
     name: 'DCpay Testnet',
@@ -23227,7 +23367,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmezBwVepoegoCqb86idzPgvPxtaSuXzMLBGiiYfyTGTkc'
+      'https://ipfs.io/ipfs/QmezBwVepoegoCqb86idzPgvPxtaSuXzMLBGiiYfyTGTkc'
   },
   21337: {
     name: 'CENNZnet Azalea',
@@ -23248,7 +23388,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWhNm7tTi6SYbiumULDRk956hxgqaZSX77vcxBNn8fvnw'
+      'https://ipfs.io/ipfs/QmWhNm7tTi6SYbiumULDRk956hxgqaZSX77vcxBNn8fvnw'
   },
   21816: {
     name: 'omChain Mainnet',
@@ -23269,7 +23409,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQtEHaejiDbmiCvbBYw9jNQv3DLK5XHCQwLRfnLNpdN5j'
+      'https://ipfs.io/ipfs/QmQtEHaejiDbmiCvbBYw9jNQv3DLK5XHCQwLRfnLNpdN5j'
   },
   21912: {
     name: 'BSL Mainnet',
@@ -23318,7 +23458,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreidvjcc73v747lqlyrhgbnkvkdepdvepo6baj6hmjsmjtvdyhmzzmq'
+      'https://ipfs.io/ipfs/bafkreidvjcc73v747lqlyrhgbnkvkdepdvepo6baj6hmjsmjtvdyhmzzmq'
   },
   22040: {
     name: 'AirDAO Testnet',
@@ -23340,7 +23480,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSxXjvWng3Diz4YwXDV2VqSPgMyzLYBNfkjJcr7rzkxom'
+      'https://ipfs.io/ipfs/QmSxXjvWng3Diz4YwXDV2VqSPgMyzLYBNfkjJcr7rzkxom'
   },
   22222: {
     name: 'Nautilus Mainnet',
@@ -23362,7 +23502,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNutSgM7n6aJPPDiofe9Dm1epy1RcYTMvugukLUK2vmPM'
+      'https://ipfs.io/ipfs/QmNutSgM7n6aJPPDiofe9Dm1epy1RcYTMvugukLUK2vmPM'
   },
   22324: {
     name: 'GoldXChain Testnet',
@@ -23402,7 +23542,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmcLdQ8gM4iHv3CCKA9HuxmzTxY4WhjWtepUVCc3dpzKxD'
+      'https://ipfs.io/ipfs/QmcLdQ8gM4iHv3CCKA9HuxmzTxY4WhjWtepUVCc3dpzKxD'
   },
   23006: {
     name: 'Antofy Testnet',
@@ -23424,7 +23564,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdTfku81ohnG9ECU1Xswmeumt678cBhwHWuFYZ7i1Qsto'
+      'https://ipfs.io/ipfs/QmdTfku81ohnG9ECU1Xswmeumt678cBhwHWuFYZ7i1Qsto'
   },
   23118: {
     name: 'Opside Testnet',
@@ -23446,7 +23586,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeCyZeibUoHNoYGzy1GkzH2uhxyRHKvH51PdaUMer4VTo'
+      'https://ipfs.io/ipfs/QmeCyZeibUoHNoYGzy1GkzH2uhxyRHKvH51PdaUMer4VTo'
   },
   23294: {
     name: 'Oasis Sapphire',
@@ -23467,7 +23607,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreiespupb52akiwrexxg7g72mh7m7h7lum5hmqijmpdh3kmuunzclha'
+      'https://ipfs.io/ipfs/bafkreiespupb52akiwrexxg7g72mh7m7h7lum5hmqijmpdh3kmuunzclha'
   },
   23295: {
     name: 'Oasis Sapphire Testnet',
@@ -23496,7 +23636,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreiespupb52akiwrexxg7g72mh7m7h7lum5hmqijmpdh3kmuunzclha'
+      'https://ipfs.io/ipfs/bafkreiespupb52akiwrexxg7g72mh7m7h7lum5hmqijmpdh3kmuunzclha'
   },
   23451: {
     name: 'DreyerX Mainnet',
@@ -23518,7 +23658,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTGjVbiSdHYhjzpeqzY6fGwGiLQuEa2hW7irD75sUSx9e'
+      'https://ipfs.io/ipfs/QmTGjVbiSdHYhjzpeqzY6fGwGiLQuEa2hW7irD75sUSx9e'
   },
   23452: {
     name: 'DreyerX Testnet',
@@ -23540,7 +23680,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTGjVbiSdHYhjzpeqzY6fGwGiLQuEa2hW7irD75sUSx9e'
+      'https://ipfs.io/ipfs/QmTGjVbiSdHYhjzpeqzY6fGwGiLQuEa2hW7irD75sUSx9e'
   },
   23888: {
     name: 'Blast Testnet',
@@ -23561,7 +23701,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdHpjiepU2Q4bt4kR48tKHPgaQW57Sb6UVFgLh4MCyg6U'
+      'https://ipfs.io/ipfs/QmdHpjiepU2Q4bt4kR48tKHPgaQW57Sb6UVFgLh4MCyg6U'
   },
   24484: {
     name: 'Webchain',
@@ -23605,7 +23745,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreiayuuzfpcgwjll4us4hquvpqa5gwq3lbiedv4qftmlwcxhcyjzzpq'
+      'https://ipfs.io/ipfs/bafkreiayuuzfpcgwjll4us4hquvpqa5gwq3lbiedv4qftmlwcxhcyjzzpq'
   },
   25839: {
     name: 'AlveyChain Testnet',
@@ -23627,7 +23767,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTuY2Goyxpuy5GmA32EMYZBwxRcGsahiMFgfeBixSk7rb'
+      'https://ipfs.io/ipfs/QmTuY2Goyxpuy5GmA32EMYZBwxRcGsahiMFgfeBixSk7rb'
   },
   25888: {
     name: 'Hammer Chain Mainnet',
@@ -23671,7 +23811,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYFYwyquipwc9gURQGcEd4iAq7pq15chQrJ3zJJe9HuFT'
+      'https://ipfs.io/ipfs/QmYFYwyquipwc9gURQGcEd4iAq7pq15chQrJ3zJJe9HuFT'
   },
   26026: {
     name: 'Ferrum Testnet',
@@ -23715,7 +23855,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmf3GYbPXmTDpSP6t7Ug2j5HjEwrY5oGhBDP7d4TQHvGnG'
+      'https://ipfs.io/ipfs/Qmf3GYbPXmTDpSP6t7Ug2j5HjEwrY5oGhBDP7d4TQHvGnG'
   },
   26863: {
     name: 'OasisChain Mainnet',
@@ -23763,7 +23903,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmW26eoxJeyUfikZ4DUT1Gfk78sBkvydEo8QzHa1BXjUUL'
+      'https://ipfs.io/ipfs/QmW26eoxJeyUfikZ4DUT1Gfk78sBkvydEo8QzHa1BXjUUL'
   },
   27483: {
     name: 'Nanon Sepolia',
@@ -23791,7 +23931,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://sepolia-bridge.nanon.network' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeiduib2fygrwziqpy4yuqr6vvnd6elhahpigbcowcipjjhk6c3qiny'
+      'https://ipfs.io/ipfs/bafybeiduib2fygrwziqpy4yuqr6vvnd6elhahpigbcowcipjjhk6c3qiny'
   },
   27827: {
     name: 'zeroone Mainnet Subnet',
@@ -23833,7 +23973,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPgpWfGsAZ5UHekWFR8rioadVe3Wox8idFyeVxuv9N4Vo'
+      'https://ipfs.io/ipfs/QmPgpWfGsAZ5UHekWFR8rioadVe3Wox8idFyeVxuv9N4Vo'
   },
   28518: {
     name: 'Vizing Mainnet',
@@ -23861,7 +24001,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://bridge.vizing.com' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPgpWfGsAZ5UHekWFR8rioadVe3Wox8idFyeVxuv9N4Vo'
+      'https://ipfs.io/ipfs/QmPgpWfGsAZ5UHekWFR8rioadVe3Wox8idFyeVxuv9N4Vo'
   },
   28528: {
     name: 'Optimism Bedrock (Goerli Alpha Testnet)',
@@ -23937,7 +24077,7 @@ export const chains: Chains = {
     ],
     parent: { type: 'L2', chain: 'eip155-58008', bridges: [] },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmcSJmAfk3iay6uCGJxgUPd9pTsRxbtF4BrNnC5txE9cg8'
+      'https://ipfs.io/ipfs/QmcSJmAfk3iay6uCGJxgUPd9pTsRxbtF4BrNnC5txE9cg8'
   },
   29536: {
     name: 'KaiChain Testnet',
@@ -23981,7 +24121,7 @@ export const chains: Chains = {
     ],
     parent: { type: 'L2', chain: 'eip155-248' },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZZnwR1y6cU1sare2TQmwqkNDLXQxD4GdPrmHLmUoPtbU'
+      'https://ipfs.io/ipfs/QmZZnwR1y6cU1sare2TQmwqkNDLXQxD4GdPrmHLmUoPtbU'
   },
   30067: {
     name: 'Piece testnet',
@@ -24003,7 +24143,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWAU39z1kcYshAqkENRH8qUjfR5CJehCxA4GiC33p3HpH'
+      'https://ipfs.io/ipfs/QmWAU39z1kcYshAqkENRH8qUjfR5CJehCxA4GiC33p3HpH'
   },
   30088: {
     name: 'MiYou Mainnet',
@@ -24027,7 +24167,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmfP1QDK42B7EzYWsYN2PGfjkZUQtSjm1k5gNNT52ixsKL'
+      'https://ipfs.io/ipfs/QmfP1QDK42B7EzYWsYN2PGfjkZUQtSjm1k5gNNT52ixsKL'
   },
   30103: {
     name: 'Cerium Testnet',
@@ -24049,7 +24189,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXHSbtVNCJVfe2CvRH7njdyf2SrX5u5bNTfvhqjLeFN2A'
+      'https://ipfs.io/ipfs/QmXHSbtVNCJVfe2CvRH7njdyf2SrX5u5bNTfvhqjLeFN2A'
   },
   30730: {
     name: 'Movement EVM Legacy',
@@ -24071,7 +24211,7 @@ export const chains: Chains = {
     ],
     status: 'incubating',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWRAor77N6VyjJiQgtsEE7h9Bd1Q7vtRveTYv2A6wZyAT'
+      'https://ipfs.io/ipfs/QmWRAor77N6VyjJiQgtsEE7h9Bd1Q7vtRveTYv2A6wZyAT'
   },
   30731: {
     name: 'Movement EVM Devnet',
@@ -24093,7 +24233,7 @@ export const chains: Chains = {
     ],
     status: 'incubating',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWRAor77N6VyjJiQgtsEE7h9Bd1Q7vtRveTYv2A6wZyAT'
+      'https://ipfs.io/ipfs/QmWRAor77N6VyjJiQgtsEE7h9Bd1Q7vtRveTYv2A6wZyAT'
   },
   30732: {
     name: 'Movement EVM Testnet',
@@ -24115,7 +24255,7 @@ export const chains: Chains = {
     ],
     status: 'incubating',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWRAor77N6VyjJiQgtsEE7h9Bd1Q7vtRveTYv2A6wZyAT'
+      'https://ipfs.io/ipfs/QmWRAor77N6VyjJiQgtsEE7h9Bd1Q7vtRveTYv2A6wZyAT'
   },
   31102: {
     name: 'Ethersocial Network',
@@ -24152,7 +24292,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSEsi71AdA5HYH6VNC5QUQezFg1C7BiVQJdx1VVfGz3g3'
+      'https://ipfs.io/ipfs/QmSEsi71AdA5HYH6VNC5QUQezFg1C7BiVQJdx1VVfGz3g3'
   },
   31224: {
     name: 'CloudTx Testnet',
@@ -24174,7 +24314,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSEsi71AdA5HYH6VNC5QUQezFg1C7BiVQJdx1VVfGz3g3'
+      'https://ipfs.io/ipfs/QmSEsi71AdA5HYH6VNC5QUQezFg1C7BiVQJdx1VVfGz3g3'
   },
   31337: {
     name: 'GoChain Testnet',
@@ -24214,7 +24354,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreia5q26knsvxgkwxze7woepvsqat5n2hodokh4ozzphmhexqez5s34'
+      'https://ipfs.io/ipfs/bafkreia5q26knsvxgkwxze7woepvsqat5n2hodokh4ozzphmhexqez5s34'
   },
   31415: {
     name: 'Filecoin - Wallaby testnet',
@@ -24231,7 +24371,7 @@ export const chains: Chains = {
     slip44: 1,
     explorers: [],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmS9r9XQkMHVomWcSBNDkKkz9n87h9bH9ssabeiKZtANoU'
+      'https://ipfs.io/ipfs/QmS9r9XQkMHVomWcSBNDkKkz9n87h9bH9ssabeiKZtANoU'
   },
   31753: {
     name: 'Xchain Mainnet',
@@ -24252,7 +24392,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeia5n537fj2mkfcwmjfwktkmqrcwef3affdodhxnvmkg2gkvmbv2ke'
+      'https://ipfs.io/ipfs/bafybeia5n537fj2mkfcwmjfwktkmqrcwef3affdodhxnvmkg2gkvmbv2ke'
   },
   31754: {
     name: 'Xchain Testnet',
@@ -24277,7 +24417,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeia5n537fj2mkfcwmjfwktkmqrcwef3affdodhxnvmkg2gkvmbv2ke'
+      'https://ipfs.io/ipfs/bafybeia5n537fj2mkfcwmjfwktkmqrcwef3affdodhxnvmkg2gkvmbv2ke'
   },
   32001: {
     name: 'W3Gamez Holesky Testnet',
@@ -24304,7 +24444,33 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmaQdiE7vwxKeuWCjk4nKBikcpg4XCzQkFWGrAZHmMKnrq'
+      'https://ipfs.io/ipfs/QmaQdiE7vwxKeuWCjk4nKBikcpg4XCzQkFWGrAZHmMKnrq'
+  },
+  32382: {
+    name: 'Santiment Intelligence Network',
+    chain: 'Santiment Intelligence Network',
+    rpc: ['https://node.sanr.app'],
+    faucets: [],
+    nativeCurrency: { name: 'SANR', symbol: 'SANR', decimals: 18 },
+    infoURL: 'https://sanr.app',
+    shortName: 'SANR',
+    chainId: 32382,
+    networkId: 32382,
+    icon: 'sanrchain',
+    parent: {
+      chain: 'eip155-1',
+      type: 'L2',
+      bridges: [{ url: 'https://sanr.app' }]
+    },
+    explorers: [
+      {
+        name: 'Santiment Intelligence Explorer',
+        url: 'https://app-explorer-pos.sanr.app',
+        standard: 'none'
+      }
+    ],
+    iconURL:
+      'https://ipfs.io/ipfs/QmPLMg5mYD8XRknvYbDkD2x7FXxYan7MPTeUWZC2CihwDM'
   },
   32520: {
     name: 'Bitgert Mainnet',
@@ -24331,7 +24497,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmY3vKe1rG9AyHSGH1ouP3ER3EVUZRtRrFbFZEfEpMSd4V'
+      'https://ipfs.io/ipfs/QmY3vKe1rG9AyHSGH1ouP3ER3EVUZRtRrFbFZEfEpMSd4V'
   },
   32659: {
     name: 'Fusion Mainnet',
@@ -24355,7 +24521,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmX3tsEoj7SdaBLLV8VyyCUAmymdEGiSGeuTbxMrEMVvth'
+      'https://ipfs.io/ipfs/QmX3tsEoj7SdaBLLV8VyyCUAmymdEGiSGeuTbxMrEMVvth'
   },
   32769: {
     name: 'Zilliqa EVM',
@@ -24376,7 +24542,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTREXNgGtUhSoxFsrkhTe5LUnDBTKL5byaX8kpET6UuKp'
+      'https://ipfs.io/ipfs/QmTREXNgGtUhSoxFsrkhTe5LUnDBTKL5byaX8kpET6UuKp'
   },
   32990: {
     name: 'Zilliqa EVM Isolated Server',
@@ -24398,7 +24564,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTREXNgGtUhSoxFsrkhTe5LUnDBTKL5byaX8kpET6UuKp'
+      'https://ipfs.io/ipfs/QmTREXNgGtUhSoxFsrkhTe5LUnDBTKL5byaX8kpET6UuKp'
   },
   33033: {
     name: 'Entangle Mainnet',
@@ -24419,7 +24585,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmUQiosuH8ib8aXSpYcJRTje9Lro9VeZyd4cNXrXGY5r8D'
+      'https://ipfs.io/ipfs/QmUQiosuH8ib8aXSpYcJRTje9Lro9VeZyd4cNXrXGY5r8D'
   },
   33101: {
     name: 'Zilliqa EVM Testnet',
@@ -24453,7 +24619,7 @@ export const chains: Chains = {
     networkId: 33133,
     explorers: [],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmUQiosuH8ib8aXSpYcJRTje9Lro9VeZyd4cNXrXGY5r8D'
+      'https://ipfs.io/ipfs/QmUQiosuH8ib8aXSpYcJRTje9Lro9VeZyd4cNXrXGY5r8D'
   },
   33210: {
     name: 'Cloudverse Subnet',
@@ -24495,7 +24661,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeKQVv2QneHaaggw2NfpZ7DGMdjVhPywTdse5RzCs4oGn'
+      'https://ipfs.io/ipfs/QmeKQVv2QneHaaggw2NfpZ7DGMdjVhPywTdse5RzCs4oGn'
   },
   33385: {
     name: 'Zilliqa EVM Devnet',
@@ -24516,7 +24682,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTREXNgGtUhSoxFsrkhTe5LUnDBTKL5byaX8kpET6UuKp'
+      'https://ipfs.io/ipfs/QmTREXNgGtUhSoxFsrkhTe5LUnDBTKL5byaX8kpET6UuKp'
   },
   33469: {
     name: 'Zilliqa-2 EVM Devnet',
@@ -24537,7 +24703,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTREXNgGtUhSoxFsrkhTe5LUnDBTKL5byaX8kpET6UuKp'
+      'https://ipfs.io/ipfs/QmTREXNgGtUhSoxFsrkhTe5LUnDBTKL5byaX8kpET6UuKp'
   },
   33979: {
     name: 'Funki',
@@ -24558,7 +24724,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWLjmfbjx2qZC39GCFXDzt72NXVTtDBVzVSq6rwaquyp3'
+      'https://ipfs.io/ipfs/QmWLjmfbjx2qZC39GCFXDzt72NXVTtDBVzVSq6rwaquyp3'
   },
   34443: {
     name: 'Mode',
@@ -24583,7 +24749,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreidi5y7afj5z4xrz7uz5rkg2mcsv2p2n4ui4g7q4k4ecdz65i2agou'
+      'https://ipfs.io/ipfs/bafkreidi5y7afj5z4xrz7uz5rkg2mcsv2p2n4ui4g7q4k4ecdz65i2agou'
   },
   35011: {
     name: 'J2O Taro',
@@ -24625,7 +24791,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQUQKe8VEtSthhgXnJ3EmEz94YhpVCpUDZAiU9KYyNLya'
+      'https://ipfs.io/ipfs/QmQUQKe8VEtSthhgXnJ3EmEz94YhpVCpUDZAiU9KYyNLya'
   },
   35443: {
     name: 'Q Testnet',
@@ -24648,7 +24814,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQUQKe8VEtSthhgXnJ3EmEz94YhpVCpUDZAiU9KYyNLya'
+      'https://ipfs.io/ipfs/QmQUQKe8VEtSthhgXnJ3EmEz94YhpVCpUDZAiU9KYyNLya'
   },
   38400: {
     name: 'ConnectorManager',
@@ -24673,7 +24839,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXR5e5SDABWfQn6XT9uMsVYAo5Bv7vUv4jVs8DFqatZWG'
+      'https://ipfs.io/ipfs/QmXR5e5SDABWfQn6XT9uMsVYAo5Bv7vUv4jVs8DFqatZWG'
   },
   38401: {
     name: 'ConnectorManager Robin',
@@ -24698,7 +24864,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXR5e5SDABWfQn6XT9uMsVYAo5Bv7vUv4jVs8DFqatZWG'
+      'https://ipfs.io/ipfs/QmXR5e5SDABWfQn6XT9uMsVYAo5Bv7vUv4jVs8DFqatZWG'
   },
   39656: {
     name: 'PRM Mainnet',
@@ -24719,7 +24885,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmckkDRkuCQWbvhpKGsqa8ajuQvf3W5dekzw5qpiPC6shk'
+      'https://ipfs.io/ipfs/QmckkDRkuCQWbvhpKGsqa8ajuQvf3W5dekzw5qpiPC6shk'
   },
   39797: {
     name: 'Energi Mainnet',
@@ -24753,7 +24919,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZt75xixnEtFzqHTrJa8kJkV4cTXmUZqeMeHM8BcvomQc'
+      'https://ipfs.io/ipfs/QmZt75xixnEtFzqHTrJa8kJkV4cTXmUZqeMeHM8BcvomQc'
   },
   41500: {
     name: 'Opulent-X BETA',
@@ -24803,7 +24969,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSj6SSWmBiRjnjZQPb17kvhGDmB9xAGRkG13RwPuXLTCT'
+      'https://ipfs.io/ipfs/QmSj6SSWmBiRjnjZQPb17kvhGDmB9xAGRkG13RwPuXLTCT'
   },
   42161: {
     name: 'Arbitrum One',
@@ -24925,7 +25091,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreiespupb52akiwrexxg7g72mh7m7h7lum5hmqijmpdh3kmuunzclha'
+      'https://ipfs.io/ipfs/bafkreiespupb52akiwrexxg7g72mh7m7h7lum5hmqijmpdh3kmuunzclha'
   },
   42262: {
     name: 'Oasis Emerald',
@@ -24946,7 +25112,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreiespupb52akiwrexxg7g72mh7m7h7lum5hmqijmpdh3kmuunzclha'
+      'https://ipfs.io/ipfs/bafkreiespupb52akiwrexxg7g72mh7m7h7lum5hmqijmpdh3kmuunzclha'
   },
   42355: {
     name: 'GoldXChain Mainnet',
@@ -24992,7 +25158,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://wallet.zkfair.io' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVb682D4mUXkKNP28xxJDNgSYbDLvEc3kVYx7TQxEa6Cw'
+      'https://ipfs.io/ipfs/QmVb682D4mUXkKNP28xxJDNgSYbDLvEc3kVYx7TQxEa6Cw'
   },
   42793: {
     name: 'Etherlink Mainnet',
@@ -25014,7 +25180,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVqE4wq3fd3RKZwo7GxmW333ywHgYBZGvqwh3TUBM5DUi'
+      'https://ipfs.io/ipfs/QmVqE4wq3fd3RKZwo7GxmW333ywHgYBZGvqwh3TUBM5DUi'
   },
   42801: {
     name: 'Gesoten Verse Testnet',
@@ -25036,7 +25202,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmb7oJY9zd9sTzxNNQNTVZQz2hkd1aA94mWm4cvXfJ9QxV'
+      'https://ipfs.io/ipfs/Qmb7oJY9zd9sTzxNNQNTVZQz2hkd1aA94mWm4cvXfJ9QxV'
   },
   42888: {
     name: 'Kinto Testnet',
@@ -25085,7 +25251,7 @@ export const chains: Chains = {
     parent: { type: 'L2', chain: 'eip155-1' },
     status: 'incubating',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmfP6GDn5eXFcpWuoiyWn5pjn6PYB7HQhRD8nSko1zR8KD'
+      'https://ipfs.io/ipfs/QmfP6GDn5eXFcpWuoiyWn5pjn6PYB7HQhRD8nSko1zR8KD'
   },
   43113: {
     name: 'Avalanche Fuji Testnet',
@@ -25111,7 +25277,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRALA5qvQBRwWre8ofuhCbr3wxVmPS3kGetRR9uJqbqqe'
+      'https://ipfs.io/ipfs/QmRALA5qvQBRwWre8ofuhCbr3wxVmPS3kGetRR9uJqbqqe'
   },
   43114: {
     name: 'Avalanche C-Chain',
@@ -25138,7 +25304,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRALA5qvQBRwWre8ofuhCbr3wxVmPS3kGetRR9uJqbqqe'
+      'https://ipfs.io/ipfs/QmRALA5qvQBRwWre8ofuhCbr3wxVmPS3kGetRR9uJqbqqe'
   },
   43288: {
     name: 'Boba Avax',
@@ -25186,7 +25352,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVb682D4mUXkKNP28xxJDNgSYbDLvEc3kVYx7TQxEa6Cw'
+      'https://ipfs.io/ipfs/QmVb682D4mUXkKNP28xxJDNgSYbDLvEc3kVYx7TQxEa6Cw'
   },
   44444: {
     name: 'Frenchain',
@@ -25208,7 +25374,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQk41bYX6WpYyUAdRgomZekxP5mbvZXhfxLEEqtatyJv4'
+      'https://ipfs.io/ipfs/QmQk41bYX6WpYyUAdRgomZekxP5mbvZXhfxLEEqtatyJv4'
   },
   44445: {
     name: 'Quantum Network',
@@ -25230,7 +25396,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeKQVv2QneHaaggw2NfpZ7DGMdjVhPywTdse5RzCs4oGn'
+      'https://ipfs.io/ipfs/QmeKQVv2QneHaaggw2NfpZ7DGMdjVhPywTdse5RzCs4oGn'
   },
   44787: {
     name: 'Celo Alfajores Testnet',
@@ -25277,7 +25443,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZP19pbqTco4vaP9siduLWP8pdYArFK3onfR55tvjr12s'
+      'https://ipfs.io/ipfs/QmZP19pbqTco4vaP9siduLWP8pdYArFK3onfR55tvjr12s'
   },
   45454: {
     name: 'Swamps L2',
@@ -25299,7 +25465,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTEEgWsknzdqjLbaAvLHqCCzCtMJZh2d1SqMscxZCXBwA'
+      'https://ipfs.io/ipfs/QmTEEgWsknzdqjLbaAvLHqCCzCtMJZh2d1SqMscxZCXBwA'
   },
   45510: {
     name: 'Deelance Mainnet',
@@ -25321,7 +25487,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmay2j8biuo5xLJL8NcLtrzubAEHuCWz65cdbKE1pSnGf6'
+      'https://ipfs.io/ipfs/Qmay2j8biuo5xLJL8NcLtrzubAEHuCWz65cdbKE1pSnGf6'
   },
   46688: {
     name: 'Fusion Testnet',
@@ -25345,7 +25511,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmX3tsEoj7SdaBLLV8VyyCUAmymdEGiSGeuTbxMrEMVvth'
+      'https://ipfs.io/ipfs/QmX3tsEoj7SdaBLLV8VyyCUAmymdEGiSGeuTbxMrEMVvth'
   },
   47805: {
     name: 'REI Network',
@@ -25364,6 +25530,47 @@ export const chains: Chains = {
         standard: 'none'
       }
     ]
+  },
+  48795: {
+    name: 'Space Subnet Testnet',
+    chain: 'SPACETESTNET',
+    rpc: ['https://subnets.avax.network/space/testnet/rpc'],
+    features: [{ name: 'EIP1559' }],
+    faucets: [],
+    nativeCurrency: { name: 'FUEL', symbol: 'FUEL', decimals: 18 },
+    infoURL: 'https://otherworld.network',
+    shortName: 'spacetestnet',
+    chainId: 48795,
+    networkId: 48795,
+    explorers: [
+      {
+        name: 'SPACE Explorer',
+        url: 'https://subnets-test.avax.network/space',
+        standard: 'EIP3091'
+      }
+    ]
+  },
+  48899: {
+    name: 'Zircuit Testnet',
+    chain: 'Zircuit Testnet',
+    icon: 'zircuit',
+    rpc: ['https://zircuit1.p2pify.com/'],
+    faucets: [],
+    nativeCurrency: { name: 'ETH', symbol: 'ETH', decimals: 18 },
+    infoURL: 'https://www.zircuit.com/',
+    shortName: 'zircuit-testnet',
+    chainId: 48899,
+    networkId: 48899,
+    explorers: [
+      {
+        name: 'Zircuit',
+        url: 'https://explorer.zircuit.com',
+        icon: 'zircuit',
+        standard: 'none'
+      }
+    ],
+    iconURL:
+      'https://ipfs.io/ipfs/QmV4nUUiRaTTZSyWubpF98ZL9jNCoXkrgg6AWR6FKqdxMk'
   },
   49049: {
     name: 'Wireshape Floripa Testnet',
@@ -25389,7 +25596,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTAyT3YrW2654CBRqRkec2cCznv6EBsbsRc2y6WQPbvXx'
+      'https://ipfs.io/ipfs/QmTAyT3YrW2654CBRqRkec2cCznv6EBsbsRc2y6WQPbvXx'
   },
   49088: {
     name: 'Bifrost Testnet',
@@ -25415,7 +25622,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYxniqbiFD7nXBNjN8boUhoXYEAW23YquArD2Rnkq8WHS'
+      'https://ipfs.io/ipfs/QmYxniqbiFD7nXBNjN8boUhoXYEAW23YquArD2Rnkq8WHS'
   },
   49321: {
     name: 'GUNZ Testnet',
@@ -25439,7 +25646,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmd5R5khFePwY9dYBGhjRA1rGtUAKaHg7Z2B7mBrbA6TiB'
+      'https://ipfs.io/ipfs/Qmd5R5khFePwY9dYBGhjRA1rGtUAKaHg7Z2B7mBrbA6TiB'
   },
   49797: {
     name: 'Energi Testnet',
@@ -25485,7 +25692,7 @@ export const chains: Chains = {
     ],
     parent: { type: 'L2', chain: 'eip155-248' },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWvfA2usnYp1ktzLcqFS8eTLgdp4ifrxjiify46KyG9NZ'
+      'https://ipfs.io/ipfs/QmWvfA2usnYp1ktzLcqFS8eTLgdp4ifrxjiify46KyG9NZ'
   },
   50006: {
     name: 'Yooldo Verse Testnet',
@@ -25508,7 +25715,7 @@ export const chains: Chains = {
     ],
     parent: { type: 'L2', chain: 'eip155-248' },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWvfA2usnYp1ktzLcqFS8eTLgdp4ifrxjiify46KyG9NZ'
+      'https://ipfs.io/ipfs/QmWvfA2usnYp1ktzLcqFS8eTLgdp4ifrxjiify46KyG9NZ'
   },
   50021: {
     name: 'GTON Testnet',
@@ -25555,7 +25762,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZnE2ygPL2ZGuzHGvFCHmrqxwdurrhz3K1yPnwLzKbgay'
+      'https://ipfs.io/ipfs/QmZnE2ygPL2ZGuzHGvFCHmrqxwdurrhz3K1yPnwLzKbgay'
   },
   51712: {
     name: 'Sardis Mainnet',
@@ -25576,7 +25783,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdR9QJjQEh1mBnf2WbJfehverxiP5RDPWMtEECbDP2rc3'
+      'https://ipfs.io/ipfs/QmdR9QJjQEh1mBnf2WbJfehverxiP5RDPWMtEECbDP2rc3'
   },
   52014: {
     name: 'Electroneum Mainnet',
@@ -25599,7 +25806,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVgFqXA3kkCrVYGcWFF7Mhx8JUSe9vSCauNamuKWSvCym'
+      'https://ipfs.io/ipfs/QmVgFqXA3kkCrVYGcWFF7Mhx8JUSe9vSCauNamuKWSvCym'
   },
   53277: {
     name: 'DOID',
@@ -25622,7 +25829,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXYSMyMnMvBf2F1ih6dTcRVUhmMnpzvmuP7vieLjmNQo5'
+      'https://ipfs.io/ipfs/QmXYSMyMnMvBf2F1ih6dTcRVUhmMnpzvmuP7vieLjmNQo5'
   },
   53457: {
     name: 'DODOchain testnet',
@@ -25648,7 +25855,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQDdZQjpKhrVM62479RTzppUG8QHhHd8Bq4RFYAjN1yf4'
+      'https://ipfs.io/ipfs/QmQDdZQjpKhrVM62479RTzppUG8QHhHd8Bq4RFYAjN1yf4'
   },
   53935: {
     name: 'DFK Chain',
@@ -25670,7 +25877,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQB48m15TzhUFrmu56QCRQjkrkgUaKfgCmKE8o3RzmuPJ'
+      'https://ipfs.io/ipfs/QmQB48m15TzhUFrmu56QCRQjkrkgUaKfgCmKE8o3RzmuPJ'
   },
   54211: {
     name: 'Haqq Chain Testnet',
@@ -25712,7 +25919,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmciSvgLatP6jhgdazuiyD3fSrhipfAN7wC943v1qxcrpv'
+      'https://ipfs.io/ipfs/QmciSvgLatP6jhgdazuiyD3fSrhipfAN7wC943v1qxcrpv'
   },
   54555: {
     name: 'Photon Testnet',
@@ -25772,7 +25979,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNy5d5knHVjJJS9g4kLsh9i73RTjckpKL6KZvRk6ptbhf'
+      'https://ipfs.io/ipfs/QmNy5d5knHVjJJS9g4kLsh9i73RTjckpKL6KZvRk6ptbhf'
   },
   55556: {
     name: 'REI Chain Testnet',
@@ -25794,7 +26001,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNy5d5knHVjJJS9g4kLsh9i73RTjckpKL6KZvRk6ptbhf'
+      'https://ipfs.io/ipfs/QmNy5d5knHVjJJS9g4kLsh9i73RTjckpKL6KZvRk6ptbhf'
   },
   56026: {
     name: 'Lambda Chain Mainnet',
@@ -25816,7 +26023,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXCWjWSTd6kJZKnH9aQRjgLdWRH9NTxU1wC21iBvoB4Hp'
+      'https://ipfs.io/ipfs/QmXCWjWSTd6kJZKnH9aQRjgLdWRH9NTxU1wC21iBvoB4Hp'
   },
   56288: {
     name: 'Boba BNB Mainnet',
@@ -25886,7 +26093,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYqvnW2jwPEKUv8BdaV4sbL8Audcwosat6SPn4GqYtKxc'
+      'https://ipfs.io/ipfs/QmYqvnW2jwPEKUv8BdaV4sbL8Audcwosat6SPn4GqYtKxc'
   },
   56797: {
     name: 'DOID Testnet',
@@ -25909,7 +26116,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXYSMyMnMvBf2F1ih6dTcRVUhmMnpzvmuP7vieLjmNQo5'
+      'https://ipfs.io/ipfs/QmXYSMyMnMvBf2F1ih6dTcRVUhmMnpzvmuP7vieLjmNQo5'
   },
   57000: {
     name: 'Rollux Testnet',
@@ -25962,7 +26169,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://pgn-bridge.vercel.app/bridge' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmUVJ7MLCEAfq3pHVPFLscqRMiyAY5biVgTkeDQCmAhHNS'
+      'https://ipfs.io/ipfs/QmUVJ7MLCEAfq3pHVPFLscqRMiyAY5biVgTkeDQCmAhHNS'
   },
   59140: {
     name: 'Linea Goerli',
@@ -26008,7 +26215,7 @@ export const chains: Chains = {
     ],
     status: 'active',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmURjritnHL7a8TwZgsFwp3f272DJmG5paaPtWDZ98QZwH'
+      'https://ipfs.io/ipfs/QmURjritnHL7a8TwZgsFwp3f272DJmG5paaPtWDZ98QZwH'
   },
   59141: {
     name: 'Linea Sepolia',
@@ -26049,7 +26256,7 @@ export const chains: Chains = {
     ],
     status: 'active',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmURjritnHL7a8TwZgsFwp3f272DJmG5paaPtWDZ98QZwH'
+      'https://ipfs.io/ipfs/QmURjritnHL7a8TwZgsFwp3f272DJmG5paaPtWDZ98QZwH'
   },
   59144: {
     name: 'Linea',
@@ -26095,7 +26302,7 @@ export const chains: Chains = {
     ],
     status: 'active',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmURjritnHL7a8TwZgsFwp3f272DJmG5paaPtWDZ98QZwH'
+      'https://ipfs.io/ipfs/QmURjritnHL7a8TwZgsFwp3f272DJmG5paaPtWDZ98QZwH'
   },
   59971: {
     name: 'Genesys Code Mainnet',
@@ -26117,7 +26324,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreihgmpaceze7rxpajv7yrlx3cb6daqubippkpvgryzairtaubsjjoe'
+      'https://ipfs.io/ipfs/bafkreihgmpaceze7rxpajv7yrlx3cb6daqubippkpvgryzairtaubsjjoe'
   },
   60000: {
     name: 'Thinkium Testnet Chain 0',
@@ -26226,7 +26433,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://app.gobob.xyz' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmaX5iqQTrJD8TBuvoT97xPMG6LYamjPCPnZUUMh12jc99'
+      'https://ipfs.io/ipfs/QmaX5iqQTrJD8TBuvoT97xPMG6LYamjPCPnZUUMh12jc99'
   },
   61406: {
     name: 'KaiChain',
@@ -26269,7 +26476,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNx8FRacfNeawhkjk5p57EKzDHkLGMaBBmK2VRL5CB2P2'
+      'https://ipfs.io/ipfs/QmNx8FRacfNeawhkjk5p57EKzDHkLGMaBBmK2VRL5CB2P2'
   },
   61803: {
     name: 'Etica Mainnet',
@@ -26298,7 +26505,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYSyhUqm6ArWyALBe3G64823ZpEUmFdkzKZ93hUUhNKgU'
+      'https://ipfs.io/ipfs/QmYSyhUqm6ArWyALBe3G64823ZpEUmFdkzKZ93hUUhNKgU'
   },
   61916: {
     name: 'DoKEN Super Chain Mainnet',
@@ -26324,7 +26531,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreifms4eio6v56oyeemnnu5luq3sc44hptan225lr45itgzu3u372iu'
+      'https://ipfs.io/ipfs/bafkreifms4eio6v56oyeemnnu5luq3sc44hptan225lr45itgzu3u372iu'
   },
   62049: {
     name: 'OPTOPIA Testnet',
@@ -26352,7 +26559,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://bridge-testnet.optopia.ai' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreid3xv3zkuo2cygwt7vwm5c2aqjbyhy5qxn7xkc66ajhu2mjh2ybki'
+      'https://ipfs.io/ipfs/bafkreid3xv3zkuo2cygwt7vwm5c2aqjbyhy5qxn7xkc66ajhu2mjh2ybki'
   },
   62050: {
     name: 'Optopia Mainnet',
@@ -26380,7 +26587,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://bridge.optopia.ai' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreid3xv3zkuo2cygwt7vwm5c2aqjbyhy5qxn7xkc66ajhu2mjh2ybki'
+      'https://ipfs.io/ipfs/bafkreid3xv3zkuo2cygwt7vwm5c2aqjbyhy5qxn7xkc66ajhu2mjh2ybki'
   },
   62298: {
     name: 'Citrea Devnet',
@@ -26403,7 +26610,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTfgH4X7ZWkHprKgjUZ7SDcCGtS5f2CBuaTEtQYMsydmJ'
+      'https://ipfs.io/ipfs/QmTfgH4X7ZWkHprKgjUZ7SDcCGtS5f2CBuaTEtQYMsydmJ'
   },
   62320: {
     name: 'Celo Baklava Testnet',
@@ -26439,7 +26646,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWb1gthhbzkiLdgcP8ccZprGbJVjFcW8Rn4uJjrw4jd3B'
+      'https://ipfs.io/ipfs/QmWb1gthhbzkiLdgcP8ccZprGbJVjFcW8Rn4uJjrw4jd3B'
   },
   62831: {
     name: 'PLYR TAU Testnet',
@@ -26461,7 +26668,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVhG7xeTc78ibQunQ5sBJ4533r9FDM2xUCQKV72DPd1ux'
+      'https://ipfs.io/ipfs/QmVhG7xeTc78ibQunQ5sBJ4533r9FDM2xUCQKV72DPd1ux'
   },
   63000: {
     name: 'eCredits Mainnet',
@@ -26483,7 +26690,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmU9H9JE1KtLh2Fxrd8EWTMjKGJBpgRWKUeEx7u6ic4kBY'
+      'https://ipfs.io/ipfs/QmU9H9JE1KtLh2Fxrd8EWTMjKGJBpgRWKUeEx7u6ic4kBY'
   },
   63001: {
     name: 'eCredits Testnet',
@@ -26506,7 +26713,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmU9H9JE1KtLh2Fxrd8EWTMjKGJBpgRWKUeEx7u6ic4kBY'
+      'https://ipfs.io/ipfs/QmU9H9JE1KtLh2Fxrd8EWTMjKGJBpgRWKUeEx7u6ic4kBY'
   },
   65450: {
     name: 'Scolcoin Mainnet',
@@ -26527,7 +26734,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVES1eqDXhP8SdeCpM85wvjmhrQDXGRquQebDrSdvJqpt'
+      'https://ipfs.io/ipfs/QmVES1eqDXhP8SdeCpM85wvjmhrQDXGRquQebDrSdvJqpt'
   },
   66988: {
     name: 'Janus Testnet',
@@ -26550,7 +26757,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreifc3vnwf4hj3bo6fg4u5qlqmjgajjgezyeg236qjcihl4ha42siuq'
+      'https://ipfs.io/ipfs/bafkreifc3vnwf4hj3bo6fg4u5qlqmjgajjgezyeg236qjcihl4ha42siuq'
   },
   67390: {
     name: 'SiriusNet',
@@ -26604,7 +26811,7 @@ export const chains: Chains = {
     ],
     parent: { type: 'L2', chain: 'eip155-248' },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPMqjf5XKZ4Cxa1u8qc8Zj9mmVLBoqK7N5h2zFr3Rsyzw'
+      'https://ipfs.io/ipfs/QmPMqjf5XKZ4Cxa1u8qc8Zj9mmVLBoqK7N5h2zFr3Rsyzw'
   },
   69420: {
     name: 'Condrieu',
@@ -26730,7 +26937,7 @@ export const chains: Chains = {
       ]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmW3NPDe6WRqucrWbe8pg3GqSMPi8V6Qa1fAiaQuqjxSJC'
+      'https://ipfs.io/ipfs/QmW3NPDe6WRqucrWbe8pg3GqSMPi8V6Qa1fAiaQuqjxSJC'
   },
   71111: {
     name: 'GuapcoinX',
@@ -26756,7 +26963,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmcDTR7982VQKDDz2Mh4fZbnE9hn67MuFPWQv1MimCqPvB'
+      'https://ipfs.io/ipfs/QmcDTR7982VQKDDz2Mh4fZbnE9hn67MuFPWQv1MimCqPvB'
   },
   71393: {
     name: 'Polyjuice Testnet',
@@ -26774,7 +26981,7 @@ export const chains: Chains = {
     networkId: 1,
     slip44: 1,
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZ5gFWUxLFqqT3DkefYfRsVksMwMTc5VvBjkbHpeFMsNe'
+      'https://ipfs.io/ipfs/QmZ5gFWUxLFqqT3DkefYfRsVksMwMTc5VvBjkbHpeFMsNe'
   },
   71401: {
     name: 'Godwoken Testnet v1',
@@ -26838,7 +27045,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmeiop9gSdzU4NNJ6GCuPk6AeYwD9pbhEFVfRdk4dXs3kJ'
+      'https://ipfs.io/ipfs/Qmeiop9gSdzU4NNJ6GCuPk6AeYwD9pbhEFVfRdk4dXs3kJ'
   },
   72992: {
     name: 'Grok Chain Mainnet',
@@ -26859,7 +27066,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreicepw6yqtmubtpcthecjx47ndwgywartfqnkdhf66k3q57h2hlewm'
+      'https://ipfs.io/ipfs/bafkreicepw6yqtmubtpcthecjx47ndwgywartfqnkdhf66k3q57h2hlewm'
   },
   73114: {
     name: 'ICB Testnet',
@@ -26883,7 +27090,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreifgpv7tnai42hsdegnpwzbvq5iymgub357e553cotitirwy2ir7je'
+      'https://ipfs.io/ipfs/bafkreifgpv7tnai42hsdegnpwzbvq5iymgub357e553cotitirwy2ir7je'
   },
   73115: {
     name: 'ICB Network',
@@ -26907,7 +27114,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreifgpv7tnai42hsdegnpwzbvq5iymgub357e553cotitirwy2ir7je'
+      'https://ipfs.io/ipfs/bafkreifgpv7tnai42hsdegnpwzbvq5iymgub357e553cotitirwy2ir7je'
   },
   73799: {
     name: 'Energy Web Volta Testnet',
@@ -26944,7 +27151,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeuDgSprukzfV7fi9XYHYcfmT4aZZZU7idgShtRS8Vf6V'
+      'https://ipfs.io/ipfs/QmeuDgSprukzfV7fi9XYHYcfmT4aZZZU7idgShtRS8Vf6V'
   },
   75000: {
     name: 'ResinCoin Mainnet',
@@ -26965,7 +27172,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTBszPzBeWPhjozf4TxpL2ws1NkG9yJvisx9h6MFii1zb'
+      'https://ipfs.io/ipfs/QmTBszPzBeWPhjozf4TxpL2ws1NkG9yJvisx9h6MFii1zb'
   },
   75512: {
     name: 'GEEK Verse Mainnet',
@@ -27023,7 +27230,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmccGWJcCzQh3rP6ZMdRyTc7JjtusKnXkoUtGUANQgjNqR'
+      'https://ipfs.io/ipfs/QmccGWJcCzQh3rP6ZMdRyTc7JjtusKnXkoUtGUANQgjNqR'
   },
   77238: {
     name: 'Foundry Chain Testnet',
@@ -27049,7 +27256,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreifx4vef7ubqz4iiaxckcvkdwjrp2hbliljwjlwu2vytlngg3r4pg4'
+      'https://ipfs.io/ipfs/bafkreifx4vef7ubqz4iiaxckcvkdwjrp2hbliljwjlwu2vytlngg3r4pg4'
   },
   77612: {
     name: 'Vention Smart Chain Mainnet',
@@ -27070,7 +27277,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmcNepHmbmHW1BZYM3MFqJW4awwhmDqhUPRXXmRnXwg1U4'
+      'https://ipfs.io/ipfs/QmcNepHmbmHW1BZYM3MFqJW4awwhmDqhUPRXXmRnXwg1U4'
   },
   77777: {
     name: 'Toronet Mainnet',
@@ -27092,7 +27299,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmciSvgLatP6jhgdazuiyD3fSrhipfAN7wC943v1qxcrpv'
+      'https://ipfs.io/ipfs/QmciSvgLatP6jhgdazuiyD3fSrhipfAN7wC943v1qxcrpv'
   },
   78110: {
     name: 'Firenze test network',
@@ -27131,7 +27338,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPXhdPGufjcPzZ9Y6nY6QyW8MgA6793L88iPMRh1Q3gjJ'
+      'https://ipfs.io/ipfs/QmPXhdPGufjcPzZ9Y6nY6QyW8MgA6793L88iPMRh1Q3gjJ'
   },
   78430: {
     name: 'Amplify Subnet',
@@ -27218,7 +27425,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeERjnmdZ6v1tfCyfKfy2Rzh1vPCsU7x2sLJcLqQ6E3Fd'
+      'https://ipfs.io/ipfs/QmeERjnmdZ6v1tfCyfKfy2Rzh1vPCsU7x2sLJcLqQ6E3Fd'
   },
   79879: {
     name: 'Gold Smart Chain Testnet',
@@ -27240,7 +27447,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPNuymyaKLJhCaXnyrsL8358FeTxabZFsaxMmWNU4Tzt3'
+      'https://ipfs.io/ipfs/QmPNuymyaKLJhCaXnyrsL8358FeTxabZFsaxMmWNU4Tzt3'
   },
   80001: {
     name: 'Mumbai',
@@ -27269,7 +27476,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRNqgazYuxUa5WdddFPftTWiP3KwzBMgV9Z19QWnLMETc'
+      'https://ipfs.io/ipfs/QmRNqgazYuxUa5WdddFPftTWiP3KwzBMgV9Z19QWnLMETc'
   },
   80002: {
     name: 'Amoy',
@@ -27296,7 +27503,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRNqgazYuxUa5WdddFPftTWiP3KwzBMgV9Z19QWnLMETc'
+      'https://ipfs.io/ipfs/QmRNqgazYuxUa5WdddFPftTWiP3KwzBMgV9Z19QWnLMETc'
   },
   80085: {
     name: 'Berachain Artio',
@@ -27321,7 +27528,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmW2xrDkSqBB7qgftp5PUecEGg4zwUBJgSN45CaR7CKJMr'
+      'https://ipfs.io/ipfs/QmW2xrDkSqBB7qgftp5PUecEGg4zwUBJgSN45CaR7CKJMr'
   },
   80096: {
     name: 'Hizoco mainnet',
@@ -27342,7 +27549,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNWGj94URMQNyGZbGuAareEL4UpHjTwYWFEFBcX9utBZX'
+      'https://ipfs.io/ipfs/QmNWGj94URMQNyGZbGuAareEL4UpHjTwYWFEFBcX9utBZX'
   },
   81041: {
     name: 'Nordek Mainnet',
@@ -27363,7 +27570,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreie45fcr2hllmej2elwqpdxmiaycxmz25tl5ymraduhtefqndhlm4q'
+      'https://ipfs.io/ipfs/bafkreie45fcr2hllmej2elwqpdxmiaycxmz25tl5ymraduhtefqndhlm4q'
   },
   81341: {
     name: 'Amana Testnet',
@@ -27379,7 +27586,7 @@ export const chains: Chains = {
     slip44: 1,
     status: 'incubating',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
+      'https://ipfs.io/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
   },
   81342: {
     name: 'Amana Mixnet',
@@ -27394,7 +27601,7 @@ export const chains: Chains = {
     networkId: 81342,
     status: 'incubating',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
+      'https://ipfs.io/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
   },
   81343: {
     name: 'Amana Privnet',
@@ -27409,7 +27616,7 @@ export const chains: Chains = {
     networkId: 81343,
     status: 'incubating',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
+      'https://ipfs.io/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
   },
   81351: {
     name: 'Flana Testnet',
@@ -27425,7 +27632,7 @@ export const chains: Chains = {
     slip44: 1,
     status: 'incubating',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
+      'https://ipfs.io/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
   },
   81352: {
     name: 'Flana Mixnet',
@@ -27440,7 +27647,7 @@ export const chains: Chains = {
     networkId: 81352,
     status: 'incubating',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
+      'https://ipfs.io/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
   },
   81353: {
     name: 'Flana Privnet',
@@ -27455,7 +27662,7 @@ export const chains: Chains = {
     networkId: 81353,
     status: 'incubating',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
+      'https://ipfs.io/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
   },
   81361: {
     name: 'Mizana Testnet',
@@ -27471,7 +27678,7 @@ export const chains: Chains = {
     slip44: 1,
     status: 'incubating',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
+      'https://ipfs.io/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
   },
   81362: {
     name: 'Mizana Mixnet',
@@ -27486,7 +27693,7 @@ export const chains: Chains = {
     networkId: 81362,
     status: 'incubating',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
+      'https://ipfs.io/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
   },
   81363: {
     name: 'Mizana Privnet',
@@ -27501,7 +27708,7 @@ export const chains: Chains = {
     networkId: 81363,
     status: 'incubating',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
+      'https://ipfs.io/ipfs/QmWSbMuCwQzhBB6GRLYqZ87n5cnpzpYCehCAMMQmUXj4mm'
   },
   81457: {
     name: 'Blast',
@@ -27538,7 +27745,7 @@ export const chains: Chains = {
     ],
     parent: { type: 'L2', chain: 'eip155-1' },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeifc2h3x7jgy4x4nmg2m54ghbvmkfu6oweujambwefzqzew5vujhsi'
+      'https://ipfs.io/ipfs/bafybeifc2h3x7jgy4x4nmg2m54ghbvmkfu6oweujambwefzqzew5vujhsi'
   },
   81720: {
     name: 'Quantum Chain Mainnet',
@@ -27559,7 +27766,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreibwywok67uewqbtqdzgr7nlk3lvvg7hxmbgwtn7kdwxe34useucvm'
+      'https://ipfs.io/ipfs/bafkreibwywok67uewqbtqdzgr7nlk3lvvg7hxmbgwtn7kdwxe34useucvm'
   },
   82459: {
     name: 'Smart Layer Network Testnet',
@@ -27594,7 +27801,7 @@ export const chains: Chains = {
       { name: 'Zedscan', url: 'http://zedscan.net', standard: 'EIP3091' }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZ5DXJVxuMRvKzKstFte3TahJ4LSDsGd8DWTrYEPbSjTu'
+      'https://ipfs.io/ipfs/QmZ5DXJVxuMRvKzKstFte3TahJ4LSDsGd8DWTrYEPbSjTu'
   },
   84531: {
     name: 'Base Goerli Testnet',
@@ -27634,7 +27841,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmaxRoHpxZd8PqccAynherrMznMufG6sdmHZLihkECXmZv'
+      'https://ipfs.io/ipfs/QmaxRoHpxZd8PqccAynherrMznMufG6sdmHZLihkECXmZv'
   },
   84532: {
     name: 'Base Sepolia Testnet',
@@ -27661,7 +27868,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmaxRoHpxZd8PqccAynherrMznMufG6sdmHZLihkECXmZv'
+      'https://ipfs.io/ipfs/QmaxRoHpxZd8PqccAynherrMznMufG6sdmHZLihkECXmZv'
   },
   84886: {
     name: 'Aerie Network',
@@ -27683,7 +27890,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreig54jss26xllpjbclmfgwvot72m4ku7qxignhlqei6mijvwi2m4pu'
+      'https://ipfs.io/ipfs/bafkreig54jss26xllpjbclmfgwvot72m4ku7qxignhlqei6mijvwi2m4pu'
   },
   85449: {
     name: 'CYBERTRUST',
@@ -27717,7 +27924,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNutSgM7n6aJPPDiofe9Dm1epy1RcYTMvugukLUK2vmPM'
+      'https://ipfs.io/ipfs/QmNutSgM7n6aJPPDiofe9Dm1epy1RcYTMvugukLUK2vmPM'
   },
   88559: {
     name: 'Inoai Network',
@@ -27734,7 +27941,7 @@ export const chains: Chains = {
       { name: 'inoai live', url: 'https://inoai.live', standard: 'none' }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdP8zAZEwUbf3pt8t9Ykho866ni5AMgutvkn3cBsV8gKG'
+      'https://ipfs.io/ipfs/QmdP8zAZEwUbf3pt8t9Ykho866ni5AMgutvkn3cBsV8gKG'
   },
   88817: {
     name: 'Unit Zero Testnet',
@@ -27795,7 +28002,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYV5xUVZhHRzLy7ie9D8qZeygJHvNZZAxwnB9GXYy6EED'
+      'https://ipfs.io/ipfs/QmYV5xUVZhHRzLy7ie9D8qZeygJHvNZZAxwnB9GXYy6EED'
   },
   88882: {
     name: 'Chiliz Spicy Testnet',
@@ -27820,7 +28027,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYV5xUVZhHRzLy7ie9D8qZeygJHvNZZAxwnB9GXYy6EED'
+      'https://ipfs.io/ipfs/QmYV5xUVZhHRzLy7ie9D8qZeygJHvNZZAxwnB9GXYy6EED'
   },
   88888: {
     name: 'Chiliz Chain Mainnet',
@@ -27854,7 +28061,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYV5xUVZhHRzLy7ie9D8qZeygJHvNZZAxwnB9GXYy6EED'
+      'https://ipfs.io/ipfs/QmYV5xUVZhHRzLy7ie9D8qZeygJHvNZZAxwnB9GXYy6EED'
   },
   90001: {
     name: 'F(x)Core Testnet Network',
@@ -27868,7 +28075,7 @@ export const chains: Chains = {
     networkId: 90001,
     icon: 'fxcore',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmauD5hzc5q1VgEU1nT4AGLCeV79CB8GgfnXXeeLmBZVHf'
+      'https://ipfs.io/ipfs/QmauD5hzc5q1VgEU1nT4AGLCeV79CB8GgfnXXeeLmBZVHf'
   },
   90210: {
     name: 'Beverly Hills',
@@ -27921,7 +28128,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://camp-testnet-bridge.vercel.app/' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZN3AzgetKvuTnZvsPPYTvtcsPa73ScGdTguXGHxc2CpN'
+      'https://ipfs.io/ipfs/QmZN3AzgetKvuTnZvsPPYTvtcsPa73ScGdTguXGHxc2CpN'
   },
   91002: {
     name: 'Nautilus Trition Chain',
@@ -27947,7 +28154,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNutSgM7n6aJPPDiofe9Dm1epy1RcYTMvugukLUK2vmPM'
+      'https://ipfs.io/ipfs/QmNutSgM7n6aJPPDiofe9Dm1epy1RcYTMvugukLUK2vmPM'
   },
   91120: {
     name: 'MetaDAP Enterprise Mainnet',
@@ -27969,7 +28176,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmcCFUTStKKJKfzTwrjfMFoVaPCMsvAvWXRdDkYMvCkEs3'
+      'https://ipfs.io/ipfs/QmcCFUTStKKJKfzTwrjfMFoVaPCMsvAvWXRdDkYMvCkEs3'
   },
   91715: {
     name: 'Combo Testnet',
@@ -27994,7 +28201,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRR4v6h6z21BpgS9xY3ExLB4Gkmm3i3dJWQx27oTGifq8'
+      'https://ipfs.io/ipfs/QmRR4v6h6z21BpgS9xY3ExLB4Gkmm3i3dJWQx27oTGifq8'
   },
   92001: {
     name: 'Lambda Testnet',
@@ -28017,7 +28224,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWsoME6LCghQTpGYf7EnUojaDdYo7kfkWVjE6VvNtkjwy'
+      'https://ipfs.io/ipfs/QmWsoME6LCghQTpGYf7EnUojaDdYo7kfkWVjE6VvNtkjwy'
   },
   93572: {
     name: 'LiquidLayer Testnet',
@@ -28042,7 +28249,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreiayuuzfpcgwjll4us4hquvpqa5gwq3lbiedv4qftmlwcxhcyjzzpq'
+      'https://ipfs.io/ipfs/bafkreiayuuzfpcgwjll4us4hquvpqa5gwq3lbiedv4qftmlwcxhcyjzzpq'
   },
   96970: {
     name: 'Mantis Testnet (Hexapod)',
@@ -28074,7 +28281,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qma8dDhxSSVUyzV8Pu5bo252WaZEEikYFndRh7LVktvQEy'
+      'https://ipfs.io/ipfs/Qma8dDhxSSVUyzV8Pu5bo252WaZEEikYFndRh7LVktvQEy'
   },
   97288: {
     name: 'Boba BNB Mainnet Old',
@@ -28114,7 +28321,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNWBcc2AtknphNxt4GtTxbWF6vDkf6sh2nvkPn9wqchW6'
+      'https://ipfs.io/ipfs/QmNWBcc2AtknphNxt4GtTxbWF6vDkf6sh2nvkPn9wqchW6'
   },
   97970: {
     name: 'OptimusZ7 Testnet',
@@ -28135,7 +28342,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmerd9Q3otjDuQAFbdiQyUnZk7UfPvkCr21E5N4VCNvhbj'
+      'https://ipfs.io/ipfs/Qmerd9Q3otjDuQAFbdiQyUnZk7UfPvkCr21E5N4VCNvhbj'
   },
   98881: {
     name: 'Ebi Chain',
@@ -28170,7 +28377,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmcr8US1DZcK3ooiMtE8tEQPgep12abXzxPw1jCkgZhji9'
+      'https://ipfs.io/ipfs/Qmcr8US1DZcK3ooiMtE8tEQPgep12abXzxPw1jCkgZhji9'
   },
   99998: {
     name: 'UB Smart Chain(testnet)',
@@ -28450,7 +28657,7 @@ export const chains: Chains = {
     explorers: [],
     status: 'deprecated',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeidk4swpgdyqmpz6shd5onvpaujvwiwthrhypufnwr6xh3dausz2dm'
+      'https://ipfs.io/ipfs/bafybeidk4swpgdyqmpz6shd5onvpaujvwiwthrhypufnwr6xh3dausz2dm'
   },
   101010: {
     name: 'Global Trust Network',
@@ -28472,7 +28679,7 @@ export const chains: Chains = {
     ],
     redFlags: ['reusedChainId'],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreid3wd6ouu53r677q2z24a4eq5un5tlwbc4izfapcvvtrlhkmz43au'
+      'https://ipfs.io/ipfs/bafkreid3wd6ouu53r677q2z24a4eq5un5tlwbc4izfapcvvtrlhkmz43au'
   },
   102031: {
     name: 'Creditcoin Testnet',
@@ -28495,7 +28702,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTfecECALDCy51zwVbXBSXb6TokqowCYzVLv65etahLxX'
+      'https://ipfs.io/ipfs/QmTfecECALDCy51zwVbXBSXb6TokqowCYzVLv65etahLxX'
   },
   103090: {
     name: 'Crystaleum',
@@ -28517,7 +28724,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmbry1Uc6HnXmqFNXW5dFJ7To8EezCCjNr4TqqvAyzXS4h'
+      'https://ipfs.io/ipfs/Qmbry1Uc6HnXmqFNXW5dFJ7To8EezCCjNr4TqqvAyzXS4h'
   },
   103454: {
     name: 'Masa Testnet',
@@ -28539,7 +28746,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmV4f9byENNduHgLi8o1pC1sBNe3QAege2NnFkqGkTKojT'
+      'https://ipfs.io/ipfs/QmV4f9byENNduHgLi8o1pC1sBNe3QAege2NnFkqGkTKojT'
   },
   104566: {
     name: 'KaspaClassic Mainnet',
@@ -28560,7 +28767,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNMuNBwg9opKvsnrDaoYBP743LeddeooQupVYjpBXf7d7'
+      'https://ipfs.io/ipfs/QmNMuNBwg9opKvsnrDaoYBP743LeddeooQupVYjpBXf7d7'
   },
   105105: {
     name: 'Stratis Mainnet',
@@ -28581,7 +28788,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWiRBqfzoZ3GC7oCbYFqbwLyF4uDHM4eYdKUUJ7LHf2EA'
+      'https://ipfs.io/ipfs/QmWiRBqfzoZ3GC7oCbYFqbwLyF4uDHM4eYdKUUJ7LHf2EA'
   },
   108801: {
     name: 'BROChain Mainnet',
@@ -28826,7 +29033,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYeMdWDZ1iaBFeSPorRyPi7RuSXTdDKTgW3rfnUf3W5ne'
+      'https://ipfs.io/ipfs/QmYeMdWDZ1iaBFeSPorRyPi7RuSXTdDKTgW3rfnUf3W5ne'
   },
   111111: {
     name: 'Siberium Network',
@@ -28854,7 +29061,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYeMdWDZ1iaBFeSPorRyPi7RuSXTdDKTgW3rfnUf3W5ne'
+      'https://ipfs.io/ipfs/QmYeMdWDZ1iaBFeSPorRyPi7RuSXTdDKTgW3rfnUf3W5ne'
   },
   111188: {
     name: 're.al',
@@ -28886,7 +29093,7 @@ export const chains: Chains = {
       ]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNUmWC7jNEBcTs6ZqkrQ5vMAQG8qjq7n3FcZnXvJZLoQ9'
+      'https://ipfs.io/ipfs/QmNUmWC7jNEBcTs6ZqkrQ5vMAQG8qjq7n3FcZnXvJZLoQ9'
   },
   112358: {
     name: 'Metachain One Mainnet',
@@ -28908,7 +29115,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTmo2QAtX5PbhX96vewnvH4Vc5H83Ft2DJGi6tAqTcFij'
+      'https://ipfs.io/ipfs/QmTmo2QAtX5PbhX96vewnvH4Vc5H83Ft2DJGi6tAqTcFij'
   },
   119139: {
     name: 'MetaDAP Enterprise Testnet',
@@ -28933,7 +29140,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmcCFUTStKKJKfzTwrjfMFoVaPCMsvAvWXRdDkYMvCkEs3'
+      'https://ipfs.io/ipfs/QmcCFUTStKKJKfzTwrjfMFoVaPCMsvAvWXRdDkYMvCkEs3'
   },
   123456: {
     name: 'ADIL Devnet',
@@ -28954,7 +29161,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeHNYUx6n8CjUFSLWNT17oAtDYrUq6r8buyvGCUBXCJw6'
+      'https://ipfs.io/ipfs/QmeHNYUx6n8CjUFSLWNT17oAtDYrUq6r8buyvGCUBXCJw6'
   },
   128123: {
     name: 'Etherlink Testnet',
@@ -28976,7 +29183,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVqE4wq3fd3RKZwo7GxmW333ywHgYBZGvqwh3TUBM5DUi'
+      'https://ipfs.io/ipfs/QmVqE4wq3fd3RKZwo7GxmW333ywHgYBZGvqwh3TUBM5DUi'
   },
   131313: {
     name: 'Odyssey Chain (Testnet)',
@@ -28991,7 +29198,7 @@ export const chains: Chains = {
     icon: 'odyssey',
     nativeCurrency: { name: 'DIONE', symbol: 'DIONE', decimals: 18 },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVt5Y585JqBSrkpZmYaEnX9FW7tDwfDLmUGNyDdyV2Pd2'
+      'https://ipfs.io/ipfs/QmVt5Y585JqBSrkpZmYaEnX9FW7tDwfDLmUGNyDdyV2Pd2'
   },
   131419: {
     name: 'ETND Chain Mainnets',
@@ -29013,7 +29220,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmd26eRJxPb1jJg5Q4mC2M4kD9Jrs5vmcnr5LczHFMGwSD'
+      'https://ipfs.io/ipfs/Qmd26eRJxPb1jJg5Q4mC2M4kD9Jrs5vmcnr5LczHFMGwSD'
   },
   132902: {
     name: 'Form Testnet',
@@ -29065,7 +29272,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPsxWMvnxnZ9dZcRJJMaE24o34dQsnsAMCJh3kVDrE1aB'
+      'https://ipfs.io/ipfs/QmPsxWMvnxnZ9dZcRJJMaE24o34dQsnsAMCJh3kVDrE1aB'
   },
   142857: {
     name: 'ICPlaza Mainnet',
@@ -29086,7 +29293,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQpKKwpqrx77VA4SJLEWhuv9eLFMcVV9uvxRCLb6gdgCX'
+      'https://ipfs.io/ipfs/QmQpKKwpqrx77VA4SJLEWhuv9eLFMcVV9uvxRCLb6gdgCX'
   },
   161212: {
     name: 'PlayFi Mainnet',
@@ -29120,7 +29327,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeigpyvnir6awzgeazkk5xdkvexw7w6ww3yxawszue6zms4a5ygdfky'
+      'https://ipfs.io/ipfs/bafybeigpyvnir6awzgeazkk5xdkvexw7w6ww3yxawszue6zms4a5ygdfky'
   },
   167000: {
     name: 'Taiko Mainnet',
@@ -29142,7 +29349,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmcHdmVr5VRUJq13jnM6tgah5Ge7hn3Dm14eY6vwivJ5ui'
+      'https://ipfs.io/ipfs/QmcHdmVr5VRUJq13jnM6tgah5Ge7hn3Dm14eY6vwivJ5ui'
   },
   167004: {
     name: 'Taiko (Alpha-2 Testnet)',
@@ -29165,7 +29372,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmcHdmVr5VRUJq13jnM6tgah5Ge7hn3Dm14eY6vwivJ5ui'
+      'https://ipfs.io/ipfs/QmcHdmVr5VRUJq13jnM6tgah5Ge7hn3Dm14eY6vwivJ5ui'
   },
   167005: {
     name: 'Taiko Grimsvotn L2',
@@ -29187,7 +29394,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmcHdmVr5VRUJq13jnM6tgah5Ge7hn3Dm14eY6vwivJ5ui'
+      'https://ipfs.io/ipfs/QmcHdmVr5VRUJq13jnM6tgah5Ge7hn3Dm14eY6vwivJ5ui'
   },
   167006: {
     name: 'Taiko Eldfell L3',
@@ -29209,7 +29416,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmcHdmVr5VRUJq13jnM6tgah5Ge7hn3Dm14eY6vwivJ5ui'
+      'https://ipfs.io/ipfs/QmcHdmVr5VRUJq13jnM6tgah5Ge7hn3Dm14eY6vwivJ5ui'
   },
   167007: {
     name: 'Taiko Jolnir L2',
@@ -29231,7 +29438,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmcHdmVr5VRUJq13jnM6tgah5Ge7hn3Dm14eY6vwivJ5ui'
+      'https://ipfs.io/ipfs/QmcHdmVr5VRUJq13jnM6tgah5Ge7hn3Dm14eY6vwivJ5ui'
   },
   167008: {
     name: 'Taiko Katla L2',
@@ -29258,7 +29465,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmcHdmVr5VRUJq13jnM6tgah5Ge7hn3Dm14eY6vwivJ5ui'
+      'https://ipfs.io/ipfs/QmcHdmVr5VRUJq13jnM6tgah5Ge7hn3Dm14eY6vwivJ5ui'
   },
   167009: {
     name: 'Taiko Hekla L2',
@@ -29285,7 +29492,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmcHdmVr5VRUJq13jnM6tgah5Ge7hn3Dm14eY6vwivJ5ui'
+      'https://ipfs.io/ipfs/QmcHdmVr5VRUJq13jnM6tgah5Ge7hn3Dm14eY6vwivJ5ui'
   },
   188710: {
     name: 'Bitica Chain Mainnet',
@@ -29329,7 +29536,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPRDuEJSTqp2cDUvWCp71Wns6XV8nvdeAVKWH6srpk4xM'
+      'https://ipfs.io/ipfs/QmPRDuEJSTqp2cDUvWCp71Wns6XV8nvdeAVKWH6srpk4xM'
   },
   192940: {
     name: 'Mind Network Testnet',
@@ -29381,7 +29588,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdoUtvHDybu5ppYBZT8BMRp6AqByVSoQs8nFwKbaS55jd'
+      'https://ipfs.io/ipfs/QmdoUtvHDybu5ppYBZT8BMRp6AqByVSoQs8nFwKbaS55jd'
   },
   200202: {
     name: 'Milkomeda A1 Testnet',
@@ -29403,7 +29610,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdoUtvHDybu5ppYBZT8BMRp6AqByVSoQs8nFwKbaS55jd'
+      'https://ipfs.io/ipfs/QmdoUtvHDybu5ppYBZT8BMRp6AqByVSoQs8nFwKbaS55jd'
   },
   200625: {
     name: 'Akroma',
@@ -29443,7 +29650,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdWZ1frB47fr3tw31xE68C2Vocaw5Ef53LQ5WDNdNnNyG'
+      'https://ipfs.io/ipfs/QmdWZ1frB47fr3tw31xE68C2Vocaw5Ef53LQ5WDNdNnNyG'
   },
   200901: {
     name: 'Bitlayer Mainnet',
@@ -29472,7 +29679,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdWZ1frB47fr3tw31xE68C2Vocaw5Ef53LQ5WDNdNnNyG'
+      'https://ipfs.io/ipfs/QmdWZ1frB47fr3tw31xE68C2Vocaw5Ef53LQ5WDNdNnNyG'
   },
   201018: {
     name: 'Alaya Mainnet',
@@ -29496,7 +29703,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmci6vPcWAwmq19j98yuQxjV6UPzHtThMdCAUDbKeb8oYu'
+      'https://ipfs.io/ipfs/Qmci6vPcWAwmq19j98yuQxjV6UPzHtThMdCAUDbKeb8oYu'
   },
   201030: {
     name: 'Alaya Dev Testnet',
@@ -29523,7 +29730,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmci6vPcWAwmq19j98yuQxjV6UPzHtThMdCAUDbKeb8oYu'
+      'https://ipfs.io/ipfs/Qmci6vPcWAwmq19j98yuQxjV6UPzHtThMdCAUDbKeb8oYu'
   },
   201804: {
     name: 'Mythical Chain',
@@ -29546,7 +29753,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreihru6cccfblrjz5bv36znq2l3h67u6xj5ivtc4bj5l6gzofbgtnb4'
+      'https://ipfs.io/ipfs/bafkreihru6cccfblrjz5bv36znq2l3h67u6xj5ivtc4bj5l6gzofbgtnb4'
   },
   202020: {
     name: 'Decimal Smart Chain Testnet',
@@ -29570,7 +29777,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSgzwKnJJjys3Uq2aVVdwJ3NffLj3CXMVCph9uByTBegc'
+      'https://ipfs.io/ipfs/QmSgzwKnJJjys3Uq2aVVdwJ3NffLj3CXMVCph9uByTBegc'
   },
   202212: {
     name: 'X1 Devnet',
@@ -29631,7 +29838,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTXJVhVKvVC7DQEnGKXvydvwpvVaUEBJrMHvsCr4nr1sK'
+      'https://ipfs.io/ipfs/QmTXJVhVKvVC7DQEnGKXvydvwpvVaUEBJrMHvsCr4nr1sK'
   },
   204005: {
     name: 'X1 Network',
@@ -29672,7 +29879,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmbkTh6qNYUnae5yNjied3qZqVyZcb4x3hfUpJ33bGg9QY'
+      'https://ipfs.io/ipfs/QmbkTh6qNYUnae5yNjied3qZqVyZcb4x3hfUpJ33bGg9QY'
   },
   210049: {
     name: 'GitAGI Atlas Testnet',
@@ -29707,7 +29914,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmT7PSXBiVBma6E15hNkivmstqLu3JSnG1jXN5pTmcCGRC'
+      'https://ipfs.io/ipfs/QmT7PSXBiVBma6E15hNkivmstqLu3JSnG1jXN5pTmcCGRC'
   },
   220315: {
     name: 'Mas Mainnet',
@@ -29729,7 +29936,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZ9njQhhKkpJKGnoYy6XTuDtk5CYiDFUd8atqWthqUT3Q'
+      'https://ipfs.io/ipfs/QmZ9njQhhKkpJKGnoYy6XTuDtk5CYiDFUd8atqWthqUT3Q'
   },
   221230: {
     name: 'Reapchain Mainnet',
@@ -29752,7 +29959,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmevQ8jmDWHmdnUQg6BpoMwVB3NhpzS75adbMnKL78Ls2h'
+      'https://ipfs.io/ipfs/QmevQ8jmDWHmdnUQg6BpoMwVB3NhpzS75adbMnKL78Ls2h'
   },
   221231: {
     name: 'Reapchain Testnet',
@@ -29776,7 +29983,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmevQ8jmDWHmdnUQg6BpoMwVB3NhpzS75adbMnKL78Ls2h'
+      'https://ipfs.io/ipfs/QmevQ8jmDWHmdnUQg6BpoMwVB3NhpzS75adbMnKL78Ls2h'
   },
   222222: {
     name: 'HydraDX',
@@ -29797,7 +30004,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQnx3j1ZtQ9Br873FuS6612HQfosXsr4Whew8eN4ArYwE'
+      'https://ipfs.io/ipfs/QmQnx3j1ZtQ9Br873FuS6612HQfosXsr4Whew8eN4ArYwE'
   },
   222555: {
     name: 'DeepL Mainnet',
@@ -29820,7 +30027,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeihjwgy4qja5cee452malk5hpb25pzpipfaka7hjcyb437ldodxzaq'
+      'https://ipfs.io/ipfs/bafybeihjwgy4qja5cee452malk5hpb25pzpipfaka7hjcyb437ldodxzaq'
   },
   222666: {
     name: 'DeepL Testnet',
@@ -29843,7 +30050,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeihjwgy4qja5cee452malk5hpb25pzpipfaka7hjcyb437ldodxzaq'
+      'https://ipfs.io/ipfs/bafybeihjwgy4qja5cee452malk5hpb25pzpipfaka7hjcyb437ldodxzaq'
   },
   224168: {
     name: 'Taf ECO Chain Mainnet',
@@ -29868,7 +30075,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreigpxhu7glccsislhjqpl5fnsfmj2io4cy33blhky642uiuyojossy'
+      'https://ipfs.io/ipfs/bafkreigpxhu7glccsislhjqpl5fnsfmj2io4cy33blhky642uiuyojossy'
   },
   224422: {
     name: 'CONET Sebolia Testnet',
@@ -29891,7 +30098,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreibjxqd5kqcc2shstjjujvxzg6cwegwr6dgjyyd56v6h7yusgks7sy'
+      'https://ipfs.io/ipfs/bafkreibjxqd5kqcc2shstjjujvxzg6cwegwr6dgjyyd56v6h7yusgks7sy'
   },
   224433: {
     name: 'CONET Holesky',
@@ -29914,7 +30121,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreibjxqd5kqcc2shstjjujvxzg6cwegwr6dgjyyd56v6h7yusgks7sy'
+      'https://ipfs.io/ipfs/bafkreibjxqd5kqcc2shstjjujvxzg6cwegwr6dgjyyd56v6h7yusgks7sy'
   },
   230315: {
     name: 'HashKey Chain Testnet(discard)',
@@ -29936,7 +30143,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNU11AqYB2htrrSyBSP9ct7bPtuZTP7Hrz21PrEcB9nYE'
+      'https://ipfs.io/ipfs/QmNU11AqYB2htrrSyBSP9ct7bPtuZTP7Hrz21PrEcB9nYE'
   },
   234666: {
     name: 'Haymo Testnet',
@@ -29971,7 +30178,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWcaVLcPYBxi76HYJc4qudLJwXtfNCDJieLHAs632jMEA'
+      'https://ipfs.io/ipfs/QmWcaVLcPYBxi76HYJc4qudLJwXtfNCDJieLHAs632jMEA'
   },
   246529: {
     name: 'ARTIS sigma1',
@@ -30017,7 +30224,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmduEdtFobPpZWSc45MU6RKxZfTEzLux2z8ikHFhT8usqv'
+      'https://ipfs.io/ipfs/QmduEdtFobPpZWSc45MU6RKxZfTEzLux2z8ikHFhT8usqv'
   },
   256256: {
     name: 'CMP-Mainnet',
@@ -30059,7 +30266,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeigpyvnir6awzgeazkk5xdkvexw7w6ww3yxawszue6zms4a5ygdfky'
+      'https://ipfs.io/ipfs/bafybeigpyvnir6awzgeazkk5xdkvexw7w6ww3yxawszue6zms4a5ygdfky'
   },
   266256: {
     name: 'Gear Zero Network Testnet',
@@ -30098,7 +30305,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNZiMmzMQYjyGtNSghtzLg4UooYhDgMQsa677DAP5KsBg'
+      'https://ipfs.io/ipfs/QmNZiMmzMQYjyGtNSghtzLg4UooYhDgMQsa677DAP5KsBg'
   },
   281121: {
     name: 'Social Smart Chain Mainnet',
@@ -30135,7 +30342,7 @@ export const chains: Chains = {
     ],
     parent: { type: 'L2', chain: 'eip155-11155111' },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmfVmjLNiBh8KyCr9mwDZh34aEhhQ2LAjuP87DFxhfd9nn'
+      'https://ipfs.io/ipfs/QmfVmjLNiBh8KyCr9mwDZh34aEhhQ2LAjuP87DFxhfd9nn'
   },
   309075: {
     name: 'One World Chain Mainnet',
@@ -30156,7 +30363,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPmZ6vgtdMG7jttVZQUobF96Sva1noi5Fsi28V1Eck6eC'
+      'https://ipfs.io/ipfs/QmPmZ6vgtdMG7jttVZQUobF96Sva1noi5Fsi28V1Eck6eC'
   },
   313313: {
     name: 'SaharaAI Testnet',
@@ -30178,7 +30385,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQXCm6w8xvWMkksTQYw3So14VCbwHP6chH41v6ysXdSwF'
+      'https://ipfs.io/ipfs/QmQXCm6w8xvWMkksTQYw3So14VCbwHP6chH41v6ysXdSwF'
   },
   314159: {
     name: 'Filecoin - Calibration testnet',
@@ -30224,7 +30431,7 @@ export const chains: Chains = {
       { name: 'Beryx', url: 'https://beryx.zondax.ch', standard: 'none' }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmS9r9XQkMHVomWcSBNDkKkz9n87h9bH9ssabeiKZtANoU'
+      'https://ipfs.io/ipfs/QmS9r9XQkMHVomWcSBNDkKkz9n87h9bH9ssabeiKZtANoU'
   },
   322202: {
     name: 'Parex Mainnet',
@@ -30247,7 +30454,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSPD3QcjFJL2KpYRnNDxa8Xg5rcSgPugG9kcBBNeavVKi'
+      'https://ipfs.io/ipfs/QmSPD3QcjFJL2KpYRnNDxa8Xg5rcSgPugG9kcBBNeavVKi'
   },
   323213: {
     name: 'Bloom Genesis Testnet',
@@ -30268,7 +30475,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmetu9hMLvczYo7tDPRyjqjBHwwpHU8mEgW3PEPPre56su'
+      'https://ipfs.io/ipfs/Qmetu9hMLvczYo7tDPRyjqjBHwwpHU8mEgW3PEPPre56su'
   },
   330844: {
     name: 'TTcoin Smart Chain Mainnet',
@@ -30290,7 +30497,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmS7ipvvyZ16weG1DM7AZbi1v9ixYwU2FjP25Jj5jkLiuf'
+      'https://ipfs.io/ipfs/QmS7ipvvyZ16weG1DM7AZbi1v9ixYwU2FjP25Jj5jkLiuf'
   },
   333313: {
     name: 'Bloom Genesis Mainnet',
@@ -30311,7 +30518,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmetu9hMLvczYo7tDPRyjqjBHwwpHU8mEgW3PEPPre56su'
+      'https://ipfs.io/ipfs/Qmetu9hMLvczYo7tDPRyjqjBHwwpHU8mEgW3PEPPre56su'
   },
   333331: {
     name: 'Aves Testnet',
@@ -30335,7 +30542,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeKQVv2QneHaaggw2NfpZ7DGMdjVhPywTdse5RzCs4oGn'
+      'https://ipfs.io/ipfs/QmeKQVv2QneHaaggw2NfpZ7DGMdjVhPywTdse5RzCs4oGn'
   },
   333333: {
     name: 'Nativ3 Testnet',
@@ -30362,7 +30569,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://bridgetest.nativ3.network' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVzJDndPui6qBSeJWe5kMLA56C3KpVhqqqk9xvVKE1DGb'
+      'https://ipfs.io/ipfs/QmVzJDndPui6qBSeJWe5kMLA56C3KpVhqqqk9xvVKE1DGb'
   },
   333666: {
     name: 'Oone Chain Testnet',
@@ -30414,7 +30621,7 @@ export const chains: Chains = {
     networkId: 333888,
     slip44: 1,
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmagWrtyApex28H2QeXcs3jJ2F7p2K7eESz3cDbHdQ3pjG'
+      'https://ipfs.io/ipfs/QmagWrtyApex28H2QeXcs3jJ2F7p2K7eESz3cDbHdQ3pjG'
   },
   333999: {
     name: 'Polis Mainnet',
@@ -30428,7 +30635,7 @@ export const chains: Chains = {
     chainId: 333999,
     networkId: 333999,
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmagWrtyApex28H2QeXcs3jJ2F7p2K7eESz3cDbHdQ3pjG'
+      'https://ipfs.io/ipfs/QmagWrtyApex28H2QeXcs3jJ2F7p2K7eESz3cDbHdQ3pjG'
   },
   336655: {
     name: 'UPchain Testnet',
@@ -30451,7 +30658,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNMqcPyQnaaFfUDsmsnu2T6agZfoWij3zFYebCNUPkfAH'
+      'https://ipfs.io/ipfs/QmNMqcPyQnaaFfUDsmsnu2T6agZfoWij3zFYebCNUPkfAH'
   },
   336666: {
     name: 'UPchain Mainnet',
@@ -30474,7 +30681,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNMqcPyQnaaFfUDsmsnu2T6agZfoWij3zFYebCNUPkfAH'
+      'https://ipfs.io/ipfs/QmNMqcPyQnaaFfUDsmsnu2T6agZfoWij3zFYebCNUPkfAH'
   },
   355110: {
     name: 'Bitfinity Network Mainnet',
@@ -30542,7 +30749,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmfHbWCxwSjf8qmg4yw8jySHZijRXTPW8f5xd2T5sjbeCY'
+      'https://ipfs.io/ipfs/QmfHbWCxwSjf8qmg4yw8jySHZijRXTPW8f5xd2T5sjbeCY'
   },
   363636: {
     name: 'Digit Soul Smart Chain 2',
@@ -30563,7 +30770,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRiAUu3xV5uiX6Nk1iXD5w6qjki5ugGFETRVavzJ2h5QF'
+      'https://ipfs.io/ipfs/QmRiAUu3xV5uiX6Nk1iXD5w6qjki5ugGFETRVavzJ2h5QF'
   },
   373737: {
     name: 'HAPchain Testnet',
@@ -30586,7 +30793,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQ4V9JC25yUrYk2kFJwmKguSsZBQvtGcg6q9zkDV8mkJW'
+      'https://ipfs.io/ipfs/QmQ4V9JC25yUrYk2kFJwmKguSsZBQvtGcg6q9zkDV8mkJW'
   },
   381931: {
     name: 'Metal C-Chain',
@@ -30645,7 +30852,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmbiaHnR3fVVofZ7Xq2GYZxwHkLEy3Fh5qDtqnqXD6ACAh'
+      'https://ipfs.io/ipfs/QmbiaHnR3fVVofZ7Xq2GYZxwHkLEy3Fh5qDtqnqXD6ACAh'
   },
   413413: {
     name: 'AIE Testnet',
@@ -30667,7 +30874,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreihok46mhn5yf7b5jgmq7tiyw2fw76wklvj4frpc3gbswgfxzerhhm'
+      'https://ipfs.io/ipfs/bafkreihok46mhn5yf7b5jgmq7tiyw2fw76wklvj4frpc3gbswgfxzerhhm'
   },
   420420: {
     name: 'Kekchain',
@@ -30689,7 +30896,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNzwHAmaaQyuvKudrzGkrTT2GMshcmCmJ9FH8gG2mNJtM'
+      'https://ipfs.io/ipfs/QmNzwHAmaaQyuvKudrzGkrTT2GMshcmCmJ9FH8gG2mNJtM'
   },
   420666: {
     name: 'Kekchain (kektest)',
@@ -30712,7 +30919,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNzwHAmaaQyuvKudrzGkrTT2GMshcmCmJ9FH8gG2mNJtM'
+      'https://ipfs.io/ipfs/QmNzwHAmaaQyuvKudrzGkrTT2GMshcmCmJ9FH8gG2mNJtM'
   },
   420692: {
     name: 'Alterium L2 Testnet',
@@ -30739,7 +30946,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreid3v7ow4c4t3ljya6aouiwvqbtssb2lzmkwt2eghryk234g7yynrq'
+      'https://ipfs.io/ipfs/bafkreid3v7ow4c4t3ljya6aouiwvqbtssb2lzmkwt2eghryk234g7yynrq'
   },
   421611: {
     name: 'Arbitrum Rinkeby',
@@ -30871,7 +31078,7 @@ export const chains: Chains = {
     explorers: [],
     status: 'incubating',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVMBTZVPawyLBD2B5VbG68dfWLfZ1CnB8V59xduBe2kwh'
+      'https://ipfs.io/ipfs/QmVMBTZVPawyLBD2B5VbG68dfWLfZ1CnB8V59xduBe2kwh'
   },
   432201: {
     name: 'Dexalot Subnet Testnet',
@@ -30893,7 +31100,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmfVxdrWjtUKiGzqFDzAxHH2FqwP2aRuZTGcYWdWg519Xy'
+      'https://ipfs.io/ipfs/QmfVxdrWjtUKiGzqFDzAxHH2FqwP2aRuZTGcYWdWg519Xy'
   },
   432204: {
     name: 'Dexalot Subnet',
@@ -30914,7 +31121,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmfVxdrWjtUKiGzqFDzAxHH2FqwP2aRuZTGcYWdWg519Xy'
+      'https://ipfs.io/ipfs/QmfVxdrWjtUKiGzqFDzAxHH2FqwP2aRuZTGcYWdWg519Xy'
   },
   444444: {
     name: 'Syndr L3 Sepolia',
@@ -30996,7 +31203,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmT11iJMLe9sAk5NiRQbe2wv1jtLFCs2sF2w9vFwDLkkgE'
+      'https://ipfs.io/ipfs/QmT11iJMLe9sAk5NiRQbe2wv1jtLFCs2sF2w9vFwDLkkgE'
   },
   474142: {
     name: 'OpenChain Mainnet',
@@ -31036,7 +31243,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmY6AkNb5TYrDbM5M7YpSM8X3aYn2LcPXeLXz6F7WoB27r'
+      'https://ipfs.io/ipfs/QmY6AkNb5TYrDbM5M7YpSM8X3aYn2LcPXeLXz6F7WoB27r'
   },
   512512: {
     name: 'CMP-Testnet',
@@ -31213,7 +31420,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeiadbavrwcial76vs5ovhyykyaobteltuhliqcthdairbja4klwzhu'
+      'https://ipfs.io/ipfs/bafybeiadbavrwcial76vs5ovhyykyaobteltuhliqcthdairbja4klwzhu'
   },
   535037: {
     name: 'BeanEco SmartChain',
@@ -31257,7 +31464,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmPmZ6vgtdMG7jttVZQUobF96Sva1noi5Fsi28V1Eck6eC'
+      'https://ipfs.io/ipfs/QmPmZ6vgtdMG7jttVZQUobF96Sva1noi5Fsi28V1Eck6eC'
   },
   555666: {
     name: 'Eclipse Testnet',
@@ -31305,7 +31512,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreiawlhc2trzyxgnz24vowdymxme2m446uk4vmrplgxsdd74ecpfloq'
+      'https://ipfs.io/ipfs/bafkreiawlhc2trzyxgnz24vowdymxme2m446uk4vmrplgxsdd74ecpfloq'
   },
   622463: {
     name: 'Atlas',
@@ -31314,7 +31521,7 @@ export const chains: Chains = {
     icon: 'atlas',
     rpc: ['https://rpc.testnet.atl.network'],
     faucets: [],
-    nativeCurrency: { name: 'ATLAS', symbol: 'ATLAS', decimals: 18 },
+    nativeCurrency: { name: 'TON', symbol: 'TON', decimals: 18 },
     infoURL: 'https://atl.network',
     shortName: 'atlas-testnet',
     chainId: 622463,
@@ -31328,7 +31535,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmcSWGcoqC3y8VKahRdqPDgD68rr6A1gWVQPRt5FcpgWmG'
+      'https://ipfs.io/ipfs/QmcSWGcoqC3y8VKahRdqPDgD68rr6A1gWVQPRt5FcpgWmG'
   },
   641230: {
     name: 'Bear Network Chain Mainnet',
@@ -31356,7 +31563,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQqhH28QpUrreoRw5Gj8YShzdHxxVGMjfVrx3TqJNLSLv'
+      'https://ipfs.io/ipfs/QmQqhH28QpUrreoRw5Gj8YShzdHxxVGMjfVrx3TqJNLSLv'
   },
   651940: {
     name: 'ALL Mainnet',
@@ -31377,7 +31584,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreibqe2mgiqezi24sx272kunqt6pv7uzxhpkxuobvpbsptce3q6nn5i'
+      'https://ipfs.io/ipfs/bafkreibqe2mgiqezi24sx272kunqt6pv7uzxhpkxuobvpbsptce3q6nn5i'
   },
   660279: {
     name: 'Xai Mainnet',
@@ -31429,7 +31636,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQbUVcaxFwY8gqMq1Jeup4NEyivo12QYhbLvVRvgXRBFb'
+      'https://ipfs.io/ipfs/QmQbUVcaxFwY8gqMq1Jeup4NEyivo12QYhbLvVRvgXRBFb'
   },
   686868: {
     name: 'Won Network',
@@ -31450,7 +31657,7 @@ export const chains: Chains = {
     ],
     infoURL: 'https://wonnetwork.org',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQ6mjKWJQ5WmFiJzcqJnuHWZK53nQYJB1SnMQZEqgr74h'
+      'https://ipfs.io/ipfs/QmQ6mjKWJQ5WmFiJzcqJnuHWZK53nQYJB1SnMQZEqgr74h'
   },
   696969: {
     name: 'Galadriel Devnet',
@@ -31523,7 +31730,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreih3l3iisplmikofkbfyimqlox7nmixzlkzhjoewmpi4jbqitwryoa'
+      'https://ipfs.io/ipfs/bafkreih3l3iisplmikofkbfyimqlox7nmixzlkzhjoewmpi4jbqitwryoa'
   },
   721529: {
     name: 'ERAM Mainnet',
@@ -31544,7 +31751,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQyu82MtGVLYMwCc5rseNXDV12V3UUX7iNq8q86SyeaPh'
+      'https://ipfs.io/ipfs/QmQyu82MtGVLYMwCc5rseNXDV12V3UUX7iNq8q86SyeaPh'
   },
   743111: {
     name: 'Hemi Sepolia',
@@ -31568,7 +31775,7 @@ export const chains: Chains = {
     parent: { type: 'L2', chain: 'eip155-11155111' },
     status: 'active',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmfP6GDn5eXFcpWuoiyWn5pjn6PYB7HQhRD8nSko1zR8KD'
+      'https://ipfs.io/ipfs/QmfP6GDn5eXFcpWuoiyWn5pjn6PYB7HQhRD8nSko1zR8KD'
   },
   751230: {
     name: 'Bear Network Chain Testnet',
@@ -31594,7 +31801,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQqhH28QpUrreoRw5Gj8YShzdHxxVGMjfVrx3TqJNLSLv'
+      'https://ipfs.io/ipfs/QmQqhH28QpUrreoRw5Gj8YShzdHxxVGMjfVrx3TqJNLSLv'
   },
   761412: {
     name: 'Miexs Smartchain',
@@ -31615,7 +31822,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreic6tcc6swh5kzljwqnswj6rlemcm7n6ra7xkgttwv5v3fv7ozj5zu'
+      'https://ipfs.io/ipfs/bafkreic6tcc6swh5kzljwqnswj6rlemcm7n6ra7xkgttwv5v3fv7ozj5zu'
   },
   764984: {
     name: 'Lamina1 Testnet',
@@ -31696,7 +31903,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVhezQHkqSZ5Tvtsw18giA1yBjV1URSsBQ7HenUh6p6oC'
+      'https://ipfs.io/ipfs/QmVhezQHkqSZ5Tvtsw18giA1yBjV1URSsBQ7HenUh6p6oC'
   },
   808080: {
     name: 'BIZ Smart Chain Testnet',
@@ -31719,7 +31926,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNnaDZRoMz9aoho35TGHBY5zD16P39cgPpw3z3jnkDHHB'
+      'https://ipfs.io/ipfs/QmNnaDZRoMz9aoho35TGHBY5zD16P39cgPpw3z3jnkDHHB'
   },
   810180: {
     name: 'zkLink Nova Mainnet',
@@ -31747,7 +31954,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://portal.zklink.io' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreiaj7b6pdekv3rjuta5wsdvmfdcsat2jftjgozape7wvmyj6d3vjcm'
+      'https://ipfs.io/ipfs/bafkreiaj7b6pdekv3rjuta5wsdvmfdcsat2jftjgozape7wvmyj6d3vjcm'
   },
   810181: {
     name: 'zkLink Nova Sepolia Testnet',
@@ -31775,7 +31982,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://sepolia.portal.zklink.io' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreiaj7b6pdekv3rjuta5wsdvmfdcsat2jftjgozape7wvmyj6d3vjcm'
+      'https://ipfs.io/ipfs/bafkreiaj7b6pdekv3rjuta5wsdvmfdcsat2jftjgozape7wvmyj6d3vjcm'
   },
   810182: {
     name: 'zkLink Nova Goerli Testnet',
@@ -31803,7 +32010,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://goerli.portal.zklink.io' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreiaj7b6pdekv3rjuta5wsdvmfdcsat2jftjgozape7wvmyj6d3vjcm'
+      'https://ipfs.io/ipfs/bafkreiaj7b6pdekv3rjuta5wsdvmfdcsat2jftjgozape7wvmyj6d3vjcm'
   },
   820522: {
     name: 'TSC Testnet',
@@ -31825,7 +32032,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYmQAo5hSr16LDeSbWbXfKdF6qa2zCoK7e88r2f7RiFdt'
+      'https://ipfs.io/ipfs/QmYmQAo5hSr16LDeSbWbXfKdF6qa2zCoK7e88r2f7RiFdt'
   },
   827431: {
     name: 'CURVE Mainnet',
@@ -31846,7 +32053,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTjV3TTR5aLb7fi7tjx8gcDvYtqBpusqhCSaznVxJ7NJg'
+      'https://ipfs.io/ipfs/QmTjV3TTR5aLb7fi7tjx8gcDvYtqBpusqhCSaznVxJ7NJg'
   },
   839320: {
     name: 'PRM Testnet',
@@ -31867,7 +32074,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmckkDRkuCQWbvhpKGsqa8ajuQvf3W5dekzw5qpiPC6shk'
+      'https://ipfs.io/ipfs/QmckkDRkuCQWbvhpKGsqa8ajuQvf3W5dekzw5qpiPC6shk'
   },
   846000: {
     name: '4GoodNetwork',
@@ -31904,7 +32111,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdWsi6mhs6Agb3LF4uycUwx2fgNmwkuAGb7JmsLPkwd3j'
+      'https://ipfs.io/ipfs/QmdWsi6mhs6Agb3LF4uycUwx2fgNmwkuAGb7JmsLPkwd3j'
   },
   879151: {
     name: 'BlocX Mainnet',
@@ -31926,7 +32133,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXM7XiLdSxhCub8MLSSo2J9V2qAkTcwdAGxcT57kurUzg'
+      'https://ipfs.io/ipfs/QmXM7XiLdSxhCub8MLSSo2J9V2qAkTcwdAGxcT57kurUzg'
   },
   888882: {
     name: 'REXX Mainnet',
@@ -32029,7 +32236,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVbzZYXdVFY3uFaWQd7iSRtdM2UKWohj9fVqqEwxcw2RV'
+      'https://ipfs.io/ipfs/QmVbzZYXdVFY3uFaWQd7iSRtdM2UKWohj9fVqqEwxcw2RV'
   },
   920000: {
     name: 'Posichain Devnet Shard 0',
@@ -32096,7 +32303,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmfXCh6UnaEHn3Evz7RFJ3p2ggJBRm9hunDHegeoquGuhD'
+      'https://ipfs.io/ipfs/QmfXCh6UnaEHn3Evz7RFJ3p2ggJBRm9hunDHegeoquGuhD'
   },
   955081: {
     name: 'Jono12 Subnet',
@@ -32118,7 +32325,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreievzx4ke62dtc77o47x7vs7nn67ghzrwku6h5dxo3hwcsqfeblke4'
+      'https://ipfs.io/ipfs/bafkreievzx4ke62dtc77o47x7vs7nn67ghzrwku6h5dxo3hwcsqfeblke4'
   },
   955305: {
     name: 'Eluvio Content Fabric',
@@ -32180,7 +32387,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://portal.treasure.lol/bridge' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmbALStb7WtVPHMdwp5DBhE1pUs9QdTgYU1XqRnyJKobE4'
+      'https://ipfs.io/ipfs/QmbALStb7WtVPHMdwp5DBhE1pUs9QdTgYU1XqRnyJKobE4'
   },
   984122: {
     name: 'Forma',
@@ -32203,7 +32410,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQkjcadjAEefa4HLG26pKFvCaNZeZ7wWNxMkCVarW9tiU'
+      'https://ipfs.io/ipfs/QmQkjcadjAEefa4HLG26pKFvCaNZeZ7wWNxMkCVarW9tiU'
   },
   984123: {
     name: 'Forma Sketchpad',
@@ -32226,7 +32433,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQkjcadjAEefa4HLG26pKFvCaNZeZ7wWNxMkCVarW9tiU'
+      'https://ipfs.io/ipfs/QmQkjcadjAEefa4HLG26pKFvCaNZeZ7wWNxMkCVarW9tiU'
   },
   988207: {
     name: 'Ecrox Chain Mainnet',
@@ -32247,7 +32454,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreibnqdlwgotu4hwx6oeu4ye3huobr3eaiuvv55n5tolyxya2q7edmq'
+      'https://ipfs.io/ipfs/bafkreibnqdlwgotu4hwx6oeu4ye3huobr3eaiuvv55n5tolyxya2q7edmq'
   },
   999999: {
     name: 'AmChain',
@@ -32270,7 +32477,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmb6VAhhtaJmdaW1j7PAjxaLju1V24PPDFBdXtebyTSfsZ'
+      'https://ipfs.io/ipfs/Qmb6VAhhtaJmdaW1j7PAjxaLju1V24PPDFBdXtebyTSfsZ'
   },
   1100789: {
     name: 'Netmind Chain Testnet',
@@ -32293,7 +32500,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQNipd6uen7sm7HZXGbqhcSVkUXxu3Tp6c3BoeFpvmywp'
+      'https://ipfs.io/ipfs/QmQNipd6uen7sm7HZXGbqhcSVkUXxu3Tp6c3BoeFpvmywp'
   },
   1127469: {
     name: 'Tiltyard Subnet',
@@ -32353,7 +32560,7 @@ export const chains: Chains = {
     },
     status: 'active',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRySLe3su59dE5x5JPm2b1GeZfz6DR9qUzcbp3rt4SD3A'
+      'https://ipfs.io/ipfs/QmRySLe3su59dE5x5JPm2b1GeZfz6DR9qUzcbp3rt4SD3A'
   },
   1313114: {
     name: 'Etho Protocol',
@@ -32431,7 +32638,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdwQDr6vmBtXmK2TmknkEuZNoaDqTasFdZdu3DRw8b2wt'
+      'https://ipfs.io/ipfs/QmdwQDr6vmBtXmK2TmknkEuZNoaDqTasFdZdu3DRw8b2wt'
   },
   1337803: {
     name: 'Zhejiang',
@@ -32456,7 +32663,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdwQDr6vmBtXmK2TmknkEuZNoaDqTasFdZdu3DRw8b2wt'
+      'https://ipfs.io/ipfs/QmdwQDr6vmBtXmK2TmknkEuZNoaDqTasFdZdu3DRw8b2wt'
   },
   1398243: {
     name: 'Automata Testnet',
@@ -32471,7 +32678,7 @@ export const chains: Chains = {
     icon: 'automata',
     explorers: [],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmW7ugm31MRdhjGtimzWMK5N4g5L84tSyKMpZQYk6N9KvJ'
+      'https://ipfs.io/ipfs/QmW7ugm31MRdhjGtimzWMK5N4g5L84tSyKMpZQYk6N9KvJ'
   },
   1612127: {
     name: 'PlayFi Albireo Testnet',
@@ -32496,6 +32703,24 @@ export const chains: Chains = {
       chain: 'eip155-1',
       bridges: [{ url: 'https://portal.playfi.ai/bridge' }]
     }
+  },
+  1637450: {
+    name: 'Xterio Testnet',
+    chain: 'Xterio Testnet',
+    rpc: ['https://xterio-testnet.alt.technology'],
+    faucets: [],
+    nativeCurrency: { name: 'tBNB', symbol: 'tBNB', decimals: 18 },
+    infoURL: 'https://xter.io',
+    shortName: 'xteriotest',
+    chainId: 1637450,
+    networkId: 1637450,
+    explorers: [
+      {
+        name: 'Xterio Testnet Explorer',
+        url: 'https://testnet.xterscan.io',
+        standard: 'EIP3091'
+      }
+    ]
   },
   1731313: {
     name: 'Turkey Demo Dev',
@@ -32528,7 +32753,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmW9pBps8WHRRWmyXhjLZrjZJUe8F48hUu7z98bu2RVsjN'
+      'https://ipfs.io/ipfs/QmW9pBps8WHRRWmyXhjLZrjZJUe8F48hUu7z98bu2RVsjN'
   },
   2099156: {
     name: 'Plian Mainnet Main',
@@ -32572,7 +32797,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmT7PSXBiVBma6E15hNkivmstqLu3JSnG1jXN5pTmcCGRC'
+      'https://ipfs.io/ipfs/QmT7PSXBiVBma6E15hNkivmstqLu3JSnG1jXN5pTmcCGRC'
   },
   2206132: {
     name: 'PlatON Dev Testnet2',
@@ -32597,7 +32822,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmT7PSXBiVBma6E15hNkivmstqLu3JSnG1jXN5pTmcCGRC'
+      'https://ipfs.io/ipfs/QmT7PSXBiVBma6E15hNkivmstqLu3JSnG1jXN5pTmcCGRC'
   },
   2611555: {
     name: 'DPU Chain',
@@ -32624,7 +32849,7 @@ export const chains: Chains = {
     icon: 'sahara',
     explorers: [],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQXCm6w8xvWMkksTQYw3So14VCbwHP6chH41v6ysXdSwF'
+      'https://ipfs.io/ipfs/QmQXCm6w8xvWMkksTQYw3So14VCbwHP6chH41v6ysXdSwF'
   },
   3141592: {
     name: 'Filecoin - Butterfly testnet',
@@ -32641,7 +32866,7 @@ export const chains: Chains = {
     slip44: 1,
     explorers: [],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmS9r9XQkMHVomWcSBNDkKkz9n87h9bH9ssabeiKZtANoU'
+      'https://ipfs.io/ipfs/QmS9r9XQkMHVomWcSBNDkKkz9n87h9bH9ssabeiKZtANoU'
   },
   3397901: {
     name: 'Funki Sepolia Sandbox',
@@ -32662,7 +32887,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWLjmfbjx2qZC39GCFXDzt72NXVTtDBVzVSq6rwaquyp3'
+      'https://ipfs.io/ipfs/QmWLjmfbjx2qZC39GCFXDzt72NXVTtDBVzVSq6rwaquyp3'
   },
   3441005: {
     name: 'Manta Pacific Testnet',
@@ -32689,7 +32914,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTckcVTViRZ3NqT36MTt8AvgBSmudrbgU3pi8AaNtthoV'
+      'https://ipfs.io/ipfs/QmTckcVTViRZ3NqT36MTt8AvgBSmudrbgU3pi8AaNtthoV'
   },
   3441006: {
     name: 'Manta Pacific Sepolia Testnet',
@@ -32712,7 +32937,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTckcVTViRZ3NqT36MTt8AvgBSmudrbgU3pi8AaNtthoV'
+      'https://ipfs.io/ipfs/QmTckcVTViRZ3NqT36MTt8AvgBSmudrbgU3pi8AaNtthoV'
   },
   4000003: {
     name: 'AltLayer Zero Gas Network',
@@ -32735,7 +32960,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmcEfZJU7NMn9ycTAcEooQgGNfa2nYBToSUZHdFCFadcjb'
+      'https://ipfs.io/ipfs/QmcEfZJU7NMn9ycTAcEooQgGNfa2nYBToSUZHdFCFadcjb'
   },
   4281033: {
     name: 'Worlds Caldera',
@@ -32751,7 +32976,7 @@ export const chains: Chains = {
     icon: 'ethereum',
     explorers: [],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdwQDr6vmBtXmK2TmknkEuZNoaDqTasFdZdu3DRw8b2wt'
+      'https://ipfs.io/ipfs/QmdwQDr6vmBtXmK2TmknkEuZNoaDqTasFdZdu3DRw8b2wt'
   },
   5112023: {
     name: 'NumBlock Chain',
@@ -32773,7 +32998,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRY72AKDaUwxgPukdfSBj19NfMrmsSm48mdBe9zJcW3jB'
+      'https://ipfs.io/ipfs/QmRY72AKDaUwxgPukdfSBj19NfMrmsSm48mdBe9zJcW3jB'
   },
   5167003: {
     name: 'MXC Wannsee zkEVM Testnet',
@@ -32799,7 +33024,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdGCthKA11K9kCZJdbTP5WPAyq1wiRZ3REn6KG58MrWaE'
+      'https://ipfs.io/ipfs/QmdGCthKA11K9kCZJdbTP5WPAyq1wiRZ3REn6KG58MrWaE'
   },
   5167004: {
     name: 'Moonchain Geneva Testnet',
@@ -32825,7 +33050,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdGCthKA11K9kCZJdbTP5WPAyq1wiRZ3REn6KG58MrWaE'
+      'https://ipfs.io/ipfs/QmdGCthKA11K9kCZJdbTP5WPAyq1wiRZ3REn6KG58MrWaE'
   },
   5201420: {
     name: 'Electroneum Testnet',
@@ -32849,7 +33074,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVgFqXA3kkCrVYGcWFF7Mhx8JUSe9vSCauNamuKWSvCym'
+      'https://ipfs.io/ipfs/QmVgFqXA3kkCrVYGcWFF7Mhx8JUSe9vSCauNamuKWSvCym'
   },
   5318008: {
     name: 'Reactive Kopli',
@@ -32872,7 +33097,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmZewyubd3zC17pmmGbjix6gFsppYpLsP3ntu3aB7rCJmW'
+      'https://ipfs.io/ipfs/QmZewyubd3zC17pmmGbjix6gFsppYpLsP3ntu3aB7rCJmW'
   },
   5555555: {
     name: 'Imversed Mainnet',
@@ -32903,7 +33128,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYwvmJZ1bgTdiZUKXk4SifTpTj286CkZjMCshUyJuBFH1'
+      'https://ipfs.io/ipfs/QmYwvmJZ1bgTdiZUKXk4SifTpTj286CkZjMCshUyJuBFH1'
   },
   5555558: {
     name: 'Imversed Testnet',
@@ -32935,7 +33160,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYwvmJZ1bgTdiZUKXk4SifTpTj286CkZjMCshUyJuBFH1'
+      'https://ipfs.io/ipfs/QmYwvmJZ1bgTdiZUKXk4SifTpTj286CkZjMCshUyJuBFH1'
   },
   6038361: {
     name: 'Astar zKyoto',
@@ -32968,7 +33193,7 @@ export const chains: Chains = {
       ]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRySLe3su59dE5x5JPm2b1GeZfz6DR9qUzcbp3rt4SD3A'
+      'https://ipfs.io/ipfs/QmRySLe3su59dE5x5JPm2b1GeZfz6DR9qUzcbp3rt4SD3A'
   },
   6666665: {
     name: 'Safe(AnWang) Mainnet',
@@ -32990,7 +33215,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmahJhdaLfGwBStQ9q9K4Mc73vLNqFV1otWCsT2ZKsMavv'
+      'https://ipfs.io/ipfs/QmahJhdaLfGwBStQ9q9K4Mc73vLNqFV1otWCsT2ZKsMavv'
   },
   6666666: {
     name: 'Safe(AnWang) Testnet',
@@ -33012,7 +33237,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmahJhdaLfGwBStQ9q9K4Mc73vLNqFV1otWCsT2ZKsMavv'
+      'https://ipfs.io/ipfs/QmahJhdaLfGwBStQ9q9K4Mc73vLNqFV1otWCsT2ZKsMavv'
   },
   7225878: {
     name: 'Saakuru Mainnet',
@@ -33033,7 +33258,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmduEdtFobPpZWSc45MU6RKxZfTEzLux2z8ikHFhT8usqv'
+      'https://ipfs.io/ipfs/QmduEdtFobPpZWSc45MU6RKxZfTEzLux2z8ikHFhT8usqv'
   },
   7355310: {
     name: 'OpenVessel',
@@ -33054,7 +33279,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeknNzGCZXQK7egwfwyxQan7Lw8bLnqYsyoEgEbDNCzJX'
+      'https://ipfs.io/ipfs/QmeknNzGCZXQK7egwfwyxQan7Lw8bLnqYsyoEgEbDNCzJX'
   },
   7668378: {
     name: 'QL1 Testnet',
@@ -33078,7 +33303,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRc1kJ7AgcDL1BSoMYudatWHTrz27K6WNTwGifQb5V17D'
+      'https://ipfs.io/ipfs/QmRc1kJ7AgcDL1BSoMYudatWHTrz27K6WNTwGifQb5V17D'
   },
   7762959: {
     name: 'Musicoin',
@@ -33111,7 +33336,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmYQf9VKTzPwQiU5xQMNbJKKGasLDVoXs2S86Ay77MStp7'
+      'https://ipfs.io/ipfs/QmYQf9VKTzPwQiU5xQMNbJKKGasLDVoXs2S86Ay77MStp7'
   },
   8007736: {
     name: 'Plian Mainnet Subchain 1',
@@ -33132,6 +33357,25 @@ export const chains: Chains = {
     ],
     parent: { chain: 'eip155-2099156', type: 'L2' }
   },
+  8008135: {
+    name: 'Fhenix Helium',
+    chain: 'tFHE',
+    rpc: ['https://api.helium.fhenix.zone'],
+    faucets: ['https://get-helium.fhenix.zone'],
+    nativeCurrency: { name: 'tFHE', symbol: 'tFHE', decimals: 18 },
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    infoURL: 'https://www.fhenix.io',
+    shortName: 'fhe-helium',
+    chainId: 8008135,
+    networkId: 8008135,
+    explorers: [
+      {
+        name: 'Fhenix Helium Explorer (Blockscout)',
+        url: 'https://explorer.helium.fhenix.zone',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   8080808: {
     name: 'Hokum',
     chain: 'Hokum',
@@ -33151,7 +33395,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmafrUmh1FD48WWQwk6pfW1Y7eA9VQTdpeL387Wt2JFrAd'
+      'https://ipfs.io/ipfs/QmafrUmh1FD48WWQwk6pfW1Y7eA9VQTdpeL387Wt2JFrAd'
   },
   8601152: {
     name: 'Waterfall 8 Test Network',
@@ -33167,7 +33411,7 @@ export const chains: Chains = {
     icon: 'waterfall',
     explorers: [],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSDJPBKh9cLVL8UZ5KYwdwPyhD8bRWNb33jjt48wtu5Uc'
+      'https://ipfs.io/ipfs/QmSDJPBKh9cLVL8UZ5KYwdwPyhD8bRWNb33jjt48wtu5Uc'
   },
   8794598: {
     name: 'HAPchain',
@@ -33189,7 +33433,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQ4V9JC25yUrYk2kFJwmKguSsZBQvtGcg6q9zkDV8mkJW'
+      'https://ipfs.io/ipfs/QmQ4V9JC25yUrYk2kFJwmKguSsZBQvtGcg6q9zkDV8mkJW'
   },
   8888881: {
     name: 'Quarix Testnet',
@@ -33206,7 +33450,7 @@ export const chains: Chains = {
     icon: 'quarix',
     explorers: [],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTw8TyeeNhUFWrck2WCiN17MaHRt5qzRBtaAvmz6L7qq7'
+      'https://ipfs.io/ipfs/QmTw8TyeeNhUFWrck2WCiN17MaHRt5qzRBtaAvmz6L7qq7'
   },
   8888888: {
     name: 'Quarix',
@@ -33222,7 +33466,7 @@ export const chains: Chains = {
     icon: 'quarix',
     explorers: [],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTw8TyeeNhUFWrck2WCiN17MaHRt5qzRBtaAvmz6L7qq7'
+      'https://ipfs.io/ipfs/QmTw8TyeeNhUFWrck2WCiN17MaHRt5qzRBtaAvmz6L7qq7'
   },
   9322252: {
     name: 'XCAP',
@@ -33247,7 +33491,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeTj6tfaw9qf9wnEUQh7PnCpNWyvm56e7kY35kANRWNxj'
+      'https://ipfs.io/ipfs/QmeTj6tfaw9qf9wnEUQh7PnCpNWyvm56e7kY35kANRWNxj'
   },
   9322253: {
     name: 'Milvine',
@@ -33272,7 +33516,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeTj6tfaw9qf9wnEUQh7PnCpNWyvm56e7kY35kANRWNxj'
+      'https://ipfs.io/ipfs/QmeTj6tfaw9qf9wnEUQh7PnCpNWyvm56e7kY35kANRWNxj'
   },
   10067275: {
     name: 'Plian Testnet Subchain 1',
@@ -33313,7 +33557,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTYazUzgY9Nn2mCjWwFUSLy3dG6i2PvALpwCNQvx1zXyi'
+      'https://ipfs.io/ipfs/QmTYazUzgY9Nn2mCjWwFUSLy3dG6i2PvALpwCNQvx1zXyi'
   },
   10241025: {
     name: 'ALIENX Hal Testnet',
@@ -33337,7 +33581,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmWAa7JayD8HCtAMXezzUNcUoi2Rikqpu2WmrHpFBmDEez'
+      'https://ipfs.io/ipfs/QmWAa7JayD8HCtAMXezzUNcUoi2Rikqpu2WmrHpFBmDEez'
   },
   11155111: {
     name: 'Sepolia',
@@ -33423,7 +33667,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmR58SroHx7ovpqEB5iRkw4PufEXmcCBAJ8AZ7mChDgTfV'
+      'https://ipfs.io/ipfs/QmR58SroHx7ovpqEB5iRkw4PufEXmcCBAJ8AZ7mChDgTfV'
   },
   13371337: {
     name: 'PepChain Churchill',
@@ -33502,7 +33746,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmXCWjWSTd6kJZKnH9aQRjgLdWRH9NTxU1wC21iBvoB4Hp'
+      'https://ipfs.io/ipfs/QmXCWjWSTd6kJZKnH9aQRjgLdWRH9NTxU1wC21iBvoB4Hp'
   },
   18289463: {
     name: 'IOLite',
@@ -33535,7 +33779,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreid3wd6ouu53r677q2z24a4eq5un5tlwbc4izfapcvvtrlhkmz43au'
+      'https://ipfs.io/ipfs/bafkreid3wd6ouu53r677q2z24a4eq5un5tlwbc4izfapcvvtrlhkmz43au'
   },
   20180430: {
     name: 'SmartMesh Mainnet',
@@ -33603,7 +33847,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmVf1afskRHuZjFSLCZH8397KrVNAoYgyAePX9VMBrPVtx'
+      'https://ipfs.io/ipfs/QmVf1afskRHuZjFSLCZH8397KrVNAoYgyAePX9VMBrPVtx'
   },
   20240324: {
     name: 'DeBank Sepolia Testnet',
@@ -33625,7 +33869,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmW9pBps8WHRRWmyXhjLZrjZJUe8F48hUu7z98bu2RVsjN'
+      'https://ipfs.io/ipfs/QmW9pBps8WHRRWmyXhjLZrjZJUe8F48hUu7z98bu2RVsjN'
   },
   20241133: {
     name: 'Swan Proxima Testnet',
@@ -33664,7 +33908,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmafrUmh1FD48WWQwk6pfW1Y7eA9VQTdpeL387Wt2JFrAd'
+      'https://ipfs.io/ipfs/QmafrUmh1FD48WWQwk6pfW1Y7eA9VQTdpeL387Wt2JFrAd'
   },
   22052002: {
     name: 'Excelon Mainnet',
@@ -33685,7 +33929,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTV45o4jTe6ayscF1XWh1WXk5DPck4QohR5kQocSWjvQP'
+      'https://ipfs.io/ipfs/QmTV45o4jTe6ayscF1XWh1WXk5DPck4QohR5kQocSWjvQP'
   },
   27082017: {
     name: 'Excoincial Chain Volta-Testnet',
@@ -33708,7 +33952,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeooM7QicT1YbgY93XPd5p7JsCjYhN3qjWt68X57g6bVC'
+      'https://ipfs.io/ipfs/QmeooM7QicT1YbgY93XPd5p7JsCjYhN3qjWt68X57g6bVC'
   },
   27082022: {
     name: 'Excoincial Chain Mainnet',
@@ -33730,7 +33974,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmeooM7QicT1YbgY93XPd5p7JsCjYhN3qjWt68X57g6bVC'
+      'https://ipfs.io/ipfs/QmeooM7QicT1YbgY93XPd5p7JsCjYhN3qjWt68X57g6bVC'
   },
   28122024: {
     name: 'Ancient8 Testnet',
@@ -33752,7 +33996,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreievnqg3xjokaty4kfbxxbrzm5v5y7exbaaia2txrh4sfgrqsalfym'
+      'https://ipfs.io/ipfs/bafkreievnqg3xjokaty4kfbxxbrzm5v5y7exbaaia2txrh4sfgrqsalfym'
   },
   28945486: {
     name: 'Auxilium Network Mainnet',
@@ -33786,7 +34030,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeiadlvc4pfiykehyt2z67nvgt5w4vlov27olu5obvmryv4xzua4tae'
+      'https://ipfs.io/ipfs/bafybeiadlvc4pfiykehyt2z67nvgt5w4vlov27olu5obvmryv4xzua4tae'
   },
   31415926: {
     name: 'Filecoin - Local testnet',
@@ -33803,7 +34047,7 @@ export const chains: Chains = {
     slip44: 1,
     explorers: [],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmS9r9XQkMHVomWcSBNDkKkz9n87h9bH9ssabeiKZtANoU'
+      'https://ipfs.io/ipfs/QmS9r9XQkMHVomWcSBNDkKkz9n87h9bH9ssabeiKZtANoU'
   },
   35855456: {
     name: 'Joys Digital Mainnet',
@@ -33840,7 +34084,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeic5eexvd34wfy4kuebcyu73qpkv3x57s54ebzjyhyjsmeuni5jwcm'
+      'https://ipfs.io/ipfs/bafybeic5eexvd34wfy4kuebcyu73qpkv3x57s54ebzjyhyjsmeuni5jwcm'
   },
   39916801: {
     name: 'Kingdom Chain',
@@ -33915,7 +34159,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qme5nxFZZoNNpiT8u9WwcBot4HyLTg2jxMxRnsbc5voQwB'
+      'https://ipfs.io/ipfs/Qme5nxFZZoNNpiT8u9WwcBot4HyLTg2jxMxRnsbc5voQwB'
   },
   65010001: {
     name: 'Autonity Bakerloo (Barada) Testnet',
@@ -33938,7 +34182,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qme5nxFZZoNNpiT8u9WwcBot4HyLTg2jxMxRnsbc5voQwB'
+      'https://ipfs.io/ipfs/Qme5nxFZZoNNpiT8u9WwcBot4HyLTg2jxMxRnsbc5voQwB'
   },
   65010002: {
     name: 'Autonity Bakerloo (Sumida) Testnet',
@@ -33963,7 +34207,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qme5nxFZZoNNpiT8u9WwcBot4HyLTg2jxMxRnsbc5voQwB'
+      'https://ipfs.io/ipfs/Qme5nxFZZoNNpiT8u9WwcBot4HyLTg2jxMxRnsbc5voQwB'
   },
   65100000: {
     name: 'Autonity Piccadilly (Thames) Testnet',
@@ -33986,7 +34230,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qme5nxFZZoNNpiT8u9WwcBot4HyLTg2jxMxRnsbc5voQwB'
+      'https://ipfs.io/ipfs/Qme5nxFZZoNNpiT8u9WwcBot4HyLTg2jxMxRnsbc5voQwB'
   },
   65100001: {
     name: 'Autonity Piccadilly (Barada) Testnet',
@@ -34009,7 +34253,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qme5nxFZZoNNpiT8u9WwcBot4HyLTg2jxMxRnsbc5voQwB'
+      'https://ipfs.io/ipfs/Qme5nxFZZoNNpiT8u9WwcBot4HyLTg2jxMxRnsbc5voQwB'
   },
   65100002: {
     name: 'Autonity Piccadilly (Sumida) Testnet',
@@ -34034,7 +34278,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qme5nxFZZoNNpiT8u9WwcBot4HyLTg2jxMxRnsbc5voQwB'
+      'https://ipfs.io/ipfs/Qme5nxFZZoNNpiT8u9WwcBot4HyLTg2jxMxRnsbc5voQwB'
   },
   68840142: {
     name: 'Frame Testnet',
@@ -34056,7 +34300,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRxeKFwBwrXyDksoN4NzNRp3R35s8pVnTBfBj4AJSCq5g'
+      'https://ipfs.io/ipfs/QmRxeKFwBwrXyDksoN4NzNRp3R35s8pVnTBfBj4AJSCq5g'
   },
   77787778: {
     name: '0xHash Testnet',
@@ -34085,7 +34329,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://app.optimism.io/bridge/deposit' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmdwQDr6vmBtXmK2TmknkEuZNoaDqTasFdZdu3DRw8b2wt'
+      'https://ipfs.io/ipfs/QmdwQDr6vmBtXmK2TmknkEuZNoaDqTasFdZdu3DRw8b2wt'
   },
   88888888: {
     name: 'T.E.A.M Blockchain',
@@ -34107,7 +34351,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmcnA15BLE9uvznbugXKjqquizZs1eLPeEEkc92DSmvhmt'
+      'https://ipfs.io/ipfs/QmcnA15BLE9uvznbugXKjqquizZs1eLPeEEkc92DSmvhmt'
   },
   94204209: {
     name: 'Polygon Blackberry',
@@ -34198,7 +34442,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://cyber-testnet.testnets.rollbridge.app/' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmR8NuaSqALStb95YsMsJRG2BoYkibjS1XE1pZFtvEkAXY'
+      'https://ipfs.io/ipfs/QmR8NuaSqALStb95YsMsJRG2BoYkibjS1XE1pZFtvEkAXY'
   },
   123420111: {
     name: 'OP Celestia Raspberry',
@@ -34269,7 +34513,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://testnet-bridge.plumenetwork.xyz' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNUpqkYWYJoDXKUpZ8FVbGyN6HCwxYonKNAieCf2oTzGn'
+      'https://ipfs.io/ipfs/QmNUpqkYWYJoDXKUpZ8FVbGyN6HCwxYonKNAieCf2oTzGn'
   },
   168587773: {
     name: 'Blast Sepolia Testnet',
@@ -34296,7 +34540,7 @@ export const chains: Chains = {
     ],
     parent: { type: 'L2', chain: 'eip155-11155111' },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeifc2h3x7jgy4x4nmg2m54ghbvmkfu6oweujambwefzqzew5vujhsi'
+      'https://ipfs.io/ipfs/bafybeifc2h3x7jgy4x4nmg2m54ghbvmkfu6oweujambwefzqzew5vujhsi'
   },
   192837465: {
     name: 'Gather Mainnet Network',
@@ -34318,7 +34562,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTYR8CeFiNbJ1zJHnE3DK2wEN18r2y2vqSKUcLweUT2Gz'
+      'https://ipfs.io/ipfs/QmTYR8CeFiNbJ1zJHnE3DK2wEN18r2y2vqSKUcLweUT2Gz'
   },
   222000222: {
     name: 'Kanazawa',
@@ -34349,7 +34593,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRhB4AbjDrhvwfSAQi2JvKirFiDWxzJvKEvG8S8AdDdED'
+      'https://ipfs.io/ipfs/QmRhB4AbjDrhvwfSAQi2JvKirFiDWxzJvKEvG8S8AdDdED'
   },
   245022926: {
     name: 'Neon EVM Devnet',
@@ -34380,7 +34624,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmcxevb3v8PEvnvfYgcG3bCBuPhe5YAdsHeaufDChSSR3Q'
+      'https://ipfs.io/ipfs/Qmcxevb3v8PEvnvfYgcG3bCBuPhe5YAdsHeaufDChSSR3Q'
   },
   245022934: {
     name: 'Neon EVM Mainnet',
@@ -34410,7 +34654,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmcxevb3v8PEvnvfYgcG3bCBuPhe5YAdsHeaufDChSSR3Q'
+      'https://ipfs.io/ipfs/Qmcxevb3v8PEvnvfYgcG3bCBuPhe5YAdsHeaufDChSSR3Q'
   },
   245022940: {
     name: 'Neon EVM TestNet',
@@ -34438,7 +34682,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmcxevb3v8PEvnvfYgcG3bCBuPhe5YAdsHeaufDChSSR3Q'
+      'https://ipfs.io/ipfs/Qmcxevb3v8PEvnvfYgcG3bCBuPhe5YAdsHeaufDChSSR3Q'
   },
   278611351: {
     name: 'Razor Skale Chain',
@@ -34459,7 +34703,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmUdwAZJfyKGZnfPGDsCnNvGu123mdd57kTGj1Y3EWVuWK'
+      'https://ipfs.io/ipfs/QmUdwAZJfyKGZnfPGDsCnNvGu123mdd57kTGj1Y3EWVuWK'
   },
   311752642: {
     name: 'OneLedger Mainnet',
@@ -34480,7 +34724,28 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRhqq4Gp8G9w27ND3LeFW49o5PxcxrbJsqHbpBFtzEMfC'
+      'https://ipfs.io/ipfs/QmRhqq4Gp8G9w27ND3LeFW49o5PxcxrbJsqHbpBFtzEMfC'
+  },
+  328527624: {
+    name: 'Nal Sepolia Testnet',
+    chain: 'ETH',
+    rpc: ['https://testnet-rpc.nal.network'],
+    faucets: [],
+    nativeCurrency: { name: 'Sepolia Ether', symbol: 'ETH', decimals: 18 },
+    icon: 'nal',
+    infoURL: 'https://www.nal.network',
+    shortName: 'nalsep',
+    chainId: 328527624,
+    networkId: 328527624,
+    explorers: [
+      {
+        name: 'Nal Sepolia Testnet Network Explorer',
+        url: 'https://testnet-scan.nal.network',
+        standard: 'EIP3091'
+      }
+    ],
+    iconURL:
+      'https://ipfs.io/ipfs/QmZLZHX18YUswejxo1JFNPx5EwMsVhUwBeBWEcd1JUHAK5'
   },
   333000333: {
     name: 'Meld',
@@ -34510,7 +34775,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRhB4AbjDrhvwfSAQi2JvKirFiDWxzJvKEvG8S8AdDdED'
+      'https://ipfs.io/ipfs/QmRhB4AbjDrhvwfSAQi2JvKirFiDWxzJvKEvG8S8AdDdED'
   },
   344106930: {
     name: 'Deprecated SKALE Calypso Hub Testnet',
@@ -34535,7 +34800,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeigyayzxvt7vosat4rtrbmhhnldgx57w2pfbutuniax7h6kswzi42m'
+      'https://ipfs.io/ipfs/bafybeigyayzxvt7vosat4rtrbmhhnldgx57w2pfbutuniax7h6kswzi42m'
   },
   356256156: {
     name: 'Gather Testnet Network',
@@ -34558,7 +34823,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTYR8CeFiNbJ1zJHnE3DK2wEN18r2y2vqSKUcLweUT2Gz'
+      'https://ipfs.io/ipfs/QmTYR8CeFiNbJ1zJHnE3DK2wEN18r2y2vqSKUcLweUT2Gz'
   },
   476158412: {
     name: 'Deprecated SKALE Europa Hub Testnet',
@@ -34583,7 +34848,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreiezcwowhm6xjrkt44cmiu6ml36rhrxx3amcg3cfkcntv2vgcvgbre'
+      'https://ipfs.io/ipfs/bafkreiezcwowhm6xjrkt44cmiu6ml36rhrxx3amcg3cfkcntv2vgcvgbre'
   },
   486217935: {
     name: 'Gather Devnet Network',
@@ -34628,7 +34893,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeic5eexvd34wfy4kuebcyu73qpkv3x57s54ebzjyhyjsmeuni5jwcm'
+      'https://ipfs.io/ipfs/bafybeic5eexvd34wfy4kuebcyu73qpkv3x57s54ebzjyhyjsmeuni5jwcm'
   },
   666666666: {
     name: 'Degen Chain',
@@ -34644,7 +34909,7 @@ export const chains: Chains = {
     status: 'incubating',
     icon: 'degen',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/Qmb6yAe4wXeBkxjfhxzoUT9TzETcmE7Vne59etm9GJaQf7'
+      'https://ipfs.io/ipfs/Qmb6yAe4wXeBkxjfhxzoUT9TzETcmE7Vne59etm9GJaQf7'
   },
   888888888: {
     name: 'Ancient8',
@@ -34665,7 +34930,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreievnqg3xjokaty4kfbxxbrzm5v5y7exbaaia2txrh4sfgrqsalfym'
+      'https://ipfs.io/ipfs/bafkreievnqg3xjokaty4kfbxxbrzm5v5y7exbaaia2txrh4sfgrqsalfym'
   },
   889910245: {
     name: 'PTCESCAN Testnet',
@@ -34726,7 +34991,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeigyayzxvt7vosat4rtrbmhhnldgx57w2pfbutuniax7h6kswzi42m'
+      'https://ipfs.io/ipfs/bafybeigyayzxvt7vosat4rtrbmhhnldgx57w2pfbutuniax7h6kswzi42m'
   },
   999999999: {
     name: 'Zora Sepolia Testnet',
@@ -34748,7 +35013,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreifvrly5tgd34xqeo67s4etmiu52bkroml7uy7eosizf57htf5nrzq'
+      'https://ipfs.io/ipfs/bafkreifvrly5tgd34xqeo67s4etmiu52bkroml7uy7eosizf57htf5nrzq'
   },
   1020352220: {
     name: 'SKALE Titan Hub Testnet',
@@ -34774,7 +35039,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreiagrt5dhgltg2kmw7hf24kslstr5h42e745luuxwp2wbg24gm6zza'
+      'https://ipfs.io/ipfs/bafkreiagrt5dhgltg2kmw7hf24kslstr5h42e745luuxwp2wbg24gm6zza'
   },
   1122334455: {
     name: 'IPOS Network',
@@ -34812,7 +35077,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmTvYMJXeZeWxYPuoQ15mHCS8K5EQzkMMCHQVs3GshooyR'
+      'https://ipfs.io/ipfs/QmTvYMJXeZeWxYPuoQ15mHCS8K5EQzkMMCHQVs3GshooyR'
   },
   1273227453: {
     name: 'HUMAN Protocol',
@@ -34909,7 +35174,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreib2sabb6vgfoskobp2wdr6if7v6s34f2xwjecfceui6qhjudmu4u4'
+      'https://ipfs.io/ipfs/bafkreib2sabb6vgfoskobp2wdr6if7v6s34f2xwjecfceui6qhjudmu4u4'
   },
   1350216234: {
     name: 'SKALE Titan Hub',
@@ -34933,7 +35198,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreiagrt5dhgltg2kmw7hf24kslstr5h42e745luuxwp2wbg24gm6zza'
+      'https://ipfs.io/ipfs/bafkreiagrt5dhgltg2kmw7hf24kslstr5h42e745luuxwp2wbg24gm6zza'
   },
   1351057110: {
     name: 'Chaos (SKALE Testnet)',
@@ -34996,7 +35261,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmQuvmiN6vM6Rqzqe1pMzDf8iZXqTtSeqCgGe5k5AyksDU'
+      'https://ipfs.io/ipfs/QmQuvmiN6vM6Rqzqe1pMzDf8iZXqTtSeqCgGe5k5AyksDU'
   },
   1444673419: {
     name: 'SKALE Europa Hub Testnet',
@@ -35019,7 +35284,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreiezcwowhm6xjrkt44cmiu6ml36rhrxx3amcg3cfkcntv2vgcvgbre'
+      'https://ipfs.io/ipfs/bafkreiezcwowhm6xjrkt44cmiu6ml36rhrxx3amcg3cfkcntv2vgcvgbre'
   },
   1482601649: {
     name: 'SKALE Nebula Hub',
@@ -35043,7 +35308,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeic5eexvd34wfy4kuebcyu73qpkv3x57s54ebzjyhyjsmeuni5jwcm'
+      'https://ipfs.io/ipfs/bafybeic5eexvd34wfy4kuebcyu73qpkv3x57s54ebzjyhyjsmeuni5jwcm'
   },
   1517929550: {
     name: 'Deprecated SKALE Titan Hub Testnet',
@@ -35070,7 +35335,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreiagrt5dhgltg2kmw7hf24kslstr5h42e745luuxwp2wbg24gm6zza'
+      'https://ipfs.io/ipfs/bafkreiagrt5dhgltg2kmw7hf24kslstr5h42e745luuxwp2wbg24gm6zza'
   },
   1564830818: {
     name: 'SKALE Calypso Hub',
@@ -35092,7 +35357,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafybeigyayzxvt7vosat4rtrbmhhnldgx57w2pfbutuniax7h6kswzi42m'
+      'https://ipfs.io/ipfs/bafybeigyayzxvt7vosat4rtrbmhhnldgx57w2pfbutuniax7h6kswzi42m'
   },
   1666600000: {
     name: 'Harmony Mainnet Shard 0',
@@ -35271,7 +35536,7 @@ export const chains: Chains = {
     ],
     parent: { type: 'L2', chain: 'eip155-11155111', bridges: [] },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNTZ9nEomAXK6bLxUbMfTS1TvrsN22HU1zTtxHUpMkUhz'
+      'https://ipfs.io/ipfs/QmNTZ9nEomAXK6bLxUbMfTS1TvrsN22HU1zTtxHUpMkUhz'
   },
   1918988905: {
     name: 'RARI Chain Testnet',
@@ -35332,7 +35597,7 @@ export const chains: Chains = {
       bridges: [{ url: 'https://ruby.exchange/bridge.html' }]
     },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreiezcwowhm6xjrkt44cmiu6ml36rhrxx3amcg3cfkcntv2vgcvgbre'
+      'https://ipfs.io/ipfs/bafkreiezcwowhm6xjrkt44cmiu6ml36rhrxx3amcg3cfkcntv2vgcvgbre'
   },
   2863311531: {
     name: 'Ancient8 Testnet (deprecated)',
@@ -35355,7 +35620,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreievnqg3xjokaty4kfbxxbrzm5v5y7exbaaia2txrh4sfgrqsalfym'
+      'https://ipfs.io/ipfs/bafkreievnqg3xjokaty4kfbxxbrzm5v5y7exbaaia2txrh4sfgrqsalfym'
   },
   3125659152: {
     name: 'Pirl',
@@ -35389,7 +35654,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmRhqq4Gp8G9w27ND3LeFW49o5PxcxrbJsqHbpBFtzEMfC'
+      'https://ipfs.io/ipfs/QmRhqq4Gp8G9w27ND3LeFW49o5PxcxrbJsqHbpBFtzEMfC'
   },
   11297108099: {
     name: 'Palm Testnet',
@@ -35419,7 +35684,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreihifvvbq6xzviygveivayogqiotdtpjvilu27bgqobduqemzeq7o4'
+      'https://ipfs.io/ipfs/bafkreihifvvbq6xzviygveivayogqiotdtpjvilu27bgqobduqemzeq7o4'
   },
   11297108109: {
     name: 'Palm',
@@ -35448,7 +35713,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreihifvvbq6xzviygveivayogqiotdtpjvilu27bgqobduqemzeq7o4'
+      'https://ipfs.io/ipfs/bafkreihifvvbq6xzviygveivayogqiotdtpjvilu27bgqobduqemzeq7o4'
   },
   28872323069: {
     name: 'GitSwarm Test Network',
@@ -35466,7 +35731,7 @@ export const chains: Chains = {
     explorers: [],
     status: 'incubating',
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/bafkreihdfuzytq2og65n3d3b2kzfvk6yywvqdlorrt6h76q4baz5phcvju'
+      'https://ipfs.io/ipfs/bafkreihdfuzytq2og65n3d3b2kzfvk6yywvqdlorrt6h76q4baz5phcvju'
   },
   37714555429: {
     name: 'Xai Testnet v2',
@@ -35530,7 +35795,7 @@ export const chains: Chains = {
     explorers: [],
     parent: { type: 'L2', chain: 'eip155-11155111', bridges: [] },
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmNTZ9nEomAXK6bLxUbMfTS1TvrsN22HU1zTtxHUpMkUhz'
+      'https://ipfs.io/ipfs/QmNTZ9nEomAXK6bLxUbMfTS1TvrsN22HU1zTtxHUpMkUhz'
   },
   111222333444: {
     name: 'Alphabet Mainnet',
@@ -35556,7 +35821,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmfTeudwVJcu7jzySBcpD9H5ZVK66nPJKRnicxend1bxfq'
+      'https://ipfs.io/ipfs/QmfTeudwVJcu7jzySBcpD9H5ZVK66nPJKRnicxend1bxfq'
   },
   197710212030: {
     name: 'Ntity Mainnet',
@@ -35578,7 +35843,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSW2YhCvMpnwtPGTJAuEK2QgyWfFjmnwcrapUg6kqFsPf'
+      'https://ipfs.io/ipfs/QmSW2YhCvMpnwtPGTJAuEK2QgyWfFjmnwcrapUg6kqFsPf'
   },
   197710212031: {
     name: 'Haradev Testnet',
@@ -35601,7 +35866,25 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmSW2YhCvMpnwtPGTJAuEK2QgyWfFjmnwcrapUg6kqFsPf'
+      'https://ipfs.io/ipfs/QmSW2YhCvMpnwtPGTJAuEK2QgyWfFjmnwcrapUg6kqFsPf'
+  },
+  202402181627: {
+    name: 'GM Network Testnet',
+    chain: 'GM Network Testnet',
+    rpc: ['https://gmnetwork-testnet.alt.technology/'],
+    faucets: [],
+    nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    infoURL: 'https://gmnetwork.ai',
+    shortName: 'gmnetwork-testnet',
+    chainId: 202402181627,
+    networkId: 202402181627,
+    explorers: [
+      {
+        name: 'gmnetwork-testnet',
+        url: 'https://gmnetwork-testnet-explorer.alt.technology',
+        standard: 'EIP3091'
+      }
+    ]
   },
   383414847825: {
     name: 'Zeniq',
@@ -35693,7 +35976,7 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmP2cDWvgMuPgwAAEX9KexowUEjw6q7zCUSsWcb8HdudUH'
+      'https://ipfs.io/ipfs/QmP2cDWvgMuPgwAAEX9KexowUEjw6q7zCUSsWcb8HdudUH'
   },
   2716446429837000: {
     name: 'DCHAIN',
@@ -35716,6 +35999,6 @@ export const chains: Chains = {
       }
     ],
     iconURL:
-      'https://cloudflare-ipfs.com/ipfs/QmamkxtxT1uFWQGxswmzBRkoTcZuU5biM1QvdsU6SD36K6'
+      'https://ipfs.io/ipfs/QmamkxtxT1uFWQGxswmzBRkoTcZuU5biM1QvdsU6SD36K6'
   }
 }
