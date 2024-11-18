@@ -3569,13 +3569,16 @@ export const chains: Chains = {
     chainId: 164,
     networkId: 164,
     slip44: 1,
+    icon: 'omni',
     explorers: [
       {
         name: 'Omni EVM and cross-chain Explorer',
         url: 'https://omega.omniscan.network',
         standard: 'EIP3091'
       }
-    ]
+    ],
+    iconURL:
+      'https://ipfs.io/ipfs/QmdCMVucuZJpMqSn3xSWCU3io5ftRAwtzAqTd8QXLQEaos'
   },
   165: {
     name: 'Omni Testnet (Deprecated)',
@@ -3595,16 +3598,26 @@ export const chains: Chains = {
   166: {
     name: 'Omni',
     chain: 'Omni',
-    status: 'incubating',
-    rpc: [],
+    status: 'active',
+    rpc: ['https://mainnet.omni.network', 'wss://wss.mainnet.omni.network'],
     features: [{ name: 'EIP155' }],
     faucets: [],
     nativeCurrency: { name: 'Omni', symbol: 'OMNI', decimals: 18 },
-    infoURL: 'https://docs.omni.network/',
+    infoURL: 'https://docs.omni.network',
     shortName: 'omni',
     chainId: 166,
     networkId: 166,
-    slip44: 1
+    slip44: 1,
+    icon: 'omni',
+    explorers: [
+      {
+        name: 'Omni EVM and cross-chain Explorer',
+        url: 'https://omniscan.network',
+        standard: 'EIP3091'
+      }
+    ],
+    iconURL:
+      'https://ipfs.io/ipfs/QmdCMVucuZJpMqSn3xSWCU3io5ftRAwtzAqTd8QXLQEaos'
   },
   167: {
     name: 'Atoshi Testnet',
@@ -12201,6 +12214,18 @@ export const chains: Chains = {
     iconURL:
       'https://ipfs.io/ipfs/QmRLtNvkVhC7rRDiLMHLckWbesaSU6sNYhQZgsAM1phTZx'
   },
+  1480: {
+    name: 'Islander',
+    chain: 'Islander',
+    rpc: [],
+    nativeCurrency: { name: 'Islander', symbol: 'ISL', decimals: 18 },
+    faucets: [],
+    infoURL: '',
+    shortName: 'isl',
+    chainId: 1480,
+    networkId: 1480,
+    explorers: []
+  },
   1490: {
     name: 'Vitruveo Mainnet',
     title: 'Vitruveo is a blockchain for Creators',
@@ -13567,7 +13592,7 @@ export const chains: Chains = {
     ],
     parent: {
       type: 'L2',
-      chain: 'eip155-1',
+      chain: 'eip155-11155111',
       bridges: [{ url: 'https://bridge.soneium.org/testnet' }]
     },
     iconURL:
@@ -13957,10 +13982,7 @@ export const chains: Chains = {
   1995: {
     name: 'edeXa Testnet',
     chain: 'edeXa TestNetwork',
-    rpc: [
-      'https://testnet.edexa.network/rpc',
-      'https://io-dataseed1.testnet.edexa.io-market.com/rpc'
-    ],
+    rpc: ['https://testnet.edexa.network/rpc', 'https://testnet.edexa.com/rpc'],
     faucets: ['https://faucet.edexa.com/'],
     nativeCurrency: { name: 'EDEXA', symbol: 'EDX', decimals: 18 },
     infoURL: 'https://edexa.network/',
@@ -15793,7 +15815,7 @@ export const chains: Chains = {
     ],
     parent: { type: 'L2', chain: 'eip155-1' },
     iconURL:
-      'https://ipfs.io/ipfs/QmbCwbV2eNWxb8qCop5PzP9PB15YZzcHbj8D7BixLso4xJ'
+      'https://ipfs.io/ipfs/bafybeic3dihuytvtm2hnfo7lvsqf43eqbzobtkxn3o3pxptktifsefy7su'
   },
   2415: {
     name: 'XODEX',
@@ -15998,7 +16020,22 @@ export const chains: Chains = {
     ],
     parent: { type: 'L2', chain: 'eip155-5' },
     iconURL:
-      'https://ipfs.io/ipfs/QmbCwbV2eNWxb8qCop5PzP9PB15YZzcHbj8D7BixLso4xJ'
+      'https://ipfs.io/ipfs/bafybeic3dihuytvtm2hnfo7lvsqf43eqbzobtkxn3o3pxptktifsefy7su'
+  },
+  2512: {
+    name: 'K2 Testnet',
+    chain: 'K2',
+    icon: 'karak',
+    rpc: [],
+    faucets: [],
+    nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    infoURL: 'https://karak.network',
+    shortName: 'K2-testnet',
+    chainId: 2512,
+    networkId: 2512,
+    status: 'incubating',
+    iconURL:
+      'https://ipfs.io/ipfs/bafybeic3dihuytvtm2hnfo7lvsqf43eqbzobtkxn3o3pxptktifsefy7su'
   },
   2522: {
     name: 'Fraxtal Testnet',
@@ -18460,6 +18497,25 @@ export const chains: Chains = {
     iconURL:
       'https://ipfs.io/ipfs/QmTMbwvGznhMwxWbX28FWtj4Me8ayGQjUQG7zrXPCJzLTa'
   },
+  4321: {
+    name: 'Echos Chain',
+    chain: 'Echos',
+    rpc: [],
+    features: [],
+    faucets: [],
+    nativeCurrency: { name: 'USD Coin', symbol: 'USDC', decimals: 18 },
+    infoURL: 'https://www.echos.fun/',
+    shortName: 'echos',
+    chainId: 4321,
+    networkId: 4321,
+    explorers: [
+      {
+        name: 'Echos Explorer',
+        url: 'https://explorer.echos.fun',
+        standard: 'none'
+      }
+    ]
+  },
   4328: {
     name: 'Bobafuji Testnet',
     chain: 'Bobafuji Testnet',
@@ -19554,11 +19610,7 @@ export const chains: Chains = {
   5424: {
     name: 'edeXa Mainnet',
     chain: 'edeXa Network',
-    rpc: [
-      'https://mainnet.edexa.network/rpc',
-      'https://mainnet.edexa.com/rpc',
-      'https://io-dataseed1.mainnet.edexa.io-market.com/rpc'
-    ],
+    rpc: ['https://mainnet.edexa.network/rpc', 'https://mainnet.edexa.com/rpc'],
     faucets: [],
     features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
     nativeCurrency: { name: 'EDEXA', symbol: 'EDX', decimals: 18 },
@@ -22047,7 +22099,7 @@ export const chains: Chains = {
     ],
     parent: { type: 'L2', chain: 'eip155-11155111' },
     iconURL:
-      'https://ipfs.io/ipfs/QmbCwbV2eNWxb8qCop5PzP9PB15YZzcHbj8D7BixLso4xJ'
+      'https://ipfs.io/ipfs/bafybeic3dihuytvtm2hnfo7lvsqf43eqbzobtkxn3o3pxptktifsefy7su'
   },
   8080: {
     name: 'Shardeum Liberty 1.X',
@@ -23816,7 +23868,7 @@ export const chains: Chains = {
     ],
     parent: {
       type: 'L2',
-      chain: 'eip155-5',
+      chain: 'eip155-28882',
       bridges: [{ url: 'https://gateway.boba.network' }]
     }
   },
