@@ -3775,6 +3775,20 @@ export const chains: Chains = {
     iconURL:
       'https://ipfs.io/ipfs/QmQsNtUoaKUHWaxFMBuCQwkX9WmKHz7iNotcZTFkWo7Qgt'
   },
+  177: {
+    name: 'HashKey Chain',
+    title: 'HashKey Chain',
+    chain: 'HashKey Chain',
+    rpc: [],
+    faucets: [],
+    nativeCurrency: { name: 'HashKey EcoPoints', symbol: 'HSK', decimals: 18 },
+    infoURL: 'https://hsk.xyz',
+    shortName: 'HSK',
+    chainId: 177,
+    networkId: 177,
+    explorers: [],
+    parent: { type: 'L2', chain: 'eip155-1' }
+  },
   178: {
     name: 'ABEY Testnet',
     chain: 'ABEY',
@@ -3846,6 +3860,42 @@ export const chains: Chains = {
     explorers: [],
     iconURL:
       'https://ipfs.io/ipfs/QmSDJPBKh9cLVL8UZ5KYwdwPyhD8bRWNb33jjt48wtu5Uc'
+  },
+  182: {
+    name: 'IOST Mainnet',
+    chain: 'iost',
+    rpc: ['https://iost-mainnet.alt.technology'],
+    faucets: [],
+    nativeCurrency: {
+      name: 'BNB Chain Native Token',
+      symbol: 'BNB',
+      decimals: 18
+    },
+    infoURL: 'https://iost.io',
+    shortName: 'iost-mainnet',
+    chainId: 182,
+    networkId: 182,
+    icon: 'bnbchain',
+    slip44: 714,
+    explorers: [
+      {
+        name: 'IOSTscan',
+        url: 'https://iost-mainnet-explorer.alt.technology',
+        standard: 'EIP3091'
+      }
+    ],
+    parent: {
+      type: 'L2',
+      chain: 'eip155-56',
+      bridges: [
+        {
+          url:
+            'https://10910bc5-8382-4ef5-bdc7-4c54c8f57e75.bridges.rollbridge.app/'
+        }
+      ]
+    },
+    iconURL:
+      'https://ipfs.io/ipfs/bafybeib75gwytvblyvjpfminitr3i6mpat3a624udfsqsl5nysf5vuuvie'
   },
   183: {
     name: 'Ethernity',
@@ -4137,6 +4187,7 @@ export const chains: Chains = {
   199: {
     name: 'BitTorrent Chain Mainnet',
     chain: 'BTTC',
+    icon: 'bttc',
     rpc: [
       'https://rpc.bt.io',
       'https://bittorrent.drpc.org',
@@ -4154,7 +4205,9 @@ export const chains: Chains = {
         url: 'https://bttcscan.com',
         standard: 'EIP3091'
       }
-    ]
+    ],
+    iconURL:
+      'https://ipfs.io/ipfs/QmW7DmMmWVH4xTWf573AkaUD87tsWZyAxwjyvYx8vU6bjK'
   },
   200: {
     name: 'Arbitrum on xDai',
@@ -4614,6 +4667,32 @@ export const chains: Chains = {
     iconURL:
       'https://ipfs.io/ipfs/QmQxGA6rhuCQDXUueVcNvFRhMEWisyTmnF57TqL7h6k6cZ'
   },
+  227: {
+    name: 'Prom',
+    chain: 'Prom',
+    icon: 'prom',
+    rpc: ['https://prom-rpc.eu-north-2.gateway.fm'],
+    faucets: [],
+    nativeCurrency: { name: 'Prom', symbol: 'PROM', decimals: 18 },
+    infoURL: 'https://prom.io',
+    shortName: 'PROM',
+    chainId: 227,
+    networkId: 227,
+    explorers: [
+      {
+        name: 'blockscout',
+        url: 'https://prom-blockscout.eu-north-2.gateway.fm',
+        standard: 'EIP3091'
+      }
+    ],
+    parent: {
+      type: 'L2',
+      chain: 'eip155-1',
+      bridges: [{ url: 'https://prom-bridge.eu-north-2.gateway.fm/' }]
+    },
+    iconURL:
+      'https://ipfs.io/ipfs/QmWK2y5qCZgb6uCR7RrsEgTK1ci5rCSxmCWYtt5yJwpoE1'
+  },
   228: {
     name: 'Mind Network Mainnet',
     chain: 'FHE',
@@ -5031,6 +5110,28 @@ export const chains: Chains = {
     iconURL:
       'https://ipfs.io/ipfs/QmX3hBv8WyvVfYjh1gmgDfJCpJBvKk4TYG9wFX9sC8WAjz'
   },
+  260: {
+    name: 'Guru Network',
+    chain: 'GURU',
+    icon: 'GuruNetwork',
+    rpc: ['https://rpc.gurunetwork.ai/archive/260'],
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    faucets: [],
+    nativeCurrency: { name: 'Guru', symbol: 'GURU', decimals: 18 },
+    infoURL: 'https://gurunetwork.ai',
+    shortName: 'guru',
+    chainId: 260,
+    networkId: 260,
+    explorers: [
+      {
+        name: 'guruscan',
+        url: 'https://scan.gurunetwork.ai',
+        standard: 'EIP3091'
+      }
+    ],
+    iconURL:
+      'https://ipfs.io/ipfs/QmTDWnSNSCcVPCYD1FKrUirkT2MVrShdVK9dsxAi6eZdbD'
+  },
   261: {
     name: 'Guru Network Testnet',
     chain: 'tGURU',
@@ -5046,7 +5147,7 @@ export const chains: Chains = {
     explorers: [
       {
         name: 'guruscan',
-        url: 'https://scan.gurunetwork.ai',
+        url: 'https://sepolia.gurunetwork.ai',
         standard: 'EIP3091'
       }
     ],
@@ -5328,13 +5429,10 @@ export const chains: Chains = {
   291: {
     name: 'Orderly Mainnet',
     chain: 'ETH',
-    rpc: [
-      'https://rpc.orderly.network',
-      'https://l2-orderly-mainnet-0.t.conduit.xyz'
-    ],
+    rpc: ['https://rpc.orderly.network'],
     faucets: [],
     nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
-    infoURL: 'www.orderly.network',
+    infoURL: 'https://orderly.network/',
     shortName: 'orderly',
     chainId: 291,
     networkId: 291,
@@ -5349,6 +5447,30 @@ export const chains: Chains = {
     ],
     iconURL:
       'https://ipfs.io/ipfs/QmSpwp3RAVhZsErAQrCQxEmjnGqJQMigarzZbfqr9Ktakb'
+  },
+  293: {
+    name: 'DaVinci',
+    chain: 'DCOIN',
+    rpc: ['https://rpc.davinci.bz'],
+    faucets: [],
+    nativeCurrency: { name: 'DaVinci', symbol: 'DCOIN', decimals: 18 },
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    infoURL: 'https://davinci.bz',
+    shortName: 'davinci',
+    chainId: 293,
+    networkId: 293,
+    icon: 'davinci',
+    explorers: [
+      {
+        name: 'davinciscan',
+        icon: 'blockscout',
+        url: 'https://mainnet-explorer.davinci.bz',
+        standard: 'EIP3091'
+      }
+    ],
+    status: 'active',
+    iconURL:
+      'https://ipfs.io/ipfs/bafybeid7ggekwk5knwlxsesk4zomwrtg2mmcfwfqjtywghvljfbmukn2yu'
   },
   295: {
     name: 'Hedera Mainnet',
@@ -5878,6 +6000,28 @@ export const chains: Chains = {
     explorers: [],
     iconURL:
       'https://ipfs.io/ipfs/QmVRdhjaBYeUVCkF8SUYMqAgGtbePYaozzy4YtMVKazLut'
+  },
+  332: {
+    name: 'Omax Testnet',
+    chain: 'Omax Chain',
+    rpc: ['https://testapi.omaxray.com'],
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    faucets: ['https://faucet.omaxray.com/'],
+    nativeCurrency: { name: 'OMAX TESTCOIN', symbol: 'OMAXT', decimals: 18 },
+    infoURL: 'https://www.omaxcoin.com/',
+    shortName: 'omaxt',
+    chainId: 332,
+    networkId: 332,
+    icon: 'omaxchain',
+    explorers: [
+      {
+        name: 'Omax Chain Explorer',
+        url: 'https://testnet.omaxscan.com',
+        standard: 'EIP3091'
+      }
+    ],
+    iconURL:
+      'https://ipfs.io/ipfs/Qmd7omPxrehSuxHHPMYd5Nr7nfrtjKdRJQEhDLfTb87w8G'
   },
   333: {
     name: 'Web3Q Mainnet',
@@ -6573,6 +6717,28 @@ export const chains: Chains = {
     ],
     iconURL:
       'https://ipfs.io/ipfs/QmVM1zLyWDZYyje5qWWfDdve1fmrDm69J9pSKhivb1zkCH'
+  },
+  426: {
+    name: 'The Widows Mite',
+    chain: 'MITE',
+    rpc: ['https://rpc.twmcrypto.com/'],
+    faucets: ['https://faucet.twmcrypto.com/'],
+    nativeCurrency: { name: 'The Widows Mite', symbol: 'MITE', decimals: 8 },
+    infoURL: 'https://twmcrypto.com/',
+    shortName: 'mite',
+    chainId: 426,
+    networkId: 426,
+    icon: 'mite',
+    explorers: [
+      {
+        name: 'The Widows Mite Explorer',
+        url: 'https://scan.twmcrypto.com',
+        icon: 'mite',
+        standard: 'EIP3091'
+      }
+    ],
+    iconURL:
+      'https://ipfs.io/ipfs/QmUdrSXS4729UQGVvUYfc8S1CHnG3JpG2HhCTDmsCw6jk8'
   },
   427: {
     name: 'Zeeth Chain',
@@ -7807,7 +7973,7 @@ export const chains: Chains = {
     faucets: ['https://faucet-testnet.nerochain.io'],
     nativeCurrency: { name: 'NERO', symbol: 'NERO', decimals: 18 },
     infoURL: 'https://docs.nerochain.io/',
-    shortName: 'NERO',
+    shortName: 'NEROT',
     chainId: 689,
     networkId: 689,
     slip44: 1,
@@ -9941,9 +10107,10 @@ export const chains: Chains = {
     chain: 'BTTC',
     rpc: ['https://testrpc.bittorrentchain.io/'],
     faucets: [],
+    status: 'deprecated',
     nativeCurrency: { name: 'BitTorrent', symbol: 'BTT', decimals: 18 },
     infoURL: 'https://bittorrentchain.io/',
-    shortName: 'tbtt',
+    shortName: 'tbtt-deprecated',
     chainId: 1028,
     networkId: 1028,
     slip44: 1,
@@ -9954,6 +10121,28 @@ export const chains: Chains = {
         standard: 'none'
       }
     ]
+  },
+  1029: {
+    name: 'BitTorrent Chain Donau',
+    chain: 'BTTC',
+    icon: 'bttc',
+    rpc: ['https://pre-rpc.bt.io'],
+    faucets: ['https://testfaucet.bt.io'],
+    nativeCurrency: { name: 'BitTorrent', symbol: 'BTT', decimals: 18 },
+    infoURL: 'https://bt.io',
+    shortName: 'tBTT',
+    chainId: 1029,
+    networkId: 1029,
+    slip44: 1,
+    explorers: [
+      {
+        name: 'BitTorrent Chain Donau Explorer',
+        url: 'https://testnet.bttcscan.com',
+        standard: 'EIP3091'
+      }
+    ],
+    iconURL:
+      'https://ipfs.io/ipfs/QmW7DmMmWVH4xTWf573AkaUD87tsWZyAxwjyvYx8vU6bjK'
   },
   1030: {
     name: 'Conflux eSpace',
@@ -10723,6 +10912,18 @@ export const chains: Chains = {
     ],
     iconURL:
       'https://ipfs.io/ipfs/QmRGJ6PqYHDTWuUQ6xfnK8S82NzRXiMjTnSGat9qtLuaLP'
+  },
+  1174: {
+    name: 'Litheum Test Network',
+    chain: 'Litheum',
+    rpc: ['https://testnet.litheum.com'],
+    faucets: [],
+    nativeCurrency: { name: 'Lith', symbol: 'LTH', decimals: 9 },
+    infoURL: 'https://litheum.com',
+    shortName: 'lith',
+    chainId: 1174,
+    networkId: 1174,
+    explorers: []
   },
   1177: {
     name: 'Smart Host Teknoloji TESTNET',
@@ -12473,6 +12674,28 @@ export const chains: Chains = {
       }
     ]
   },
+  1605: {
+    name: 'Betherance',
+    chain: 'Beth',
+    rpc: ['https://rpc.bethscan.io'],
+    faucets: [],
+    nativeCurrency: { name: 'Betherance', symbol: 'BETH', decimals: 18 },
+    infoURL: 'https://rpc.bethscan.io',
+    shortName: 'Beth',
+    chainId: 1605,
+    networkId: 1605,
+    icon: 'betherance',
+    explorers: [
+      {
+        name: 'bethscan',
+        url: 'https://bethscan.io',
+        icon: 'betherance',
+        standard: 'none'
+      }
+    ],
+    iconURL:
+      'https://ipfs.io/ipfs/QmQnf8Fp3xVimXszkCt7EfKWjUzGWK9HBq9EQ8xXbm1APH'
+  },
   1617: {
     name: 'Ethereum Inscription Mainnet',
     chain: 'ETINS',
@@ -12695,6 +12918,28 @@ export const chains: Chains = {
     networkId: 1688,
     iconURL:
       'https://ipfs.io/ipfs/bafkreigzeanzqgxrzzep45t776ovbwi242poqxbryuu2go5eedeuwwcsay'
+  },
+  1689: {
+    name: 'NERO Mainnet',
+    chain: 'NERO Chain',
+    rpc: ['https://rpc.nerochain.io', 'wss://ws.nerochain.io'],
+    faucets: [],
+    nativeCurrency: { name: 'NERO', symbol: 'NERO', decimals: 18 },
+    infoURL: 'https://docs.nerochain.io/',
+    shortName: 'NERO',
+    chainId: 1689,
+    networkId: 1689,
+    slip44: 1,
+    icon: 'nero',
+    explorers: [
+      {
+        name: 'nero mainnet scan',
+        url: 'https://www.neroscan.io',
+        standard: 'EIP3091'
+      }
+    ],
+    iconURL:
+      'https://ipfs.io/ipfs/QmdkENLFjLRNts2kBspNbM3q84WjG5Yf7C8amVVr7FCQrp'
   },
   1701: {
     name: 'Anytype EVM Chain',
@@ -13597,6 +13842,27 @@ export const chains: Chains = {
     },
     iconURL:
       'https://ipfs.io/ipfs/bafybeighhofhlz3qi5yv6ukqw6gthkuedhmgs5xcej4iibwan4dnvghnvi'
+  },
+  1949: {
+    name: 'Bionix Testnet',
+    chain: 'Bionix',
+    rpc: ['https://testnet-chain.bionixnetwork.com'],
+    faucets: [],
+    nativeCurrency: { name: 'Bionix', symbol: 'tBIO', decimals: 18 },
+    icon: 'bionix',
+    infoURL: 'https://bionixnetwork.com',
+    shortName: 'tbio',
+    chainId: 1949,
+    networkId: 1949,
+    explorers: [
+      {
+        name: 'Bionix Testnet Explorer',
+        url: 'https://testnet.bionixnetwork.com',
+        standard: 'none'
+      }
+    ],
+    iconURL:
+      'https://ipfs.io/ipfs/QmNVegdThJHrdcJxYTrmgccARTDTz9DkhxLffDCvDMp4an'
   },
   1951: {
     name: 'D-Chain Mainnet',
@@ -15888,7 +16154,7 @@ export const chains: Chains = {
     ],
     parent: {
       type: 'L2',
-      chain: 'eip155-1',
+      chain: 'eip155-11155111',
       bridges: [{ url: 'https://bridge-ui.cardona.zkevm-rpc.com' }]
     },
     iconURL:
@@ -17041,6 +17307,20 @@ export const chains: Chains = {
     iconURL:
       'https://ipfs.io/ipfs/QmQnXu13ym8W1VA3QxocaNVXGAuEPmamSCkS7bBscVk1f4'
   },
+  3332: {
+    name: 'EthStorage L2 Mainnet',
+    chain: 'EthStorage',
+    rpc: ['http://mainnet.l2.ethstorage.io:9540'],
+    faucets: [],
+    nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    infoURL: 'https://ethstorage.io/',
+    shortName: 'esl2-m',
+    chainId: 3332,
+    networkId: 3332,
+    slip44: 1,
+    status: 'incubating',
+    parent: { type: 'L2', chain: 'eip155-1' }
+  },
   3333: {
     name: 'EthStorage Testnet',
     chain: 'EthStorage',
@@ -17072,16 +17352,45 @@ export const chains: Chains = {
     ]
   },
   3335: {
-    name: 'EthStorage Mainnet',
+    name: 'EthStorage L2 Devnet',
     chain: 'EthStorage',
-    rpc: ['http://mainnet.ethstorage.io:9540'],
+    rpc: ['http://devnet.l2.ethstorage.io:9540'],
     faucets: [],
     nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
     infoURL: 'https://ethstorage.io/',
-    shortName: 'es-m',
+    shortName: 'esl2-d',
     chainId: 3335,
     networkId: 3335,
-    slip44: 1
+    slip44: 1,
+    status: 'incubating',
+    parent: { type: 'L2', chain: 'eip155-11155111' }
+  },
+  3336: {
+    name: 'EthStorage L2 Testnet',
+    chain: 'EthStorage',
+    rpc: ['http://testnet.l2.ethstorage.io:9540'],
+    faucets: [],
+    nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    infoURL: 'https://ethstorage.io/',
+    shortName: 'esl2-t',
+    chainId: 3336,
+    networkId: 3336,
+    slip44: 1,
+    status: 'incubating',
+    parent: { type: 'L2', chain: 'eip155-11155111' }
+  },
+  3337: {
+    name: 'EthStorage Devnet',
+    chain: 'EthStorage',
+    rpc: ['http://devnet.ethstorage.io:9540'],
+    faucets: [],
+    nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    infoURL: 'https://ethstorage.io/',
+    shortName: 'es-d',
+    chainId: 3337,
+    networkId: 3337,
+    slip44: 1,
+    status: 'incubating'
   },
   3338: {
     name: 'peaq',
@@ -17108,6 +17417,19 @@ export const chains: Chains = {
     ],
     iconURL:
       'https://ipfs.io/ipfs/QmQ7Jue8v2YXyhmDTkSbzCJxzZDa2v4GZZKViESdyswzrj'
+  },
+  3339: {
+    name: 'EthStorage Mainnet',
+    chain: 'EthStorage',
+    rpc: ['http://mainnet.ethstorage.io:9540'],
+    faucets: [],
+    nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    infoURL: 'https://ethstorage.io/',
+    shortName: 'es-m',
+    chainId: 3339,
+    networkId: 3339,
+    slip44: 1,
+    status: 'incubating'
   },
   3400: {
     name: 'Paribu Net Mainnet',
@@ -17349,13 +17671,8 @@ export const chains: Chains = {
     slip44: 1,
     explorers: [
       {
-        name: '3xpl',
-        url: 'https://3xpl.com/botanix',
-        standard: 'EIP3091'
-      },
-      {
-        name: 'Blockscout',
-        url: 'https://blockscout.botanixlabs.dev',
+        name: 'Botanix Explorer',
+        url: 'https://testnet.botanixscan.io',
         standard: 'EIP3091'
       }
     ],
@@ -18637,10 +18954,10 @@ export const chains: Chains = {
   4460: {
     name: 'Orderly Sepolia Testnet',
     chain: 'ETH',
-    rpc: ['https://l2-orderly-l2-4460-sepolia-8tc3sd7dvy.t.conduit.xyz'],
+    rpc: ['https://testnet-rpc.orderly.org'],
     faucets: [],
     nativeCurrency: { name: 'Sepolia Ether', symbol: 'ETH', decimals: 18 },
-    infoURL: 'www.orderly.network',
+    infoURL: 'https://orderly.network',
     shortName: 'orderlyl2',
     chainId: 4460,
     networkId: 4460,
@@ -18649,8 +18966,7 @@ export const chains: Chains = {
     explorers: [
       {
         name: 'basescout',
-        url:
-          'https://explorerl2new-orderly-l2-4460-sepolia-8tc3sd7dvy.t.conduit.xyz',
+        url: 'https://testnet-explorer.orderly.org',
         icon: 'blockscout',
         standard: 'EIP3091'
       }
@@ -19168,6 +19484,27 @@ export const chains: Chains = {
     status: 'active',
     iconURL:
       'https://ipfs.io/ipfs/QmdofX1W8QFt4TSDaq2wyPvYuUba9LabgD1MYcn3Hezu8h'
+  },
+  5090: {
+    name: 'Pioneer Chain Testnet',
+    chain: 'PIO',
+    icon: 'pio',
+    rpc: ['https://rpc.pionescan.com'],
+    faucets: [],
+    nativeCurrency: { name: 'Pioneer', symbol: 'PIO', decimals: 18 },
+    infoURL: 'https://pionechain.com',
+    shortName: 'pio',
+    chainId: 5090,
+    networkId: 5090,
+    explorers: [
+      {
+        name: 'Pioneer Chain Explorer',
+        url: 'https://pionescan.com',
+        standard: 'EIP3091'
+      }
+    ],
+    iconURL:
+      'https://ipfs.io/ipfs/QmXcFM3JqPvvxHe1i8fTQkCFGWDGHjcZmWe2u6epUhyftt'
   },
   5100: {
     name: 'Syndicate Testnet',
@@ -21871,6 +22208,34 @@ export const chains: Chains = {
     iconURL:
       'https://ipfs.io/ipfs/QmdwifhejRfF8QfyzYrNdFVhfhCR6iuzWMmppK4eL7kttG'
   },
+  7897: {
+    name: 'arena-z',
+    title: 'arena-z',
+    chain: 'arena-z',
+    rpc: ['https://rpc.arena-z.gg', 'wss://ws.arena-z.gg'],
+    nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    infoURL: 'https://raas.gelato.network/rollups/details/public/arena-z',
+    faucets: [],
+    shortName: 'arena-z',
+    chainId: 7897,
+    networkId: 7897,
+    slip44: 60,
+    icon: 'arena-z-mainnet',
+    explorers: [
+      {
+        name: 'blockscout',
+        url: 'https://explorer.arena-z.gg',
+        standard: 'EIP3091'
+      }
+    ],
+    parent: {
+      type: 'L2',
+      chain: 'eip155-1',
+      bridges: [{ url: 'https://bridge.gelato.network/bridge/arena-z' }]
+    },
+    iconURL:
+      'https://ipfs.io/ipfs/QmPRGaSPsmbDwRgQUCJSfkEErrfXxHbpUhQSvvDTLgJ25R'
+  },
   7923: {
     name: 'Dot Blox',
     chain: 'DTBX',
@@ -23542,19 +23907,23 @@ export const chains: Chains = {
     name: 'KPA Smart Chain Testnet',
     chain: 'KSC',
     rpc: [
-      'https://testnet-rpc1.koppachain.com/',
-      'https://testnet-rpc2.koppachain.com/',
-      'https://testnet-rpc3.koppachain.com/',
-      'https://testnet-rpc4.koppachain.com/'
+      'https://tkpa-rpc1.kpachain.com/',
+      'https://tkpa-rpc2.kpachain.com/',
+      'https://tkpa-rpc3.kpachain.com/',
+      'https://tkpa-rpc4.kpachain.com/',
+      'https://testnet-rpc1.kpascan.com/',
+      'https://testnet-rpc2.kpascan.com/',
+      'https://testnet-rpc3.kpascan.com/',
+      'https://testnet-rpc4.kpascan.com/'
     ],
-    faucets: ['https://mint.koppachain.com'],
+    faucets: ['https://mint.kpachain.com'],
     nativeCurrency: {
       name: 'KPA Smart Chain Testnet',
       symbol: 'tKPA',
       decimals: 18
     },
     features: [],
-    infoURL: 'https://koppachain.com',
+    infoURL: 'https://kpachain.com',
     shortName: 'KPA',
     chainId: 9091,
     networkId: 9091,
@@ -25060,6 +25429,20 @@ export const chains: Chains = {
     iconURL:
       'https://ipfs.io/ipfs/QmUfr1ufnNJ4PcA3Jgf6jdi4ZiRFr6mPzKafwK1pSqvY9j'
   },
+  11100: {
+    name: 'Bool Network Beta Mainnet',
+    chain: 'BOOL',
+    rpc: ['https://beta-rpc-node-http.bool.network'],
+    faucets: [],
+    nativeCurrency: { name: 'BOL', symbol: 'BOL', decimals: 18 },
+    infoURL: 'https://bool.network/',
+    shortName: 'BOL',
+    chainId: 11100,
+    networkId: 11100,
+    icon: 'boolnetwork',
+    iconURL:
+      'https://ipfs.io/ipfs/QmPVnYRhenXH8X9NF3vy7oU1sHnoBoNU2xDU68uBqWoy3b'
+  },
   11110: {
     name: 'Astra',
     chain: 'Astra',
@@ -26137,6 +26520,32 @@ export const chains: Chains = {
     ],
     iconURL:
       'https://ipfs.io/ipfs/QmVz2jPdp5vXo4mJVuTXLmwcfQsw3XVojkmochPckvCowz'
+  },
+  14149: {
+    name: 'Bitharvest Chian Mainnet',
+    chain: 'Bitharvest Chian Mainnet',
+    rpc: ['https://rpc.bthscan.io/'],
+    features: [{ name: 'EIP1559' }],
+    faucets: [],
+    nativeCurrency: {
+      name: 'Bitharvest Mainnet Native Token',
+      symbol: 'BTH',
+      decimals: 18
+    },
+    infoURL: '',
+    shortName: 'BitharvestMainnet',
+    chainId: 14149,
+    networkId: 14149,
+    explorers: [
+      {
+        name: 'Bitharvest Mainnet Scan',
+        url: 'https://bthscan.io',
+        standard: 'EIP3091'
+      }
+    ],
+    icon: 'bth',
+    iconURL:
+      'https://ipfs.io/ipfs/QmPdGw9RLstggj3xcVtAfzmP2rUy6i2FuM4KPLC9wTiQqm'
   },
   14324: {
     name: 'EVOLVE Testnet',
@@ -28835,6 +29244,29 @@ export const chains: Chains = {
     iconURL:
       'https://ipfs.io/ipfs/QmRkaZbopr8JTgypSQ3N3VfQumnZEN9bA5Uh3u3mL26dwT'
   },
+  31611: {
+    name: 'Mezo Matsnet Testnet',
+    chain: 'Mezo',
+    icon: 'mezo',
+    rpc: ['https://rpc.test.mezo.org'],
+    faucets: ['https://mezo.org/matsnet'],
+    nativeCurrency: { name: 'Bitcoin', symbol: 'BTC', decimals: 18 },
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    infoURL: 'https://mezo.org/',
+    shortName: 'mezo',
+    chainId: 31611,
+    networkId: 31611,
+    explorers: [
+      {
+        name: 'blockscout',
+        url: 'https://explorer.test.mezo.org',
+        icon: 'blockscout',
+        standard: 'EIP3091'
+      }
+    ],
+    iconURL:
+      'https://ipfs.io/ipfs/bafkreibnc5le6iw6qqhrmhxbpxdlr6ub7wtpr5tga5sfgnowsv2ygac5fa'
+  },
   31753: {
     name: 'Xchain Mainnet',
     chain: 'Xchain',
@@ -29393,6 +29825,33 @@ export const chains: Chains = {
     ],
     iconURL:
       'https://ipfs.io/ipfs/QmQUQKe8VEtSthhgXnJ3EmEz94YhpVCpUDZAiU9KYyNLya'
+  },
+  37111: {
+    name: 'Lens Testnet',
+    title: 'Lens Network Sepolia Testnet',
+    chain: 'Lens',
+    rpc: ['https://rpc.testnet.lens.dev'],
+    faucets: ['https://www.alchemy.com/faucets/lens-sepolia'],
+    chainId: 37111,
+    networkId: 37111,
+    nativeCurrency: { name: 'GRASS', symbol: 'GRASS', decimals: 18 },
+    icon: 'lens',
+    infoURL: 'https://www.lens.xyz',
+    shortName: 'lens-sepolia',
+    parent: {
+      type: 'L2',
+      chain: 'eip155-11155111',
+      bridges: [{ url: 'https://portal.testnet.lens.dev/bridge' }]
+    },
+    explorers: [
+      {
+        name: 'Lens Testnet Block Explorer',
+        url: 'https://block-explorer.testnet.lens.dev',
+        standard: 'none'
+      }
+    ],
+    iconURL:
+      'https://ipfs.io/ipfs/QmP9HNKbbWQLEx5H57BSV3VhJNyVpVaC5B3NBCsyoomTMU'
   },
   38400: {
     name: 'ConnectorManager',
@@ -31088,6 +31547,20 @@ export const chains: Chains = {
         standard: 'EIP3091'
       }
     ]
+  },
+  57073: {
+    name: 'Ink',
+    chain: 'ETH',
+    rpc: [],
+    faucets: [],
+    features: [{ name: 'EIP155' }, { name: 'EIP1559' }],
+    nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+    infoURL: 'https://inkonchain.com',
+    shortName: 'ink',
+    chainId: 57073,
+    networkId: 57073,
+    explorers: [],
+    status: 'incubating'
   },
   57451: {
     name: 'COINSEC Network',
@@ -33469,6 +33942,29 @@ export const chains: Chains = {
     iconURL:
       'https://ipfs.io/ipfs/QmRb2rWanyBTKS5KyrmrbXPNy9zovpxfLRxz9FPPiuRgfg'
   },
+  88866: {
+    name: 'Matr1x Testnet',
+    title: 'Matr1x Testnet',
+    chain: 'Matr1x',
+    rpc: ['https://testnet-rpc.m1chain.io'],
+    faucets: [],
+    nativeCurrency: { name: 'MAX', symbol: 'MAX', decimals: 18 },
+    infoURL: 'https://matr1x.io',
+    shortName: 'Matr1x-Testnet',
+    chainId: 88866,
+    networkId: 88866,
+    icon: 'matr1x',
+    explorers: [
+      {
+        name: 'matr1x testnet',
+        url: 'https://testnet-scan.m1chain.io',
+        icon: 'matr1x',
+        standard: 'EIP3091'
+      }
+    ],
+    iconURL:
+      'https://ipfs.io/ipfs/QmdwQDr6vmBtXmK2TmknkEuZNoaDqTasFdZdu3DRw8b2wt'
+  },
   88880: {
     name: 'Chiliz Scoville Testnet',
     chain: 'CHZ',
@@ -33968,6 +34464,67 @@ export const chains: Chains = {
     ],
     iconURL:
       'https://ipfs.io/ipfs/Qmerd9Q3otjDuQAFbdiQyUnZk7UfPvkCr21E5N4VCNvhbj'
+  },
+  98864: {
+    name: 'Plume Devnet',
+    title: 'Plume Sepolia L2 Rollup Devnet',
+    chain: 'ETH',
+    rpc: [
+      'https://test-rpc.plumenetwork.xyz',
+      'wss://test-rpc.plumenetwork.xyz'
+    ],
+    faucets: [],
+    nativeCurrency: {
+      name: 'Plume Sepolia Ether',
+      symbol: 'ETH',
+      decimals: 18
+    },
+    infoURL: 'https://www.plumenetwork.xyz/',
+    shortName: 'plume-devnet',
+    chainId: 98864,
+    networkId: 98864,
+    slip44: 1,
+    icon: 'plume',
+    explorers: [
+      {
+        name: 'Blockscout',
+        url: 'https://test-explorer.plumenetwork.xyz',
+        icon: 'blockscout',
+        standard: 'EIP3091'
+      }
+    ],
+    parent: { type: 'L2', chain: 'eip155-11155111' },
+    iconURL:
+      'https://ipfs.io/ipfs/QmT7dJKK2VXMtF9mJ6EfMTJXBntJyVvZcA8beLA2RCFbsW'
+  },
+  98865: {
+    name: 'Plume Mainnet',
+    title: 'Plume Ethereum L2 Rollup Mainnet',
+    chain: 'ETH',
+    rpc: ['https://rpc.plumenetwork.xyz', 'wss://rpc.plumenetwork.xyz'],
+    faucets: [],
+    nativeCurrency: { name: 'Plume Ether', symbol: 'ETH', decimals: 18 },
+    infoURL: 'https://www.plumenetwork.xyz/',
+    shortName: 'plume',
+    chainId: 98865,
+    networkId: 98865,
+    slip44: 1,
+    icon: 'plume',
+    explorers: [
+      {
+        name: 'Blockscout',
+        url: 'https://explorer.plumenetwork.xyz',
+        icon: 'blockscout',
+        standard: 'EIP3091'
+      }
+    ],
+    parent: {
+      type: 'L2',
+      chain: 'eip155-11155111',
+      bridges: [{ url: 'https://bridge.plumenetwork.xyz' }]
+    },
+    iconURL:
+      'https://ipfs.io/ipfs/QmT7dJKK2VXMtF9mJ6EfMTJXBntJyVvZcA8beLA2RCFbsW'
   },
   98881: {
     name: 'Ebi Chain',
@@ -35033,6 +35590,32 @@ export const chains: Chains = {
     ],
     iconURL:
       'https://ipfs.io/ipfs/QmPsxWMvnxnZ9dZcRJJMaE24o34dQsnsAMCJh3kVDrE1aB'
+  },
+  141491: {
+    name: 'Bitharvest Chian Testnet',
+    chain: 'Bitharvest Chian Testnet',
+    rpc: ['https://rpc-testnet.bthscan.io/'],
+    features: [{ name: 'EIP1559' }],
+    faucets: [],
+    nativeCurrency: {
+      name: 'Bitharvest Testnet Native Token',
+      symbol: 'bth',
+      decimals: 18
+    },
+    infoURL: '',
+    shortName: 'BitharvestTestnet',
+    chainId: 141491,
+    networkId: 141491,
+    explorers: [
+      {
+        name: 'Bitharvest Testnet Scan',
+        url: 'https://testnet.bthscan.io',
+        standard: 'EIP3091'
+      }
+    ],
+    icon: 'bth',
+    iconURL:
+      'https://ipfs.io/ipfs/QmPdGw9RLstggj3xcVtAfzmP2rUy6i2FuM4KPLC9wTiQqm'
   },
   142857: {
     name: 'ICPlaza Mainnet',
@@ -39701,7 +40284,7 @@ export const chains: Chains = {
     networkId: 2611555
   },
   2702128: {
-    name: 'Xterio Chain',
+    name: 'Xterio Chain (ETH)',
     chain: 'Xterio',
     rpc: ['https://xterio-eth.alt.technology'],
     faucets: [],
@@ -39712,7 +40295,7 @@ export const chains: Chains = {
     networkId: 2702128,
     explorers: [
       {
-        name: 'Xterio Chain Explorer',
+        name: 'Xterio Chain (ETH) Explorer',
         url: 'https://eth.xterscan.io',
         standard: 'EIP3091'
       }
@@ -41199,6 +41782,24 @@ export const chains: Chains = {
     iconURL:
       'https://ipfs.io/ipfs/QmafrUmh1FD48WWQwk6pfW1Y7eA9VQTdpeL387Wt2JFrAd'
   },
+  21000000: {
+    name: 'Corn Maizenet',
+    chain: 'BTCN',
+    rpc: ['https://maizenet-rpc.usecorn.com'],
+    faucets: [],
+    nativeCurrency: { name: 'Bitcorn', symbol: 'BTCN', decimals: 18 },
+    infoURL: 'https://usecorn.com',
+    shortName: 'btcn',
+    chainId: 21000000,
+    networkId: 21000000,
+    explorers: [
+      {
+        name: 'Corn Maizenet Explorer',
+        url: 'https://maizenet-explorer.usecorn.com',
+        standard: 'EIP3091'
+      }
+    ]
+  },
   22052002: {
     name: 'Excelon Mainnet',
     chain: 'XLON',
@@ -42069,10 +42670,7 @@ export const chains: Chains = {
     name: 'Plume Testnet',
     title: 'Plume Sepolia Rollup Testnet',
     chain: 'ETH',
-    rpc: [
-      'https://testnet-rpc.plumenetwork.xyz/http',
-      'wss://testnet-rpc.plumenetwork.xyz/ws'
-    ],
+    rpc: [],
     faucets: [],
     nativeCurrency: {
       name: 'Plume Sepolia Ether',
@@ -42085,21 +42683,11 @@ export const chains: Chains = {
     networkId: 161221135,
     slip44: 1,
     icon: 'plume',
-    explorers: [
-      {
-        name: 'Blockscout',
-        url: 'https://testnet-explorer.plumenetwork.xyz',
-        icon: 'blockscout',
-        standard: 'EIP3091'
-      }
-    ],
-    parent: {
-      type: 'L2',
-      chain: 'eip155-11155111',
-      bridges: [{ url: 'https://testnet-bridge.plumenetwork.xyz' }]
-    },
+    status: 'deprecated',
+    explorers: [],
+    parent: { type: 'L2', chain: 'eip155-11155111' },
     iconURL:
-      'https://ipfs.io/ipfs/QmNUpqkYWYJoDXKUpZ8FVbGyN6HCwxYonKNAieCf2oTzGn'
+      'https://ipfs.io/ipfs/QmT7dJKK2VXMtF9mJ6EfMTJXBntJyVvZcA8beLA2RCFbsW'
   },
   168587773: {
     name: 'Blast Sepolia Testnet',
